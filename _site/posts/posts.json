@@ -1,19 +1,53 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to My Blog",
-    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2022-03-25-make-a-new-posting/",
+    "title": "Make a new posting",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Nora Jones",
+        "name": "David L. Passmore",
         "url": "https://example.com/norajones"
       }
     ],
     "date": "2022-03-25",
     "categories": [],
-    "contents": "\n\n\n\n",
+    "contents": "\nDistill is a publication format for scientific and technical writing,\nnative to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-25T10:01:31-04:00",
+    "last_modified": "2022-03-26T05:43:32-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-25-title-of-post/",
+    "title": "title of post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "David L. Passmore",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2022-03-25",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing,\nnative to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-25T11:05:53-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to My Blog",
+    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "David L. Passmore",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2022-03-25",
+    "categories": [],
+    "contents": "\nSome text\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-25T10:59:53-04:00",
     "input_file": {}
   }
 ]
