@@ -2,7 +2,7 @@ name: "blog"
 title: "Notes"
 description: |
   Notes from David L. Passmore, 5 Bayard Road, Unit 403, Pittsburgh, Pennsylvania USA 15213-1903
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
