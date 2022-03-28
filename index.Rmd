@@ -1,5 +1,6 @@
 ---
-title: "passmore notes on file by date"
+title: "passmore notes by date"
 site: distill::distill_website
 listing: posts
 ---
+

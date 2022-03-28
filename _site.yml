@@ -5,8 +5,10 @@ description: |
 output_dir: "docs"
 navbar:
   right:
-    - text: "home"
+    - text: "| list of notes |"
       href: index.html
-    - text: "about"
+    - text: "| about these notes |"
       href: about.html
+    - text: "| passmore site |"
+      href: https://davidpassmore.net
 output: distill::distill_article
