@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
+    <loc>https://davidpassmore.github.io/blog/about.html</loc>
+    <lastmod>2022-03-28T05:11:23-04:00</lastmod>
+  </url>
+  <url>
     <loc>https://davidpassmore.github.io/blog/</loc>
     <lastmod>2022-03-28T05:01:30-04:00</lastmod>
   </url>
   <url>
     <loc>https://davidpassmore.github.io/blog/posts/2022-03-28-ethanecracker/</loc>
-    <lastmod>2022-03-28T11:20:27-04:00</lastmod>
+    <lastmod>2022-03-28T11:42:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://davidpassmore.github.io/blog/posts/2022-03-25-title-of-post/</loc>
-    <lastmod>2022-03-25T11:05:53-04:00</lastmod>
+    <loc>https://davidpassmore.github.io/blog/posts/2022-03-28-second-draft-post/</loc>
+    <lastmod>2022-03-28T12:22:39-04:00</lastmod>
   </url>
   <url>
     <loc>https://davidpassmore.github.io/blog/posts/welcome/</loc>
-    <lastmod>2022-03-25T10:59:53-04:00</lastmod>
+    <lastmod>2022-03-28T12:21:59-04:00</lastmod>
   </url>
 </urlset>

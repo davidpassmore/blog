@@ -1,7 +1,7 @@
 ---
 title: "ethane cracker under construction"
 description: |
-  Reaction to progress on the ethane ctacker under construction by Shell in Monaca, Pennsylvania
+  Reaction to progress on the ethane cracker under construction by Shell in Monaca, Pennsylvania
 preview: ethane_cracker.jpg
 author:
   - name: David L. Passmore

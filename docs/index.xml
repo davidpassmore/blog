@@ -12,7 +12,7 @@
       <title>ethane cracker under construction</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-28-ethanecracker</link>
-      <description>Reaction to progress on the ethane ctacker under construction by Shell in Monaca, Pennsylvania</description>
+      <description>Reaction to progress on the ethane cracker under construction by Shell in Monaca, Pennsylvania</description>
       <category>ethane</category>
       <category>cracker</category>
       <category>liquids</category>
@@ -23,19 +23,18 @@
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-28-ethanecracker/ethane_cracker.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>title of post</title>
+      <title>second draft post</title>
       <dc:creator>David L. Passmore</dc:creator>
-      <link>https://davidpassmore.github.io/blog/posts/2022-03-25-title-of-post</link>
-      <description>A short description of the post.</description>
-      <guid>https://davidpassmore.github.io/blog/posts/2022-03-25-title-of-post</guid>
-      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-28-second-draft-post</link>
+      <description>Just a placeholder...</description>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-28-second-draft-post</guid>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Welcome to My Blog</title>
+      <title>welcome to my blog</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/welcome</link>
-      <description>Welcome to our new blog, My Blog. We hope you enjoy 
-reading what we have to say!</description>
+      <description>Another test posting</description>
       <guid>https://davidpassmore.github.io/blog/posts/welcome</guid>
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
     </item>

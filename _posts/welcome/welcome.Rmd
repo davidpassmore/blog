@@ -1,13 +1,12 @@
 ---
-title: "Welcome to My Blog"
+title: "welcome to my blog"
 description: |
-  Welcome to our new blog, My Blog. We hope you enjoy 
-  reading what we have to say!
+  Another test posting
 author:
   - name: David L. Passmore 
-    url: https://example.com/norajones
+    url: https://davidpassmore.github.io/blog
     affiliation: Penn State; University of Pittsburgh
-    affiliation_url: https://example.com/spacelysprokets
+    #affiliation_url: https://example.com/spacelysprokets
 date: 03-25-2022
 output:
   distill::distill_article:
@@ -22,5 +21,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-Some text
+This is the first posting....delete later.
 
