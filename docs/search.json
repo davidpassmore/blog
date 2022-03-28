@@ -1,19 +1,11 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "about these notes",
-      "description": "what's the sausage and how is it made?",
-      "author": [],
-      "contents": "\nI am David Passmore.\nhow these notes are rendered\nThese NOTES originate in Pittsburgh, Pennsylvania, where I have lived\nsince 2020. I was a professor at Penn State for 41 years and in higher\neducation for 51 years. Additional details about my background,\nexperiences, and accomplishments\nare\navailable elsewhere.\nI write these NOTES in\nRMarkdown\ncode in\nRStudio\nusing blogging tools provided in the\nR\nprogramming package titled\ndistill.\nI render the blog in\nhtml\nfrom the RMarkdown code. Then, I push the html to\nmy\nGitHub account, from which it is served publicly through the\ndomain\nname, davidpassmore.github.io/blog/. Cookies and other\ntracking tools are not implemented on this blog site.\nwhat’s here?\nThese NOTES cover a wide variety of topics that reflect the range of\nideas, learnings, and challenges that I encounter daily as I sit with my\ncomputers at a table in front of the large windows that look over trees,\nbirds, and daily neighborhood activities from our 4th floor condo in the\nShadyside neighborhood of Pittsburgh.\nhow I engage\nI live my days as a retired person. I rise at 4:00 am daily. Early\nrising is not my attempt to follow some monastic way. No, see it as a\nquiet time, an opportunity to organize and prepare, and a chance to have\na few accomplishments before the rest of the world starts moving. I meet\nover my cup of morning coffee with long-time friends on Zoom from 6:30\nto 7:30 am on Mondays through Saturdays.\nThe remainder of my time on most days is spent on projects selected\nfrom too many to do. Sometimes I video conference with friends and\ncollaborators across the world. I am in a sleep research study that\nrequires that I get five hours of sleep per night, so I am asleep by\n11:00 pm. Between rising and finally going to sleep, I do the\npurchasing, shopping, bill-paying, cooking, laundering, medicating,\ncleaning, banking, and so forth.\ncontacts with me\nFriends, this blog is a gated community.\nSend email to me using the email address:\ndlp AT davidpassmore.net. I take iMsgs and SMS\nmessages at dlp@psu.edu. My Twitter handle is\n@DLPPassmore, where I am available publicly. I also run\nSlack teams for my former students and my family. In these\nstudent and family teams, I typically am available instantly. I have\nplaceholder accounts in many social media apps, I do not do the\nFaceBooks or the LinkedIns for anything meaningful.\nSo, not much of me is available on those apps. The telephone? Nah. I\nalmost never pick up, expect for family or for calls from close\nassociates. Calling me without leaving a message results in a blocked\ncalling number.1 I do use Instagram, but I\nam deeply hidden and accessible by family only. I live in a secure\nbuilding, so, instead of making direct threats to me face-to-face, post\nany expressions of unhappiness and ill-will to me via email or Twitter,\nwhere I will work ideas into my life flow.\nVr,\n\nPlease note: my car warranty is as I\nlike it; my grandchildren do not require me to bail them out of jail;\nthe Internal Revenue Service is not trying to reach me urgently.↩︎\n",
-      "last_modified": "2022-03-28T11:12:50-04:00"
-    },
-    {
       "path": "index.html",
       "title": "passmore notes by date",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-03-28T11:12:50-04:00"
+      "last_modified": "2022-03-28T11:21:15-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
