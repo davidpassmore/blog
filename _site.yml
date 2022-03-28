@@ -1,8 +1,14 @@
 name: "blog"
 title: "NOTES"
 description: |
-  Notes from David L. Passmore, 5 Bayard Road, Unit 403, Pittsburgh, Pennsylvania USA 15213-1903
+  NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
 output_dir: "docs"
+base_url: https://davidpassmore.github.io/blog/
+collections:
+  posts:
+    #disqus: passmore-notes-from-pittsburgh
+    share: [twitter, linkedin, facebook]
+    #subscribe: _subscribe.html
 navbar:
   right:
     - text: "| list of notes |"
@@ -11,4 +17,9 @@ navbar:
       href: about.html
     - text: "| passmore site |"
       href: https://davidpassmore.net
+    - icon: fa fa-rss
+      href: index.xml
+categories:
+  - portfolios
+  - dygraphs
 output: distill::distill_article
