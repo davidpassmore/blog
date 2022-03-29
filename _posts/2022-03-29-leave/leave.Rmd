@@ -1,0 +1,53 @@
+---
+title: "leave it at the stream"
+description: |
+  A lesson about staying in the present from Marshall Goldsmith
+preview: streams.jpg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2006-02-12
+categories:
+  - calm
+  - resolve
+  - adaptation
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+[Marshall Goldsmith](https://web.archive.org/web/20061115083415/http://www.marshallgoldsmithlibrary.com/) spoke at the conference I attended in 2006 in Florida. He had a great story to tell that he originally published in *FastCompany* (Issue 82 May 2004, Page 103) and that is [available at his web site](https://marshallgoldsmith.com/articles/leave-it-at-the-stream/):
+
+>A Buddhist parable illustrates the challenge – and value - of letting go of the past. Two monks were strolling by a stream on their way home to the monastery. They were startled by the sound of a young woman in a bridal gown, sitting by the stream, crying softly. Tears rolled down her cheeks as she gazed across the water. She needed to cross to get to her wedding, but she was fearful that doing so might ruin her beautiful handmade gown.
+
+>In this particular sect, monks were prohibited from touching women. But one monk was filled with compassion for the bride. Ignoring the sanction, he hoisted the woman on his shoulders and carried her across the stream--assisting her journey and saving her gown. She smiled and bowed with gratitude as he noisily splashed his way back across the stream to rejoin his companion.
+
+>The second monk was livid. "How could you do that?" he scolded. "You know we are forbidden even to touch a woman, much less pick one up and carry her around!"
+
+>The offending monk listened in silence to a stern lecture that lasted all the way back to the monastery. His mind wandered as he felt the warm sunshine and listened to the singing birds. After returning to the monastery, he fell asleep for a few hours. He was jostled and awakened in the middle of the night by his fellow monk. "How could you carry that woman?" his agitated friend cried out. "Someone else could have helped her across the stream. You were a bad monk!"
+
+>"What woman?" the tired monk inquired groggily.
+
+>"Don't you even remember? That woman you carried across the stream," his colleague snapped.
+
+>"Oh, her," laughed the sleepy monk. "I only carried her across the stream. You carried her all the way back to the monastery."
+
+The learning point is simple: *Leave it at the stream*.
+
+![](streams.jpg)
+
+## Reuse {.appendix}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
+
+## Comments/Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](dlp@davidpassmore.net), send a direct message on Twitter @DLPPassmore, or send an IMsg or SMS to dlp@psu.edu.
+
