@@ -56,5 +56,16 @@
       <pubDate>Sun, 12 Feb 2006 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-leave/streams.jpg" medium="image" type="image/jpeg"/>
     </item>
+    <item>
+      <title>Snow</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-29-snow</link>
+      <description>Written in 2005</description>
+      <category>memories</category>
+      <category>weather</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-snow</guid>
+      <pubDate>Sat, 22 Jan 2005 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-snow/snowsquall.jpg" medium="image" type="image/jpeg"/>
+    </item>
   </channel>
 </rss>
