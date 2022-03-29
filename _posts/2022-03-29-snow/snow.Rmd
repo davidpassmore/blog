@@ -1,7 +1,7 @@
 ---
-title: "Snow"
+title: "snow"
 description: |
-  Written in 2005
+  When it snow, and no one worked on Sunday....written in 2005
 preview: snowsquall.jpg
 author:
   - name: David L. Passmore

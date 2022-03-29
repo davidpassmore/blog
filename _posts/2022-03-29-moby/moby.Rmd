@@ -1,14 +1,14 @@
 ---
 title: "reading Moby Dick"
 description: |
-  Advice for any young person required to read Moby Dick
+  Advice for any young person required to read Moby Dick...written in 2006
 preview: HermanMelville55.jpg
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
     orcid_id: 0000-0001-9307-5164
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
-date: 2022-03-29
+date: 2006-02-15
 categories:
   - literature
   - Moby Dick

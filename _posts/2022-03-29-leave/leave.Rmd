@@ -1,7 +1,7 @@
 ---
 title: "leave it at the stream"
 description: |
-  A lesson about staying in the present from Marshall Goldsmith
+  A lesson about staying in the present from Marshall Goldsmith...written in 2006
 preview: streams.jpg
 author:
   - name: David L. Passmore

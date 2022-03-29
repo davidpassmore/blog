@@ -7,29 +7,7 @@
     <description>NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 29 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>dog of my dreams</title>
-      <dc:creator>David L. Passmore</dc:creator>
-      <link>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</link>
-      <description>moving on, with approval</description>
-      <category>dream</category>
-      <category>growing up</category>
-      <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</guid>
-      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams/ashtray.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>reading Moby Dick</title>
-      <dc:creator>David L. Passmore</dc:creator>
-      <link>https://davidpassmore.github.io/blog/posts/2022-03-29-moby</link>
-      <description>Advice for any young person required to read Moby Dick</description>
-      <category>literature</category>
-      <category>Moby Dick</category>
-      <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-moby</guid>
-      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-moby/HermanMelville55.jpg" medium="image" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>ethane cracker under construction</title>
       <dc:creator>David L. Passmore</dc:creator>
@@ -45,10 +23,32 @@
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-28-ethanecracker/ethane_cracker.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
+      <title>dog of my dreams</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</link>
+      <description>moving on, with approval...written in 2006</description>
+      <category>dream</category>
+      <category>growing up</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</guid>
+      <pubDate>Wed, 29 Mar 2006 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams/ashtray.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>reading Moby Dick</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-29-moby</link>
+      <description>Advice for any young person required to read Moby Dick...written in 2006</description>
+      <category>literature</category>
+      <category>Moby Dick</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-moby</guid>
+      <pubDate>Wed, 15 Feb 2006 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-moby/HermanMelville55.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
       <title>leave it at the stream</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-leave</link>
-      <description>A lesson about staying in the present from Marshall Goldsmith</description>
+      <description>A lesson about staying in the present from Marshall Goldsmith...written in 2006</description>
       <category>calm</category>
       <category>resolve</category>
       <category>adaptation</category>
@@ -57,15 +57,25 @@
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-leave/streams.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>Snow</title>
+      <title>snow</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-snow</link>
-      <description>Written in 2005</description>
+      <description>When it snow, and no one worked on Sunday....written in 2005</description>
       <category>memories</category>
       <category>weather</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-snow</guid>
       <pubDate>Sat, 22 Jan 2005 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-snow/snowsquall.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>7th grade dance</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance</link>
+      <description>Days of innocence lost....written in 2004</description>
+      <category>memories</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance</guid>
+      <pubDate>Mon, 20 Dec 2004 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance/dance.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>

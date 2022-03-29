@@ -1,14 +1,14 @@
 ---
 title: "dog of my dreams"
 description: |
-  moving on, with approval
+  moving on, with approval...written in 2006
 preview: ashtray.jpg
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
     orcid_id: 0000-0001-9307-5164
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
-date: 2022-03-29
+date: 2006-03-29
 categories:
   - dream
   - growing up
