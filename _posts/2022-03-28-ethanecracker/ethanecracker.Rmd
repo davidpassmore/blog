@@ -5,14 +5,16 @@ description: |
 preview: ethane_cracker.jpg
 author:
   - name: David L. Passmore
-    url: https://davidpassmore.github.io/blog/
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
 date: 2022-03-28
 categories:
-  - ethane
-  - cracker
-  - liquids
-  - impact
-  - pennsylvania
+  - ethane cracker
+  - natural gas liquids
+  - economic impact
+  - pittsburgh, pennsylvania
+  - environment
 output:
   distill::distill_article:
     self_contained: false
@@ -22,6 +24,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
 
 I drove to Monaca, Pennsylvania, yesterday to view Shell's ethane cracker. The trip reminded me about a report I wrote in 2012 for a Workforce Investment Board, [*Cracking the Ethane Cracker*](https://bit.ly/Cracker2012). 
 
@@ -36,4 +40,10 @@ Any continuing projects to track the various impacts of the cracker? A few are e
 * [*Health Impact Assessment of the Shell Chemical Appalachia Petrochemical Complex*](https://www.pewtrusts.org/-/media/assets/2019/09/hia-reports/ethane-cracker-in-monaca-hia-report.pdf) \n
 * [*Support For Shell Tax Break In Monaca, But Skepticism Over Job Claims*](https://stateimpact.npr.org/pennsylvania/2012/06/20/support-for-shell-tax-break-in-monaca-but-skepticism-over-job-claims/)
 
+## Reuse {.appendix}
 
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
+
+## Comments/Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](dlp@davidpassmore.net), send a direct message on Twitter @DLPPassmore, or send an IMsg or SMS to dlp@psu.edu.

@@ -7,7 +7,7 @@ base_url: https://davidpassmore.github.io/blog/
 collections:
   posts:
     #disqus: passmore-notes-from-pittsburgh
-    share: [twitter, linkedin, facebook]
+    share: [twitter, linkedin, facebook, pinterest]
     #subscribe: _subscribe.html
 navbar:
   right:
