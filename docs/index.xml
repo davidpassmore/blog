@@ -26,7 +26,7 @@
       <title>dog of my dreams</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</link>
-      <description>moving on, with approval...written in 2006</description>
+      <description>Moving on, with approval...written in 2006</description>
       <category>dream</category>
       <category>memories</category>
       <category>growing up</category>
@@ -89,6 +89,28 @@
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air</guid>
       <pubDate>Wed, 27 Oct 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air/passmorebros.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>my career in a niche market of the romance novel genre</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-30-my-career-in-a-romance-niche-market</link>
+      <description>A novel précis in the line of `the horse-dealer's daughter` a la D. H. Lawrence...written in 2004</description>
+      <category>romance</category>
+      <category>literature</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-my-career-in-a-romance-niche-market</guid>
+      <pubDate>Fri, 17 Sep 2004 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-30-my-career-in-a-romance-niche-market/romance.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>requiescat in Brandon Point</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-30-requiescat</link>
+      <description>A languid sort of trevelogue from Ireland....written in 2004</description>
+      <category>ireland</category>
+      <category>travel</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-requiescat</guid>
+      <pubDate>Fri, 18 Jun 2004 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-30-requiescat/map.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>

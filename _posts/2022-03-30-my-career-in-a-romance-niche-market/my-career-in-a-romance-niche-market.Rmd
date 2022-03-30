@@ -1,0 +1,66 @@
+---
+title: "my career in a niche market of the romance novel genre"
+description: |
+  A novel précis in the line of `the horse-dealer's daughter` a la D. H. Lawrence...written in 2004
+preview: romance.jpeg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2004-09-17
+categories:
+  - romance
+  - literature
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+![](romance.jpeg){width=50%}
+
+I think I can have a piece of the romance novel market. Here is a précis for you editors with your fat wallets filled with expansive cash advances for authors with sure-shot romance novel ideas. 
+
+Check this one out. It is only one of the many bodice rippers I am outlining today.
+
+### Title
+
+*The Inverted Matrix*
+
+### Main Characters
+
+* *John*, a tweedy, 40-something, never married economist, known for laughing at inappropriate times during addresses by the dean of his college, who has bicycled to work every day for the 428 days, rain or snow, wind or shine
+
+* *Marie*, a 23-year old, bespectacled mathematician who is doing a thesis on "Simultaneous approximation by linear combination of modified Bernstein polynomials" that is being whispered about admiringly around her department.
+
+John and Marie have weathered independently the *Sasser* worm on their computers without any long-term damage, and both have Unix operating systems on at least one of their computers.
+
+### Reader Requirements
+
+It is presumed that the reader has a background in mathematics through calculus, with a special interest in matrix algebra, an understanding of Walrasian economic systems, including Leontief models, a belief in rational economic theory a la Lucas, and an abiding appreciation for market economies.
+
+### Hot Excerpt
+
+After a long colloquium, Marie is in John's office pouring over the matrix equations necessary to account for economic output and employment. Before them is, **X**, an *I*-by-*I* matrix of dollar transactions among *I* industries, with self-supply on the diagonal element, and, **K**,an *I*-by-*K* matrix of dollar sales of industry *i* to GDP category *k*. John explains that total economic output , *y*, a 1-by-*I* vector, is merely **X** + **K**. 
+
+Marie points out gently that division of all elements of **X** by *y* produces a matrix, **A**, of coefficients showing the proportion of *y* that is transacted among **I** industries to produce a unit of total output. 
+
+Furthermore, she asserts more forcefully, now that she sees his pupils dilate widely, that with introduction of an identity matrix, **I**, and with a little substitution of a few terms, you could create a matrix, (**I** - **A**)(inverse, of course), that showed the marginal increase in production necessary to deliver an additional unit of output to *y*. 
+
+John, up to this point devoid of any emotional life, perks up and turns slowly to her. Their eyes meet. A blue-white hot heat rises between them. 
+
+John knows, in this moment of epiphany, that his life has been empty and that Marie haas become the flower in his life. He turns to her, knocking over the cup of chai that stood cold at the edge of his desk. Their eyes meet. They both know this is love, although neither have experienced it before, unless you can comprehend mystically that studying spherical geometry is a love unto itself and the ages. 
+
+Their lips meet, and so do their glasses, knocking frames and their lanyards all akimbo. They trip over a stack of *National Bureau of Economic Research* bulletins, stumble over the metal clasps that tighten John's pants to his ankles as he rides his bike, and fall giddily into old, crumpled brown paper bags that John uses to bring fruit into the office and fails to throw out or recycle. This love, now new....
+
+You are thinking, **Oh, Yeh!**, I want more of that story, but maybe with a little bit of slide rule mentioned.
+
+Come and get it!
+
+## Reuse {.appendix}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
+
+## Comments/Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](dlp@davidpassmore.net), send a direct message on Twitter @DLPPassmore, or send an IMsg or SMS to dlp@psu.edu.
