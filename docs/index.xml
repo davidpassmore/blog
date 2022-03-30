@@ -28,6 +28,7 @@
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</link>
       <description>moving on, with approval...written in 2006</description>
       <category>dream</category>
+      <category>memories</category>
       <category>growing up</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</guid>
       <pubDate>Wed, 29 Mar 2006 00:00:00 +0000</pubDate>
@@ -52,6 +53,7 @@
       <category>calm</category>
       <category>resolve</category>
       <category>adaptation</category>
+      <category>presence</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-leave</guid>
       <pubDate>Sun, 12 Feb 2006 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-leave/streams.jpg" medium="image" type="image/jpeg"/>
@@ -72,10 +74,21 @@
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance</link>
       <description>Days of innocence lost....written in 2004</description>
-      <category>memories</category>
+      <category>growing up</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance</guid>
       <pubDate>Mon, 20 Dec 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance/dance.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>a bit of hot air</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air</link>
+      <description>Memories of my father...written in 2004</description>
+      <category>memories</category>
+      <category>growing up</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air</guid>
+      <pubDate>Wed, 27 Oct 2004 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air/passmorebros.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
