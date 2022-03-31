@@ -19,6 +19,8 @@ I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" 
 
 These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th floor condo in the Shadyside neighborhood of Pittsburgh.
 
+I ran a blog at a now out-of-service, *motime.com*. I have retrieved some of my blog postings in this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
+
 #### how I engage
 
 I live my days as a retired person.
