@@ -137,5 +137,25 @@
       <pubDate>Mon, 09 Feb 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-31-simple-generosity/gener.jpeg" medium="image" type="image/jpeg"/>
     </item>
+    <item>
+      <title>the Ba of Niagara</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-31-ba-of-niagara</link>
+      <description>The time &amp; space of Niagara Falls....written in 2003</description>
+      <category>Niagara Falls</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-31-ba-of-niagara</guid>
+      <pubDate>Wed, 24 Dec 2003 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-31-ba-of-niagara/greatg.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Niagara Falls? slowly I turned...inch by inch...step by step...</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-03-31-slowly</link>
+      <description>An essay about Niagara Falls noteriety...written in 2003</description>
+      <category>Niagara Falls</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-03-31-slowly</guid>
+      <pubDate>Fri, 24 Oct 2003 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-31-slowly/NF7jpg.jpeg" medium="image" type="image/jpeg"/>
+    </item>
   </channel>
 </rss>
