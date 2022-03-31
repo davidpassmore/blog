@@ -13,7 +13,7 @@ categories:
   - ethane cracker
   - natural gas liquids
   - economic impact
-  - pittsburgh, pennsylvania
+  - Pittsburgh, Pennsylvania
   - environment
 output:
   distill::distill_article:
@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-I drove to Monaca, Pennsylvania, yesterday to view Shell's ethane cracker. The trip reminded me about a report I wrote in 2012 for a Workforce Investment Board, [*Cracking the Ethane Cracker*](https://bit.ly/Cracker2012). 
+I drove to Monaca, Pennsylvania, yesterday to view Pennsylvania Petrochemicals Complex in development by Shell plc. I made a oral presentation in 2012 to a Workforce Investment Board, [*Cracking the Ethane Cracker*](https://bit.ly/Cracker2012). 
 
 ![](ethane_cracker.jpg)
 
@@ -35,10 +35,15 @@ I calculated in 2012 a much lower potential impact of the working cracker in Mon
 
 Why the exaggeration? I would think that many of these projects have positive impacts that stand on their own. Perhaps these exaggerations of econ impact are meant to divert attention from environmental impacts? The message is "Sure, there are environmental impacts, but look at the jobs, income, and taxes we create."
 
-Any continuing projects to track the various impacts of the cracker? A few are evident:
+Any continuing projects to track the various impacts of the cracker? A few reports are evident:
 
 * [*Health Impact Assessment of the Shell Chemical Appalachia Petrochemical Complex*](https://www.pewtrusts.org/-/media/assets/2019/09/hia-reports/ethane-cracker-in-monaca-hia-report.pdf) \n
-* [*Support For Shell Tax Break In Monaca, But Skepticism Over Job Claims*](https://stateimpact.npr.org/pennsylvania/2012/06/20/support-for-shell-tax-break-in-monaca-but-skepticism-over-job-claims/)
+* [*Support For Shell Tax Break In Monaca, But Skepticism Over Job Claims*](https://stateimpact.npr.org/pennsylvania/2012/06/20/support-for-shell-tax-break-in-monaca-but-skepticism-over-job-claims/) \n
+* [*A Cautionary Tale of Petrochemicals from Pennsylvania*]( https://ohiorivervalleyinstitute.org/wp-content/uploads/2021/11/Beaver-County-Brief-FINAL-11-30.pdf) \n
+* [*Critics off base when they say petrochemical complex “failed to create economic growth”*](https://pghworks.com/beaver-countys-economy-grew-as-shell-invested-in-cracker-plant/)
+* [*Updated Economic Impact Analysis: Petrochemical Facility in Beaver County, Pennsylvania*](https://www.rmu.edu/sites/default/files/user_files/Project_Franklin_Economic_Impact_Study_FINAL.pdf)
+
+I will have more to say about these and other opinions and research reports soon.
 
 ## Reuse {.appendix}
 

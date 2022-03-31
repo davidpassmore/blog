@@ -1,13 +1,18 @@
 ---
-title: "about these notes"
-description: what's the sausage and how is it made?
+title: "DAVID L. PASSMORE"
+image: "passmoreUZBEK.jpg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/dlppassmore"
+  - label: GitHub
+    url: "https://github.com/davidpassmore"
+  - label: Email
+    url: "mailto:dlp@davidpassmore.net"
+output:
+  postcards::trestles
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-I am David Passmore.
+ 
+I am David Passmore. My mother called me `David`, which works for you, too.
 
 #### how these NOTES are rendered
 
@@ -19,7 +24,7 @@ I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" 
 
 These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th floor condo in the Shadyside neighborhood of Pittsburgh.
 
-I ran a blog at a now out-of-service, *motime.com*. I have retrieved some of my blog postings in this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
+I ran a blog at a now out-of-service, *motime.com* dring the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
 
 #### how I engage
 
@@ -37,7 +42,7 @@ I am in a sleep research study that requires that I get five hours of sleep per 
 
 Friends, I am a gated community.
 
-Send email to me using the email address: `dlp AT davidpassmore.net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and my family. In these student and family teams, I typically am available instantly.
+Send email to me using the email address: `dlp AT davidpassmore dot net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and my family. In these student and family teams, I typically am available instantly.
 
 Although I have placeholder accounts in many social media apps, I do not do the *FaceBook*s or the *LinkedIn*s for anything meaningful. So, not much of me is available on those apps.
 
@@ -45,7 +50,7 @@ The telephone? Nah. I almost never pick up, expect for family or for calls from 
 
 [^1]: Please note: my car warranty is as I like it; my grandchildren do not require me to bail them out of jail; the Internal Revenue Service is not trying to reach me urgently; I will never own a timeshare, nor, I guarantee, would you want me to.
 
-I live in a secure building, so, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will work good ideas (eve those I never considered) into my life flow. Or, instead, I will just press flush and exhaust you, floating, in the vast plasma of the universe.
+I live in a secure building, so, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will work good ideas^[even those I never considered] into my life flow. Or, instead, I will just press flush and exhaust you, floating, in the vast plasma of the universe.
 
 Vr,
 
