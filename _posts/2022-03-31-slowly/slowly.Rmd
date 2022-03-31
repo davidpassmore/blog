@@ -1,7 +1,7 @@
 ---
 title: "Niagara Falls? slowly I turned...inch by inch...step by step..."
 description: |
-  An essay about Niagara Falls noteriety...written in 2003
+  An essay about Niagara Falls notoriety...written in 2003
 preview: NF7jpg.jpeg
 author:
   - name: David L. Passmore
