@@ -4,11 +4,13 @@ description: |
   NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
 output_dir: "docs"
 base_url: https://davidpassmore.github.io/blog/
+twitter:
+  site: "@dlppassmore"
 collections:
   posts:
     #disqus: passmore-notes-from-pittsburgh
     share: [twitter, linkedin, facebook, pinterest]
-    #subscribe: _subscribe.html
+    subscribe: _subscribe.html
 navbar:
   right:
     - text: "| list of notes |"

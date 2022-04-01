@@ -1,5 +1,5 @@
 ---
-title: "snow"
+title: "first heat, then snow"
 description: |
   Back in the day, when it really snowed, and no one worked on Sunday....written in 2005
 preview: snowsquall.jpg
@@ -25,13 +25,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 It is 17 degrees F outside. The wind will pick up, and the snow will drift. 
 
-*Rocky*, some version, is on the TNT network right now, and Rocky is kissing Adrianne for the first time. There's the heat, eh? But, on to *snow*.
+*Rocky*, some version, is on the TNT network right now, and Rocky is kissing Adrianne for the first time. There's the *heat*, eh? But, on to *snow*.
 
 Snow. Snow is not to watch. Snow is to be in the midst of. I grew up in Niagara Falls, New York. Snow, in all its variations, is familiar.
 
 Once, when I was about 15 years old, almost 30 inches of snow fell. In the early evening after supper, I called a girl, who was my buddy who lived down the street, on the phone. We agreed to dress in quadruple layers, complete with scarves, several wool hats, and two or three gloves. Our parents thought we were crazy. We met under the street light at the end of the street, and we were off.
 
-The storm was thick. Snow was still coming down in big, feathery flakes, accumulating on top of the inches already on the ground. The wind blew in off the Niagara River and molded the snow into long, undulating drifts across the field next to my house. The lights from the ever-working chemical factories--*Hooker Electrochemical*, *Alox*, among others--and the *Kimberly Clark* paper mill made the large flakes of snow settling over the open field glow like crystal.
+The storm was thick. Snow was still coming down in big, feathery flakes, accumulating on top of the inches already on the ground. The wind blew in off the Niagara River and molded the snow into long, undulating drifts across the field next to my house. The lights from the ever-working chemical factories -- *Hooker Electrochemical*, *Alox*, among others -- and the *Kimberly Clark* paper mill made the large flakes of snow settling over the open field glow like crystal.
 
 The field of snow was untouched. It was a perfect, white blanket. My friend and I started out through the snow. For her, the snow seemed to be waist high. I was much taller, but still it was tough slogging for me. We had agreed days before that we would run through the next heavy snow just to determine what it would feel like.
 

@@ -20,7 +20,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![](greatg.jpeg){width=75%}
+![](greatg.jpeg){width=75% .external}
 
 Over a low stone wall across the road is the Great Gorge of Niagara. I am sitting in a breakfast cafe of a Canadian hotel about a mile downstream from the Falls of Niagara. Both great waterfalls, the Horseshoe Falls and the American Falls, are on duty at all times, even on the day before a major Western secular and worldwide spiritual holiday like Christmas day.
 
@@ -30,19 +30,19 @@ Yes, the Niagara River rolls and boils on. Geologists tell us that the Falls of 
 
 The Great Gorge across the road is less than a quarter mile wide and is, perhaps, 300 feet deep. The Gorge is more than a physical separation between two pieces of land. Sure, it separates two countries, Canada and the United States of America. Also, it separates two cultures, Canadian and American, which deceive us by seeming similar. The two countries share television, radio, news, products, and production. Each country's money is discounted and exchanged daily across each others border. Then, of course, there is hockey, which knows no boundaries, does it? And, the peoples of the two countries are friends--most of the time. Yet, the subtle differences in socialization, temperament, values, and, if it is possible to use such a large word, culture between the two countries are easy miss. One hint is in the difference in spoken language.
 
-![](niagarag.jpeg){width=75%}
+![](niagarag.jpeg){width=75% .external}
 
 I listen as I eat breakfast this morning. A Canadian voice is as distinguishable to me anywhere. The slightly Scottish, slightly formal speech, and the inclusion of "eh?" at the end of many sentences is as identifiable to me as the nasal, long vowels so common just one-quarter of a mile across the Gorge (to get a feel for this western New York pronunciation, say the word, "aunt," while making your mouth wide like a smile that shows all of your teeth and try it with such words as "Alice," "Niagara," and "eight.").
 
 I grew up across the border in Niagara Falls, New York. If a few new buildings were torn down, I probably could see the hospital of my birth, St. Mary's Hospital on 6th Street, across the river through the morning fog and through the mists drifting from the thundering Falls just a short distance to the south. 
 
-![](stmary.jpeg){width=75%}
+![](stmary.jpeg){width=75% .external}
 
 Niagara Falls holds a big spot in the history of industry, economics, and innovation in the United States. It was the first place that alternating current electricity was transmitted over a distance (it lit the street lights of Black Rock, a little community outside of Buffalo about 15 miles to the south). It was and is the home of many petrochemical industries that rely on cheap electrical power to separate constituent chemicals and huge electrical furnaces that use high heat from electrical arc to smelt titanium and to fuse industrial carbides.
 
 Because it became a mecca for tourists ("the honeymoon capital of the world"), Niagara Falls is a sales spot for every cheap trinket and gaudy bit of apparel that could be manufactured in the sweatshops of the developing world. There are the cheapo, plastic indian drums, indian hatchets, indian peace pipes, and indian headdresses. There are key chains and bottle openers in Day-Glo colors. If these pieces do not satiate your basic tourist's need to acquire memories, then bins are available of over-sized pencils adorned with tassels, wooden as well as plastic back scratchers, tiny 3" x 5" pine houses (a decal says "Niagara Falls" in arcing letters) designed to hold burning cones of pine incense in their chimneys, clear plastic containers which, when shaken, create a shower of snow falling over the Falls or over the downtown Niagara skyline, and, of course, shirts, sweatshirts, and sweaters that have silk-screened messages proclaiming "My grandma went to Niagara Falls and only bought me this crummy t-shirt," "What are you looking at?," "I'm with him -->," "UP YOURS," "I've worked years to get this beer belly," "Kiss me, I'm Irish!," "Whiskey is a food group, and I need to eat," and "Foxy." 
 
-![](fallsstreet.jpeg){width=75%}
+![](fallsstreet.jpeg){width=75% .exernal}
 
 But, tons and tons of green-cast, bubbling water per minute continue to surge over the Falls oblivious to this tacky impedimenta, just as they were unknown to and never imagined by hunters in loincloths and bearskins carrying bows, arrows, and spears many, many years ago and to the great wars fought by the French, the British, the indians, and the European settlers not so long ago on the plains of western New York, southern Ontario, and in the Great Gorge itself.
 
@@ -56,7 +56,7 @@ To perceive Niagara Falls this way is, in a fleeting instant, to perceive Americ
 
 My coffee today is a lukewarm tea-colored swill, served in a Styrofoam cup, without any decoration, much like the weather outside today, the day before Christmas in Niagara Falls, Ontario, Canada, across from my hometown, Niagara Falls, New York, USA. 
 
-![](NHmap.jpg)
+![](NHmap.jpg){.external}
 
 ## Reuse {.appendix}
 
