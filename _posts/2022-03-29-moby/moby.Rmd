@@ -1,7 +1,7 @@
 ---
-title: "reading Moby Dick"
+title: "reading Moby-Dick"
 description: |
-  Advice for any young person required to read Moby Dick...written in 2006
+  Advice for any young person required to read Moby-Dick...written in 2006
 preview: HermanMelville55.jpg
 author:
   - name: David L. Passmore
@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 A young friend held up a paperback copy of *Moby-Dick*, Herman Melville's epic and allegorical novel about the voyage of the whaling ship, the *Pequod*, the ship's variegated crew, and its tyrannical Captain Ahab and their pursuit of the great, ferocious white sperm whale, Moby Dick. Captain Ahab drives his harpooners and mates to kill Moby Dick, to whom Ahab had lost a leg in an earlier encounter. 
 
-![](HermanMelville55.jpg)
+![](HermanMelville55.jpg){width=50% }
 
 Starbuck, the thought-filled first mate of the Pequod, and other members of his crew -- Stubb and Flask, most notably -- are joined by the "savage cannibal," Queequeg, and other harpooners -- a native American, Tashtego, a giant African, Daggoo, and the sinister Persian, Fedallah -- join to fulfill Ahab's single minded, obsessive desire to destroy the Great White. Moby-Dick begins with its fictional narrator's famous line, "Call me Ishmael," perhaps one of the most famous openings in American literature.
 

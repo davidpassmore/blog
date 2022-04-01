@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>NOTES FROM PASSMMORE</title>
+    <title>NOTES FROM PASSMORE</title>
     <link>https://davidpassmore.github.io/blog/</link>
     <atom:link href="https://davidpassmore.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
     <description>NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
@@ -9,10 +9,10 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>the ethane cracker is under construction</title>
+      <title>potential economic impact of an ethane cracker that is nearing completion in Pennsylvania</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-28-ethanecracker</link>
-      <description>An ethane cracker under construction by Shell plc in Monaca, Pennsylvania, is nearing completion. What is the cracker's likely impact?</description>
+      <description>An ethane cracker under construction by Shell, a UK public limited company, in Monaca, Pennsylvania, is nearing completion. What is the cracker's likely impact?</description>
       <category>ethane cracker</category>
       <category>natural gas liquids</category>
       <category>economic impact</category>
@@ -35,10 +35,10 @@
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams/ashtray.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>reading Moby Dick</title>
+      <title>reading Moby-Dick</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-moby</link>
-      <description>Advice for any young person required to read Moby Dick...written in 2006</description>
+      <description>Advice for any young person required to read Moby-Dick...written in 2006</description>
       <category>literature</category>
       <category>Moby Dick</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-moby</guid>

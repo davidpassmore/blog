@@ -1,7 +1,7 @@
 ---
-title: "the ethane cracker is under construction"
+title: "potential economic impact of an ethane cracker that is nearing completion in Pennsylvania"
 description: |
-  An ethane cracker under construction by Shell plc in Monaca, Pennsylvania, is nearing completion. What is the cracker's likely impact?
+  An ethane cracker under construction by Shell, a UK public limited company, in Monaca, Pennsylvania, is nearing completion. What is the cracker's likely impact?
 preview: ethane_cracker.jpg
 author:
   - name: David L. Passmore

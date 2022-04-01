@@ -1,32 +1,30 @@
 ---
-title: "DAVID L. PASSMORE"
-image: "passmoreUZBEK.jpg"
+title: "About These Notes..."
 links:
-  - label: Twitter
-    url: "https://twitter.com/dlppassmore"
-  - label: GitHub
-    url: "https://github.com/davidpassmore"
-  - label: Email
-    url: "mailto:dlp@davidpassmore.net"
-output:
-  postcards::trestles
+- label: Twitter
+  url: https://twitter.com/dlppassmore
+- label: GitHub
+  url: https://github.com/davidpassmore
+- label: Email
+  url: mailto:dlp@davidpassmore.net
+output: distill::distill_article
 ---
- 
-I am David Passmore. My mother called me `David`, which works for you, too.
 
-#### how these NOTES are rendered
+#### **I am [DAVID L. PASSMORE](me.html).** 
 
-These NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a professor at Penn State for 41 years and in higher education for 51 years. Additional details about my background, experiences, and accomplishments <a href="https://davidpassmore.net" title="Passmore bio" target="_blank">are available elsewhere</a>.
+My NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a professor at Penn State for 41 years and in higher education for 51 years. Additional details about my background, experiences, and accomplishments [are available elsewhere](me.html)</a>.
 
-I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> code in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. I render the blog in <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. Cookies and other tracking tools are not implemented on this blog site.
+#### **how these NOTES are rendered**
 
-#### what's here?
+I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> code in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. I render the blog in <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. Cookies and other tracking tools are not implemented for this blog site.
+
+#### **what's here?**
 
 These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th floor condo in the Shadyside neighborhood of Pittsburgh.
 
-I ran a blog at a now out-of-service, *motime.com* dring the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
+I ran a blog at a now out-of-service, *motime.com* during the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
 
-#### how I engage
+#### **how I engage**
 
 I live my days as a retired person.
 
@@ -38,22 +36,20 @@ I am in a sleep research study that requires that I get five hours of sleep per 
 
 *Who doth ambition shun and loves to live in the sun....*
 
-#### contacts with me
+#### **contacts with me**
 
-Friends, I am a gated community.
+Friends, I am similar to a gated community.
 
 Send email to me using the email address: `dlp AT davidpassmore dot net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and my family. In these student and family teams, I typically am available instantly.
 
-Although I have placeholder accounts in many social media apps, I do not do the *FaceBook*s or the *LinkedIn*s for anything meaningful. So, not much of me is available on those apps.
+Although I have placeholder accounts on many social media apps, I do not do the *FaceBook*s or the *LinkedIn*s like the kids do for anything meaningful. So, not much of me is available on those apps.
 
 The telephone? Nah. I almost never pick up, expect for family or for calls from close associates. Calling me without leaving a message results in number blocking.[^1] I *do* use Instagram, but I am deeply hidden and accessible by family only.
 
 [^1]: Please note: my car warranty is as I like it; my grandchildren do not require me to bail them out of jail; the Internal Revenue Service is not trying to reach me urgently; I will never own a timeshare, nor, I guarantee, would you want me to.
 
-I live in a secure building, so, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will work good ideas^[even those I never considered] into my life flow. Or, instead, I will just press flush and exhaust you, floating, in the vast plasma of the universe.
+I live in a secure building, so, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[even those I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, I will just press flush and exhaust you to send floating, in the vast plasma of the universe.
 
-Vr,
+vr, David
 
-David
-
-![](dlp_signature.jpg){width="300"}
+![](dlp_signature.jpg){width=35%}

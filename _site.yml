@@ -1,9 +1,10 @@
 name: "passmore-notes-from-pittsburgh"
-title: "NOTES FROM PASSMMORE"
+title: "NOTES FROM PASSMORE"
 description: |
   NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
 output_dir: "docs"
 base_url: https://davidpassmore.github.io/blog/
+google_analytics: G-F2WENJW42E
 twitter:
   site: "@dlppassmore"
 collections:
@@ -17,8 +18,10 @@ navbar:
       href: index.html
     - text: "| about these notes |"
       href: about.html
-    - text: "| passmore site |"
+    - text: "| passmore website |"
       href: https://davidpassmore.net
+    - text: "| brief bio |"
+      href: me.html
     - icon: fa fa-rss
       href: index.xml
 output: distill::distill_article
