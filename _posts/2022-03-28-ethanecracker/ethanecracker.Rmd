@@ -15,6 +15,7 @@ categories:
   - economic impact
   - Pittsburgh, Pennsylvania
   - environment
+  - Shell, PLC
 output:
   distill::distill_article:
     self_contained: false
