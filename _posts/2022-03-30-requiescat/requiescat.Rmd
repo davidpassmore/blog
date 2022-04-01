@@ -1,7 +1,7 @@
 ---
-title: "requiescat in Brandon Point"
+title: " `requiescat in erica maris` at Brandon Point"
 description: |
-  A languid sort of travelogue from Ireland....written in 2004
+  A languid sort of travelogue from Ireland and, from there, to delicious funeral vacations....written in 2004
 preview: map.jpg
 author:
   - name: David L. Passmore
@@ -12,6 +12,10 @@ date: 2004-06-18
 categories:
   - Ireland
   - travel
+  - Niagara Falls
+  - memories
+  - funerals
+  - latin
 output:
   distill::distill_article:
     self_contained: false
@@ -24,7 +28,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](map.jpg){width=75%}
 
-As I am writing this (longhand, without a computer, if you can imagine that!), it is 11:00 am on a Sunday morning on the Dingle Peninsula in far west Ireland. Look on your map for Brandon Point. I reached the Point after a long ride across thin, winding, steep Dingle roads after a high and spectacular drive over the Connor Pass.
+As I am writing this (longhand, without a computer, if you can imagine that!), it is 11:00 am on a Sunday morning on the [Dingle Peninsula](https://en.wikipedia.org/wiki/Dingle_Peninsula) in far west Ireland. I reached the [Brandon Point}(https://www.wildatlanticwayonline.com/map-of-kerry-wild-atlantic-way/discovery-points/brandon-point/) after a long ride across thin, winding, steep Dingle roads after a high and spectacular drive over the [Connor Pass](https://en.wikipedia.org/wiki/Conor_Pass).^[`requiescat in erica maris` = `rest in the heather of the sea`]
 
 ![](connor.jpg){width=50%}
 
@@ -38,11 +42,11 @@ Several birders are on the level ground above me with their lenses trained out t
 
 ![](turf.jpg){width=50%}
 
-I have no computer with me, as I mentioned, so I am writing this in my dirty, scribbled scrawl, hoping for an easy interpretation and translation later. To my left--far, far away--is the United States. Many Irish had its vision in their mind's eyes from this point on the Dingle Peninsula long before they entered steerage to pass over to Ellis Island, to New York City, on to a new world of America, leaving these fair, green shores behind forever.
+I have no computer with me, as I mentioned, so I am writing this in my dirty, scribbled scrawl, hoping for an easy interpretation and translation later. To my left -- far, far away -- is the United States. Many Irish had its vision in their mind's eyes from this point on the Dingle Peninsula long before they entered steerage to pass over to Ellis Island, to New York City, on to a new world of America, leaving these fair, green shores behind forever.
 
 ![](shore.jpg){width=50%}
 
-My seat on this ledge is soft and sculpted by heather bushes all around. The wind is light today, and the sun is hidden by low, misty clouds. But, it is not cold, nor is it really warm.
+My seat on this ledge is soft and is sculpted by heather bushes all around. The wind is light today, and the sun is hidden by low, misty clouds. But, it is not cold, nor is it really warm.
 
 Sea birds soar along the cliffs, and, at times, trim the tops of the gently rolling sea in search of delicate piscine tidbits for their lunch. Cliff birds now whistle to each other, perhaps to signal the position of the ever-watching Peregrine Falcon that has nested on the cliff.
 
@@ -56,11 +60,11 @@ Funerals provided a wonderful way to be both devious and devout when I was young
 
 ![](horse.jpg){width=50%}
 
-Oh, how it might have infuriated our captors--Sister Mary Modesta, Sister May Lucina, Sister Mary Elsa, et alia--that we were excused from school for a full, delicious two or more hours for a morning! Most mornings, we would be humiliated by being asked to recite from memory those golden ingots of Catholic doctrine encapsulated in responses to questions set forth in out Baltimore Catechism. A funeral allowed us to tip our hats to these captors and our fellow prisoners and move smoothly over to the church sacristy to prepare for the solemn task of poling the dead across the River Styx.
+Oh, how it might have infuriated our captors -- Sister Mary Modesta, Sister May Lucina, Sister Mary Elsa, et alia -- that we were excused from school for a full, delicious two or more hours for a morning! Most mornings, we would be humiliated by being asked to recite from memory those golden ingots of Catholic doctrine encapsulated in responses to questions set forth in out Baltimore Catechism. A funeral allowed us to tip our hats to these captors and our fellow prisoners and move smoothly over to the church sacristy to prepare for the solemn task of poling the dead across the River Styx.
 
 Boys who could muster a certain gravitas were chosen to serve at the burial rite. No snickering. No staring. No hesitation in Latin responses to the priests incantations. No fault in ritual could be broached. Ornaments in the burial process, we were to be part of the tableau remembered by the family of the deceased.
 
-The alter boys assembled and donned ill-fitting cassocks that made us like frumpy junior priests. Then, we pulled over our heads great, white, fluffy blouses that seemed more appropriate on pregnant women. The priest was in black vestments. This black motif changed around the time of Vatican II to white to represent joy at death. In The Histories by Herodotus we read about an ancient tribe that wept at the birth of a child because of the suffering it would endure in life. However, the tribe had a wang dang doodle of a party when a person died because the trials of the world were over for the person. All old ritual comes around again, eh?
+The alter boys assembled and donned ill-fitting cassocks that made us like frumpy junior priests. Then, we pulled over our heads great, white, fluffy blouses that seemed more appropriate on pregnant women. The priest was in black vestments. This black motif changed around the time of Vatican II to white to represent joy at death. In *The Histories* by Herodotus^[thought to have invented `history` as a field of study] we read about an ancient tribe that wept at the birth of a child because of the suffering it would endure in life. However, the tribe had a bang-up wang dang doodle of a party when a person died because the trials of the world were over for the person. Everyone seems to have a cultural ritual around death.
 
 As the time arrived for the funeral, the bell in the church tower would toll slowly and solemnly. The hearse would arrive, with the relations and friends of the deceased following in separate cars. Before we left the sacristy, the priest would cuff the worst lunkhead among us on the back of the head and would warn us all: "No slip ups! Remember what you are doing!"
 
@@ -72,7 +76,7 @@ We would turn and lead the procession of the draped coffin, the undertakers, and
 
 For most of my years as an altar boy, Mass was recited in Latin. The majority of the laity could not tell what was going on without translation cards. Deeply mysterious! The non-Catholics in attendance were bewildered by the standing, the sitting, the kneeling, and the standing again. Why? When? Their faces showed their muted irritation at this Latin, Popish ritual.
 
-At times, the family would request a High Mass, which involved more candles and lots of singing (in Latin, of course). More time on the clock for us altar boys before we went back to the Island of Punishment, Humiliation, and Boredom at our school.
+At times, the family would request a High Mass, which involved more candles and lots of singing (in Latin, of course). More time on the clock for us altar boys before we went back to the Island of Punishment, Humiliation, and Boredom in the sovereign state of our school.
 
 But what great luck if the family requested a Solemn High Mass! This would involve three priests and, in a great act of distributive justice, more altar boys. And, best yet, the Solemn High Mass lasted the longest of all because the ritual was sung amidst pauses for waving of thuribles of incense all around. As a side note, I always thought, though, that the boys who served funeral Masses at the Orthodox churches had it best. Man, they sing everything...three times...and incensed is delivered by the truckload.
 
@@ -89,13 +93,13 @@ The end of the Mass always ushered in a difficult period. The priest would chant
 >| and every one that lives, and believes in me, shall never die.|
 
 
-These were deep, solemn words, intoned during a sad, slow march. It signified for the family that the internment was near, that it was a move closer to the cemetery. Tears would flow. Sobs would often be heard. The undertakers would move forward to turn the coffin so that the deceased left the church head first.
+These were deep, solemn words, intoned during a sad, slow march. This march signified for the family that the internment was near, that it was a move closer to the cemetery. Tears would flow. Sobs would often be heard. The undertakers would move forward to turn the coffin so that the deceased left the church head first.
 
 The undertakers. A distinct lot, as I began to learn after serving at many a funeral. In Niagara Falls, an ethnic town, an undertaking service was available for every ethic group. For instance, the Tubinis Funeral Home and the Zajac Funeral Home served the Slavic population. The Rooney Funeral Home seemed to be favored by the Irish. The Williams Funeral Chapel served only Black families. The Maggadino Memorial Chapel was for Italians. Of course, lines were crossed, but not often.
 
-The Maggadino Memorial Chapel seemed to me to be the most interesting. It was owned by Stefano Maggadino, a reputed Mafia boss (see a social diagram)who, interestingly, figured in the John F. Kennedy assassination in his own little way.
+The Maggadino Memorial Chapel seemed to me to be the most interesting. It was owned by Stefano Maggadino, a reputed Mafia boss who, it is said, figured in the John F. Kennedy assassination in his own little way.
 
-Rumor was that the Maggadino Memorial Chapel had a secret level below the funeral home from which the Maggadino crime empire was run. Hints of double burials of murder victims with somebody's grandma were whispered. Few know--and, as they say, the rest aren't talkin'--whether this was true. However, these dark stories fueled the imagination on long, dark, cold nights as I walked from the library, passing the Maggadino Memorial Chapel on my way home.
+Rumor was that the Maggadino Memorial Chapel had a secret level below the funeral home from which the Maggadino crime empire was run. Hints of double burials of murder victims with somebody's grandma were whispered. Few know -- and, as they say, the rest aren't talkin' -- whether this was true. However, these dark stories fueled the imagination on long, dark, cold nights as I walked from the library, passing the Maggadino Memorial Chapel on my way home.
 
 ![](magad.jpg){width=50%}
 
@@ -103,13 +107,15 @@ There was no doubt, though, among the altar boys that undertakers from the Magga
 
 As we headed the procession out of the church, the priest would say softly to the coffin as he sprinkled it with ashes, “Memento, homo, quia pulvis es, et in pulverem reverteris,” that is, "Remember, man, that thou art dust, and to dust thou shalt return." Sobs often would become full, heavy tears and loud cries, giving us young altar boys a full sample of human grief to ponder and weigh like budding little scientists of the soul.
 
-We parted company with the corpse at the door of the church. We were not allowed to go along to the cemetery because this would part us from our studies for even more time. We didn't really care to go anyhow because absence would have cut into our bologna sandwich, chocolate cake, and milk time, and we would miss, then, several games of Red Rover. Nope, we were eager to return.
+We parted company with the corpse at the door of the church. We were not allowed to go along to the cemetery because this would part us from our studies for even more time. We didn't really care to go anyhow because absence would have cut into our bologna sandwich, chocolate cake, and milk time, and we would miss, then, several games of Red Rover. Nope, by this time we were eager to return.
 
 Coming back to class in the afternoon wasn't too bad. After all, we had missed one-half of the school day! And, we were absent for a reason for which our nun-wardens could not find reason to beat us on the knuckles with their meter-long rulers. There is such honor in service after all, eh?
 
 The Peregrine Falcon just killed a small sea bird to my left. Dinner for him. A funeral perhaps for the little bird's family? I wonder if, in bird society, some young birds will get a half-day off to serve at his funeral.
 
 I am off from this sacred place on Brandon Point on a Sunday to my next destination, Castlegregory in County Kerry on the Dingle Peninsula.
+
+*Ite, missa est.* And, you say, *Deo gratias*.
 
 ![](cliff.jpg){width=50%}
 
