@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>NOTES</title>
+    <title>NOTES FROM PASSMMORE</title>
     <link>https://davidpassmore.github.io/blog/</link>
     <atom:link href="https://davidpassmore.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
     <description>NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
@@ -9,10 +9,10 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>ethane cracker under construction</title>
+      <title>the ethane cracker is under construction</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-28-ethanecracker</link>
-      <description>Reaction to progress on the ethane cracker under construction by Shell in Monaca, Pennsylvania</description>
+      <description>An ethane cracker under construction by Shell plc in Monaca, Pennsylvania, is nearing completion. What is the cracker's likely impact?</description>
       <category>ethane cracker</category>
       <category>natural gas liquids</category>
       <category>economic impact</category>
@@ -27,9 +27,9 @@
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</link>
       <description>Moving on, with approval...written in 2006</description>
-      <category>dream</category>
       <category>memories</category>
       <category>growing up</category>
+      <category>Niagara Falls</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams</guid>
       <pubDate>Wed, 29 Mar 2006 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-dogdreams/ashtray.jpg" medium="image" type="image/jpeg"/>
@@ -50,9 +50,9 @@
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-leave</link>
       <description>A lesson about staying in the present from Marshall Goldsmith...written in 2006</description>
-      <category>calm</category>
-      <category>resolve</category>
-      <category>adaptation</category>
+      <category>story</category>
+      <category>losing regret</category>
+      <category>compassion</category>
       <category>presence</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-leave</guid>
       <pubDate>Sun, 12 Feb 2006 00:00:00 +0000</pubDate>
@@ -65,6 +65,7 @@
       <description>When it snow, and no one worked on Sunday....written in 2005</description>
       <category>memories</category>
       <category>weather</category>
+      <category>Niagara Falls</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-snow</guid>
       <pubDate>Sat, 22 Jan 2005 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-snow/snowsquall.jpg" medium="image" type="image/jpeg"/>
@@ -75,6 +76,7 @@
       <link>https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance</link>
       <description>Days of innocence lost....written in 2004</description>
       <category>growing up</category>
+      <category>poem</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance</guid>
       <pubDate>Mon, 20 Dec 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-29-7th-grade-dance/dance.jpg" medium="image" type="image/jpeg"/>
@@ -86,6 +88,7 @@
       <description>Memories of my father...written in 2004</description>
       <category>memories</category>
       <category>growing up</category>
+      <category>Niagara Falls</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air</guid>
       <pubDate>Wed, 27 Oct 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-30-a-bit-of-hot-air/passmorebros.jpg" medium="image" type="image/jpeg"/>
@@ -94,9 +97,9 @@
       <title>my career in a niche market of the romance novel genre</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-30-my-career-in-a-romance-niche-market</link>
-      <description>A novel précis in the line of `the horse-dealer's daughter` a la D. H. Lawrence...written in 2004</description>
+      <description>A novel précis in the line of D. H. Lawrence's `the horse-dealer's daughter`...written in 2004</description>
       <category>romance</category>
-      <category>literature</category>
+      <category>story</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-my-career-in-a-romance-niche-market</guid>
       <pubDate>Fri, 17 Sep 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-30-my-career-in-a-romance-niche-market/romance.jpeg" medium="image" type="image/jpeg"/>
@@ -105,8 +108,8 @@
       <title>requiescat in Brandon Point</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-30-requiescat</link>
-      <description>A languid sort of trevelogue from Ireland....written in 2004</description>
-      <category>ireland</category>
+      <description>A languid sort of travelogue from Ireland....written in 2004</description>
+      <category>Ireland</category>
       <category>travel</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-30-requiescat</guid>
       <pubDate>Fri, 18 Jun 2004 00:00:00 +0000</pubDate>
@@ -121,6 +124,7 @@
       <category>Oklahoma City</category>
       <category>Ferlingetti</category>
       <category>terror</category>
+      <category>travel</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-31-waiting</guid>
       <pubDate>Tue, 02 Mar 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-31-waiting/rosey-fingered-dawn.jpg" medium="image" type="image/jpeg"/>
@@ -129,10 +133,11 @@
       <title>simple generosity of spirit</title>
       <dc:creator>David L. Passmore</dc:creator>
       <link>https://davidpassmore.github.io/blog/posts/2022-03-31-simple-generosity</link>
-      <description>Early lessons, sometimes learned, about doing good because it is good....writtin in 2004</description>
+      <description>Early lessons, sometimes learned, about doing good because it is good....written in 2004</description>
       <category>memories</category>
       <category>generosity</category>
       <category>elderly</category>
+      <category>Niagara Falls</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-31-simple-generosity</guid>
       <pubDate>Mon, 09 Feb 2004 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-31-simple-generosity/gener.jpeg" medium="image" type="image/jpeg"/>
@@ -153,6 +158,8 @@
       <link>https://davidpassmore.github.io/blog/posts/2022-03-31-slowly</link>
       <description>An essay about Niagara Falls notoriety...written in 2003</description>
       <category>Niagara Falls</category>
+      <category>three stooges</category>
+      <category>daredevils</category>
       <guid>https://davidpassmore.github.io/blog/posts/2022-03-31-slowly</guid>
       <pubDate>Fri, 24 Oct 2003 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/posts/2022-03-31-slowly/NF7jpg.jpeg" medium="image" type="image/jpeg"/>

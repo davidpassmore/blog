@@ -11,6 +11,8 @@ author:
 date: 2003-10-24
 categories:
   - Niagara Falls
+  - three stooges
+  - daredevils
 output:
   distill::distill_article:
     self_contained: false

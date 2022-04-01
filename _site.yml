@@ -1,5 +1,5 @@
 name: "passmore-notes-from-pittsburgh"
-title: "NOTES"
+title: "NOTES FROM PASSMMORE"
 description: |
   NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
 output_dir: "docs"
@@ -19,10 +19,4 @@ navbar:
       href: https://davidpassmore.net
     - icon: fa fa-rss
       href: index.xml
-categories:
-  - ethane
-  - cracker
-  - liquids
-  - impact
-  - pennsylvania
 output: distill::distill_article

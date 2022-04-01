@@ -12,6 +12,7 @@ date: 2004-10-27
 categories:
   - memories
   - growing up
+  - Niagara Falls
 output:
   distill::distill_article:
     self_contained: false

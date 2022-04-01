@@ -14,6 +14,7 @@ categories:
   - Oklahoma City
   - Ferlingetti
   - terror
+  - travel
 output:
   distill::distill_article:
     self_contained: false

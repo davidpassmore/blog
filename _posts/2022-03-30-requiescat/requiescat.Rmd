@@ -1,7 +1,7 @@
 ---
 title: "requiescat in Brandon Point"
 description: |
-  A languid sort of trevelogue from Ireland....written in 2004
+  A languid sort of travelogue from Ireland....written in 2004
 preview: map.jpg
 author:
   - name: David L. Passmore
@@ -10,7 +10,7 @@ author:
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
 date: 2004-06-18
 categories:
-  - ireland
+  - Ireland
   - travel
 output:
   distill::distill_article:

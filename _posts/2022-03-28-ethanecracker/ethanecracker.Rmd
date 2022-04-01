@@ -1,7 +1,7 @@
 ---
-title: "ethane cracker under construction"
+title: "the ethane cracker is under construction"
 description: |
-  Reaction to progress on the ethane cracker under construction by Shell in Monaca, Pennsylvania
+  An ethane cracker under construction by Shell plc in Monaca, Pennsylvania, is nearing completion. What is the cracker's likely impact?
 preview: ethane_cracker.jpg
 author:
   - name: David L. Passmore

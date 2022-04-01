@@ -12,6 +12,7 @@ date: 2005-01-22
 categories:
   - memories
   - weather
+  - Niagara Falls
 output:
   distill::distill_article:
     self_contained: false

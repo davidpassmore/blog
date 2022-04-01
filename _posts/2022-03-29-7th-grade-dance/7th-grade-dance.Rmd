@@ -11,6 +11,7 @@ author:
 date: 2004-12-20
 categories:
   - growing up
+  - poem
 output:
   distill::distill_article:
     self_contained: false

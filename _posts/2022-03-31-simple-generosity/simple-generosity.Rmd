@@ -1,7 +1,7 @@
 ---
 title: "simple generosity of spirit"
 description: |
-  Early lessons, sometimes learned, about doing good because it is good....writtin in 2004
+  Early lessons, sometimes learned, about doing good because it is good....written in 2004
 preview: gener.jpeg
 author:
   - name: David L. Passmore
@@ -13,6 +13,7 @@ categories:
   - memories
   - generosity
   - elderly
+  - Niagara Falls
 output:
   distill::distill_article:
     self_contained: false
