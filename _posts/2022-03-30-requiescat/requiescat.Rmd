@@ -1,7 +1,7 @@
 ---
 title: " `requiescat in erica maris` at Brandon Point"
 description: |
-  A languid sort of travelogue from Ireland and, from there, to delicious funeral vacations....written in 2004
+  A languid sort of travelogue from Ireland and, from there, to a delicious funeral vacation of the mind....written in 2004
 preview: map.jpg
 author:
   - name: David L. Passmore
@@ -16,6 +16,8 @@ categories:
   - memories
   - funerals
   - latin
+  - goombah
+  - paesano
 output:
   distill::distill_article:
     self_contained: false
@@ -28,7 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](map.jpg){width=75%}
 
-As I am writing this (longhand, without a computer, if you can imagine that!), it is 11:00 am on a Sunday morning on the [Dingle Peninsula](https://en.wikipedia.org/wiki/Dingle_Peninsula) in far west Ireland. I reached the [Brandon Point}(https://www.wildatlanticwayonline.com/map-of-kerry-wild-atlantic-way/discovery-points/brandon-point/) after a long ride across thin, winding, steep Dingle roads after a high and spectacular drive over the [Connor Pass](https://en.wikipedia.org/wiki/Conor_Pass).^[`requiescat in erica maris` = `rest in the heather of the sea`]
+As I am writing this (longhand, without a computer, if you can imagine that!), it is 11:00 am on a Sunday morning on the [Dingle Peninsula](https://en.wikipedia.org/wiki/Dingle_Peninsula) in far west Ireland. I reached the [Brandon Point}(https://www.wildatlanticwayonline.com/map-of-kerry-wild-atlantic-way/discovery-points/brandon-point/) after a long ride across thin, winding [County Kerry](https://en.wikipedia.org/wiki/County_Kerry) roads after a high and spectacular drive on steep cliffs over the [Connor Pass](https://en.wikipedia.org/wiki/Conor_Pass).^[`requiescat in erica maris` = `rest in the heather of the sea`]
 
 ![](connor.jpg){width=50%}
 
@@ -99,23 +101,42 @@ The undertakers. A distinct lot, as I began to learn after serving at many a fun
 
 The Maggadino Memorial Chapel seemed to me to be the most interesting. It was owned by Stefano Maggadino, a reputed Mafia boss who, it is said, figured in the John F. Kennedy assassination in his own little way.
 
-Rumor was that the Maggadino Memorial Chapel had a secret level below the funeral home from which the Maggadino crime empire was run. Hints of double burials of murder victims with somebody's grandma were whispered. Few know -- and, as they say, the rest aren't talkin' -- whether this was true. However, these dark stories fueled the imagination on long, dark, cold nights as I walked from the library, passing the Maggadino Memorial Chapel on my way home.
-
 ![](magad.jpg){width=50%}
+
+Rumor was that the Maggadino Memorial Chapel had a secret level below the funeral home from which the Maggadino crime empire was run. Hints were whispered of burials of murder victims double-stacked with somebody's grandma. Few know -- and, as they say, the rest aren't talkin' -- whether this was true. However, these dark stories fueled the imagination on long, dark, cold nights as I walked from the city library, passing the Maggadino Memorial Chapel on my way home.
 
 There was no doubt, though, among the altar boys that undertakers from the Maggadino Memorial Chapel were the real deal. Man, they looked like wise guys! Dark. Secret. Mustachioed. Fit and tailored well into dark suits--pinstripes, in fact. Dark glasses topped it off. They never secretly smiled or winked at us like the other friendly funeral directors did. Hard.
 
+I frequently saw at services the same undertakers from the Maggadino Memorial Chapel. You could never figure out what was going on in the brains behind those deep black shades they wore. Seriousness? Agita? Meditation? 
+
+![](magdc.jpg){width=35%}
+
+At the point that arrived in one funeral service when the body was to be turned to leave the church head first, nothing happened. The priest waited for several uncomfortable beats for the undertakers to turn the body. Nothing happened. I subtly raised my chin a little bit in the direction of one of the Maggadino guys. You could see he was startled out of whatever reverie into which he had fallen. He moved promptly in a kind of twitch that was so atypical of the cool, smooth movements that went along with being a *goomba*. The casket was turned. All moved forward without a hitch from that point.
+
+I was outside my school during the lunch period the day after the funeral. A black car drew up to the curb. The undertaker, with shades still on and a cigarette dangling from his mouth, stepped out of his car -- and , he started *walking toward me!* Was this the end? Had I crossed his macho line by nudging him to move the casket? I developed a kind of *rigor mortis* that I am sure he had seen that very day in one of his "clients."
+
+He walked up to me, pulled out a wad of cash wrapped with a gum band, peeled away a $10 bill, and handed it to me. He leaned forward to say, "Hey, you're a good kid." And, then, those ever-horizontal, razor-thin lips curved into a sort of smile. Instant cool spread over me. Rather than being ballbatted by this guy, we were *paesano* in that moment. I had saved him from professional embarrassment. I expected to hear something like, you know, "Someday -- and that day may never come -- I'll call upon you to do a service for me. But until that day...." Nope, he got back into his car and drove away.
+
+![](doncorl.jpg){width=50%}
+
+But, I digress.
+
 As we headed the procession out of the church, the priest would say softly to the coffin as he sprinkled it with ashes, “Memento, homo, quia pulvis es, et in pulverem reverteris,” that is, "Remember, man, that thou art dust, and to dust thou shalt return." Sobs often would become full, heavy tears and loud cries, giving us young altar boys a full sample of human grief to ponder and weigh like budding little scientists of the soul.
 
-We parted company with the corpse at the door of the church. We were not allowed to go along to the cemetery because this would part us from our studies for even more time. We didn't really care to go anyhow because absence would have cut into our bologna sandwich, chocolate cake, and milk time, and we would miss, then, several games of Red Rover. Nope, by this time we were eager to return.
+We parted company with the corpse at the door of the church. We were not allowed to go along to the cemetery because this would part us from our studies for even more time. We didn't really care to go anyhow because absence would have cut into our bologna sandwich, chocolate cake, and milk time, and we would miss, then, several games of [Red Rover](https://en.wikipedia.org/wiki/Red_Rover). Nope, by this time we were eager to return.
 
-Coming back to class in the afternoon wasn't too bad. After all, we had missed one-half of the school day! And, we were absent for a reason for which our nun-wardens could not find reason to beat us on the knuckles with their meter-long rulers. There is such honor in service after all, eh?
+![](olor.jpg){width=50%}
 
-The Peregrine Falcon just killed a small sea bird to my left. Dinner for him. A funeral perhaps for the little bird's family? I wonder if, in bird society, some young birds will get a half-day off to serve at his funeral.
+Coming back to class in the afternoon wasn't too bad. After all, we had missed one-half of the school day! And, we were absent for a reason for which our nun-wardens could not find reason to beat us on the knuckles with their meter-long, metal-tipped rulers. Service is such an honor, after all.
 
-I am off from this sacred place on Brandon Point on a Sunday to my next destination, Castlegregory in County Kerry on the Dingle Peninsula.
 
-*Ite, missa est.* And, you say, *Deo gratias*.
+A Peregrine Falcon just killed a small sea bird to my left. Dinner for him. A funeral perhaps for the little bird's family? I wonder if, in bird society, some young birds will get a half-day off to serve as a "wave boy" at his funeral Mass.
+
+![](falcon.jpg){width=50%}
+
+Now, I am off from this sacred place on Brandon Point on this Sunday to my next destination, [Castlegregory](https://en.wikipedia.org/wiki/Castlegregory) in County Kerry on the [Dingle Peninsula](https://en.wikipedia.org/wiki/Dingle_Peninsula).
+
+I say, *Ite, missa est.* And, you respond, *Deo gratias*.
 
 ![](cliff.jpg){width=50%}
 
