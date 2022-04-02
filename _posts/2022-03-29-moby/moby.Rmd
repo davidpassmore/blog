@@ -52,6 +52,12 @@ Perhaps the secret to penetrating what seems to us as turgid prose from a long g
 
 So, my advice, my dear young friend: read *Moby-Dick* without worrying about finishing it, no matter what you teacher requires. Buy the unabridged version. Savor the words. Build the story in your mind's eye. Enjoy the poetry of it all. For one day you will have a Great White of your own to slay, when the deep moans 'round with many voices, when you will need already to have had practice with the reckless pursuit of demons without a thought for your own peril.
 
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+
 ## Reuse {.appendix}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".

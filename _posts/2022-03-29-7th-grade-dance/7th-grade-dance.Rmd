@@ -86,6 +86,12 @@ knitr::opts_chunk$set(echo = FALSE)
 | How long did it last? 
 | When was your innocence lost?
 
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+
 ## Reuse {.appendix}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY

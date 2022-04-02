@@ -97,6 +97,12 @@ So, in the end, my dream taught me that my parents wanted my success, not my dep
 
 My little blue dog was there in life and in my dream. He had been sitting, with those big puppy eyes, in a dark corner of my family room waiting for me. I buffed him up, and brought him to my office, where he was enshrined until I retired.
 
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+
 ## Reuse {.appendix}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".

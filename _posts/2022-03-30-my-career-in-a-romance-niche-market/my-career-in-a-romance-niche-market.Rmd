@@ -1,7 +1,7 @@
 ---
 title: "my career in a niche market of the romance novel genre"
 description: |
-  A novel précis in the line of D. H. Lawrence's `the horse-dealer's daughter`...written in 2004
+  A novel précis in the line of D. H. Lawrence's short story, `the horse-dealer's daughter`...written in 2004
 preview: romance.jpeg
 author:
   - name: David L. Passmore
@@ -62,6 +62,12 @@ This love, now new...... --> *and it can continue*.
 You are thinking, **Oh, Yeh!**, I want more of that story. But maybe with a little bit of slide rule mentioned?
 
 Come and get it, you New York acquisition editors with the LA lawyers sporting ponytails and Robert La Roche teashae sunglasses! I am prepared to dish more of this hip prose for the lonely and broken-hearted.
+
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
 
 ## Reuse {.appendix}
 

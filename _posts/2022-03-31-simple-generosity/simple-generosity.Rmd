@@ -73,6 +73,12 @@ The next week we did return,and things were better. However, I am sure that my f
 
 So, the coffee of the day is Orange Seville drawn into a 16 ounce paper/plastic cup at Wegmans Wireless Internet Cafe, held up to the morning light, and drunk in perhaps the only salute Pinky and my father have had in quite a while, if at all. Perhaps their equals are committing acts of corporal mercy right now. However, I don't see them. And, in the sum of my life I never have equaled Pinky and my father's generosity with that one man. It is very humbling realization.
 
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+
 ## Reuse {.appendix}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
@@ -81,12 +87,5 @@ Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](htt
 
 To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](dlp@davidpassmore.net), send a direct message on Twitter @DLPPassmore, or send an IMsg or SMS to dlp@psu.edu.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-Distill is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 

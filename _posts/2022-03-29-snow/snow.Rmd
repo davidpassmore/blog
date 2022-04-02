@@ -77,6 +77,12 @@ So, this is the snow I see. The snow accumulates here in Pennsylvania today. We 
 
 Oh, by the way, the movie just ended. Rocky won the fight, of course, and he still loves Adrianne. She just ran into the ring and kissed that big lug with the blood on his face and the sweat dripping off him. It is a mystery, isn't it?
 
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+
 ## Reuse {.appendix}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
