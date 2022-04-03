@@ -54,7 +54,8 @@ Your browser does not support the audio element.
 </audio>
 </p>
 
-"You think dogs will not be in heaven?  I tell you, they will be there long before any of us."  ~ Robert Louis Stevenson
+"You think dogs will not be in heaven?  I tell you, they will be there long before any of us."  
+  ~Robert Louis Stevenson
 
 ## Last updated on {.appendix}
 ```{r,echo=FALSE}
