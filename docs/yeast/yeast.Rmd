@@ -24,6 +24,11 @@ Distill is a publication format for scientific and technical writing, native to 
 
 Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
 
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
 ## Reuse {.appendix}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
