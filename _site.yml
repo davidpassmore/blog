@@ -13,6 +13,7 @@ collections:
     share: [twitter, linkedin, facebook, pinterest]
     subscribe: _subscribe.html
 navbar:
+  logo: smallDLP.jpg
   right:
     - text: "| list of notes |"
       href: index.html
