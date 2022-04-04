@@ -1,0 +1,84 @@
+---
+title: "is the methods reproducible for common economic impact analysis with IMPLAN?"
+description: |
+  xxx
+preview: xxx.jpg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+categories:
+  - IMPLAM
+  - Wassily Leontief
+  - economic impact
+  - counterfactuals
+draft: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A regional macroeconomic model called IMPLAN (Impact for PLanning and ANalysis) was applied to estimate the direct, indirect, and induced impacts of egg production on the Pennsylvania economy. MIG, Inc., from Hudson, Wisconsin, is the sole–source provider of the IMPLAN economic impact modeling system, which consist of software tools and region–specific data to enable in–depth examinations of state, multi–county, county, sub–county, and metropolitan regional economies.  MIG, Inc. has been developing complex localized databases, conducting IMPLAN training workshops, and distributing IMPLAN software to public and private organizations since 1993. A copy of the IMPLAN software and data package owned by Penn State’s Institute for Research in Training and Development was used in this study.
+
+Methods for calculating economic multipliers are well–established and common in the practice of economic impact analysis.  However, in brief, consider an economy with i producing industries and j purchasing industries, where i = j. Let X  stand for a matrix of interindustry transactions,  with elements xij containing the dollar value of goods and services sold by producing industry i to purchasing industry j. 
+
+Further, let y indicate an i–length vector whose elements display the dollar value of goods and services delivered by producing industry i to fulfill final demands of the economy for personal consumption, government purchases, fixed investments, and net exports. The production sector of the economy is described by X, and y captures the consumption sector of the economy. 
+
+The total output of the economy by producing industry, contained in i–length vector x, is equal to the sum of production and consumption, or
+
+	x = X + y. 	(1)
+
+Define A, a direct requirements matrix with elements aij = xij / xj, showing the proportion of industry j purchases made from industry i. Column j of A contains the production function of purchasing industry j, which is the recipe of inputs of goods and services that industry j requires to produce its output. Equation 1 now is expressed as 
+
+	x = Ax + y.	(2)
+
+Introducing for mathematical convenience an i–by–j identity matrix,  I, and algebraically rearranging terms in Equation 2, then
+
+	x = (I – A)-1 y, 	
+
+where (I – A)-1 is called a total requirements matrix showing the additional dollar value of output from industry i needed directly or indirectly to deliver a dollar’s worth of output from industry j to final demand in the economy. The matrix inverse, (I – A)-1, often is described as the Leontief Inverse, in honor of Wassily Leontief, an economist who won the Nobel Memorial Prize in Economic Sciences in 1973 for developing economic input–output analysis theory and methods.
+
+Taking the difference between the total requirements matrix and the direct requirements matrix produces an indirect requirements matrix. Indirect requirements are generated from the long string of transactions among industries representing intermediate production that must occur to generate a final product for consumption. 
+
+The addition of households as an industry in both a row and column in X allows inclusion of the effects of household production and purchasing into the model. These row and column additions augment the total requirements matrix to include not only direct and indirect requirements, but also to show induced effects of household spending on the economy as it stimulates purchases of goods and services. The difference between the total requirements matrices, net of the indirect requirements matrix, including household spending produces an induced requirements matrix. 
+
+Indirect and induced requirements matrices display how each dollar spent on goods and services delivered to consumers multiplies itself throughout the economy. Ratios between [(direct requirements + indirect requirements) / direct requirements] as well as ratios between [(direct requirements + indirect requirements + induced requirements) / direct requirements] are called Type I and Type II multipliers, respectively. Pre–multiplying the direct, indirect, and induced requirements matrices by, say, total employment parses the impact of delivery of final demand to consumers into direct, indirect, and induced employment components. In a similar manner, multipliers for other economic indicators – such as economic output, value added, income – can be computed. 
+
+A counterfactual analysis involves studying a hypothetical scenario that runs “counter to the facts” of an existing reality. A counterfactual condition entails “What if…?” questions that represent thought experiments about propositions that run counter to the facts. For instance, how would an economy have grown and changed if an activity or event did not occur? The potential impact of the activity or event is the difference between what would have happened with and without the activity or event.
+
+For example, researchers used the counterfactual approach to consider strategic decisions, decisive acts, and paths as if they had not been executed in history. For instance, in Ab Urbe Condita Libri,  Titus Livius Patavinus, a Roman historian, contemplated an alternative 4th century BC that considered, “What would have been the results for Rome if she had been engaged in war with Alexander?” 
+
+The modern counterfactual approach goes back at least to the 18th century philosopher David Hume,  and historians, essayists, and novelists have applied it productively in a variety of situations. For instance, in 1931 Winston Churchill wrote an essay, “If Lee Had Not Won the Battle of Gettysburg,”  that took the counterfactual viewpoint of what would have happened if the Confederacy had won the American Civil War.  In 1962, Philip K. Dick, a novelist in the science fiction genre, published The Man in the High Castle,  a thought experiment in which Nazi Germany and Imperial Japan won World War II.
+
+***
+
+Input-output analysis is a technique for macroeconomic analysis based on the interdependencies between economic sectors or industries. The technique is commonly used to estimate the impacts of positive or negative economic shocks and analyze the ripple effects throughout an economy. Data for input-output analysis are derived from a country’s national income and product accounts, which are available for most countries with modern economies. Wassily Leontief, a Russian-born economist, won the 1973 Nobel Prize in Economics for his development of input-output analysis. I have completed over 125 regional economic science studies that have integrated national, regional, and local economies using input-output analysis.
+
+***
+
+2.1.  Structure
+Consider an economy with I producing industries and J purchasing industries, where I = J. Some of the output of industry i is sold to other j industries for use in their own production. Let X stand for a square matrix of interindustry transactions, with elements xij containing the monetary value of goods and services sold by producing industry i to purchasing industry j. Sales of the product of industry i to itself – that is, xii – are possible. For instance, the coal industry also might purchase coal for use in its own production processes.
+In this conception of an economy, industry output is produced by firms. A number of firms can comprise an industry. Firms might own or manage multiple establishments at which industry production occurs. To add complexity, some firms produce output of goods and services that are classified in multiple industries, which is, then, accounted separately for each industry. The fundamental rule is that accounting for economic output is by industry, which is an aggregation of highly similar good or services, and not by firm or within establishments run by firms. Also, the macroeconomy is understood as an open system in the sense that it can gain or lose income or products from outside its boundaries through trade. Moreover, any aggregations such as firms, cities, geopolitical regions, countries, or the entire world could form the boundaries of the macroeconomy examined.
+Further, output of industry i not purchased by industries for their own production instead is sold directly to consumers to meet demands for personal consumption in households, government purchases of defense and non-defense goods and services, fixed investments such as housing and other structures, and exports net of imports. Let y indicate an I–length vector whose elements display the monetary value of goods and services delivered by producing industry i to fulfill demands of the economy. Vector y represents the “final demand” for goods and services in an economy and is known commonly in the parlance of national income and product accounting practice as “gross domestic product” [2].
+2.2.  Direct requirements
+Quantities in X, y, and x are most commonly expressed as monetary values (e.g., as dollars, rubles, or some other form of currency used as a medium of exchange) rather than as quantities of goods and services, although some energy and resource input–output models are scaled in physical quantities such as megawatts of electricity, kilograms of waste, hectares of land, or litres of water [10].
+The production sector of the economy, then, is defined by X, and y is the consumption sector. The total output of the economy by producing industry, contained in I–length vector, x,  is equal to the sum of production and consumption, or
+	x = X + y. 	(1)
+Define A, a direct requirements matrix with elements aij = xij / xi, showing the proportion of industry i output required for production by industry j. Equation 1 now becomes
+	X = Ax + y. 	(2)
+Elements in A are assumed to be fixed, homogenous, and linear within purchasing industries. In particular:
+•	Inputs required by purchasing industry j from producing industry i do not change over time, or, more technically, zero elasticity of price or quantity substitution exists among inputs to purchasing industry j (i.e., fixed);
+•	All firms in purchasing industry j use the same proportion of industry i inputs (i.e., homogeneous); 
+•	Neither economies nor diseconomies of scale are manifest as producing industry j output increases or decreases (i.e., linear).
+These three assumptions are, of course, highly restrictive and probably are unrealistic in a longer view of most economies. Yet, even without adding additional complexity to detail the simple model represented by equation (2), these assumptions have proved tenable within limits and useful for economic analysis in static contexts. However, the use of the model does not rest on the full verisimilitude of its assumptions. Rather, many analysts have relied on the pragmatic view that these assumptions are close enough to short-term reality to allow answers to economic problems that do not lend themselves to other analytic techniques [11].
+2.3.  Total requirements: The Leontief Inverse
+Introducing for mathematical convenience an I–by–J identity matrix, I, and algebraically rearranging terms in equation 2, the relationships among production, consumption and economic output is expressed as
+	x = (I – A)-1 y, 	(3)
+where (I – A)-1 is a total requirements matrix, which shows the additional dollar value of output from industry i needed directly or indirectly to deliver a dollar’s worth of output from industry j to final demand in the economy. The total requirements matrix, (I – A)-1, often is referenced as the Leontief Inverse, acquiring its name after its originator, Wassily Leontief [12, 13], who won the 1973 Nobel Prize in Economic Sciences largely for the development and application of this technique [14]. Actual economies can have large numbers of industries, so A often is large. As a consequence, (I – A)-1 usually is solved numerically by Laplace transform techniques. 
+Taking the difference between the total requirements matrix and the direct requirements matrix produces an indirect requirements matrix. Indirect requirements are generated from the long string of transactions among industries representing intermediate production that must occur to generate a final product for consumption. The addition of households as both a row and column in X allows inclusion of the effects of household production and purchasing into the model. This addition augments the total requirements matrix to include not only direct and indirect requirements but also to show induced effects of household spending on the economy as it stimulates purchases of goods and services. The difference between the total requirements matrices, net of the indirect requirements matrix, including household spending produces an induced requirements matrix. 
+2.4.  Multipliers
+Indirect and induced requirements matrices show how each dollar spent on goods and services delivered to consumers multiplies itself throughout the economy. Ratios such as [(direct requirements + indirect requirements) / direct requirements] as well as [(direct requirements + indirect requirements + induced requirements) / direct requirements] are called Type I and Type II multipliers, respectively [15] and are common metrics used to account for system-wide change evoked from changes in particular sectors of an economy. Pre–multiplying the direct, indirect, and induced requirements matrices by, say, total employment parses the impact of delivery of final demand to consumers into direct, indirect, and induced employment components. In a similar manner, multipliers for other economic indexes, such as income or taxes, can be computed.
+
