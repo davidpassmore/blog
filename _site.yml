@@ -19,8 +19,6 @@ navbar:
       href: index.html
     - text: "| about these notes |"
       href: about.html
-    - text: "| passmore website |"
-      href: https://davidpassmore.net
     - text: "| brief bio |"
       href: me.html
     - icon: fa fa-rss
