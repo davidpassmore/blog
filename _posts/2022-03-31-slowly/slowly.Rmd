@@ -17,44 +17,44 @@ output:
   distill::distill_article:
     self_contained: false
 ---
-git status
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
 In the short feature movie, “Gents Without Cents,” made in 1944, the Three Stooges —- Curly, Larry, and Moe —- are out-of-work vaudeville actors who marry three dancing girls and honeymoon in, of course, Niagara Falls.
 
-At one point, Curly mentions Niagara Falls. Moe, as though acting out some post-hypnotic suggestion, responds with the line, “Slowly I turned, step by step, inch by inch...I took my revenge.”
+At one point, Curly mentions Niagara Falls. Moe, acting out some post-hypnotic suggestion, responds with the line, “Slowly I turned, step by step, inch by inch...I took my revenge.”^[View the skit at https://youtu.be/MYP1OBZfFK0]
 
-This trademark Three Stooges’ line draws guffaws from fans everywhere. Much to the puzzlement of younger folks, otherwise serious and substantial adult men and women still recite this line, whenever they hear the trigger phrase, “Niagara Falls.” Don’t ask me why. As Jay Leno once said, “Half the world loves the Stooges and the other half wonders why.”
+This trademark Three Stooges’ line draws guffaws from fans everywhere. Much to the puzzlement of younger folks, otherwise serious and substantial adult men and women still recite this line whenever they hear the trigger phrase, “Niagara Falls.” Don’t ask me why. As Jay Leno once said, “Half the world loves the Stooges, and the other half wonders why.”
 
-The “Slowly I turned...” line often appeared in skits in the vaudeville circuit. The line was performed in Bud Abbott and Lou Costello stage acts. It even surfaced in an episode of the “I Love Lucy” television show. Well, vaudeville might be dead, but Niagara Falls still delivers great absurdist farce regularly.
+The “Slowly I turned...” line often appeared in skits on the vaudeville circuit. The line was performed in Bud Abbott and Lou Costello stage acts. It even surfaced in an episode of the “I Love Lucy” television show. Vaudeville might be dead, but Niagara Falls still delivers great absurdist farce regularly.
 
 ![](NF7jpg.jpeg){width=50%}
 
-Last week, for instance, a Michigan man climbed over a wrought-iron barricade above the Horseshoe Falls on the Canadian side of the Niagara River, stepped into the water, and was swept over the Falls. Bystanders reported that he went over the 167-foot precipice with his hands clasped behind his head and with a smile on his face.
+Last week, for instance, a Michigan man climbed over a wrought-iron barricade above the Horseshoe Falls on the Canadian side of the Niagara River, stepped into the water, and was swept over the Falls. Bystanders reported that he went over the 167-foot precipice with his hands clasped behind his head and a smile on his face.
 
-Amazingly, the Michigan man lived, the second person known to survive a plunge over the Falls (The other was a seven year old boy in a bathing suit and a life vest). However, he took home some great souvenirs consisting of a few sore ribs, a hunk of moss that he grabbed as he scrambled to land, and a criminal record in a Canadian court “for mischief and for unlawfully performing a stunt.” Who says Canada is not fun?
+Amazingly, the Michigan man lived, the second person known to survive a plunge over the Falls (The other was a seven-year-old boy in a bathing suit and a life vest). However, he took home some great souvenirs consisting of a few sore ribs, a hunk of moss that he grabbed as he scrambled to land, and a criminal record in a Canadian court “for mischief and for unlawfully performing a stunt.” Who says Canada is not fun?
 
-The Michigan man is the latest in a long line of Falls hoppers. Perhaps you know Niagara Falls as the “honeymoon capital of the world,” a distinction that it grabbed in the early 1800s after relatives of Napoleon Bonaparte and the daughter of U.S. Vice President Aaron Burr both spent their honeymoons at hotels near the Falls.
+The Michigan man is the latest in a long line of Falls hoppers. Perhaps you know Niagara Falls as the “honeymoon capital of the world,” a distinction that the attraction grabbed in the early 1800s after relatives of Napoleon Bonaparte and the daughter of U.S. Vice President Aaron Burr both spent their honeymoons at hotels near the Falls.
 
-One of the least publicized facts about Niagara Falls, however, is that each year about 40 people commit suicide by pitching themselves over the cascades of Niagara. In fact, Niagara Falls also is the “suicide capitol of the world,” with an estimated 5,000 tragic deaths since 1850. The only near-rivals are Clifton suspension bridge near Bristol in the United Kingdom and San Francisco’s Golden Gate bridge, each with about 1,000 suicides each since 1864 and 1937, respectively.
+However, one of the least publicized facts about Niagara Falls is that each year about 40 people commit suicide by pitching themselves over the cascades of Niagara. In fact, Niagara Falls also is the “suicide capital of the world,” with an estimated 5,000 tragic deaths since 1850. The only near-rivals are the Clifton suspension bridge near Bristol in the United Kingdom and San Francisco’s Golden Gate bridge, each with about 1,000 suicides since 1864 and 1937, respectively.
 
 Ah, but you ask, what about the daredevils and the spectacles associated with Niagara Falls?
 
-Niagara Falls has to be one of the most theatrical settings in the world. In the 1850s and 60s, Jean-Francois Gravelet, known as “The Great Blondin,” crossed the Niagara gorge on a tightrope numerous times. On separate occasions he crossed it on a bicycle, blindfolded, while pushing a wheelbarrow, with his hands and feet manacled, and with his manager on his back. On one occasion he even stopped midway to cook an omelet on a portable grill.
+Niagara Falls has to be one of the most theatrical settings in the world. In the 1850s and 60s, Jean-Francois Gravelet, known as “The Great Blondin,” crossed the Niagara Gorge on a tightrope numerous times. On separate occasions, he crossed it on a bicycle, blindfolded, while pushing a wheelbarrow, with his hands and feet manacled and with his manager on his back. On one occasion, he even stopped midway to cook an omelet on a portable grill.
 
-In 1827 as a publicity stunt, local hotel owners sent a condemned lake schooner, “The Michigan,” over the Horseshoe Falls with a dozen or so wild animals placed on board before an estimated crowd of 15,000 people. The animals placed on board the doomed ship included a buffalo, two small bears, two raccoons, a dog and a goose. To further add to the stunt, the schooner was decorated to look like a pirate ship, with dummies of humans tied to the deck.
+In 1827 as a publicity stunt, local hotel owners sent a condemned lake schooner, “The Michigan,” over the Horseshoe Falls with a dozen or so wild animals placed on board before an estimated crowd of 15,000 people. The animals placed on board the doomed ship included a buffalo, two small bears, two raccoons, a dog, and a goose. The schooner was decorated to look like a pirate ship, with dummies of humans tied to the deck to further add to the stunt.
 
-As the Michigan reached the rough rapids above the Falls, its hull was torn open and began filling with water. The two bears running loose on deck jumped free into the rapids and swam to the shore. Other animals caged or tied to the ship died when the schooner went over the Horseshoe Falls. Only the goose survived the plunge.
+As The Michigan reached the rough rapids above the Falls, its hull was torn open and began filling with water. The two bears running loose on deck jumped free into the rapids and swam to the shore. Other animals caged or tied to the ship died when the schooner went over the Horseshoe Falls. Only the goose survived the plunge.
 
 ![](NF13.jpg){width=50%}
 
-Then, there are those who went over the Falls in barrels or other contraptions assembled from rubber, fishnet, canvas webbing, sheet metal, inner tubes, tarp, or steel which were not always entirely seaworthy. Until our intrepid Michigan man, ten people actually made it over alive. Two of them women. Bobby Leach was one who over the Falls, but he died fifteen years later in New Zealand at a result of an infection from a wound incurred from slipping on an orange peel. Sadly, though, five daredevils died in their attempts.
+Then, some went over the Falls in barrels or contraptions assembled from rubber, fishnet, canvas webbing, sheet metal, inner tubes, tarp, or steel, which were not always seaworthy. Until our intrepid Michigan man, ten people actually made it over alive. Two of them are women. Bobby Leach was one who over the Falls, but he died fifteen years later in New Zealand due to an infection from a wound incurred from slipping on an orange peel. Sadly, though, five daredevils died in their attempts.
 
-Two who died accumulating the most style points while trying have to be Jessie Sharp and Robert Overacker. Sharp thought he could make it over safely in 1990, if only he paddled his kayak hard enough. His body never was found.
+Two who died accumulating the most style points while trying have to be Jessie Sharp and Robert Overacker. Sharp thought he could make it over safely in 1990 if only he paddled his kayak hard enough. His body never was found.
 
-Overacker’s endeavor proves how important planning is. He made his attempt in 1995 on a speeding jet ski. He deployed a rocket-powered parachute just as his jet ski hit the brink of the Falls to propel himself out to the middle of the river away from the pounding water and sharp rocks below. The rocket worked, and the parachute opened gracefully over the middle of the river. Unfortunately, Overacker forgot to attach the parachute to his back. Rescuers eventually found his body in the foam below.
+Overacker’s endeavor proves how vital planning is. He made his attempt in 1995 on a speeding jet ski. He deployed a rocket-powered parachute just as his jet ski hit the Falls' brink to propel himself out to the middle of the river away from the pounding water and sharp rocks below. The rocket worked, and the parachute opened gracefully over the middle of the river. Unfortunately, Overacker forgot to attach the parachute to his back. Rescuers eventually found his body in the foam below.
 
 It's all part of the great cosmic show.
 

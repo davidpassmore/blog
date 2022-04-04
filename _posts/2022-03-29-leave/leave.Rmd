@@ -24,7 +24,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-[Marshall Goldsmith](https://web.archive.org/web/20061115083415/http://www.marshallgoldsmithlibrary.com/) spoke at the conference I attended in 2006 in Florida. He had a great story to tell that he originally published in *FastCompany* (Issue 82 May 2004, Page 103) and that is [available at his web site](https://marshallgoldsmith.com/articles/leave-it-at-the-stream/):
+[Marshall Goldsmith](https://web.archive.org/web/20061115083415/http://www.marshallgoldsmithlibrary.com/) spoke at the conference I attended in 2006 in Florida. He had a great story to tell that he initially published in *FastCompany* (Issue 82 May 2004, Page 103) and that is [available at his website](https://marshallgoldsmith.com/articles/leave-it-at-the-stream/):
 
 >A Buddhist parable illustrates the challenge – and value - of letting go of the past. Two monks were strolling by a stream on their way home to the monastery. They were startled by the sound of a young woman in a bridal gown, sitting by the stream, crying softly. Tears rolled down her cheeks as she gazed across the water. She needed to cross to get to her wedding, but she was fearful that doing so might ruin her beautiful handmade gown.
 

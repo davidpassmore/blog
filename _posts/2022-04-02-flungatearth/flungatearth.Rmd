@@ -62,7 +62,7 @@ navigation signals for about 10 minutes.
 Our complex and interconnected modern infrastructure depends increasingly on a
 functioning electrical grid and electrical devices. Infrastructure for communications,
 electrical power, water, banking, finance, and transportation sectors, to name a few, are
-highly interdependent, as shown in Figure 1 from a report by the Department of
+highly interdependent, as shown in a figure shown at the bottom of this article from a report by the Department of
 Homeland Security. A  [National Research Council report on the social and
 economic impacts of severe space weather events](http://www.nap.edu/catalog/12507.html), indicated that a replication of the solar storm first observed by Carrington would result in extensive, and possibly catastrophic, social and economic disruptions.
 
