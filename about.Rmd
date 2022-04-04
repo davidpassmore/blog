@@ -16,13 +16,13 @@ My NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I
 
 #### **how these NOTES are rendered**
 
-I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> code in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. I render the blog in <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. Cookies and other tracking tools are not implemented for this blog site.
+I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> code in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. I render the blog in <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. I do not implement cookies and other tracking tools with this blog site.
 
 #### **what's here?**
 
-These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th floor condo in the Shadyside neighborhood of Pittsburgh.
+These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th-floor condo in the Shadyside neighborhood of Pittsburgh.
 
-I ran a blog at a now out-of-service, *motime.com* during the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
+I ran a blog at the now out-of-service domain, *motime.com*, during the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
 
 #### **how I engage**
 
@@ -30,9 +30,9 @@ I live my days as a retired person.
 
 I rise at 4:00 am daily. Early rising is not my attempt to follow some monastic way. No, see it as a quiet time, an opportunity to organize and prepare, and a chance to have a few accomplishments before the rest of the world starts moving. I meet over my cup of morning coffee with long-time friends on a Zoom meeting from 6:30 to 7:30 am on Mondays through Saturdays.
 
-The remainder of my time on most days is spent on projects selected from too many to do. Sometimes I video conference with friends and collaborators across the world to gain insights into issues and solutions to problems. I swim almost daily at the [wonderful pool at the Squirrel Hill Jewish Community Center](https://jccpgh.org/sports/aquatics/squirrel-hill/) in Pittsburgh that is so close to Mr. Fred Rogers' former residence. It is good to be in the neighborhood.
+TI spend the remainder of my time on most days on projects selected from too many to do. Sometimes I video conference with friends and collaborators worldwide to gain insights into issues and solutions to problems. I swim almost daily at the [wonderful pool at the Squirrel Hill Jewish Community Center](https://jccpgh.org/sports/aquatics/squirrel-hill/) in Pittsburgh, that is so close to Mr. Fred Rogers' former residence. It is good to be in the neighborhood.
 
-I am in a sleep research study that requires that I get five hours of sleep per night, so I am asleep by 11:00 pm. Between rising and finally going to sleep, I do the purchasing, shopping, bill-paying, cooking, laundering, medicating, cleaning, banking, and so forth to help my wife, Alice.
+I am in a sleep research study requiring five hours of sleep per night, so I am asleep by 11:00 pm. Between rising and finally going to sleep, I do the purchasing, shopping, bill-paying, cooking, laundering, medicating, cleaning, banking, and so forth to help my wife, Alice.
 
 *Who doth ambition shun and loves to live in the sun....*
 
@@ -40,16 +40,29 @@ I am in a sleep research study that requires that I get five hours of sleep per 
 
 Friends, I am similar to a gated community.
 
-Send email to me using the email address: `dlp AT davidpassmore dot net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and my family. In these student and family teams, I typically am available instantly.
+Send an email to me using the email address: `dlp AT davidpassmore dot net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and family. In these student and family teams, I typically am available instantly.
 
-Although I have placeholder accounts on many social media apps, I do not do the *FaceBook*s or the *LinkedIn*s like the kids do for anything meaningful. So, not much of me is available on those apps.
+Although I have placeholder accounts on many social media apps, I do not do in any depth the *FaceBook*s or the *LinkedIn*s like the kids do. So, not much of me is available on those apps.
 
-The telephone? Nah. I almost never pick up, expect for family or for calls from close associates. Calling me without leaving a message results in number blocking.[^1] I *do* use Instagram, but I am deeply hidden and accessible by family only.
+The telephone? Nah. I seldom pick up, except for family or for calls from close associates. Calling me without leaving a message results in number blocking.[^1] I *do* use Instagram, but I am only deeply hidden and accessible by family.
 
 [^1]: Please note: my car warranty is as I like it; my grandchildren do not require me to bail them out of jail; the Internal Revenue Service is not trying to reach me urgently; I will never own a timeshare, nor, I guarantee, would you want me to.
 
-I live in a secure building, so, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[even those I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, I will just press flush and exhaust you to send floating, in the vast plasma of the universe.
+I live in a secure building. So, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[even those I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, I will press flush and exhaust you to send floating into the vast plasma and on to the cold, dark corners of my universe.
 
 vr, David
 
 ![](dlp_signature.jpg){width=35%}
+
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+## Reuse {.appendix}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
+
+## Comments/Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](dlp@davidpassmore.net), send a direct message on Twitter @DLPPassmore, or send an IMsg or SMS to dlp@psu.edu.
