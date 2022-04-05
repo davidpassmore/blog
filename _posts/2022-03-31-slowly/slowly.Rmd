@@ -1,7 +1,7 @@
 ---
 title: "Niagara Falls? slowly I turned...inch by inch...step by step..."
 description: |
-  An essay about Niagara Falls notoriety...written in 2003
+  An essay about the freaky, carny noteriety earned by the sometimes "monkey maze" of Niagara Falls...written in 2003
 preview: NF7jpg.jpeg
 author:
   - name: David L. Passmore
@@ -50,9 +50,11 @@ A letter to the editor of the *Journal of the American Medical Association* (197
 
 Ah, but you ask, what about the daredevils and the spectacles associated with Niagara Falls?
 
-Niagara Falls has to be one of the most theatrical settings in the world. In the 1850s and 60s, Jean-Francois Gravelet, known as “The Great Blondin,” crossed the Niagara Gorge on a tightrope numerous times. On separate occasions, he crossed it on a bicycle, blindfolded, while pushing a wheelbarrow, with his hands and feet manacled and with his manager on his back. On one occasion, he even stopped midway to cook an omelet on a portable grill.
+Niagara Falls has to be one of the most theatrical settings in the world. In the 1850s and 60s, Jean-Francois Gravelet, known as “The Great Blondin,” crossed the Niagara Gorge on a tightrope numerous times. On separate occasions, he crossed it on a bicycle, blindfolded, while pushing a wheelbarrow, with his hands and feet manacled and with his manager on his back. On one occasion, he even stopped midway to cook an omelet on a portable grill.^[Turns out that President Abe Lincoln was a huge fan of Blondin, but that is another story.]
 
 ![](blondin.jpg){width=25%}
+
+![](blondin1.jpg){width=50%}
 
 In 1827 as a publicity stunt, local hotel owners sent a condemned lake schooner, “The Michigan,” over the Horseshoe Falls with a dozen or so wild animals placed on board before an estimated crowd of 15,000 people. The animals placed on board the doomed ship included a buffalo, two small bears, two raccoons, a dog, and a goose. The schooner was decorated to look like a pirate ship, with dummies of humans tied to the deck to further add to the stunt.
 

@@ -1,7 +1,7 @@
 ---
-title: think our economy is in trouble now? just wait until a bunch of the sun is flung at the earth!
+title: a bunch of sun flung at the earth?
 description: |
-  Serious scientists can barely stir a yawn when they discuss the preparations for and consequences of severe solar events...published in 2009
+  Serious scientists can barely stir a yawn from the public, legislators, and polkicy-makers when in discussions about preparations for and consequences of severe solar events...published in 2009
 preview: impact.png
 author:
   - name: David L. Passmore
