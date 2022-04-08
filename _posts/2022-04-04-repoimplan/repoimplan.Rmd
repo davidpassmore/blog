@@ -15,9 +15,6 @@ categories:
   - counterfactuals
   - misspecification
   - identifying industry
-output:
-  distill::distill_article:
-    self_contained: false
 draft: true
 editor_options: 
   markdown: 
