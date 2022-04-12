@@ -1,7 +1,7 @@
 ---
 title: "understanding input-output modeling for assessing potential economic impact"
 description: |
-  Maybe this eesay won't shock your soul, but describes input-output models, assumptions, & uses to estimate economic impact.
+  Maybe this dry, geeky eesay won't shock your soul, but it describes input-output models, their assumptions, & their uses for estimating economic impact of grand public investments.
 preview: types-of-economic-impact.jpg
 author:
   - name: David L. Passmore
@@ -121,10 +121,15 @@ $$
 
 ##### Some Assumptions About Requirements
 
+Assumptions undergird all models, which are the entity itself but are an
+abstraction of particular features of interest. Accordingly,
+input-output models rest on important assumptions that simplify and
+complicate...both at the same time.
+
 Elements in $\textbf{A}$ are assumed to be fixed, homogeneous, and
 linear within purchasing industries. I dwell on these assumptions
-because they are at the very core of the operation and credibility of
-input-output modeling.
+because they are at the very core of the operation as well as the
+credibility of input-output modeling.
 
 *Fixed*
 
@@ -135,8 +140,11 @@ Increasing or decreasing industry *j* output requires increasing or
 decreasing industry *i* inputs in the same proportion. "In other words,"
 according to the Bureau of Economic Research for the U.S. Department of
 Commerce,[@regional] "...businesses can use as many inputs as needed
-without facing higher prices." In these ways, coefficients in
-$\textbf{A}$ are assumed to be *fixed*.
+without facing higher prices." An implication is that no bottlenecks in
+supply are recognized in static input-output models, even though
+economic difficulties during the COVID-19 pandemic show that supply
+constraints are a disruptive fact of economic life. In these ways,
+coefficients in $\textbf{A}$ are assumed to be *fixed*.
 
 *Homogeneous*
 
