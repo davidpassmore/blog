@@ -1,24 +1,22 @@
 ---
-title: "can an analysis of economic impact have impact?"
+title: "understanding input-output modeling for assessing potential economic impact"
 description: |
-  xxx
-preview: xxx.jpg
+  Maybe this eesay won't shock your soul, but describes input-output models, assumptions, & uses to estimate economic impact.
+preview: types-of-economic-impact.jpg
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
     orcid_id: 0000-0001-9307-5164
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-04-12
 categories:
   - IMPLAN
   - Wassily Leontief
   - economic impact
   - counterfactuals
-  - misspecification
-  - identifying industry
 output:
   distill::distill_article:
     self_contained: false
-draft: true
 editor_options: 
   markdown: 
     wrap: 72
@@ -29,232 +27,426 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-A regional macroeconomic model called IMPLAN (Impact for PLanning and
-ANalysis) was applied to estimate the direct, indirect, and induced
-impacts of egg production on the Pennsylvania economy. MIG, Inc., from
-Hudson, Wisconsin, is the sole--source provider of the IMPLAN economic
-impact modeling system, which consist of software tools and
-region--specific data to enable in--depth examinations of state,
-multi--county, county, sub--county, and metropolitan regional economies.
-MIG, Inc. has been developing complex localized databases, conducting
-IMPLAN training workshops, and distributing IMPLAN software to public
-and private organizations since 1993. A copy of the IMPLAN software and
-data package owned by Penn State's Institute for Research in Training
-and Development was used in this study .
+Input-output modeling is a data-based, computational, and often
+prospective approach to unwinding the impact of projects, events, and
+changes in local economies. An input-output model accounts for goods and
+services that are required as *inputs* by industries to produce
+*outputs* of goods and services necessary to satisfy supply requirements
+for inputs to other industries and delivery directly to consumers
+[@miernyk1965].
 
-Methods for calculating economic multipliers are well--established and
-common in the practice of economic impact analysis. However, in brief,
+Input-output modeling is pervasive in the measurement of economic
+impact. However, this modeling technique often is misapplied and
+debauched by various rakehells of academia and consulting to fulfill
+patently politically-motivated spending of public funds. For these
+reasons, understanding the ways and means of input-output modeling is
+essential to weigh assertions about economic impact. Frankly, though, I
+wrote this posting for more personal reasons: I abide by the apothegm
+that a person knows nothing about a topic until that person had to write
+about it. I will refer to this posting as a base for other postings in
+which I review economic impact reports.
 
-### *Appendix:* Input-Ouput Modeling in a Nutshell
+In this paper, I specify the details of the input-output model and its
+assumptions, outline common uses (and some concerns about abuses) of the
+model to estimate potential economic impact, and list selected software
+and systems available for input-output modeling. In doing so, I do not
+get into any depth in the vast literature on input-output modeling. Nor
+do I establish a critical or skeptical stance about this modeling or its
+uses. For the most part, I try to provide a detailed, yet unadorned,
+description of input-output modeling.
 
-An input-output model accounts for goods and services that are required
-as *inputs* by industries to produce *outputs* of goods and services
-necessary to satisfy supply requirements of other industries and for
-delivery directly to consumers [@miernyk1965].
+### Specification of the Input-Output Model
 
-#### Specification of the Input-Output Model
+#### Production and Consumption
 
-##### Structure
+Consider an economy with $I$ producing industries and $J$ purchasing
+industries, where $I = J$. Some of the output of industry $i$ is sold to
+industry $j$ for use in its own production.
 
-Consider an economy with *I* producing industries and *J* purchasing
-industries, where *I* = *J*. Some of the output of industry *i* is sold
-to other *j* industries for use in their own production.
+Let $\textbf{X}$ stand for a square matrix of transactions among
+industries, with elements $x_{ij}$ containing the dollar value of goods
+and services sold by producing industry $i$ to purchasing industry $j$.
+Sales of the product of industry $i$ to itself --- that is, $x_{i=j}$
+--- are possible. For instance, the coal industry also might purchase
+coal for use in its own production processes.
 
-Let **X** stand for a square matrix of interindustry transactions, with
-elements *x~ij~* containing the dollar value of goods and services sold
-by producing industry *i* to purchasing industry *j*. Sales of the
-product of industry *i* to itself --- that is, *x~i = j~* --- are
-possible. For instance, the coal industry also might purchase coal for
-use in its own production processes.
-
-In this conception of an economy, industry output is produced by firms.
-A number of firms can comprise an industry. Firms might own or manage
-multiple establishments at which industry production occurs. To add
-complexity, some firms produce output of goods and services that are
-classified in multiple industries, which is, then, accounted separately
-for each industry. The fundamental rule is that accounting for economic
-output is by industry, which is an aggregation of highly similar good or
-services, and not by firm or within establishments run by firms. Also,
-the macroeconomy is understood as an open system in the sense that it
-can gain or lose income or products from outside its boundaries through
-trade. Moreover, any aggregations such as firms, cities, geopolitical
-regions, countries, or the entire world could form the boundaries of the
-macroeconomy examined.
-
-Output of industry *i* not purchased by industries for their own
+Output of industry $i$ not purchased by industries for their own
 production instead is sold directly to consumers to meet demands for
 personal consumption in households, government purchases of defense and
 non-defense goods and services, fixed investments such as housing and
-other structures, and exports net of imports. Let **y** indicate an
-**I**--length vector whose elements display the dollar value of goods
-and services delivered by producing industry *i* to fulfill final
+other structures, and exports net of imports. Let $\textbf{y}$ represent
+an $I$--length vector whose elements display the dollar value of goods
+and services delivered by producing industry $i$ to fulfill final
 demands of the economy for personal consumption, government purchases,
-fixed investments, and net exports. Vector **y** represents the "final
-demand" for goods and services in an economy and is known commonly in
-the parlance of national income and product accounting practice as
-*gross domestic product* [@grossdo].
+fixed investments, and net exports. Vector $\textbf{y}$ represents the
+"final demand" for goods and services in an economy and is known
+commonly in the parlance of national income and product accounting
+practice as *gross domestic product* [@grossdo].
 
-##### Direct Requirements
+#### Direct Requirements
 
-Quantities in **X**, **y**, and **x** are most commonly expressed as
-monetary values (e.g., as dollars, rubles, or some other form of
+Quantities in an input--output model most commonly are expressed as
+monetary values (e.g., as dollars, rubles, yuan, or some other form of
 currency used as a medium of exchange) rather than as quantities of
 goods and services, although some energy and resource input--output
 models are scaled in physical quantities such as megawatts of
 electricity, kilograms of waste, hectares of land, or liters of water
 [@weisz2006].
 
-The production sector of the economy, then is defined by **X**, and
-**y** is the consumption sector. The total output of the economy by
-producing industry, contained in *i*--length vector **x**,[^1] is equal
-to the sum of production and consumption, or
+The production sector of the economy, then is defined by $\textbf{X}$,
+and $\textbf{y}$ is the consumption sector. The total output of the
+economy by producing industry, contained in $I$--length vector
+$\textbf{x}$,[^1] is equal to the sum of production and consumption, or
 
 [^1]: Although the notation seems awkward to have an element of matrix
-    **X** indicated by the scalar x and the column vector of total
-    output indicated by **x**, we are following notation conventions
-    that are common in the field of interindustry analysis.
+    $\textbf{X}$ indicated by the scalar $x$ and the column vector of
+    total output indicated by $\textbf{x}$, we are following notation
+    conventions that are common in the field of interindustry analysis.
 
-**x** = **X** + **y**. (1)
+$$
+\begin{equation}
+\textbf{x}=\textbf{X}+\textbf{y}.    (1)
+\end {equation}
+$$
 
-Define **A**, a direct requirements matrix with elements *a~ij~* =
-*x~ij~* / *x~j~,* showing the proportion of industry *i* output required
-for production by industry *j*. Equation 1 now becomes
+Define $\textbf{A}$, a direct requirements matrix with elements
+$a_{ij}=x_{ij}/x_{j}$ showing the proportion of industry $i$ output
+required for production by industry $j$. Equation (1) now becomes
 
-**x** = **Ax** + **y**. (2)
+$$
+\begin{equation}
+\textbf{x}= \textbf{Ax} + \textbf{y}. (2)
+\end{equation}
+$$
 
-Elements in **A** are assumed to be fixed, homogenous, and linear within
-purchasing industries. In particular:
+##### Some Assumptions About Requirements
 
--   Inputs required by purchasing industry j from producing industry i
-    do not change over time, or, more technically, zero elasticity of
-    price or quantity substitution exists among inputs to purchasing
-    industry j (i.e., *fixed*); \n
--   All firms in purchasing industry j use the same proportion of
-    industry i inputs (i.e., *homogeneous*); \n
--   Neither economies nor diseconomies of scale are manifest as
-    producing industry j output increases or decreases (i.e., *linear*).
+Elements in $\textbf{A}$ are assumed to be fixed, homogeneous, and
+linear within purchasing industries. I dwell on these assumptions
+because they are at the very core of the operation and credibility of
+input-output modeling.
 
-These three assumptions are, of course, highly restrictive and probably
-are unrealistic in a longer view of most economies. Yet, even without
-adding additional complexity to detail the simple model represented by
-equation (2), these assumptions have proved tenable within limits and
-useful for economic analysis in static contexts. However, the use of the
-model does not rest on the full verisimilitude of its assumptions.
-Rather, many analysts have relied on the pragmatic view that these
+*Fixed*
+
+Inputs required by purchasing industry $j$ from producing industry $i$
+do not change over time. More technically, zero elasticity of price or
+quantity substitution exists among inputs to purchasing industry $j$.
+Increasing or decreasing industry *j* output requires increasing or
+decreasing industry *i* inputs in the same proportion. "In other words,"
+according to the Bureau of Economic Research for the U.S. Department of
+Commerce,[@regional] "...businesses can use as many inputs as needed
+without facing higher prices." In these ways, coefficients in
+$\textbf{A}$ are assumed to be *fixed*.
+
+*Homogeneous*
+
+*All* firms and establishments in purchasing industry $j$ use the same,
+fixed proportion of industry $i$ inputs. That is, no variation exists in
+resource and product markets within an industry. Same suppliers; same
+customers; same technology of production. Every producer in an industry
+does the same thing and is affected by market forces in the same way. In
+this sense, industries are rendered *homogeneous* in input-output
+modeling.
+
+An aside about terminology and classification applicable to the the
+assumption of homogeneity of industries in input-output modelings:[^2]
+\n
+
+[^2]: And to most economic analysis that uses public data to focuses on
+    industry attributes.
+
+1.  A fundamental rule followed in most input-output modeling is that
+    the least common denominator of analysis occurs the level of an
+    *industry*, which is an aggregation of activity by highly similar
+    goods or services and business activity, and not by firm or within
+    establishments run by firms. Industry output is produced by *firms*,
+    which are for-profit business organizations, such as a corporations,
+    limited liability companies, or partnership. A number of firms can
+    contribute to an *industry*. As I shall explain in the next item in
+    this side discussion, industries are not mutually exclusive
+    collections of firms. Separate industries might include some of the
+    same firms. Also, firms might own or manage multiple establishments
+    at which industry production occurs. An *establishment* is a single
+    location where business is conducted or where services/operations
+    are performed.[^3] In general, the production flow moves from
+    establishments within firms and, then, to industries.
+
+2.  To add complexity to the input-output accounting scheme, some firms
+    produce multiple goods and services that are classifiable in
+    multiple industries. For instance, the production of food-safe,
+    non-denatured alcohol distilled from grain[^4] is accounted as
+    output of the *Denatured Alcohol Manufacturing Industry* (NAICS[^5]
+    325193, [@naicsco]). Grain remaining after distillation is a
+    co-product[^6] product of denatured alcohol manufacturing and could
+    be classified as a product of the *Other Animal Food Manufacturing
+    Industry* (NAICS 311119, [@naicscoa]). One single process, two
+    separate products.
+
+3.  An economy is understood as an open system that can gain or lose
+    income or products from outside its boundaries through trade.
+    Moreover, any aggregations such as firms, cities, geopolitical
+    regions, countries, or the entire world could form the boundaries of
+    an economy examined. As described the *Encyclopedia of Social
+    Measurement* [@vanleeuwen2005], large, diversified economies
+    producing many goods and services can demonstrate large economic
+    impacts because (a) a large region can fulfill its demand for goods
+    and services from within the region, (b) transportation of goods and
+    services with the region is simpler than hauling in these resources,
+    and (c) economic activity in large region tends to agglomerate sales
+    to surrounding regions. For these reasons, specification of the kind
+    and level of aggregation of industry data can have a profound effect
+    on an assessment of economic impact.
+
+[^3]: If employees normally do not work at a single physical location,
+    the establishment is identified by the main office that supervises
+    employees' activities or is the base at which employees carry out
+    these activities. 
+
+[^4]: Wheat, barley, corn, sorghum, or cereals containing 55%-70%
+    starch.
+
+[^5]: *The North American Industry Classification System* (NAICS) is the
+    standard used by Federal statistical agencies in classifying
+    business establishments for the purpose of collecting, analyzing,
+    and publishing statistical data related to the U.S. business economy
+    [@northam].
+
+[^6]: A *co-product*, a desirable secondary good that is generated
+    during the manufacturing process and can be sold or reused
+    profitably, is different than a *by-product*, a material of value
+    that is produced as a residual of, or incidental to, the production
+    process. Generally, co-products generate revenue; by-products are
+    associated with costs.
+
+*Linear*
+
+Neither economies nor diseconomies of scale occur as producing industry
+$j$ output increases or decreases (i.e., *linear*). Also, this
+assumption implies that scale -- and the institutional knowledge
+aggregated from collective work -- has no bearing on the dollar value of
+resources required for production or for the functioning of the product
+market.
+
+##### Are These Assumptions Realistic?
+
+How correct are these assumptions? How important even is verisimilitude
+of the assumptions with reality?
+
+These three assumptions -- fixed, homogeneous, linear -- about the
+nature of direct input-output requirements are, of course, highly
+restrictive and probably are unrealistic attributes to assign to most
+economies. In spite of that, many analysts choose to believe that these
+assumptions have proved tenable within limits and useful for economic
+analysis in static contexts, even without adding additional complexity
+to expand the simple model represented by equation (2). Rather, the use
+of the model often rests on the verisimilitude of its assumptions with
+reality. Many analysts have relied on the pragmatic view that these
 assumptions are close enough to short-term reality to allow answers to
 economic problems that do not lend themselves to other analytic
-techniques [@goldman1965]
+techniques [@goldman1965].
 
-##### Indirect and, then, Total Requirements (The Leontief Inverse)
+The John Locke Foundation is one critic of common input-output modeling
+applications. The Foundation asserts [@economic2017] that many modeling
+efforts fail to consider *opportunity costs* -- that is, forgone
+benefits that could accrue from an option not chosen. Most studies using
+input-output analysis only consider benefits of a project, but fail to
+consider or model the costs of a project.
 
-Introducing for mathematical convenience an *I*--by--*J* identity
-matrix, **I**, and algebraically rearranging terms in equation 2, the
+Of course, any new economic activity viewed without costs always will
+demonstrate unalloyed benefits. Something is larger than nothing, right?
+The "big-benefits-with-few-costs" approach is quite compelling to
+legislators, policy-makers, and funding agencies seeking to convince the
+public that projects, events, or changes are indispensable for economic
+growth and community revitalization [@sanders2015]. The John Locke
+Foundation asserts that input-output modeling is so often conducted "by
+professional consulting firms who are hired by interest groups to do the
+studies. Furthermore, seldom do those who actually perform the studies
+have formal training in economics. Instead their expertise is in
+using...proprietary [input-output] models [@economic2017a]".
+
+Ignoring opportunity costs and other modes of failure to think ahead to
+consider full economic consequences prompted Frédéric Bastiat, French
+economist best known for his journalistic writing in favor of free trade
+and the economics of Adam Smith, wrote in his last published pamphlet in
+1850 that:
+
+> In the economic sphere an act, a habit, an institution, a law produces
+> not only one effect, but a series of effects. Of these effects, the
+> first alone is immediate; it appears simultaneously with its cause; it
+> is seen. The other effects emerge only subsequently; they are not
+> seen; we are fortunate if we foresee them.
+
+> There is only one difference between a bad economist and a good one:
+> the bad economist confines himself to the visible effect; the good
+> economist takes into account both the effect that can be seen and
+> those effects that must be foreseen [@bastiat1964].
+
+I do not mean to ignore these importance of these assumptions and
+criticisms of them. I will take up these matters directly as I review
+reports of economic impact in other postings on this blog.
+
+#### Indirect and, then, Total Requirements (The Leontief Inverse)
+
+Introducing for mathematical convenience an $I x J$ identity matrix,
+$\textbf{I}$, and algebraically rearranging terms in equation (2), the
 relationships among production, consumption and economic output is
 expressed as
 
-**x** = (**I** -- **A**)^-1^ **y**,
+$$
+\begin{equation}
+\textbf{x}=(\textbf{I} - \textbf{A})^{-1}\textbf{y}, (3)
+\end{equation}
+$$
 
-where (**I** -- **A**)^-1^ is called a *total requirements matrix*
-showing the additional dollar value of output from industry *i* needed
-directly or indirectly to deliver a dollar's worth of output from
-industry *j* to final demand in the economy. The matrix inverse, (**I**
--- **A**)^-1^, often is described as the *Leontief Inverse*, in honor of
-Wassily Leontief [@leontief1936a; @leontief1966c], an economist who won
-the Nobel Memorial Prize in Economic Sciences in 1973 for developing
-economic input--output analysis theory and methods [@thesver]. Actual
-economies can have large numbers of industries, so **A** often has a
-high number of dimensions. As a consequence, (**I** -- **A**)^-1^
-usually is solved numerically by Laplace transform techniques.
+where $(\textbf{I} - \textbf{A})^{-1}$ is called a *total requirements
+matrix* that shows the additional dollar value of output from industry
+$i$ needed directly or indirectly to deliver a dollar's worth of output
+from industry $j$ to final demand in the economy. The matrix inverse,
+$(\textbf{I} - \textbf{A})^{-1}$, often is described as the *Leontief
+Inverse*,[^7] in honor of Wassily Leontief [@leontief1936a;
+@leontief1966c], an economist who won the Nobel Memorial Prize in
+Economic Sciences in 1973 for developing economic input--output analysis
+theory and methods [@thesver]. Actual economies can have large numbers
+of industries, so $\textbf{A}$ often is highly dimensional. As a
+consequence, $(\textbf{I} - \textbf{A})^{-1}$ usually is solved
+numerically by computational techniques involving Laplace transforms and
+Lagrange multipliers.
+
+[^7]: ^-1^ refers to an inverse of a matrix, not a reciprocal.
 
 Taking the difference between the total requirements matrix and the
 direct requirements matrix produces an *indirect requirements* matrix.
 Indirect requirements are generated from the long string of transactions
 among industries representing intermediate production that must occur to
 generate a final product for consumption. The addition of households as
-both a row and column in X allows inclusion of the effects of household
-production and purchasing into the model. This addition augments the
-total requirements matrix to include not only direct and indirect
-requirements but also to show induced effects of household spending on
-the economy as it stimulates purchases of goods and services. The
-difference between the total requirements matrices, net of the indirect
-requirements matrix, including household spending produces an *induced
-requirements* matrix.
+both a row and column in $\textbf{X}$ allows inclusion of the effects of
+household production and purchasing into the model. This addition
+augments the total requirements matrix to include not only direct and
+indirect requirements but also to show induced effects of household
+spending on the economy as it stimulates purchases of goods and
+services. The difference between the total requirements matrices, net of
+the indirect requirements matrix, including household spending produces
+an *induced requirements* matrix.
 
-##### Multipliers
+#### Multipliers
 
 Indirect and induced requirements matrices display how each dollar spent
 on goods and services delivered to consumers multiplies itself
-throughout the economy. Ratios between [(direct requirements + indirect
-requirements) / direct requirements] as well as ratios between [(direct
-requirements + indirect requirements + induced requirements) / direct
-requirements] are called *Type I* and *Type II* multipliers,
-respectively. Pre--multiplying the direct, indirect, and induced
-requirements matrices by, say, total employment parses the impact of
-delivery of final demand to consumers into direct, indirect, and induced
-employment components. In a similar manner, multipliers for other
-economic indicators -- such as economic output, value added, income --
-can be computed.
+throughout the economy. Ratios between [(direct requirements $+$
+indirect requirements) $/$ direct requirements] as well as ratios
+between [(direct requirements $+$ indirect requirements $+$ induced
+requirements) $/$ direct requirements] are called *Type I* and *Type II*
+multipliers, respectively. Pre--multiplying the direct, indirect, and
+induced requirements matrices by, say, total employment parses the
+impact of delivery of final demand to consumers into direct, indirect,
+and induced employment components. In a similar manner, multipliers for
+other economic indicators -- such as economic output, value added,
+income, taxes -- can be computed.
 
-#### Consideration of Counterfactuals with the Input-Output Model
+People who commission input-output modeling of potential economic impact
+often are most interested in multipliers to demonstrate that an
+investment of public funds in a project can benefit an entire community.
+For example, an analysis of the potential economic impact of a
+petrochemical manufacturing facility in Beaver County (north of
+Pittsburgh, PA) concludes
 
-##### What is a Counterfactual?
+> ...operations will involve approximately 240 to 450 new jobs for
+> Beaver County residents at the petrochemical facility. With
+> multipliers, total new jobs held by Beaver County residents are
+> anticipated to be between 777 and 1,444. Annual labor income increases
+> in Beaver County will be between approximately \$73 and \$120 million.
+> Over the 40-year operational life of the Project, labor income
+> increases within Beaver County are estimated to total between \$1.5
+> and \$2.4 billion. Annual value added in Beaver County would be
+> between \$260 and \$846 million. Over the assumed 40-year operation
+> period, this equates to a present value of \$10.3 to \$16.7
+> billion.[@clinton2021a] 
+
+This analysis and other assertions about economic impact of operation of
+the petrochemical facility supported state and local tax breaks for the
+developer:
+
+> Pennsylvania's fiscal incentive package --- which includes a large tax
+> credit along with job-training incentives --- was also crucial to the
+> company's decision to both proceed with the project and locate it in
+> Pennsylvania, Visser said.
+>
+> In 2012, state lawmakers authorized a tax credit for companies that
+> use ethane that invest more than \$1 billion and employ more than
+> 2,500 workers during construction. Shell was given a 25-year tax break
+> worth about \$66 million a year starting in 2017, or about \$1.65
+> billion in total. The state also extended a tax-free Keystone
+> Opportunity Zone in Beaver County and provided other grants.
+>
+> "I can tell you with the hand on my heart that without these fiscal
+> incentives, we would not have taken this investment decision," Visser
+> [Royal Dutch Shell representative] said. [@location]
+
+### Use of Counterfactuals to Identify Potential Economic Impact
+
+#### What is a Counterfactual?
 
 Input-output modeling is useful for describing of the anatomy and
 physiology of an economy. However, these models also offer a basis for
-simulating economic counterfactuals that can assist with risk
-assessment. A *counterfactual* is a hypothetical scenario that runs
-"counter to the facts" of an existing reality. A counterfactual
-condition entails "What if...?" questions that represent thought
-experiments about propositions that run counter to the facts. For
-instance, how would an economy have grown and changed if an activity or
-event did not occur? How do supply chain constraints or disruptions
-affect an innovation? The potential impact of an activity, event, or
-constraint is the difference between what would have happened with and,
-then, without the activity, event, or constraint.
+simulating economic scenarios that are "counter to the facts" to inform
+risk assessment.
+
+A *counterfactual* is a hypothetical scenario that runs "counter to the
+facts" of an existing reality. A counterfactual condition entails "What
+if...?" questions that represent thought experiments about propositions
+that run counter to the facts. For instance, how would an economy have
+grown and changed if an activity or event did not occur? How do supply
+chain constraints or disruptions affect an innovation? The potential
+impact of an activity, event, or constraint is the difference between
+what would have happened with and, then, without the activity, event, or
+constraint.
 
 Researchers long have used the counterfactual approach to consider
-strategic decisions, decisive acts, and paths of activity as if they had
-not been executed in history. For instance, in *Ab Urbe Condita Libri*
-[@aburbe1873a],[^2] Titus Livius Patavinus, a Roman historian,
-contemplated an alternative in 4th century BC that questioned, "What
+strategic decisions, decisive acts, and paths of activity that would
+have altered the course of history. For instance, in *Ab Urbe Condita
+Libri* [@aburbe1873a],[^8] Titus Livius Patavinus, a Roman historian,
+contemplated an alternative in 4th century BC by questioning, "What
 would have been the results for Rome if she had been engaged in war with
-Alexander?" Lewis [@lewis1974]indicated that the modern counterfactual
+Alexander?" Lewis [@lewis1974] indicated that the modern counterfactual
 approach goes back at least to the 18th century Scottish Enlightenment
-philosopher David Hume. Historians, essayists, and novelists have
-applied counterfactual thinking productively in a variety of situations.
-For instance, in 1931 Winston Churchill wrote an essay, "If Lee Had Not
-Won the Battle of Gettysburg," [@churchill2014] that examined the
-counterfactual viewpoint about what would have happened if the
-Confederacy had won the American Civil War^[If Churchill’s title seems like a non sequitur, refer to the explanation of his rhetoric at http://www.troynovant.com/Franson/Churchill/If-Lee-Not-Won-Gettysburg.html.] (see counterfactual examples regarding Civil
-War [@lewis1931]). In 1962, Philip K. Dick, a novelist in the science
-fiction genre, published *The Man in the High Castle* [@dick1962], a
-narrative of a thought experiment that considered the consequences if
-Nazi Germany and Imperial Japan had won the Second World War.
+philosopher David Hume.
 
-[^2]: Book digitized by Google from the library of the University of
+[^8]: Book digitized by Google from the library of the University of
     Michigan and uploaded to the Internet Archive by user tpb.; 5
     volumes 20 cm; Pars 1. liber I-VI. -- pars 2. liber VII-XXIII. --
     pars 3. liber XXIV-XXX. -- pars 4. liber XXXI-XXXVIII. -- pars 5.
     liber XXXIX-XLV. Epitom. lib. XLVI-CXL. -- pars 6. Fragmenta et
     Index
 
-*****
+Historians, essayists, and novelists have applied counterfactual
+thinking productively in a variety of situations. For instance, in 1931
+Winston Churchill wrote an essay, "If Lee Had Not Won the Battle of
+Gettysburg," [@churchill2014] that examined the counterfactual viewpoint
+about what would have happened if the Confederacy had won the American
+Civil War[^9] (see counterfactual examples regarding the American Civil
+War [@lewis1931]). In 1962, Philip K. Dick, a novelist in the science
+fiction genre, published *The Man in the High Castle* [@dick1962], a
+narrative of a thought experiment that considered the consequences if
+Nazi Germany and Imperial Japan had won the Second World War.
 
-##### Use of Counterfactuals Within Input-Output Modeling
+[^9]: If Churchill's title seems like a non sequitur, refer to the
+    explanation of his rhetoric at
+    <http://www.troynovant.com/Franson/Churchill/If-Lee-Not-Won-Gettysburg.html>.
 
-Counterfactuals can be examined with input--output models. The typical
-way to conduct such a counterfactual approach is to construct and
-compare two economic scenarios. The first scenario contains a possible
+#### Constructing Counterfactuals Within Input-Output Modeling
+
+Input--output modeling can help examine counterfactuals. The typical way
+to conduct such a counterfactual approach is to construct and compare
+two economic scenarios. The first scenario contains a possible
 alteration in the economy -- the counterfactual -- that would be
-pertinent to realization of a structural innovation. For instance, an
-alteration might result from changes in production of a strategic
-material, such as steel, that is a requirement necessary to sustain a
-structural innovation. The second scenario merely maintains the "status
-quo" scenario under the assumption that the economy simply grows and
-changes consistently according to historical trends. The difference
+identified in input-output terms an economic changes resulting from,
+say, an innovation (e.g., a new production process), event (e.g., a
+disaster), policy (e.g. immigration regulation), or financial rule
+(e.g., taxing authority). A second scenario merely maintains the "status
+quo" of the economy under the assumption that the economy simply grows
+and changes consistently according to historical trends. The difference
 between the first and the second scenarios is the potential economic
-impact of the economic alteration specified in the first scenario (e.g.,
-the impact of decreased availability of steel on the innovation).
+impact of the economic alteration specified in the first scenario.
 
 The results of such counterfactual economic analyses are not economic
 forecasts. Rather, such analyses isolate the importance only of one
@@ -264,10 +456,13 @@ potential changes taken together that could affect an economy. A
 counterfactual used with input--output methods typically is specified
 under the assumption of *ceteris paribus* -- that is, with the
 assumption of "all other things remaining the same" or, as is much more
-restrictively used in physics and other sciences [8], "if, and only if,
-all other things are the same *and* correct" In this vein, *Ceteris
-absentibus*, a term meaning literally "others absent," probably best
-describes the approach for economic counterfactuals [9].
+restrictively used in physics and other sciences [@cartwright1980], "if,
+and only if, all other things are the same *and* correct" More
+restrictively, *ceteris absentibus*, a term meaning literally "others
+absent," probably best describes the approach for economic
+counterfactuals [@joseph1980].
+
+#### An Example of a Counterfactual Specification
 
 A potential impact of a counterfactual is computed by calculating the
 difference between (a) an economic scenario created by a counterfactual
@@ -276,8 +471,17 @@ status quo scenario representing an economy anticipated under historical
 trends in growth and change. Shown in Table 1 are three classes of
 counterfactuals that are possible in a hypothetical case for the
 production and consumption of *transparent aluminum*, a material I
-introduce only to offer an example of the structure of potentail
+introduce only to offer an example of the structure of potential
 counterfactuals in input-output analysis.
+
+Table 1. *Three hypothetical macroeconomic counterfactuals specified to
+assess risk to production and consumption of transparent aluminum*
+
+| **Counterfactual description**                                       | **Change specified in macroeconomic model**                                                                                                                                                                            |
+|------------------------------------|------------------------------------|
+| Change in consumption of transparent aluminum                        | $\Delta y_{i'}$, where element $y_{i'}$, is total final demand for industry $i'$, the transparent aluminum industry (where $i'\subseteq I$).                                                                           |
+| Change in production function for the transparent aluminum industry  | $\Delta a_{j'}$, where vector $a_{j'}$ is a column vector representing the proportion of inputs from $I$ industries purchased as inputs to the transparent aluminum industry (where $j'\subseteq J$).                  |
+| Change in production function of a purchaser of transparent aluminum | $\Delta a_{j}$, where vector $a_{j}$ is a column vector representing the proportion of inputs from $I$ industries purchased as inputs to any industry *other than* the transparent aluminum industry (where $j' ≠ j$). |
 
 Transparent aluminum, a ceramic composite technically known as *aluminum
 magnesium oxynitride*, is an extremely durable, sintered crystalline
@@ -286,7 +490,19 @@ material composed of magnesium, aluminum, oxygen, and nitrogen
 near-ultraviolet, visible, and midwave-infrared regions of the
 electromagnetic spectrum. The name of this material comes from its
 similarity to a material referenced in the science fiction movie, *Star
-Trek IV: The Voyage Home*. This promising material is four times harder
+Trek IV: The Voyage Home*.[^10]
+
+[^10]: Kirk and the Enterprise crew must save the whales to, in turn,
+    save planet Earth. They must contain the whales in water on the
+    Enterprise. The crew travels back in time to 20th Century Earth,
+    when transparent aluminum had not been invented yet. Scott, the
+    Enterprise's chief engineer, shares the formula for transparent
+    aluminum with a 20th Century scientist so that the Enterprise could
+    be outfit with the material crucial to building tanks for the
+    whales.I dunno...it's supposed to be one of the light-hearted *Star
+    Trek* movies.
+
+Transparent aluminum is a promising material that is four times harder
 than fused silica glass, 85% as hard as sapphire, and resists corrosion,
 radiation, and oxidation [@nishiyama2017]. Products requiring both
 durability and transparency -- such as armored glass, windshields on
@@ -295,138 +511,82 @@ communications, personal protective gear, smartphone and watch screens,
 and sensor components -- are among the potential uses for transparent
 aluminum.
 
-For example, researchers used the counterfactual approach to consider
-strategic decisions, decisive acts, and paths as if they had not been
-executed in history. For instance, in Ab Urbe Condita Libri, Titus
-Livius Patavinus, a Roman historian, contemplated an alternative 4th
-century BC that considered, "What would have been the results for Rome
-if she had been engaged in war with Alexander?"
+##### Change in consumption of transparent aluminum
 
-The modern counterfactual approach goes back at least to the 18th
-century philosopher David Hume, and historians, essayists, and novelists
-have applied it productively in a variety of situations. For instance,
-in 1931 Winston Churchill wrote an essay, "If Lee Had Not Won the Battle
-of Gettysburg," that took the counterfactual viewpoint of what would
-have happened if the Confederacy had won the American Civil War. In
-1962, Philip K. Dick, a novelist in the science fiction genre, published
-The Man in the High Castle, a thought experiment in which Nazi Germany
-and Imperial Japan won World War II.
+Using equation (3), implementing this counterfactual involves
+substitution of $y_{i'}$ for $y_{i}$ and solving for
+$(\textbf{x}=(\textbf{I} - \textbf{A})^{-1}\textbf{y'}$, where $y'$ is a
+new column vector of total final demand for industry $i'$, the
+transparent aluminum industry ($i'\subseteq I$). The result is a direct
+change in transparent aluminum output, along with indirect and induced
+changes of the total output of all industries to the extent that they
+have direct or indirect interindustry linkages to the transparent
+aluminum industry.
 
-------------------------------------------------------------------------
+##### Change in production function for the transparent aluminum industry
 
-Input-output analysis is a technique for macroeconomic analysis based on
-the interdependencies between economic sectors or industries. The
-technique is commonly used to estimate the impacts of positive or
-negative economic shocks and analyze the ripple effects throughout an
-economy. Data for input-output analysis are derived from a country's
-national income and product accounts, which are available for most
-countries with modern economies. Wassily Leontief, a Russian-born
-economist, won the 1973 Nobel Prize in Economics for his development of
-input-output analysis. I have completed over 125 regional economic
-science studies that have integrated national, regional, and local
-economies using input-output analysis.
+Changing a production function involves altering the proportion of total
+products from other industries purchased by the transparent aluminium
+industry. This change could result from efficiencies affected in the
+production of transparent aluminium. Or, supply chain constraints or
+shortages might have required changes in the manner that transparent
+aluminium is produced. Such a change is manifest in alterations in
+$\textbf{A}$. As a result, $(\textbf{x}=(\textbf{I} - \textbf{A})^{-1}$
+also is altered, reestablishing the input-output identity to
+$(\textbf{x}=(\textbf{I} - \textbf{A'})^{-1}\textbf{y}$ where
+$\textbf{A'}$ is $\textbf{A}$ altered by $a_{j'}$, a column vector
+representing the proportion of inputs from $I$ industries purchased as
+inputs to the transparent aluminum industry ($j'\subseteq J$). The
+result observed, holding transparent aluminum output constant, is
+indirect and induced changes of the total output of all industries to
+the extent that they have direct or indirect interindustry linkages to
+the transparent aluminum industry.
 
-------------------------------------------------------------------------
+##### Change in production function of a purchaser of transparent aluminium
 
-2.1. Structure Consider an economy with I producing industries and J
-purchasing industries, where I = J. Some of the output of industry i is
-sold to other j industries for use in their own production. Let X stand
-for a square matrix of interindustry transactions, with elements xij
-containing the monetary value of goods and services sold by producing
-industry i to purchasing industry j. Sales of the product of industry i
-to itself -- that is, xii -- are possible. For instance, the coal
-industry also might purchase coal for use in its own production
-processes. In this conception of an economy, industry output is produced
-by firms. A number of firms can comprise an industry. Firms might own or
-manage multiple establishments at which industry production occurs. To
-add complexity, some firms produce output of goods and services that are
-classified in multiple industries, which is, then, accounted separately
-for each industry. The fundamental rule is that accounting for economic
-output is by industry, which is an aggregation of highly similar good or
-services, and not by firm or within establishments run by firms. Also,
-the macroeconomy is understood as an open system in the sense that it
-can gain or lose income or products from outside its boundaries through
-trade. Moreover, any aggregations such as firms, cities, geopolitical
-regions, countries, or the entire world could form the boundaries of the
-macroeconomy examined. Further, output of industry i not purchased by
-industries for their own production instead is sold directly to
-consumers to meet demands for personal consumption in households,
-government purchases of defense and non-defense goods and services,
-fixed investments such as housing and other structures, and exports net
-of imports. Let y indicate an I--length vector whose elements display
-the monetary value of goods and services delivered by producing industry
-i to fulfill demands of the economy. Vector y represents the "final
-demand" for goods and services in an economy and is known commonly in
-the parlance of national income and product accounting practice as
-"gross domestic product" [2]. 2.2. Direct requirements Quantities in X,
-y, and x are most commonly expressed as monetary values (e.g., as
-dollars, rubles, or some other form of currency used as a medium of
-exchange) rather than as quantities of goods and services, although some
-energy and resource input--output models are scaled in physical
-quantities such as megawatts of electricity, kilograms of waste,
-hectares of land, or litres of water [10]. The production sector of the
-economy, then, is defined by X, and y is the consumption sector. The
-total output of the economy by producing industry, contained in
-I--length vector, x, is equal to the sum of production and consumption,
-or x = X + y. (1) Define A, a direct requirements matrix with elements
-aij = xij / xi, showing the proportion of industry i output required for
-production by industry j. Equation 1 now becomes X = Ax + y. (2)
-Elements in A are assumed to be fixed, homogenous, and linear within
-purchasing industries. In particular: • Inputs required by purchasing
-industry j from producing industry i do not change over time, or, more
-technically, zero elasticity of price or quantity substitution exists
-among inputs to purchasing industry j (i.e., fixed); • All firms in
-purchasing industry j use the same proportion of industry i inputs
-(i.e., homogeneous); • Neither economies nor diseconomies of scale are
-manifest as producing industry j output increases or decreases (i.e.,
-linear). These three assumptions are, of course, highly restrictive and
-probably are unrealistic in a longer view of most economies. Yet, even
-without adding additional complexity to detail the simple model
-represented by equation (2), these assumptions have proved tenable
-within limits and useful for economic analysis in static contexts.
-However, the use of the model does not rest on the full verisimilitude
-of its assumptions. Rather, many analysts have relied on the pragmatic
-view that these assumptions are close enough to short-term reality to
-allow answers to economic problems that do not lend themselves to other
-analytic techniques [11]. 2.3. Total requirements: The Leontief Inverse
-Introducing for mathematical convenience an I--by--J identity matrix, I,
-and algebraically rearranging terms in equation 2, the relationships
-among production, consumption and economic output is expressed as x = (I
--- A)-1 y, (3) where (I -- A)-1 is a total requirements matrix, which
-shows the additional dollar value of output from industry i needed
-directly or indirectly to deliver a dollar's worth of output from
-industry j to final demand in the economy. The total requirements
-matrix, (I -- A)-1, often is referenced as the Leontief Inverse,
-acquiring its name after its originator, Wassily Leontief [12, 13], who
-won the 1973 Nobel Prize in Economic Sciences largely for the
-development and application of this technique [14]. Actual economies can
-have large numbers of industries, so A often is large. As a consequence,
-(I -- A)-1 usually is solved numerically by Laplace transform
-techniques. Taking the difference between the total requirements matrix
-and the direct requirements matrix produces an indirect requirements
-matrix. Indirect requirements are generated from the long string of
-transactions among industries representing intermediate production that
-must occur to generate a final product for consumption. The addition of
-households as both a row and column in X allows inclusion of the effects
-of household production and purchasing into the model. This addition
-augments the total requirements matrix to include not only direct and
-indirect requirements but also to show induced effects of household
-spending on the economy as it stimulates purchases of goods and
-services. The difference between the total requirements matrices, net of
-the indirect requirements matrix, including household spending produces
-an induced requirements matrix. 2.4. Multipliers Indirect and induced
-requirements matrices show how each dollar spent on goods and services
-delivered to consumers multiplies itself throughout the economy. Ratios
-such as [(direct requirements + indirect requirements) / direct
-requirements] as well as [(direct requirements + indirect requirements +
-induced requirements) / direct requirements] are called Type I and Type
-II multipliers, respectively [15] and are common metrics used to account
-for system-wide change evoked from changes in particular sectors of an
-economy. Pre--multiplying the direct, indirect, and induced requirements
-matrices by, say, total employment parses the impact of delivery of
-final demand to consumers into direct, indirect, and induced employment
-components. In a similar manner, multipliers for other economic indexes,
-such as income or taxes, can be computed.
+The consequence of this scenario is a similar change similar to changes
+in the production function for the transparent aluminum industry.
+However, the result observed, holding output constant in the industry
+making the production function change, is indirect and induced changes
+of the total output of all industries, including the transparent
+aluminum industry, to the extent that they have direct or indirect
+interindustry linkages to the industry making the production function
+change.
+
+### Selected Software and Systems for Input-Output Modeling
+
+Many software and systems are available to analyze input-output data
+from the national income and product accounts of the United States (viz
+description of accounts by the Bureau of Economic Analysis of the U.S.
+Department of Commerce [@anintro2007]. Three prominent sets of software
+and systems are *IMPLAN*, *RIMS II*, and *IO-Snap*.
+
+#### IMPLAN
+
+[IMPLAN](https://implan.com) (*IM*pact for *PL*anning and *AN*alysis) is
+a prominent example of software used estimate the direct, indirect, and
+induced impacts in regional economies. The IMPLAN economic impact
+modeling system consists of software tools and region--specific data to
+enable in--depth examinations of state, multi--county, county,
+sub--county, and metropolitan regional economies. IMPLAN seems to have a
+large share of the market for input-output modeling. Some writers (e.g.,
+[@vowels2012a] ) describe IMPLAN as the "gold standard" for input-output
+analysis.
+
+#### RIMS II
+
+[RIMS II](https://www.bea.gov/resources/methodologies/RIMSII-user-guide)
+is a product of the Bureau of Economic Analysis of the U.S. Department
+of Commerce that is based on a set of national input-output accounts
+showing the goods and services produced by each industry and the use of
+these goods and services by industries and final users.
+
+#### IO-Snap
+
+[IO-Snap](https://www.io-snap.com/) is a software application that
+includes all aspects of fundamental input-output analyses. Data can be
+edited and displayed in a variety of formats and compared and contrasted
+across geographical definitions at different times.
 
 ## Last updated on {.appendix}
 

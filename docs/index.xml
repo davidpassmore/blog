@@ -7,7 +7,20 @@
     <description>NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>understanding input-output modeling for assessing potential economic impact</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/posts/2022-04-04-repoimplan</link>
+      <description>Maybe this eesay won't shock your soul, but describes input-output models, assumptions, &amp; uses to estimate economic impact.</description>
+      <category>IMPLAN</category>
+      <category>Wassily Leontief</category>
+      <category>economic impact</category>
+      <category>counterfactuals</category>
+      <guid>https://davidpassmore.github.io/blog/posts/2022-04-04-repoimplan</guid>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/posts/2022-04-04-repoimplan/types-of-economic-impact.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>potential economic impact of an ethane cracker that is nearing completion in Pennsylvania</title>
       <dc:creator>David L. Passmore</dc:creator>
