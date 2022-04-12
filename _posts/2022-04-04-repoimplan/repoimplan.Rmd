@@ -105,7 +105,8 @@ $\textbf{x}$,[^1] is equal to the sum of production and consumption, or
 
 $$
 \begin{equation}
-\textbf{x}=\textbf{X}+\textbf{y}.    (1)
+\tag{1}
+\textbf{x}=\textbf{X}+\textbf{y}.
 \end {equation}
 $$
 
@@ -115,13 +116,14 @@ required for production by industry $j$. Equation (1) now becomes
 
 $$
 \begin{equation}
-\textbf{x}= \textbf{Ax} + \textbf{y}. (2)
+\tag{2}
+\textbf{x}= \textbf{Ax} + \textbf{y}.
 \end{equation}
 $$
 
 ##### Some Assumptions About Requirements
 
-Assumptions undergird all models, which are the entity itself but are an
+Assumptions undergird all models, which are not the entity itself but are an
 abstraction of particular features of interest. Accordingly,
 input-output models rest on important assumptions that simplify and
 complicate...both at the same time.
@@ -302,7 +304,8 @@ expressed as
 
 $$
 \begin{equation}
-\textbf{x}=(\textbf{I} - \textbf{A})^{-1}\textbf{y}, (3)
+\tag{3}
+\textbf{x}=(\textbf{I} - \textbf{A})^{-1}\textbf{y},
 \end{equation}
 $$
 
