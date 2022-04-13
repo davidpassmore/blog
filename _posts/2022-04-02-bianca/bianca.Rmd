@@ -6,6 +6,8 @@ preview: bb4.jpeg
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
 date: 2007-03-09
 categories:
   - dogs

@@ -1,7 +1,7 @@
 ---
 title: "hey, baybee, where y'at?"
 description: |
-  Bathing in lagniappe with street people during visits to Dante's Second Circle of Hell (*aka* Bournon Street) in steamy New Orleans...published in 2005.
+  Bathing in lagniappe with street people during visits to Dante's Second Circle of Hell (*aka* Bourbon Street) in steamy New Orleans...published in 2005.
 preview: streetscene.jpeg
 author:
   - name: David L. Passmore
