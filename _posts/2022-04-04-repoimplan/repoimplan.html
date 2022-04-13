@@ -1551,24 +1551,27 @@ requirements for inputs to other industries and delivery directly to
 consumers <span class="citation" data-cites="miernyk1965">(<a
 href="#ref-miernyk1965" role="doc-biblioref">Miernyk
 1965</a>)</span>.</p>
-<p>Input-output modeling is pervasive in the measurement of economic
-impact. However, this modeling technique often is misapplied and
-debauched by various rakehells of academia and consulting to fulfill
-patently politically-motivated spending of public funds. For these
-reasons, understanding the ways and means of input-output modeling is
-essential to weigh assertions about economic impact. Frankly, though, I
-wrote this posting for more personal reasons: I abide by the apothegm
-that a person knows nothing about a topic until that person had to write
-about it. I will refer to this posting as a base for other postings in
-which I review economic impact reports.</p>
-<p>In this paper, I specify the details of the input-output model and
+<p>Input-output modeling is a way to measure the effects of a project,
+program, activity, or event on the structure or conditions of economic
+life in a country, area, or period. Use of input-output modeling is
+pervasive in the assessment of economic impact. However, this modeling
+technique often is misapplied and debauched by various rakehells of
+academia and consulting to fulfill patently politically-motivated
+spending of public funds. For these reasons, understanding the ways and
+means of input-output modeling is essential for weighing critically any
+assertions about economic impact.<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>In this paper, I outline the details of the input-output model and
 its assumptions, outline common uses (and some concerns about abuses) of
 the model to estimate potential economic impact, and list selected
 software and systems available for input-output modeling. In doing so, I
 do not get into any depth in the vast literature on input-output
 modeling. Nor do I establish a critical or skeptical stance about this
-modeling or its uses. For the most part, I try to provide a detailed,
-yet unadorned, description of input-output modeling.</p>
+modeling or its uses. For the most part, I offer in this blog posting a
+technical description, unadorned by advocacy or patronage, of
+input-output modeling. I will refer to the technical base offered in
+this blog posting to support my reviews and commentaries about a variety
+of economic impact reports that I will make in other blog postings.</p>
 <h3 id="specification-of-the-input-output-model">Specification of the
 Input-Output Model</h3>
 <h4 id="production-and-consumption">Production and Consumption</h4>
@@ -1620,8 +1623,8 @@ class="math inline">\(\textbf{X}\)</span>, and <span
 class="math inline">\(\textbf{y}\)</span> is the consumption sector. The
 total output of the economy by producing industry, contained in <span
 class="math inline">\(I\)</span>–length vector <span
-class="math inline">\(\textbf{x}\)</span>,<a href="#fn1"
-class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> is
+class="math inline">\(\textbf{x}\)</span>,<a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> is
 equal to the sum of production and consumption, or</p>
 <p><span class="math display">\[
 \begin{equation}
@@ -1683,8 +1686,8 @@ forces in the same way. In this sense, industries are rendered
 <em>homogeneous</em> in input-output modeling.</p>
 <p>An aside about terminology and classification applicable to the the
 assumption of homogeneity of industries in input-output modelings:<a
-href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a> </p>
+href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a> </p>
 <ol type="1">
 <li><p>A fundamental rule followed in most input-output modeling is that
 the least common denominator of analysis occurs the level of an
@@ -1699,23 +1702,23 @@ collections of firms. Separate industries might include some of the same
 firms. Also, firms might own or manage multiple establishments at which
 industry production occurs. An <em>establishment</em> is a single
 location where business is conducted or where services/operations are
-performed.<a href="#fn3" class="footnote-ref" id="fnref3"
-role="doc-noteref"><sup>3</sup></a> In general, the production flow
+performed.<a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a> In general, the production flow
 moves from establishments within firms and, then, to
 industries.</p></li>
 <li><p>To add complexity to the input-output accounting scheme, some
 firms produce multiple goods and services that are classifiable in
 multiple industries. For instance, the production of food-safe,
-non-denatured alcohol distilled from grain<a href="#fn4"
-class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> is
+non-denatured alcohol distilled from grain<a href="#fn5"
+class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> is
 accounted as output of the <em>Denatured Alcohol Manufacturing
-Industry</em> (NAICS<a href="#fn5" class="footnote-ref" id="fnref5"
-role="doc-noteref"><sup>5</sup></a> 325193, <span class="citation"
+Industry</em> (NAICS<a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a> 325193, <span class="citation"
 data-cites="naicsco">(<a href="#ref-naicsco"
 role="doc-biblioref"><span>“NAICS Code: 325193 Ethyl Alcohol
 Manufacturing,”</span> n.d.</a>)</span>). Grain remaining after
-distillation is a co-product<a href="#fn6" class="footnote-ref"
-id="fnref6" role="doc-noteref"><sup>6</sup></a> product of denatured
+distillation is a co-product<a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a> product of denatured
 alcohol manufacturing and could be classified as a product of the
 <em>Other Animal Food Manufacturing Industry</em> (NAICS 311119, <span
 class="citation" data-cites="naicscoa">(<a href="#ref-naicscoa"
@@ -1834,8 +1837,8 @@ deliver a dollar’s worth of output from industry <span
 class="math inline">\(j\)</span> to final demand in the economy. The
 matrix inverse, <span class="math inline">\((\textbf{I} -
 \textbf{A})^{-1}\)</span>, often is described as the <em>Leontief
-Inverse</em>,<a href="#fn7" class="footnote-ref" id="fnref7"
-role="doc-noteref"><sup>7</sup></a> in honor of Wassily Leontief <span
+Inverse</em>,<a href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a> in honor of Wassily Leontief <span
 class="citation" data-cites="leontief1936a leontief1966c">(<a
 href="#ref-leontief1936a" role="doc-biblioref">Leontief 1936</a>, <a
 href="#ref-leontief1966c" role="doc-biblioref">1966</a>)</span>, an
@@ -1943,8 +1946,8 @@ strategic decisions, decisive acts, and paths of activity that would
 have altered the course of history. For instance, in <em>Ab Urbe Condita
 Libri</em> <span class="citation" data-cites="aburbe1873a">(<a
 href="#ref-aburbe1873a" role="doc-biblioref"><em>Ab urbe condita libri,
-iterum recognovit</em> 1873</a>)</span>,<a href="#fn8"
-class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>
+iterum recognovit</em> 1873</a>)</span>,<a href="#fn9"
+class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>
 Titus Livius Patavinus, a Roman historian, contemplated an alternative
 in 4th century BC by questioning, “What would have been the results for
 Rome if she had been engaged in war with Alexander?” Lewis <span
@@ -1959,8 +1962,8 @@ Gettysburg,” <span class="citation" data-cites="churchill2014">(<a
 href="#ref-churchill2014" role="doc-biblioref">Churchill
 2014</a>)</span> that examined the counterfactual viewpoint about what
 would have happened if the Confederacy had won the American Civil War<a
-href="#fn9" class="footnote-ref" id="fnref9"
-role="doc-noteref"><sup>9</sup></a> (see counterfactual examples
+href="#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a> (see counterfactual examples
 regarding the American Civil War <span class="citation"
 data-cites="lewis1931">(<a href="#ref-lewis1931"
 role="doc-biblioref">Lewis 1931</a>)</span>). In 1962, Philip K. Dick, a
@@ -2063,9 +2066,9 @@ and nitrogen (<em>AlN-MgO-MgAl2O4</em>) that is optically transparent
 (≥80%) in the near-ultraviolet, visible, and midwave-infrared regions of
 the electromagnetic spectrum. The name of this material comes from its
 similarity to a material referenced in the science fiction movie,
-<em>Star Trek IV: The Voyage Home</em>.<a href="#fn10"
-class="footnote-ref" id="fnref10"
-role="doc-noteref"><sup>10</sup></a></p>
+<em>Star Trek IV: The Voyage Home</em>.<a href="#fn11"
+class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a></p>
 <p>Transparent aluminum is a promising material that is four times
 harder than fused silica glass, 85% as hard as sapphire, and resists
 corrosion, radiation, and oxidation <span class="citation"
@@ -2166,7 +2169,7 @@ compared and contrasted across geographical definitions at different
 times.</p>
 <h2 class="appendix" id="last-updated-on">Last updated on</h2>
 <div class="layout-chunk" data-layout="l-body">
-<pre><code>[1] &quot;2022-04-12 17:01:51 EDT&quot;</code></pre>
+<pre><code>[1] &quot;2022-04-13 06:17:58 EDT&quot;</code></pre>
 </div>
 <h2 class="appendix" id="reuse">Reuse</h2>
 <p>Text and figures are licensed under Creative Commons Attribution <a
@@ -2335,26 +2338,34 @@ href="https://doi.org/10.1016/j.ecolecon.2005.05.011">https://doi.org/10.1016/j.
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>Although the notation seems awkward
-to have an element of matrix <span
-class="math inline">\(\textbf{X}\)</span> indicated by the scalar <span
-class="math inline">\(x\)</span> and the column vector of total output
-indicated by <span class="math inline">\(\textbf{x}\)</span>, we are
-following notation conventions that are common in the field of
-interindustry analysis.<a href="#fnref1" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>And to most economic analysis that
-uses public data to focuses on industry attributes.<a href="#fnref2"
+<li id="fn1" role="doc-endnote"><p>I am not pretending to advance an
+original or new conception of input-output modeling. Many competent
+descriptions of this model are evident on the Internet and extant
+scholarly literature. Frankly, I wrote this posting for more personal
+reasons: I abide by the apothegm that a person knows nothing about a
+topic until that person had to write about it.<a href="#fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>If employees normally do not work at
+<li id="fn2" role="doc-endnote"><p>Although the notation seems awkward
+to have an element of matrix <span
+class="math inline">\(\textbf{X}\)</span> indicated by what would appear
+to most to be the scalar <span class="math inline">\(x\)</span> and the
+column vector of total output indicated by <span
+class="math inline">\(\textbf{x}\)</span>, I am following notation
+conventions that are common in specifications of the mathematical
+properties of input-output modeling.<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>And to most economic analysis that
+uses public data to focuses on industry attributes.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>If employees normally do not work at
 a single physical location, the establishment is identified by the main
 office that supervises employees’ activities or is the base at which
-employees carry out these activities. <a href="#fnref3"
+employees carry out these activities. <a href="#fnref4"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>Wheat, barley, corn, sorghum, or
-cereals containing 55%-70% starch.<a href="#fnref4"
+<li id="fn5" role="doc-endnote"><p>Wheat, barley, corn, sorghum, or
+cereals containing 55%-70% starch.<a href="#fnref5"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p><em>The North American Industry
+<li id="fn6" role="doc-endnote"><p><em>The North American Industry
 Classification System</em> (NAICS) is the standard used by Federal
 statistical agencies in classifying business establishments for the
 purpose of collecting, analyzing, and publishing statistical data
@@ -2362,30 +2373,31 @@ related to the U.S. business economy <span class="citation"
 data-cites="northam">(<a href="#ref-northam"
 role="doc-biblioref"><span>“North American Industry Classification
 System (NAICS) u.s. Census Bureau,”</span> n.d.</a>)</span>.<a
-href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>A <em>co-product</em>, a desirable
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>A <em>co-product</em>, a desirable
 secondary good that is generated during the manufacturing process and
 can be sold or reused profitably, is different than a
 <em>by-product</em>, a material of value that is produced as a residual
 of, or incidental to, the production process. Generally, co-products
 generate revenue; by-products are associated with costs.<a
-href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p><sup>-1</sup> refers to an inverse of
-a matrix, not a reciprocal.<a href="#fnref7" class="footnote-back"
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p><sup>-1</sup> refers to an inverse of
+a matrix, not a reciprocal.<a href="#fnref8" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn8" role="doc-endnote"><p>Book digitized by Google from the
+<li id="fn9" role="doc-endnote"><p>Book digitized by Google from the
 library of the University of Michigan and uploaded to the Internet
 Archive by user tpb.; 5 volumes 20 cm; Pars 1. liber I-VI. – pars 2.
 liber VII-XXIII. – pars 3. liber XXIV-XXX. – pars 4. liber XXXI-XXXVIII.
 – pars 5. liber XXXIX-XLV. Epitom. lib. XLVI-CXL. – pars 6. Fragmenta et
-Index<a href="#fnref8" class="footnote-back"
+Index<a href="#fnref9" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn9" role="doc-endnote"><p>If Churchill’s title seems like a non
-sequitur, refer to the explanation of his rhetoric at <a
+<li id="fn10" role="doc-endnote"><p>If Churchill’s title seems like a
+non sequitur, refer to the explanation of his rhetoric at <a
 href="http://www.troynovant.com/Franson/Churchill/If-Lee-Not-Won-Gettysburg.html"
 class="uri">http://www.troynovant.com/Franson/Churchill/If-Lee-Not-Won-Gettysburg.html</a>.<a
-href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10" role="doc-endnote"><p>Kirk and the Enterprise crew must
+href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>Kirk and the Enterprise crew must
 save the whales to, in turn, save planet Earth. They must contain the
 whales in water on the Enterprise. The crew travels back in time to 20th
 Century Earth, when transparent aluminum had not been invented yet.
@@ -2393,7 +2405,7 @@ Scott, the Enterprise’s chief engineer, shares the formula for
 transparent aluminum with a 20th Century scientist so that the
 Enterprise could be outfit with the material crucial to building tanks
 for the whales.I dunno…it’s supposed to be one of the light-hearted
-<em>Star Trek</em> movies.<a href="#fnref10" class="footnote-back"
+<em>Star Trek</em> movies.<a href="#fnref11" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>

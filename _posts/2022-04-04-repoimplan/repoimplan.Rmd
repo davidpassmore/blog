@@ -35,25 +35,22 @@ services that are required as *inputs* by industries to produce
 for inputs to other industries and delivery directly to consumers
 [@miernyk1965].
 
-Input-output modeling is pervasive in the measurement of economic
-impact. However, this modeling technique often is misapplied and
+Input-output modeling is a way to measure the effects of a project, program, activity, or event on the structure or conditions of economic life in a country, area, or period. Use of input-output modeling is pervasive in the assessment of economic impact. However, this modeling technique often is misapplied and
 debauched by various rakehells of academia and consulting to fulfill
 patently politically-motivated spending of public funds. For these
 reasons, understanding the ways and means of input-output modeling is
-essential to weigh assertions about economic impact. Frankly, though, I
+essential for weighing critically any assertions about economic impact.^[I am not pretending to advance an original or new conception of input-output modeling. Many competent descriptions of this model are evident on the Internet and extant scholarly literature. Frankly, I
 wrote this posting for more personal reasons: I abide by the apothegm
 that a person knows nothing about a topic until that person had to write
-about it. I will refer to this posting as a base for other postings in
-which I review economic impact reports.
+about it.] 
 
-In this paper, I specify the details of the input-output model and its
+In this paper, I outline the details of the input-output model and its
 assumptions, outline common uses (and some concerns about abuses) of the
 model to estimate potential economic impact, and list selected software
 and systems available for input-output modeling. In doing so, I do not
 get into any depth in the vast literature on input-output modeling. Nor
 do I establish a critical or skeptical stance about this modeling or its
-uses. For the most part, I try to provide a detailed, yet unadorned,
-description of input-output modeling.
+uses. For the most part, I offer in this blog posting a technical description, unadorned by advocacy or patronage, of input-output modeling. I will refer to the technical base offered in this blog posting to support my reviews and commentaries about a variety of economic impact reports that I will make in other blog postings.
 
 ### Specification of the Input-Output Model
 
@@ -99,9 +96,9 @@ economy by producing industry, contained in $I$--length vector
 $\textbf{x}$,[^1] is equal to the sum of production and consumption, or
 
 [^1]: Although the notation seems awkward to have an element of matrix
-    $\textbf{X}$ indicated by the scalar $x$ and the column vector of
-    total output indicated by $\textbf{x}$, we are following notation
-    conventions that are common in the field of interindustry analysis.
+    $\textbf{X}$ indicated by what would appear to most to be the scalar $x$ and the column vector of
+    total output indicated by $\textbf{x}$, I am following notation
+    conventions that are common in specifications of the mathematical properties of input-output modeling.
 
 $$
 \begin{equation}
