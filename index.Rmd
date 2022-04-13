@@ -1,5 +1,5 @@
 ---
-title: "passmore notes by date"
+title: "notes from pittsburgh by date"
 site: distill::distill_website
 listing: posts
 ---
