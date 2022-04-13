@@ -12,6 +12,7 @@ collections:
     #disqus: passmore-notes-from-pittsburgh
     share: [twitter, linkedin, facebook, pinterest]
     subscribe: _subscribe.html
+    custom: _custom.html
 theme: style.css
 navbar:
   logo: smallDLP.jpg

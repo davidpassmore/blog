@@ -1,7 +1,7 @@
 ---
 title: "report forecasts substantial 40-year economic impact of ethane cracking in Monaca, PA"
 description: |
-  An ethane cracker under construction by Shell, a UK public limited company, in Monaca, Pennsylvania, is nearing completion. What is the cracker's anticipated impact?
+  An ethane cracker under construction by Shell, a UK public limited company, in Monaca, Pennsylvania, is nearing completion. What a report from Robert Morris University says about the cracker's anticipated impact....
 preview: ethane_cracker.jpg
 author:
   - name: David L. Passmore
@@ -11,6 +11,7 @@ author:
 date: 2022-03-28
 categories:
   - natural gas liquids
+  - environment
   - ethane cracker
   - economic impact
   - Beaver County, Pennsylvania
@@ -28,13 +29,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-I drove to Monaca, Pennsylvania, yesterday to view Pennsylvania Petrochemicals Complex in development by Shell plc. I made a oral presentation in 2012 to a Workforce Investment Board, [*Cracking the Ethane Cracker*](https://bit.ly/Cracker2012). 
+I drove to Monaca, Pennsylvania, yesterday to view the Pennsylvania Petrochemicals Complex in development by Shell plc. Rose Baker and I made a oral presentation about the design stage of this project in 2012 to a Workforce Investment Board, [*Cracking the Ethane Cracker*](https://bit.ly/Cracker2012). We suggested a more conservative estimate of economic impact than was offered in an American Chemical Society report that was influential in securing tax benefits and other accommodations to the development and operation of the Pennsylvania Petrochemicals Complex.  
 
 ![](ethane_cracker.jpg)
 
-I calculated in 2012 a much lower potential impact of the working cracker in Monaca on employment, income, and jobs than did the American Chemical Society, whose evidence was used to gather support and tax relief for the cracker project. Exaggeration of the economic impact of oil/gas/gas liquids activities is evident in many projects (see, e.g., "Penn State studies" of Marcellus Shale development impacts; see my mild kvetching in the essay, [*Different Numbers in, Different Numbers Out*](https://bit.ly/MarcellusCrit).
+Rose and I also calculated in 2012 a much lower potential impact of the working cracker in Monaca on employment, income, and jobs than did the American Chemical Society, whose evidence was used to gather support and tax relief for the cracker project. In my opinion, exaggeration of the economic impact of oil/gas/gas liquids activities is evident in many projects (see, e.g., "Penn State studies" of Marcellus Shale development impacts; see our mild kvetching in the essay, [*Different Numbers in, Different Numbers Out*](https://bit.ly/MarcellusCrit).
 
-Why the exaggeration? I would think that many of these projects have positive impacts that stand on their own. Perhaps these exaggerations of econ impact are meant to divert attention from environmental impacts? The message is "Sure, there are environmental impacts, but look at the jobs, income, and taxes we create."
+Why the seemingly exaggerated impact? I would think that many of these projects have positive impacts that stand on their own. Maybe these exaggerations of impact are meant to divert attention from environmental impacts? Perhaps the message is "Sure, there are environmental impacts, but look at the jobs, income, and taxes we create."
 
 Any continuing projects to track the various impacts of the cracker? A few reports are evident:
 
@@ -44,7 +45,11 @@ Any continuing projects to track the various impacts of the cracker? A few repor
 * [*Critics off base when they say petrochemical complex “failed to create economic growth”*](https://pghworks.com/beaver-countys-economy-grew-as-shell-invested-in-cracker-plant/)
 * [*Updated Economic Impact Analysis: Petrochemical Facility in Beaver County, Pennsylvania*](https://www.rmu.edu/sites/default/files/user_files/Project_Franklin_Economic_Impact_Study_FINAL.pdf)
 
-I will have more to say about these and other opinions and research reports soon.
+Here is a table from a Robert Morris University report (cited below) showing, among other information, the 40-year impact(!) of the Pennsylvania Petrochemicals Complex:
+
+![](RMimpacts.jpg)
+
+I will have more to say about these and other opinions and research reports about this ethane cracker soon.
 
 ## Last updated on {.appendix}
 ```{r,echo=FALSE}
