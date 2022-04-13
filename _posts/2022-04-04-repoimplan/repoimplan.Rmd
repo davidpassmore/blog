@@ -1,7 +1,7 @@
 ---
 title: "understanding input-output modeling for assessing potential economic impact"
 description: |
-  Maybe this dry, geeky eesay won't shock your soul, but it describes input-output models, their assumptions, & their uses for estimating economic impact of grand public investments.
+  Maybe this dry, geeky essay won't shock your soul, but it describes input-output models, their assumptions, & their uses for estimating economic impact of grand public investments.
 preview: types-of-economic-impact.jpg
 author:
   - name: David L. Passmore
@@ -10,10 +10,11 @@ author:
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
 date: 2022-04-12
 categories:
-  - IMPLAN
-  - Wassily Leontief
-  - economic impact
-  - counterfactuals
+    - economic impact
+    - IMPLAN
+    - Wassily Leontief
+    - counterfactuals
+    - input-output modeling
 output:
   distill::distill_article:
     self_contained: false
