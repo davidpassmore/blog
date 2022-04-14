@@ -9,7 +9,7 @@ twitter:
   site: "@dlppassmore"
 collections:
   posts:
-    #disqus: passmore-notes-from-pittsburgh
+    disqus: https-davidpassmore-github-io-blog
     share: [twitter, linkedin, facebook, pinterest]
     subscribe: _subscribe.html
     custom: _custom.html
