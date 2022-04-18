@@ -1,0 +1,28 @@
+---
+title: "from Pittsburgh..."
+links:
+- label: Twitter
+  url: https://twitter.com/dlppassmore
+- label: GitHub
+  url: https://github.com/davidpassmore
+- label: Email
+  url: mailto:dlp@davidpassmore.net
+output: distill::distill_article
+---
+
+My NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a professor at Penn State for 41 years and in higher education for 51 years.
+
+These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th-floor condo in the Shadyside neighborhood of Pittsburgh.
+
+![](pittsburg_1920.jpg)
+\
+
+David L. Passmore \
+![](dlp_signature.jpg){width=35%}
+
+## Last updated on {.appendix}
+```{r,echo=FALSE}
+Sys.time()
+```
+
+
