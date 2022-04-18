@@ -59,6 +59,7 @@ My coffee today is a lukewarm tea-colored swill, served in a Styrofoam cup, with
 ![](NHmap.jpg){.external}
 
 
+
 ## Last updated on {.appendix}
 ```{r,echo=FALSE}
 Sys.time()

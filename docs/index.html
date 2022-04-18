@@ -2335,8 +2335,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">| list of notes |</a>
 <a href="about.html">| about these notes |</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+| list of notes |
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<span class="nav-dropdown-header">all notes</span>
+<span class="nav-dropdown-header">economic impact</span>
+<span class="nav-dropdown-header">labor markets</span>
+<span class="nav-dropdown-header">opinion</span>
+</div>
+</div>
 <a href="me.html">| brief bio |</a>
 <a href="index.xml">
 <i class="fa fa-rss" aria-hidden="true"></i>
@@ -2485,7 +2497,7 @@ function init_posts_list() {
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="notes from pittsburgh by date">notes from pittsburgh by date</h1>
 <a href="posts/2022-04-04-repoimplan/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["economic impact - IMPLAN - Wassily Leontief - counterfactuals - input-output modeling"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["economic impact","IMPLAN","Wassily Leontief","counterfactuals","input-output modeling"]}</script>
 <div class="metadata">
 <div class="publishedDate">April 12, 2022</div>
 <div class="dt-authors">
@@ -2498,7 +2510,11 @@ function init_posts_list() {
 <div class="description">
 <h2>understanding input-output modeling for assessing potential economic impact</h2>
 <div class="dt-tags">
-<div class="dt-tag">economic impact - IMPLAN - Wassily Leontief - counterfactuals - input-output modeling</div>
+<div class="dt-tag">economic impact</div>
+<div class="dt-tag">IMPLAN</div>
+<div class="dt-tag">Wassily Leontief</div>
+<div class="dt-tag">counterfactuals</div>
+<div class="dt-tag">input-output modeling</div>
 </div>
 <p>Maybe this dry, geeky essay won't shock your soul, but it describes input-output models, their assumptions, &amp; their uses for estimating economic impact of grand public investments.</p>
 </div>
@@ -2919,8 +2935,8 @@ function init_posts_list() {
 <div class="posts-sidebar">
 <div>
 <div class="sidebar-section custom">
-  <h3>What from whom where</h3>
-  These NOTES are posted by David L. Passmore, a resident of Pittsburgh, Pennsylvania.
+  <h3>Who/Where/What/When</h3>
+  David L. Passmore, a resident of Pittsburgh, Pennsylvania, posts these NOTES every once in a while.
 </div></div>
 <div class="sidebar-section subscribe">
 <h3>Subscribe</h3>
@@ -2969,6 +2985,10 @@ Follow @DLPPassmore on Twitter</a></p>
 <span class="category-count">(1)</span>
 </li>
 <li>
+<a href="#category:counterfactuals">counterfactuals</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
 <a href="#category:daredevils">daredevils</a>
 <span class="category-count">(1)</span>
 </li>
@@ -2986,11 +3006,7 @@ Follow @DLPPassmore on Twitter</a></p>
 </li>
 <li>
 <a href="#category:economic_impact">economic impact</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:economic_impact_-_IMPLAN_-_Wassily_Leontief_-_counterfactuals_-_input-output_modeling">economic impact - IMPLAN - Wassily Leontief - counterfactuals - input-output modeling</a>
-<span class="category-count">(1)</span>
+<span class="category-count">(2)</span>
 </li>
 <li>
 <a href="#category:elderly">elderly</a>
@@ -3038,6 +3054,14 @@ Follow @DLPPassmore on Twitter</a></p>
 </li>
 <li>
 <a href="#category:humility">humility</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:IMPLAN">IMPLAN</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:input-output_modeling">input-output modeling</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
@@ -3161,6 +3185,10 @@ Follow @DLPPassmore on Twitter</a></p>
 <span class="category-count">(2)</span>
 </li>
 <li>
+<a href="#category:Wassily_Leontief">Wassily Leontief</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
 <a href="#category:weather">weather</a>
 <span class="category-count">(1)</span>
 </li>
@@ -3198,7 +3226,12 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p><strong>David L. Passmore, 5 Bayard Road, Unit 403, Pittsburgh,
+Pennsylvania 15213-1903 USA</strong></p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 

@@ -17,10 +17,15 @@ theme: style.css
 navbar:
   logo: smallDLP.jpg
   right:
-    - text: "| list of notes |"
-      href: index.html
     - text: "| about these notes |"
       href: about.html
+    - text: "| list of notes |"
+      href: index.html
+      menu:
+      - text: all notes
+      - text: economic impact
+      - text: labor markets
+      - text: opinion
     - text: "| brief bio |"
       href: me.html
     - icon: fa fa-rss
