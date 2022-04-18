@@ -1,5 +1,5 @@
 ---
-title: "About These Notes..."
+title: "about...."
 links:
 - label: Twitter
   url: https://twitter.com/dlppassmore
@@ -16,23 +16,25 @@ My NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I
 
 #### **how these NOTES are rendered**
 
-I write these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> code in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. I render the blog in <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. I do not implement cookies and other tracking tools with this blog site.
+I write and code these NOTES  in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> syntax in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. I render the blog in <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. I do not implement cookies and other tracking tools with this blog site, except to count user visits through Google Analytics.
 
 #### **what's here?**
 
-These NOTES cover a wide variety of topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit with my computers at a table in front of the large windows that look over trees, birds, and daily neighborhood activities from our 4th-floor condo in the Shadyside neighborhood of Pittsburgh.
+These NOTES span topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit  at a table with my computers in front of large windows that look over trees, birds, and daily neighborhood activities from our 4th-floor condo in the Shadyside neighborhood of Pittsburgh.
 
-I ran a blog at the now out-of-service domain, *motime.com*, during the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here.  
+Motivating these NOTES is, of course, a hope to engage with others. But, perhaps more primary is the need for clarify meanings I attach to my perceptions of events, activities, and experiences. After all, as E. M. Forster, English fiction writer, essayist and librettist, reputedly once wrote, "How do I know what I think until I see what I say?”
+
+I ran a blog at the now out-of-service domain, *motime.com*, during the early 2000s. I retrieved some of my longer postings to this former blog from The *Wayback Machine* at https://archive.org. I re-posted a few of these essays here as NOTES' postings.  
 
 #### **how I engage**
 
-I live my days as a retired person.
+I live my life as a retired person.
 
 I rise at 4:00 am daily. Early rising is not my attempt to follow some monastic way. No, see it as a quiet time, an opportunity to organize and prepare, and a chance to have a few accomplishments before the rest of the world starts moving. I meet over my cup of morning coffee with long-time friends on a Zoom meeting from 6:30 to 7:30 am on Mondays through Saturdays.
 
-TI spend the remainder of my time on most days on projects selected from too many to do. Sometimes I video conference with friends and collaborators worldwide to gain insights into issues and solutions to problems. I swim almost daily at the [wonderful pool at the Squirrel Hill Jewish Community Center](https://jccpgh.org/sports/aquatics/squirrel-hill/) in Pittsburgh, that is so close to Mr. Fred Rogers' former residence. It is good to be in the neighborhood.
+I spend the remainder of my time on most days on projects selected from too many to do. Sometimes I hold video conferences with friends and collaborators worldwide to gain insights into issues and solutions to problems. I swim almost daily at the [wonderful pool at the Squirrel Hill Jewish Community Center](https://jccpgh.org/sports/aquatics/squirrel-hill/) in Pittsburgh, that is so close to Mr. Fred Rogers' former residence. It is good to be in the neighborhood.
 
-I am in a sleep research study requiring five hours of sleep per night, so I am asleep by 11:00 pm. Between rising and finally going to sleep, I do the purchasing, shopping, bill-paying, cooking, laundering, medicating, cleaning, banking, and so forth to help my wife, Alice.
+I am in a sleep research study requiring slightly five hours of sleep per night, so I am asleep by 10:40 pm. Between rising and finally going to sleep, I do the purchasing, shopping, bill-paying, cooking, laundering, medicating, cleaning, banking, and so forth to help my wife, Alice.
 
 *Who doth ambition shun and loves to live in the sun....*
 
@@ -48,9 +50,10 @@ The telephone? Nah. I seldom pick up, except for family or for calls from close 
 
 [^1]: Please note: my car warranty is as I like it; my grandchildren do not require me to bail them out of jail; the Internal Revenue Service is not trying to reach me urgently; I will never own a timeshare, nor, I guarantee, would you want me to.
 
-I live in a secure building. So, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[even those I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, I will press flush and exhaust you to send floating into the vast plasma and on to the cold, dark corners of my universe.
+I live in a secure building. So, instead of making direct threats to me face-to-face, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[even those ideas I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, I will press flush and exhaust you to float into the vast plasma and on to the cold, dark corners of my universe.
 
-vr, David
+vr,<br/>
+David
 
 ![](dlp_signature.jpg){width=35%}
 
@@ -59,10 +62,3 @@ vr, David
 ```{r,echo=FALSE}
 Sys.time()
 ```
-## Reuse {.appendix}
-
-Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at https://github.com/davidpassmore/blog, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".
-
-## Comments/Corrections {.appendix}
-
-To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](dlp@davidpassmore.net), send a direct message on Twitter @DLPPassmore, or send an IMsg or SMS to dlp@psu.edu.
