@@ -7,12 +7,6 @@ base_url: https://davidpassmore.github.io/blog/
 google_analytics: G-F2WENJW42E
 twitter:
   site: "@dlppassmore"
-collections:
-  posts:
-    disqus: https-davidpassmore-github-io-blog
-    share: [twitter, linkedin, facebook, pinterest]
-    subscribe: _subscribe.html
-    custom: _custom.html
 theme: style.css
 navbar:
   logo: smallDLP.jpg
@@ -21,11 +15,11 @@ navbar:
       href: about.html
     - text: "| list of notes |"
       href: index.html
-      menu:
-      - text: all notes
-      - text: economic impact
-      - text: labor markets
-      - text: opinion
+      #menu:
+      #- text: all notes
+      #- text: economic impact
+      #- text: labor markets
+      #- text: opinion
     - text: "| brief bio |"
       href: me.html
     - icon: fa fa-rss
