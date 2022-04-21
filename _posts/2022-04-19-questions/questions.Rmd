@@ -1,5 +1,5 @@
 ---
-title: "questions about the ethane cracker....you have answers? or, even more questions?"
+title: "questions about the Pennsylvania Petrochemicals Complex....have answers? or, even more questions?"
 description: |
   I request your answers to my questions -- for which I personally have no, or perhaps malformed, answers -- about the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania.
 preview: LNG-04a.jpeg
@@ -29,13 +29,13 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-I have many questions about the ethane cracker at the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania, for which I do not have answers. Maybe you have answers for me. I am ignorant. Educate me, please! Share information with me. Contact me with your answers or insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}.[^1]
+I have many questions about the ethane cracker and pellet manufacturing operation at the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania, for which I do not have answers. Maybe you have answers for me. I am ignorant. Educate me, please! Share information with me. Contact me with your answers or insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}.[^1]
 
 [^1]: I hope to get a "Comments" section for this blog soon.
 
 ![](shell.jpeg){width="75%"}
 
-But, first, a brief background statement about my simple, personal understanding of ethane cracking and the Pennsylvania Petrochemicals Complex, an understanding that I encourage you to dispute and suggest that I update. Then, I offer my questions. Bored with the background already? Then, jump directly to the questions.
+But, first, a brief background statement about my simple, personal understanding of ethane cracking and pellet mnufacturing at the Pennsylvania Petrochemicals Complex, an understanding that I encourage you to dispute and suggest that I update. Then, I offer my questions. Bored with the background already? Then, jump directly to the questions.
 
 ### Brief Background
 
