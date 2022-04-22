@@ -5,6 +5,10 @@ description: |
 output_dir: "docs"
 base_url: https://davidpassmore.github.io/blog/
 google_analytics: G-F2WENJW42E
+collections:
+  posts:
+    #disqus: reproducible-finance-with-r
+    share: [twitter, linkedin, pinterest, facebook]
 twitter:
   site: "@dlppassmore"
 theme: style.css
