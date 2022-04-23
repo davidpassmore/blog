@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
+  <link rel="alternate" type="application/rss+xml" href="https://davidpassmore.github.io/blog/ec.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,27 +88,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>NOTES FROM PITTSBURGH: [&lt;------&gt;]</title>
+  <title>NOTES FROM PITTSBURGH: notes from pittsburgh about economic impact</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="NOTES FROM PITTSBURGH: [&lt;------&gt;]"/>
+  <meta property="og:title" content="NOTES FROM PITTSBURGH: notes from pittsburgh about economic impact"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="NOTES FROM PITTSBURGH"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="NOTES FROM PITTSBURGH: [&lt;------&gt;]"/>
+  <meta property="twitter:title" content="NOTES FROM PITTSBURGH: notes from pittsburgh about economic impact"/>
   <meta property="twitter:site" content="@dlppassmore"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["[<------>]"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["notes from pittsburgh about economic impact"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["ec"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2314,12 +2315,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"[<------>]","authors":[]}
+{"title":"notes from pittsburgh about economic impact","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2359,9 +2360,314 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="notes from pittsburgh about economic impact">notes from pittsburgh about economic impact</h1>
+<a href="ec/2022-04-19-questions/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["ethane cracker","natural gas liquids","shell public liability company","ethylene","polymerization","plastic resin","Beaver County, Pennsylvania"]}</script>
+<div class="metadata">
+<div class="publishedDate">April 21, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="ec/2022-04-19-questions/LNG-04a.jpeg"/>
+</div>
+<div class="description">
+<h2>questions about the Pennsylvania Petrochemicals Complex....have answers? or, even more questions?</h2>
+<div class="dt-tags">
+<div class="dt-tag">ethane cracker</div>
+<div class="dt-tag">natural gas liquids</div>
+<div class="dt-tag">shell public liability company</div>
+<div class="dt-tag">ethylene</div>
+<div class="dt-tag">polymerization</div>
+<div class="dt-tag">plastic resin</div>
+<div class="dt-tag">Beaver County, Pennsylvania</div>
+</div>
+<p>I request your answers to my questions -- for which I personally have no, or perhaps malformed, answers -- about the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania.</p>
+</div>
+</a>
+<a href="ec/2022-04-04-repoimplan/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["economic impact","IMPLAN","Wassily Leontief","counterfactuals","input-output modeling"]}</script>
+<div class="metadata">
+<div class="publishedDate">April 12, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="ec/2022-04-04-repoimplan/types-of-economic-impact.jpg"/>
+</div>
+<div class="description">
+<h2>understanding input-output modeling for assessing potential economic impact</h2>
+<div class="dt-tags">
+<div class="dt-tag">economic impact</div>
+<div class="dt-tag">IMPLAN</div>
+<div class="dt-tag">Wassily Leontief</div>
+<div class="dt-tag">counterfactuals</div>
+<div class="dt-tag">input-output modeling</div>
+</div>
+<p>Maybe this dry, geeky essay won't shock your soul, but it describes input-output models, their assumptions, &amp; their uses for estimating economic impact of grand public investments.</p>
+</div>
+</a>
+<a href="ec/2022-03-28-ethanecracker/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["natural gas liquids","environment","ethane cracker","economic impact","Beaver County, Pennsylvania","Potter Township, Pennsylvania","Shell, PLC"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 28, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="ec/2022-03-28-ethanecracker/ethane_cracker.jpg"/>
+</div>
+<div class="description">
+<h2>report forecasts substantial 40-year economic impact of ethane cracking in Monaca, PA</h2>
+<div class="dt-tags">
+<div class="dt-tag">natural gas liquids</div>
+<div class="dt-tag">environment</div>
+<div class="dt-tag">ethane cracker</div>
+<div class="dt-tag">economic impact</div>
+<div class="dt-tag">Beaver County, Pennsylvania</div>
+<div class="dt-tag">Potter Township, Pennsylvania</div>
+<div class="dt-tag">Shell, PLC</div>
+</div>
+<p>An ethane cracker under construction by Shell, a UK public limited company, in Monaca, Pennsylvania, is nearing completion. What a report from Robert Morris University says about the cracker's anticipated impact....</p>
+</div>
+</a>
+</div>
+<div class="posts-sidebar">
+<div class="sidebar-section subscribe">
+<h3>Subscribe</h3>
+
+
+<form method='post' action='https://blogtrottr.com'>
+  <p>Enter your email address for notification about new NOTES:</p>
+  <input type='text' name='btr_email' />
+  <input type='hidden' name='btr_url'
+         value='https://davidpassmore.github.io/blog'/>
+  <input type='hidden' name='schedule_type' value='0' />
+  <input type='submit' value='Subscribe' />
+</form>
+
+<p><br/><br/>
+<a class="twitter-follow-button"
+  href="https://twitter.com/dlppassmore"
+  data-size="large">
+Follow @DLPPassmore on Twitter</a></p>
+</div>
+<div class="sidebar-section categories">
+<h3>Categories</h3>
+<ul>
+<li>
+<a href="#category:Articles">Articles</a>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:Beaver_County,_Pennsylvania">Beaver County, Pennsylvania</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:counterfactuals">counterfactuals</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:economic_impact">economic impact</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:environment">environment</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:ethane_cracker">ethane cracker</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:ethylene">ethylene</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:IMPLAN">IMPLAN</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:input-output_modeling">input-output modeling</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:natural_gas_liquids">natural gas liquids</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:plastic_resin">plastic resin</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:polymerization">polymerization</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:Potter_Township,_Pennsylvania">Potter Township, Pennsylvania</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:shell_public_liability_company">shell public liability company</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:Shell,_PLC">Shell, PLC</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:Wassily_Leontief">Wassily Leontief</a>
+<span class="category-count">(1)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>[&lt;——&gt;]</h1>
+<h1>notes from pittsburgh about economic impact</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2369,26 +2675,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p><img src="arrow.jpg" style="width:2.5%" /> <strong>My NOTES originate
-in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a
-professor at Penn State for 41 years and in higher education for 51
-years.</strong> <img src="rarrow.jpeg" style="width:2.5%" /></p>
-<p><img src="arrow.jpg" style="width:2.5%" /> <strong>These NOTES span
-topics that reflect a range of ideas, learnings, and challenges that I
-encounter daily as I sit at a table with my computers in front of the
-large windows that look over trees, birds, and daily neighborhood
-activities from my 4th-floor condo in the Shadyside neighborhood of
-Pittsburgh.</strong> <img src="rarrow.jpeg" style="width:2.5%" /></p>
-<p><img src="pittsburg_1920.jpg" /><br />
-</p>
-<p><img src="arrow.jpg" style="width:2.5%" /> <strong>David L.
-Passmore</strong> <img src="rarrow.jpeg" style="width:2.5%" /> <br/>
-<img src="dlp_signature.jpg" style="width:35.0%" /></p>
-<h2 class="appendix" id="last-updated-on">Last updated on</h2>
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>[1] &quot;2022-04-23 11:28:44 EDT&quot;</code></pre>
-</div>
-<div class="sourceCode" id="cb2"><pre
+<div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

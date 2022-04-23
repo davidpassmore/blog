@@ -9,6 +9,50 @@ collections:
   posts:
     #disqus: reproducible-finance-with-r
     share: [twitter, linkedin, pinterest, facebook]
+  ec:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    feed_items_max: 50
+    citations: true
+    disqus: 
+      shortname: https-davidpassmore-github-io-blog
+      hidden: false
+    share: [facebook, twitter, linkedin, pinterest]
+    subscribe: _subscribe.html
+  lm:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    feed_items_max: 50
+    citations: true
+    disqus: 
+      shortname: https-davidpassmore-github-io-blog
+      hidden: false
+    share: [facebook, twitter, linkedin, pinterest]
+    subscribe: _subscribe.html
+  op:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    feed_items_max: 50
+    citations: true
+    disqus: 
+      shortname: https-davidpassmore-github-io-blog
+      hidden: false
+    share: [facebook, twitter, linkedin, pinterest]
+    subscribe: _subscribe.html
+  mem:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    feed_items_max: 50
+    citations: true
+    disqus: 
+      shortname: https-davidpassmore-github-io-blog
+      hidden: false
+    share: [facebook, twitter, linkedin, pinterest]
+    subscribe: _subscribe.html
 twitter:
   site: "@dlppassmore"
 theme: style.css
@@ -17,13 +61,16 @@ navbar:
   right:
     - text: "| about these notes |"
       href: about.html
-    - text: "| list of notes |"
-      href: index.html
-      #menu:
-      #- text: all notes
-      #- text: economic impact
-      #- text: labor markets
-      #- text: opinion
+    - text: "| lists of notes |"
+      menu:
+      - text: "economic impact"
+        href: ec.html
+      - text: "labor markets"
+        href: lm.html
+      - text: "opinions"
+        href: op.html
+      - text: "memories"
+        href: mem.html
     - text: "| brief bio |"
       href: me.html
     - icon: fa fa-rss

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
+  <link rel="alternate" type="application/rss+xml" href="https://davidpassmore.github.io/blog/mem.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,27 +88,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>NOTES FROM PITTSBURGH: [&lt;------&gt;]</title>
+  <title>NOTES FROM PITTSBURGH: notes from pittsburgh containing memoriest</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="NOTES FROM PITTSBURGH: [&lt;------&gt;]"/>
+  <meta property="og:title" content="NOTES FROM PITTSBURGH: notes from pittsburgh containing memoriest"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="NOTES FROM PITTSBURGH"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="NOTES FROM PITTSBURGH: [&lt;------&gt;]"/>
+  <meta property="twitter:title" content="NOTES FROM PITTSBURGH: notes from pittsburgh containing memoriest"/>
   <meta property="twitter:site" content="@dlppassmore"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["[<------>]"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["notes from pittsburgh containing memoriest"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["mem"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2314,12 +2315,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"[<------>]","authors":[]}
+{"title":"notes from pittsburgh containing memoriest","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2359,9 +2360,571 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="notes from pittsburgh containing memoriest">notes from pittsburgh containing memoriest</h1>
+<a href="mem/2022-04-02-grassley/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["politics","Chuck Grassley","memories","reconsideration"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 2, 2009</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="mem/2022-04-02-grassley/Passmore_Grassley.jpg"/>
+</div>
+<div class="description">
+<h2>bean soup with chuck grassley</h2>
+<div class="dt-tags">
+<div class="dt-tag">politics</div>
+<div class="dt-tag">Chuck Grassley</div>
+<div class="dt-tag">memories</div>
+<div class="dt-tag">reconsideration</div>
+</div>
+<p>Capitol Hill Bean Soup with Chuck Grassley, then Representative from Iowa...remember, opinions of people can change over time...written in 2009</p>
+</div>
+</a>
+<a href="mem/2022-04-02-bianca/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["dogs","memories"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 9, 2007</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="mem/2022-04-02-bianca/bb4.jpeg"/>
+</div>
+<div class="description">
+<h2>bianca takes her last walk</h2>
+<div class="dt-tags">
+<div class="dt-tag">dogs</div>
+<div class="dt-tag">memories</div>
+</div>
+<p>You think dogs will not be in heaven?  I tell you, they will be there long before any of us...written in 2007</p>
+</div>
+</a>
+<a href="mem/2022-03-29-dogdreams/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["memories","growing up","Niagara Falls"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 29, 2006</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="mem/2022-03-29-dogdreams/ashtray.jpg"/>
+</div>
+<div class="description">
+<h2>dog of my dreams</h2>
+<div class="dt-tags">
+<div class="dt-tag">memories</div>
+<div class="dt-tag">growing up</div>
+<div class="dt-tag">Niagara Falls</div>
+</div>
+<p>About moving on, with approval...written in 2006</p>
+</div>
+</a>
+<a href="mem/2022-04-02-neworleans/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["New Orleans","lagniappe","pre-Katrina","memories"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 7, 2005</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="mem/2022-04-02-neworleans/streetscene.jpeg"/>
+</div>
+<div class="description">
+<h2>hey, baybee, where y'at?</h2>
+<div class="dt-tags">
+<div class="dt-tag">New Orleans</div>
+<div class="dt-tag">lagniappe</div>
+<div class="dt-tag">pre-Katrina</div>
+<div class="dt-tag">memories</div>
+</div>
+<p>Bathing in lagniappe with street people during visits to Dante's Second Circle of Hell (*aka* Bourbon Street) in steamy New Orleans...published in 2005.</p>
+</div>
+</a>
+<a href="mem/2022-03-29-snow/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["memories","weather","Niagara Falls"]}</script>
+<div class="metadata">
+<div class="publishedDate">Jan. 22, 2005</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="mem/2022-03-29-snow/snowsquall.jpg"/>
+</div>
+<div class="description">
+<h2>first heat, then snow</h2>
+<div class="dt-tags">
+<div class="dt-tag">memories</div>
+<div class="dt-tag">weather</div>
+<div class="dt-tag">Niagara Falls</div>
+</div>
+<p>Back in the day, when it really snowed, and no one worked on Sunday....written in 2005</p>
+</div>
+</a>
+<a href="mem/2022-03-29-7th-grade-dance/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["growing up","poem"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 20, 2004</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-29-7th-grade-dance/dance.jpg"/>
+</div>
+<div class="description">
+<h2>7th grade dance</h2>
+<div class="dt-tags">
+<div class="dt-tag">growing up</div>
+<div class="dt-tag">poem</div>
+</div>
+<p>Days of innocence lost....written in 2004</p>
+</div>
+</a>
+<a href="mem/2022-03-30-a-bit-of-hot-air/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["memories","growing up","Niagara Falls"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 27, 2004</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-30-a-bit-of-hot-air/passmorebros.jpg"/>
+</div>
+<div class="description">
+<h2>a bit of hot air</h2>
+<div class="dt-tags">
+<div class="dt-tag">memories</div>
+<div class="dt-tag">growing up</div>
+<div class="dt-tag">Niagara Falls</div>
+</div>
+<p>Memories of my father...written in 2004</p>
+</div>
+</a>
+<a href="mem/2022-03-30-my-career-in-a-romance-niche-market/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["romance","story"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 17, 2004</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-30-my-career-in-a-romance-niche-market/romance.jpeg"/>
+</div>
+<div class="description">
+<h2>my career in a niche market of the romance novel genre</h2>
+<div class="dt-tags">
+<div class="dt-tag">romance</div>
+<div class="dt-tag">story</div>
+</div>
+<p>A novel précis in the line of D. H. Lawrence's short story, `the horse-dealer's daughter`...written in 2004</p>
+</div>
+</a>
+<a href="mem/2022-03-30-requiescat/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["Ireland","travel","Niagara Falls","memories","funerals","latin","goombah","paesano"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 18, 2004</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-30-requiescat/map.jpg"/>
+</div>
+<div class="description">
+<h2> `requiescat in erica maris` at Brandon Point</h2>
+<div class="dt-tags">
+<div class="dt-tag">Ireland</div>
+<div class="dt-tag">travel</div>
+<div class="dt-tag">Niagara Falls</div>
+<div class="dt-tag">memories</div>
+<div class="dt-tag">funerals</div>
+<div class="dt-tag">latin</div>
+<div class="dt-tag">goombah</div>
+<div class="dt-tag">paesano</div>
+</div>
+<p>A languid sort of travelogue from Ireland and, from there, to a intrepid funeral vacation of the mind....written in 2004</p>
+</div>
+</a>
+<a href="mem/2022-03-31-waiting/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["San Francisco","Oklahoma City","Ferlingetti","terror","travel"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 2, 2004</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-31-waiting/rosey-fingered-dawn.jpg"/>
+</div>
+<div class="description">
+<h2>waiting for a rebirth of wonder in san francisco</h2>
+<div class="dt-tags">
+<div class="dt-tag">San Francisco</div>
+<div class="dt-tag">Oklahoma City</div>
+<div class="dt-tag">Ferlingetti</div>
+<div class="dt-tag">terror</div>
+<div class="dt-tag">travel</div>
+</div>
+<p>Accounting for the 1995 Oklahoma City bombing from San Francisco...written in 2004</p>
+</div>
+</a>
+<a href="mem/2022-03-31-simple-generosity/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["memories","generosity","elderly","Niagara Falls"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 9, 2004</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-31-simple-generosity/gener.jpeg"/>
+</div>
+<div class="description">
+<h2>simple generosity of spirit</h2>
+<div class="dt-tags">
+<div class="dt-tag">memories</div>
+<div class="dt-tag">generosity</div>
+<div class="dt-tag">elderly</div>
+<div class="dt-tag">Niagara Falls</div>
+</div>
+<p>Early lessons, sometimes learned, about doing good because it is good....written in 2004</p>
+</div>
+</a>
+<a href="mem/2022-03-31-ba-of-niagara/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["Niagara Falls"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 24, 2003</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-31-ba-of-niagara/greatg.jpeg"/>
+</div>
+<div class="description">
+<h2>the `Ba` of Niagara</h2>
+<div class="dt-tags">
+<div class="dt-tag">Niagara Falls</div>
+</div>
+<p>The time &amp; space of Niagara Falls....written in 2003</p>
+</div>
+</a>
+<a href="mem/2022-03-31-slowly/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["Niagara Falls","three stooges","daredevils"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 24, 2003</div>
+<div class="dt-authors">
+<div class="dt-author">David L. Passmore</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="mem/2022-03-31-slowly/NF7jpg.jpeg"/>
+</div>
+<div class="description">
+<h2>Niagara Falls? slowly I turned...inch by inch...step by step...</h2>
+<div class="dt-tags">
+<div class="dt-tag">Niagara Falls</div>
+<div class="dt-tag">three stooges</div>
+<div class="dt-tag">daredevils</div>
+</div>
+<p>An essay about the freaky, carny noteriety earned by the sometimes "monkey maze" of Niagara Falls...written in 2003</p>
+</div>
+</a>
+</div>
+<div class="posts-sidebar">
+<div class="sidebar-section subscribe">
+<h3>Subscribe</h3>
+
+
+<form method='post' action='https://blogtrottr.com'>
+  <p>Enter your email address for notification about new NOTES:</p>
+  <input type='text' name='btr_email' />
+  <input type='hidden' name='btr_url'
+         value='https://davidpassmore.github.io/blog'/>
+  <input type='hidden' name='schedule_type' value='0' />
+  <input type='submit' value='Subscribe' />
+</form>
+
+<p><br/><br/>
+<a class="twitter-follow-button"
+  href="https://twitter.com/dlppassmore"
+  data-size="large">
+Follow @DLPPassmore on Twitter</a></p>
+</div>
+<div class="sidebar-section categories">
+<h3>Categories</h3>
+<ul>
+<li>
+<a href="#category:Articles">Articles</a>
+<span class="category-count">(13)</span>
+</li>
+<li>
+<a href="#category:Chuck_Grassley">Chuck Grassley</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:daredevils">daredevils</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:dogs">dogs</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:elderly">elderly</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:Ferlingetti">Ferlingetti</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:funerals">funerals</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:generosity">generosity</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:goombah">goombah</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:growing_up">growing up</a>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:Ireland">Ireland</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:lagniappe">lagniappe</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:latin">latin</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:memories">memories</a>
+<span class="category-count">(8)</span>
+</li>
+<li>
+<a href="#category:New_Orleans">New Orleans</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:Niagara_Falls">Niagara Falls</a>
+<span class="category-count">(7)</span>
+</li>
+<li>
+<a href="#category:Oklahoma_City">Oklahoma City</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:paesano">paesano</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:poem">poem</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:politics">politics</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:pre-Katrina">pre-Katrina</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:reconsideration">reconsideration</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:romance">romance</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:San_Francisco">San Francisco</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:story">story</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:terror">terror</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:three_stooges">three stooges</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:travel">travel</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:weather">weather</a>
+<span class="category-count">(1)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>[&lt;——&gt;]</h1>
+<h1>notes from pittsburgh containing memoriest</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2369,26 +2932,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p><img src="arrow.jpg" style="width:2.5%" /> <strong>My NOTES originate
-in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a
-professor at Penn State for 41 years and in higher education for 51
-years.</strong> <img src="rarrow.jpeg" style="width:2.5%" /></p>
-<p><img src="arrow.jpg" style="width:2.5%" /> <strong>These NOTES span
-topics that reflect a range of ideas, learnings, and challenges that I
-encounter daily as I sit at a table with my computers in front of the
-large windows that look over trees, birds, and daily neighborhood
-activities from my 4th-floor condo in the Shadyside neighborhood of
-Pittsburgh.</strong> <img src="rarrow.jpeg" style="width:2.5%" /></p>
-<p><img src="pittsburg_1920.jpg" /><br />
-</p>
-<p><img src="arrow.jpg" style="width:2.5%" /> <strong>David L.
-Passmore</strong> <img src="rarrow.jpeg" style="width:2.5%" /> <br/>
-<img src="dlp_signature.jpg" style="width:35.0%" /></p>
-<h2 class="appendix" id="last-updated-on">Last updated on</h2>
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>[1] &quot;2022-04-23 11:28:44 EDT&quot;</code></pre>
-</div>
-<div class="sourceCode" id="cb2"><pre
+<div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

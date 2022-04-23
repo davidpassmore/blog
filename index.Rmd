@@ -1,6 +1,16 @@
 ---
-title: "notes from pittsburgh by date"
+title: "[<---------------------------------------------------------------->]"
 site: distill::distill_website
-listing: posts
+#listing: posts
 ---
 
+![](arrow.jpg){width="2.5%"} **My NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a professor at Penn State for 41 years and in higher education for 51 years.** ![](rarrow.jpeg){width="2.5%"}
+
+![](arrow.jpg){width="2.5%"} **These NOTES span topics that reflect a range of ideas, learnings, and challenges that I encounter daily as I sit at a table with my computers in front of the large windows that look over trees, birds, and daily neighborhood activities from my 4th-floor condo in the Shadyside neighborhood of Pittsburgh.** ![](rarrow.jpeg){width="2.5%"}
+
+![](arrow.jpg){width="2.5%"}  **David L. Passmore** ![](rarrow.jpeg){width="2.5%"} <br/> 
+![](dlp_signature.jpg){width=35%}
+
+```{r img-with-knitr, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='The Pittsburgh Skyline'}
+knitr::include_graphics("pittsburg_1920.jpg")
+```

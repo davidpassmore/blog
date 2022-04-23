@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>NOTES FROM PITTSBURGH</title>
+    <link>https://davidpassmore.github.io/blog/</link>
+    <atom:link href="https://davidpassmore.github.io/blog/ec.xml" rel="self" type="application/rss+xml"/>
+    <description>NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>questions about the Pennsylvania Petrochemicals Complex....have answers? or, even more questions?</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/ec/2022-04-19-questions</link>
+      <description>I request your answers to my questions -- for which I personally have no, or perhaps malformed, answers -- about the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania.</description>
+      <category>ethane cracker</category>
+      <category>natural gas liquids</category>
+      <category>shell public liability company</category>
+      <category>ethylene</category>
+      <category>polymerization</category>
+      <category>plastic resin</category>
+      <category>Beaver County, Pennsylvania</category>
+      <guid>https://davidpassmore.github.io/blog/ec/2022-04-19-questions</guid>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/ec/2022-04-19-questions/LNG-04a.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>understanding input-output modeling for assessing potential economic impact</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/ec/2022-04-04-repoimplan</link>
+      <description>Maybe this dry, geeky essay won't shock your soul, but it describes input-output models, their assumptions, &amp; their uses for estimating economic impact of grand public investments.</description>
+      <category>economic impact</category>
+      <category>IMPLAN</category>
+      <category>Wassily Leontief</category>
+      <category>counterfactuals</category>
+      <category>input-output modeling</category>
+      <guid>https://davidpassmore.github.io/blog/ec/2022-04-04-repoimplan</guid>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/ec/2022-04-04-repoimplan/types-of-economic-impact.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>report forecasts substantial 40-year economic impact of ethane cracking in Monaca, PA</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/ec/2022-03-28-ethanecracker</link>
+      <description>An ethane cracker under construction by Shell, a UK public limited company, in Monaca, Pennsylvania, is nearing completion. What a report from Robert Morris University says about the cracker's anticipated impact....</description>
+      <category>natural gas liquids</category>
+      <category>environment</category>
+      <category>ethane cracker</category>
+      <category>economic impact</category>
+      <category>Beaver County, Pennsylvania</category>
+      <category>Potter Township, Pennsylvania</category>
+      <category>Shell, PLC</category>
+      <guid>https://davidpassmore.github.io/blog/ec/2022-03-28-ethanecracker</guid>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/ec/2022-03-28-ethanecracker/ethane_cracker.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
