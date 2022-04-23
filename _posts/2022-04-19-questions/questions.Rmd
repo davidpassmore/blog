@@ -33,7 +33,12 @@ I have many questions about the ethane cracker and pellet manufacturing operatio
 
 [^1]: I hope to get a "Comments" section for this blog soon.
 
-![](shell.jpeg){width="75%"}
+
+```{r img-rend, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Rendering of the Soon-To-Be-Completed Pennsylvania Petrochemicals Complex'}
+knitr::include_graphics("shell.jpeg")
+```
+
+
 
 But, first, a brief background statement about my simple, personal understanding of ethane cracking and pellet manufacturing at the Pennsylvania Petrochemicals Complex, an understanding that I encourage you to dispute and suggest that I update. Then, I offer my questions. Bored with the background already? Then, jump directly to the questions.
 
@@ -59,7 +64,10 @@ In a few words,[^4] superheated, pressurized steam causes ethane (C$_{2}$H$_{6}$
 
 [^5]: Figure from <https://insights.globalspec.com/article/1490/natural-gas-for-export-process-fundamentals-for-engineers-part-1>.
 
-![](LNG-04a.jpeg){.external width="50%"}
+```{r img-mole, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Ethane Molecules are Cracked to Form Ethylene Molecules'}
+knitr::include_graphics("LNG-04a.jpeg")
+```
+
 
 #### Polymerization
 
@@ -85,13 +93,16 @@ Cracking ethane emits hazardous by-products[^7] that can render the air, soil, w
 
 #### The Pennsylvania Petrochemical Complex
 
-Shell[^8] made a final investment decision to build an ethane cracker integrated with a plastic pellet manufacturing facility at the Pennsylvania Petrochemicals Complex on the Ohio River in Monaca, Pennsylvania [@pennsylv]. The plant is nearing is nearing completion and could starting operating in late 2022, according to Shell announcements reported in the popular press [@melinek2021].[^9] Shell has estimated variously the deployment of between 400 to 600 jobs at the Complex.
+Shell[^8] made a final investment decision to build an ethane cracker integrated with a plastic pellet manufacturing facility at the Pennsylvania Petrochemicals Complex on the Ohio River in Monaca, Pennsylvania [@pennsylv]. The plant (see Figure \@ref(fig:img-googm)) is nearing is nearing completion and could starting operating in late 2022, according to Shell announcements reported in the popular press [@melinek2021].[^9] Shell has estimated variously the deployment of between 400 to 600 jobs at the Complex.
 
 [^8]: a public liability company incorporated in the UK
 
 [^9]: Figure from *Google Maps* image
 
-![](googlemap.jpg){width="100%"}
+```{r img-googm, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Google Map of Location of Pennsylvania Petrochemicals Complex'}
+knitr::include_graphics("googlemap.jpg")
+```
+
 
 Shell has indicated that the plant will produce 1.6 million tons of various grades of polyethylene pellets from 3.9 million barrels of ethane annually. The ethane cracker is geographically proximal to ethane sources in Pennsylvania, Ohio, and West Virginia involved with wet gas production and processing from Marcellus and Utica shale formations.[^10] More than 70% of North American polyethylene customers are within a 700-mile radius of plastic pellet production at the Pennsylvania Petrochemical Complex.
 
