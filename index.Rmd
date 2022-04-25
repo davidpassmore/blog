@@ -1,8 +1,9 @@
 ---
-title: "[<---------------------------------------------------------------->]"
+title: "&#32895;"
 site: distill::distill_website
 #listing: posts
 ---
+
 
 ![](arrow.jpg){width="2.5%"} **My NOTES originate in Pittsburgh, Pennsylvania, where I have lived since 2020. I was a professor at Penn State for 41 years and in higher education for 51 years.** ![](rarrow.jpeg){width="2.5%"}
 

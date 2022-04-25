@@ -65,7 +65,7 @@ navbar:
       menu:
       - text: "economic impact"
         href: ec.html
-      - text: "labor markets"
+      - text: "regional economy"
         href: lm.html
       - text: "opinions"
         href: op.html

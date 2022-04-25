@@ -1,9 +1,7 @@
 ---
 title: "DAVID L. PASSMORE"
-image: "passmoreUZBEK.jpg"
+image: "dlpNOW.png"
 links:
-- label: website
-  url: https://davidpassmore.net
 - label: email
   url: mailto:dlp@davidpassmore.net
 - label: twitter
@@ -16,9 +14,9 @@ output:
  
 **AFFILIATIONS**
 
-► [Distinguished Professor, Emeritus](https://policy.psu.edu/policies/ac10#H), retired from Penn State University.
+► [Distinguished Professor, Emeritus](https://policy.psu.edu/policies/ac10#H), retired from [Penn State University](https://ed.psu.edu/academics/departments/department-learning-and-performance-systems/workforce-education-and-development).
 
-► [Academic Visitor](https://visitor.pitt.edu/), [University Center for Social and Urban Research](https://my.pitt.edu/task/all/social-and-urban-research), University of Pittsburgh</a>.
+► [Academic Visitor](https://visitor.pitt.edu/), [University Center for Social and Urban Research](https://my.pitt.edu/task/all/social-and-urban-research), [University of Pittsburgh](https://www.pitt.edu/)</a>.
 
 **POSTAL ADDRESS**
 
@@ -28,9 +26,9 @@ output:
 
 ► *In brief:* Was a graduate faculty member at Penn State University for 41 years, and, in sum, an instructor/professor in higher education for 51 years before retiring from Penn State in September 2020. Was a member of the graduate faculty in Workforce Education and Development. Served as the committee chair and dissertation advisor for 82 PhD recipients in Workforce Education and Development, Adult Education, and Mineral Engineering and Management. Also was the advisor for 20 theses by students earning master’s degrees in Workforce Education and Development.
 
-Over a career at Penn State, was the University Director of Office for the Protection of Human Subjects for the Senior Vice President for Research and Dean of Graduate Studies, Faculty Fellow and Director of Multimedia Technology Classroom Group for the Center for Academic Computing, Director of the Institute for Research in Training and Development, Director of Undergraduate and Graduate Programs in the Department of Learning and Performance Systems, Professor of Lifelong Learning and Adult Education, Senior Scientist in the Institute for Policy Research and Evaluation, Program Coordinator for the Workforce Education and Development academic program, Professor in the Intercollege Dual–Title Degree Graduate Program in Operations Research, a researcher in the Office of Economic and Workforce Development in Penn State Outreach, Faculty Associate of the Center for the Study of Higher Education, and Professor of Mineral Engineering Management in the Department of Energy and GeoEnvironmental Sciences in the College of Earth and Mineral Sciences.
+Over a career at Penn State, was the University Director of Office for the Protection of Human Subjects for the Senior Vice President for Research and Dean of Graduate Studies, Faculty Fellow and Director of Multimedia Technology Classroom Group for the Center for Academic Computing, Director of the Institute for Research in Training and Development, Director of Undergraduate and Graduate Programs in the Department of Learning and Performance Systems, Professor of Lifelong Learning and Adult Education, Senior Scientist in the Institute for Policy Research and Evaluation, Program Coordinator for the Workforce Education and Development academic program, Professor in the Intercollege Dual–Title Degree Graduate Program in Operations Research, a researcher in the Office of Economic and Workforce Development in Penn State Outreach, Faculty Associate of the Center for the Study of Higher Education, Professor of Mineral Engineering Management in the Department of Energy and GeoEnvironmental Sciences in the College of Earth and Mineral Sciences, and a senator serving in the Faculty Senate..
 
-Was employed as a professor and Director of Occupational Research at the National Technical Institute for the Deaf, a professor at University of Massachusetts/Amherst and University of Northern Iowa, an instructor at Bowling Green State University, and an adjunct faculty member at the University of Minnesota, St. John Fisher, Westfield College, University of Texas/Tyle, and .
+Was employed as a professor and Director of Occupational Research at the National Technical Institute for the Deaf, a professor at University of Massachusetts/Amherst and University of Northern Iowa, an instructor at Bowling Green State University, and an adjunct faculty member at the University of Minnesota, St. John Fisher, Westfield College, and University of Texas/Tyler.
 
 During 1988-1989, was Visiting Scholar in Maternal and Child Health at the Harvard T. H. Chan School of Public Health to conduct research on the epidemiology of childhood injuries and of injuries of underground coal miners with the Harvard Injury Research Center.
 
@@ -38,11 +36,12 @@ During 1988-1989, was Visiting Scholar in Maternal and Child Health at the Harva
 
 **EDUCATION**
 
-► PhD in Education from the University of Minnesota, 1973.
+► PhD in Education from the [University of Minnesota](http://www.cehd.umn.edu/olpd/), 1973.
 
-► MEd in Industrial Education and Technology from Bowling Green State University, 1970.
+► MEd in Industrial Education and Technology from [Bowling Green State University](http://www.bgsu.edu/technology-architecture-and-applied-engineering.html), 1970.
 
-► BS in Industrial Arts Education from State University College of New York at Buffalo, 1969.
-	
+► BS in Industrial Arts Education from [State University College of New York at Buffalo](http://cte.buffalostate.edu/), 1969.
+
+► Graduate of Bishop Duffy High School,^[No longer exists. Merged with others to become [Niagara Catholic High School](https://en.wikipedia.org/wiki/Niagara_Catholic_High_School), but that, too, no longer exists. "One by one they were all becoming shades," says Gabriel in James Joyce's *The Dead* about things known and, until some point in the future, were taken for granted.] Niagara Falls, New York, 1965.
 
    

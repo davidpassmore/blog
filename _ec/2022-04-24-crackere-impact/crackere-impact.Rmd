@@ -1,0 +1,47 @@
+---
+title: "Cracker Impact"
+description: |
+  I request your answers to my questions -- for which I personally have no, or perhaps malformed, answers -- about the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania.
+preview: xxx
+draft: TRUE
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-04-21
+categories:
+  - ethane cracker
+  - shell public liability company
+  - Beaver County, Pennsylvania
+  - Potter Township, Pennsylvania
+  - input-output modeling
+  - economic impact
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true 
+    toc-depth: 5
+#bibliography: references.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Reuse {.appendix}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at <https://github.com/davidpassmore/blog>, unless otherwise noted. The figures that have been reused from other sources do not fall under this license and are recognized by footnoted text: "Figure from ...".
+
+## Comments/Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](mailto:dlp@davidpassmore.net), send a direct message on Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.

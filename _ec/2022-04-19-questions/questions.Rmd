@@ -29,7 +29,7 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-I have many questions about the ethane cracker and pellet manufacturing operation at the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania, for which I do not have answers. Maybe you have answers for me. I am ignorant. Educate me, please! Share information with me. Contact me with your answers or insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}.[^1]
+I have many questions about the ethane cracker and pellet manufacturing operation at the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania, for which I do not have answers. Maybe you have answers for me. I am ignorant. Educate me, please! Share information with me using the *Disqus* comment form at the bottom of this posting. Contact me privately with your answers or insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}.[^1]
 
 [^1]: I hope to get a "Comments" section for this blog soon.
 
@@ -58,7 +58,7 @@ Ethylene is a raw material for the manufacture of polymers such as polyethylene,
 
 [^3]: organic chemical compound composed exclusively of hydrogen and carbon atoms
 
-In a few words,[^4] superheated, pressurized steam causes ethane (C$_{2}$H$_{6}$) to vaporize, which splits the bonds between carbon and hydrogen atoms. Ethyelene molecules (H$_{2}$C⚌CH$_{2}$), form, freeing two hydrogen atoms. The resulting vapor is composed of ethyelene, other hydrocarbons, unprocessed ethane molecules, and steam.[^5] The vapor undergoes additional processing to isolate the ethylene molecules.
+In a few words,[^4] superheated, pressurized steam causes ethane (C$_{2}$H$_{6}$) to vaporize, which splits the bonds between carbon and hydrogen atoms. Ethyelene molecules (H$_{2}$C⚌CH$_{2}$), form, freeing two hydrogen atoms. The resulting vapor is composed of ethylene, other hydrocarbons, unprocessed ethane molecules, and steam.[^5] The vapor undergoes additional processing to isolate the ethylene molecules.
 
 [^4]: and skipping many steps in the chemical engineering of ethylene production from ethane.
 
@@ -177,7 +177,7 @@ I will refine or extend this list of questions as I learn more about the Pennsyl
 
 #### And, Where Are Answers Documented?
 
-I request that you share information with me about these and other useful questions or, better yet, provide answers to questions. Contact me with your insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}. Yes, you will be credited for your contribution.
+I request that you share information with me about these and other useful questions or, better yet, provide answers to questions using the *Disqus* contact form at the bottom of this page. Contact me privately with your insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}. Yes, you will be credited for your contribution.
 
 In the next week (today is 21 April), I will open a posting in this blog site (served at `davidpassmore.github.io/blog`) that will contain questions asked and answers I have assembled to date. I will update this current paragraph to display the URL of the blog posting when it becomes available. Updates of the "Q & A" blog posting will occur as questions are refined or extended and when additional answers are provided. The blog posting will offer an RSS feed and a subscription link to allow notification about changes that occur in the posting.
 
