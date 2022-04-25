@@ -29,9 +29,9 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-I have many questions about the ethane cracker and pellet manufacturing operation at the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania, for which I do not have answers. Maybe you have answers for me. I am ignorant. Educate me, please! Share information with me using the *Disqus* comment form at the bottom of this posting. Contact me privately with your answers or insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}.[^1]
+I have many questions about the ethane cracker and pellet manufacturing operation at the Pennsylvania Petrochemicals Complex in Monaca, Pennsylvania, for which I do not have answers. Maybe you have answers for me. I am ignorant. Educate me, please! Share information with me using the *Disqus* comment form at the bottom of this posting. Contact me privately with your answers or insights through a direct message on Twitter [\@DLPPassmore](https://twitter.com/dlppassmore) or via email at [dlp\@davidpassmore.net](mailto:dlp@davidpassmore.net){.email}.
 
-[^1]: I hope to get a "Comments" section for this blog soon.
+
 
 
 ```{r img-rend, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Rendering of the Soon-To-Be-Completed Pennsylvania Petrochemicals Complex'}

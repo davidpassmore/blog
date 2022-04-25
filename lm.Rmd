@@ -1,5 +1,6 @@
 ---
-title: "notes from pittsburgh about labor markets"
+title: "notes from pittsburgh about the regional economy"
 site: distill::distill_website
 listing: lm
 ---
+
