@@ -1,7 +1,7 @@
 ---
 title: "how many Pennsylvania jobs have turned green?"
 description: |
-  Defining "green jobs" is difficult....published in 2012
+  Defining "green jobs" was (and still is) a difficult task....published in 2012
 preview: https://davidpassmore.net/blogd/img/kermit.jpeg
 author:
   - name: David L. Passmore
@@ -48,7 +48,7 @@ The BLS counted jobs as “green” at establishments producing goods and servic
 
 Second, the BLS counted jobs through which workers make their own establishments’ work processes more environmentally friendly or use fewer natural resources. Workers in these green jobs use energy from renewable sources which is generated through efficient technologies and practices. And, these workers employ processes that abate pollution or that conserve natural resources.
 
-Displayed in the chart accompanying our article (“Percent of U.S. & PA....”) are percentages of green jobs within private sector industries in the U.S. and in Pennsylvania during 2010. Green jobs were a small proportion of total private sector jobs in the nation and in our state. 
+Displayed in Figure \@ref(fig:img-green) are percentages of green jobs within private sector industries in the U.S. and in Pennsylvania during 2010. Green jobs were a small proportion of total private sector jobs in the nation and in our state. 
 
 ```{r img-green, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='U.S. & PA Green Jobs, 2010'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/greenPAjobs.png")
