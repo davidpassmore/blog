@@ -1,0 +1,63 @@
+---
+title: "robertm"
+description: |
+  Defining "green jobs" is difficult....published in 2012
+preview: https://davidpassmore.net/blogd/img/kermit.jpeg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+categories:
+  - input-output modeling
+  - ethane cracker
+  - Potter Township, Pennsylvania
+  - Shell, PLC
+  - Beaver County, Pennsylvania
+  - natural gas liquids
+  - IMPLAN
+  - internal validity
+  - economic impact
+date: 2012-4-12
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+According to Dun & Bradstreet @dunbradstreet, Shell Chemical Appalachia LLC is located in Houston, Texas, and is part of the Chemical and Allied Products Merchant Wholesalers Industry.
+
+*Shell* ([NSYE: SHEL](https://www.google.com/finance/quote/SHEL:NYSE)), a public liability company incorporated in the UK, made a final investment decision in 2016 to build an ethane cracker integrated with a plastic pellet manufacturing facility at the Pennsylvania Petrochemicals Complex on the Ohio River in Monaca, Pennsylvania [@pennsylv]. As of this writing (Pril 2022), the Complex is nearing is nearing completion (see Figure \@ref(fig:img-crackerM)) and could starting operating in late 2022, according to Shell announcements reported in the popular press [@melinek2021]. Shell has estimated variously the deployment of between 400 to 600 jobs at the Complex.
+
+```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Pennsylvania Petrochemicals Complex Under Construction in March 2022'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/ethane_cracker.jpeg")
+```
+
+Shell has indicated that the plant will produce 1.6 million tons of various grades of polyethylene pellets from 3.9 million barrels of ethane annually. The ethane cracker is geographically proximal to ethane sources in Pennsylvania, Ohio, and West Virginia involved with wet gas production and processing from Marcellus and Utica shale formations [@callahan2022]. More than 70% of North American polyethylene customers are within a 700-mile radius of plastic pellet production at the Pennsylvania Petrochemical Complex.
+
+Flenco Fluid Systems detailed that operations of the Complex includes:
+
+> a 250-MW power plant, to be located on the site formerly occupied by Horsehead Corp.'s Monaca Zinc Smelter plant in Potter and Center townships in Beaver County. Polyethylene pellets will be the final manufactured product of this facility. The pellets will be produced from one of two gas phase or one slurry technology polyethylene production lines. Combined design capacity for the three polyethylene production lines will be 1.6 million metric tons of polyethylene pellets per year. Ethylene will be manufactured on site as an intermediate product at this facility. Ethylene will be produced by cracking ethane feedstock received by pipeline. Design capacity for ethylene production will be 1.5 million metric tons per year. The ethylene will be entirely used on site as the primary feedstock for the polyethylene production lines. Three General Electric ([NYSE: GE](https://www.google.com/finance/quote/GE:NYSE)) Frame 6B natural gas-fired combustion turbines, 40.6 MW each and heat recovery steam generators will also be located at this facility to provide electricity and steam for use on site. Total generating capacity will be approximately 250 MW. Excess electricity will be sold to the grid in sufficient quantities to classify this facility as an electric utility.
+
+The Pennsylvania Department of Environmental Protection required for this first-o[f-its-kind facility in Pennsylvania several complex environmental reviews, approvals, and permits from DEP for new construction, remediation of contamination from previous industrial activities on the property, and operation. The Department lists on its website (see [@pennsylvb])various Department press releases about the Complex,permits and approvals obtained for the construction and operatio of the plant, and compliance/enforcement actions taken regarding the Complex.
+
+In another posting on this blog [@passmore2022], I summarized the chemical engineering for cracking ethane feedstock to obtain ethylene and, from there, to produce polyethylene pellets, which have downstream uses in the manufacture of many consumer products.
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Reuse {.appendix}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at <https://github.com/davidpassmore/blog>, unless otherwise noted. The figures that have been reused from other sources do not fall under this license and are recognized by footnoted text: "Figure from ...".
+
+## Comments/Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](mailto:dlp@davidpassmore.net), send a direct message on Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
