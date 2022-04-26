@@ -1,0 +1,66 @@
+---
+title: "how many Pennsylvania jobs have turned green?"
+description: |
+  Defining "green jobs" is difficult....published in 2012
+preview: https://davidpassmore.net/blogd/img/kermit.jpeg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+categories:
+  - green jobs
+  - economic change
+  - Pennsylvania
+date: 2012-4-12
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+>Originally published with Rose Baker as "How many Pennsylvania jobs have turned green?" in *Pennsylvania Business Central*, (April 2012, Volume 22, Issue 22, pages 3 and 22). When this essay was published, the term "green jobs," was prominent in policy and public discussions. Interestingly, as I post this item, the Russia;s war on Ukraine has made alternate energy futures a hot topic again. 
+
+Hey, remember green jobs? Looks like Pennsylvania has some.
+
+According to the Bureau of Labor Statistics (BLS) of the U.S. Department of Labor, green jobs are slightly more concentrated in Pennsylvania than in the entire U.S., not only among all private sector jobs, but also within some industries.
+
+But, you might ask, as many people have continued to do, what are green jobs? 
+Certainly, a good working definition of green jobs could lead to good measurements of green job counts and opportunities, which are critical to national and regional economic policy development, economic research and planning, and education and training investment.
+
+The definition of green jobs, however, rarely has been clear. 
+
+For example, in his book, “The Green Collar Economy,” Van Jones — one-time Obama “Special Policy Advisor for Green Jobs, Enterprise and Innovation” — defined green jobs as “good local jobs that pay well, strengthen communities, provide pathways out of poverty, and help solve environmental problems.” Phil Angelides, chair of Apollo Alliance, a coalition of industry, labor, and environmental groups, once said that green jobs are characterized by “decent wages and benefits that can support a family. It has to be part of a real career path, with upward mobility.”
+
+In response, we fist pump, “Rah! Rah!,” of course. Yet, most definitions of green jobs offered when the green economy was the policy leitmotif–of–the–month are not specific enough to guide labor market strategies, policies, and tactics. 
+
+The BLS tackled head–on the thorny and controversial problem of defining green jobs which has vexed and confused policy discussions about transforming our vast and varied economy to be more environmentally conscious and energy conserving. 
+
+The BLS used two approaches to defining green jobs and, then, to measuring green jobs through a mail survey of U.S. establishments. The common thread in these two approaches is that green jobs preserve or restore the environment. 
+
+First, some green jobs make green goods and services.
+
+The BLS counted jobs as “green” at establishments producing goods and services that benefit the environment or conserve natural resources. Workers in these jobs produce energy from renewable sources, make products that improve energy efficiency, abate pollution, reduce greenhouse gasses, recycle or reuse products, conserve natural resources, or encourage compliance with environmental regulations and good practices through education, training, and public awareness.
+
+Second, the BLS counted jobs through which workers make their own establishments’ work processes more environmentally friendly or use fewer natural resources. Workers in these green jobs use energy from renewable sources which is generated through efficient technologies and practices. And, these workers employ processes that abate pollution or that conserve natural resources.
+
+Displayed in the chart accompanying our article (“Percent of U.S. & PA....”) are percentages of green jobs within private sector industries in the U.S. and in Pennsylvania during 2010. Green jobs were a small proportion of total private sector jobs in the nation and in our state. 
+
+```{r img-green, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='U.S. & PA Green Jobs, 2010'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/greenPAjobs.png")
+```
+
+The percentages of green jobs in the U.S. and Commonwealth were similar -- and low -- within most industries. However, over one–third of all jobs in Pennsylvania’s utilities industry were classified as green, which is 3.1 times the concentration of green jobs in this industry than in the entire U.S. utilities industry. Also, green jobs were 2.5 times more concentrated in Pennsylvania transportation and warehousing -- and 1.9 times more concentrated in the professional, technical, and service industry -- than in the entire nation. 
+
+The count of Pennsylvania’s 182,200 green jobs in 2010 ranked fourth among the six states with greater than 100,000 green jobs. These, and the 2.3 million U.S. green jobs in 2010 counted by the BLS, are not necessarily net new jobs, a factor which has limited the anticipated impact of the development of green jobs on the nation’s employment picture.
+
+For example, using the BLS data, the Pennsylvania Center for Workforce Information and Analysis estimated that the Pittsburgh area contained 18,000 green jobs in 2010. “I would not say we’ve had 18,000 new jobs in new categories,” Stefani Pashman, CEO of the Three Rivers Workforce Investment Board told the Pittsburgh Post–Gazette. “It's kind of a ‘greening’ of existing jobs with some select growth in the industry.” 
+
+Many observers are skeptical that government targeted funds for green job training are anything more than a boondoggle. State Budget Solutions, a self–described “non-partisan, positive, pro–reform, proactive” project, produced a report, “Green Jobs Don’t Grow on Trees,” in which was noted that “Pennsylvania is learning firsthand that increasing the number of green workers does not automatically increase employment. The state’s federally–funded MOVE-IT program cost $1.4 million and initially graduated 113 people, of whom only thirty-five were able to find a job. Rather than helping people find work, the program has merely turned over 75 out-of-work citizens into green out-of-work citizens.”
+
+As senior policy analyst Kermit the Frog often sings, “It’s not easy being green.”
+
