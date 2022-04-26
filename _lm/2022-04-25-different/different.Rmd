@@ -1,8 +1,8 @@
 ---
 title: "different numbers in, different numbers out"
 description: |
-  A short description of the post.
-preview: xxx
+  A comparison of the validity of two contrasting studies of the potential economic impact of Marcellus Shale natural gas extraction ...published in 2011
+preview: https://davidpassmore.net/blogd/img/marcellus_hydraulic.gif
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
@@ -13,68 +13,70 @@ categories:
   - jobs
   - income 
   - Pennsylvania
+  - industry contribution
+  - internal validity
 date: 2011-10-7
 output:
   distill::distill_article:
     self_contained: false
-draft: true
+bibliography: references.bib
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-> This essay, written with Rose M. Baker, originally was published in *Marcellus Business Central* on October 7, 2011 (Volume 1, Issue 5, pages 9 and 15).^[I could have classified this essay in the *economic impact* section of this blog, but I judged this essay to cover a policy debate over evidence for the development of the Pennsylvania economy.]
+> This essay, written with Rose M. Baker, originally was published in *Marcellus Business Central* on October 7, 2011 (Volume 1, Issue 5, pages 9 and 15).[^1]
 
-Many Pennsylvanians are confused about clashes of findings between two prominent studies of the economic impacts of Marcellus Shale development in Pennsylvania. 
+[^1]: I could have classified this essay in the *economic impact* section of this blog, but I judged this essay to cover a policy debate over evidence for the development of the Pennsylvania economy.
 
-One report was published during August by the Marcellus Shale Education and Training Center (MSETC), a collaboration between Pennsylvania College of Technology and Penn State Extension (report at http://MSETC.notlong.com). MSETC estimated that Marcellus Shale development in Pennsylvania generated between 23,385 and 23,884 jobs and almost $1.9 billion in regional gross domestic product in 2009. 
+Many Pennsylvanians are confused about clashes of findings between two prominent studies of the economic impacts of Marcellus Shale development in Pennsylvania.
 
-Another report, published during late July, is the third in a series of reports authored by researchers, working through Penn State’s John and Willie Leone Family Department of Energy and Mineral Engineering, about the status, impact, and potential of Pennsylvania’s Marcellus natural gas industry (report at 
-http://MarcellusShale3rd.notlong.com). By way of contrast with the report by MSETC, this study estimated that Pennsylvania Marcellus natural gas development generated 
-$11.2 billion in regional gross domestic product and supported nearly 140,000 jobs during 2010.  
+One report was published during August by the Marcellus Shale Education and Training Center (MSETC), a collaboration between Pennsylvania College of Technology and Penn State Extension [@kelsey2009]. MSETC estimated that Marcellus Shale development in Pennsylvania generated between 23,385 and 23,884 jobs and almost \$1.9 billion in regional gross domestic product in 2009.
 
-The magnitude of the differences between the outcomes of the MSETC and Department of Energy and Mineral Engineering studies is too large to be attributed to the differences between 2009 and 2010 in the Pennsylvania economy and in the level of the natural gas industry’s activity. 
+Another report, published during late July, is the third in a series of reports authored by researchers, working through Penn State's John and Willie Leone Family Department of Energy and Mineral Engineering, about the status, impact, and potential of Pennsylvania's Marcellus natural gas industry [@considine2010]. By way of contrast with the report by MSETC, this study estimated that Pennsylvania Marcellus natural gas development generated \$11.2 billion in regional gross domestic product and supported nearly 140,000 jobs during 2010.
 
-Much of the contrast in the press between the two studies has surrounded who funded and conducted the studies. 
+The magnitude of the differences between the outcomes of the MSETC and Department of Energy and Mineral Engineering studies is too large to be attributed to the differences between 2009 and 2010 in the Pennsylvania economy and in the level of the natural gas industry's activity. Much of the comparison in the popular press between the two studies has surrounded who funded and conducted the studies.
 
-The MSETC study was funded by the Pennsylvania Economic Development Financing Authority. Three of its authors work for Penn State, with help from a former Penn State faculty member now working in Colorado. 
+The MSETC study was funded by the Pennsylvania Economic Development Financing Authority. Three of its authors work for Penn State, with help from a former Penn State faculty member now working in Colorado.
 
-The Marcellus Shale Coalition funded the research leading to the study reported from the Penn State Department of Energy and Mineral Engineering. The Coalition is registered in Pennsylvania as a 501(c)(6) tax exempt organization that represents the natural gas industry to the government, regulators, and the public. Most of the authors of this study are not affiliated with Penn State. One author is a former Penn State professor and another is a retired Penn State professor, while a third is current Penn State professor. 
+The Marcellus Shale Coalition funded the research leading to the study reported from the Penn State Department of Energy and Mineral Engineering. The Coalition is registered in Pennsylvania as a 501(c)(6) tax exempt organization that represents the natural gas industry to the government, regulators, and the public. Most of the authors of this study are not affiliated with Penn State. One author is a former Penn State professor and another is a retired Penn State professor, while a third is current Penn State professor.
 
-Many people refer to both studies as “Penn State” studies, although you can be certain that there is no such thing as a common, sanctioned Penn State position on Marcellus Shale development around which all faculty researchers rally. As one of our colleagues observed, over 3,500 full–time professors are employed by Penn State, guaranteeing also that there could be over 3,500 independent postures and attitudes about Marcellus Shale at Penn State, some of which change daily. 
+Many people refer to both studies as "Penn State" studies, although you can be certain that there is no such thing as a common, sanctioned Penn State position on Marcellus Shale development around which all faculty researchers rally. As one of our colleagues observed, over 3,500 full--time professors are employed by Penn State, guaranteeing also that there could be over 3,500 independent postures and attitudes about Marcellus Shale at Penn State, some of which change daily.
 
-Think the University has one voice on Marcellus Shale? Think again. 
+Think the University has one voice on Marcellus Shale? Think again.
 
-Many commentators dismiss the Coalition–funded study as the product of biased analysis conducted by hacks hired for industry lobbyists and, then, laundered with a Penn State logo to simulate the patina of scholarly gravitas. The MSETC report has received little criticism yet, even though it, too, was funded by a government agency with skin in the game.  
+Many commentators dismiss the Coalition--funded study as the product of biased analysis conducted by hacks hired for industry lobbyists and, then, laundered with a Penn State logo to simulate the patina of scholarly gravitas. The MSETC report has received little criticism yet, even though it, too, was funded by a government agency with skin in the game.
 
-Receiving research funds from sources external to the University is quite common. Research is an added expense that has social benefits beyond the University and, for the most part, is unfunded in the University’s core budget. Also, modern science is conducted worldwide among collaborators, with little attention to institutional boundaries. No one should be surprised that research at universities primarily is funded externally and is conducted collaboratively.
+Receiving research funds from sources external to the University is quite common. Research is an added expense that has social benefits beyond the University and, for the most part, is unfunded in the University's core budget. Also, modern science is conducted worldwide among collaborators, with little attention to institutional boundaries. No one should be surprised that research at universities primarily is funded externally and is conducted collaboratively.
 
-So, we believe that criticizing these studies based on who funded and conducted them is the wrong approach to assessing their quality. Rather, the studies must be judged on their scientific merits. 
+So, we believe that criticizing these studies based on who funded and conducted them is the wrong approach to assessing their quality. Rather, the studies must be judged on their scientific merits.
 
-First, let’s examine the analytical foundation that runs through both studies. 
+First, let's examine the analytical foundation that runs through both studies.
 
-The MSETC study and the Coalition–funded study investigated economic impacts using IMPLAN (see http://implan.com), a highly quantitative macroeconomic model that is considered by many to be the gold standard for assessing the economy–wide outcomes of regional economic activities, developments, and events. We use IMPLAN in our own research. 
+The MSETC study and the Coalition--funded study investigated economic impacts using IMPLAN [most recent citation: @economic2019], a highly quantitative, computationally-intensive macroeconomic model that is considered by many to be the gold standard[^2] for assessing the economy--wide outcomes of regional economic activities, developments, and events. We use IMPLAN in our own research.
 
-As many commentators have noted, IMPLAN has a variety of assumptions and limitations, requires mathematical skill to use correctly, is complex, and often is misapplied. However, the authors of both the MSETC study and the Coalition–funded study demonstrate the experience and accomplishment of grizzled IMPLAN users who are quite competent in specifying, conducting, and reporting IMPLAN analyses.
+[^2]: See, e.g., [@vowels2012].
 
-Now, down to the actual analytical differences between the MSETC study and the Coalition–funded study.  
+As many commentators have noted, IMPLAN has a variety of assumptions and limitations, requires mathematical skill to use correctly, is complex, and often is misapplied.[^3] However, the authors of both the MSETC study and the Coalition--funded study demonstrate the experience and accomplishment of grizzled IMPLAN users who are quite competent in specifying, conducting, and reporting IMPLAN analyses.
 
-From our view, the differences in study outcomes are driven by some key differences in the numbers entered into IMPLAN for each study. As the authors of the MSETC study asserted, these differences in outcomes are due to differences in “detailed information on where leasing, royalty, and payroll were going.” 
+[^3]: Refer to my posting on this blog at @passmore2022 for the analytical details.
 
-The Coalition–funded study assumed that all lease and royalty income earned through natural gas development and production remains within Pennsylvania and, furthermore, is spent during the year in which it is received. However, these assumptions do not seem reasonable.  
+Now, down to the actual analytical differences between the MSETC study and the Coalition--funded study.
 
-Some of this lease and royalty income “leaks” outside the Commonwealth and much is saved rather than spent. Based on data collected from Pennsylvania households and businesses, MSETC assumed conservatively that between 7.7 and 15.4 percent of lease and royalty dollars are earned out–of–state. MSETC’s data also led to the assumption that landowners save, rather than spend, 55 percent of lease payments and 66 percent of royalty payments. 
+From our view, the differences in study outcomes are driven by some key differences in the numbers entered into IMPLAN for each study. As the authors of the MSETC study asserted, these differences in outcomes are due to differences in "detailed information on where leasing, royalty, and payroll were going."
 
-The evidence-fueled assumptions by MSETC of lower lease and royalty income spent in the state and more lease and royalty income saved for the future produce lower economic impacts than those estimated in the Coalition–funded study.
+The Coalition--funded study assumed that all lease and royalty income earned through natural gas development and production remains within Pennsylvania and, furthermore, is spent during the year in which it is received. However, these assumptions do not seem reasonable.
 
-The Coalition–funded study assumed that the payroll of Marcellus Shale workers was earned and spent by Pennsylvanians alone. The MSETC study applied data from surveys and other studies to make the assumptions that 37 percent of Marcellus Shale workers are not Pennsylvania residents and that these non–residents spent between 50 to 75 percent of their earnings in Pennsylvania on a more restricted set of purchases (e.g., focusing on food and lodging) than Pennsylvanians do. 
+Some of this lease and royalty income "leaks" outside the Commonwealth and much is saved rather than spent. Based on data collected from Pennsylvania households and businesses, MSETC assumed conservatively that between 7.7 and 15.4% of lease and royalty dollars are earned out--of--state. MSETC's data also led to the assumption that landowners save, rather than spend, 55% of lease payments and 66% of royalty payments.
 
-MSETC’s assumptions of fewer Marcellus Shale earnings spent in Pennsylvania on a limited set of purchases equal lower economic impact estimates than produced through the Coalition–funded study. 
+The evidence-fueled assumptions by MSETC of lower lease and royalty income spent in the state and more lease and royalty income saved for the future produce lower economic impacts than those estimated in the Coalition--funded study.
 
-The full story of the net economic impact of Marcellus Shale activity remains to be told. However, at this point, the MSETC study appears to us to be more credible scientifically and practically than the Coalition–funded study. 
+The Coalition--funded study assumed that the payroll of Marcellus Shale workers was earned and spent by Pennsylvanians alone. The MSETC study applied data from surveys and other studies to make the assumptions that 37% of Marcellus Shale workers are not Pennsylvania residents and that these non--residents spent between 50 to 75% of their earnings in Pennsylvania on a more restricted set of purchases (e.g., focusing on food and lodging) than Pennsylvanians do.
 
+MSETC's assumptions of fewer Marcellus Shale earnings spent in Pennsylvania on a limited set of purchases equal lower economic impact estimates than produced through the Coalition--funded study.
+
+The full story of the net economic impact of Marcellus Shale activity remains to be told.\^[Not much action to research these impacts since the these early squabbles about potential economic outcomes from developing and producing gas from Marcellus Shale formations. I believe that this is because the representatives no longer seem threatened by the possibility of a severance tax, which Pennsylvania never has had the political will to enact. ] However, at this point, the MSETC study appears to us to be more credible scientifically and practically than the Coalition--funded study.
 
 ```{r,echo=FALSE}
 Sys.time()
