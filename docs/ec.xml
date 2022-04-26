@@ -54,5 +54,20 @@
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
       <media:content url="https://davidpassmore.github.io/blog/ec/2022-03-28-ethanecracker/ethane_cracker.jpg" medium="image" type="image/jpeg"/>
     </item>
+    <item>
+      <title>different numbers in, different numbers out</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/ec/2022-04-25-different</link>
+      <description>A comparison of the validity of two contrasting studies of the potential economic impact of Marcellus Shale natural gas extraction ...published in 2011</description>
+      <category>natural gas development</category>
+      <category>jobs</category>
+      <category>income</category>
+      <category>Pennsylvania</category>
+      <category>industry contribution</category>
+      <category>internal validity</category>
+      <guid>https://davidpassmore.github.io/blog/ec/2022-04-25-different</guid>
+      <pubDate>Fri, 07 Oct 2011 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.net/blogd/img/marcellus_hydraulic.gif" medium="image" type="image/gif"/>
+    </item>
   </channel>
 </rss>

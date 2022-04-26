@@ -26,7 +26,7 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-> This essay, written with Rose M. Baker, originally was published in *Marcellus Business Central* on October 7, 2011 (Volume 1, Issue 5, pages 9 and 15) when natural gas development in Pennsylvania started in earnest and 
+> This essay, written with Rose M. Baker, originally was published in **Marcellus Business Central** on October 7, 2011 (Volume 1, Issue 5, pages 9 and 15) when natural gas development in Pennsylvania started in earnest and when a natural gas severance tax was opposed strongly by gas industry representatives. "Taxing us will kill jobs. You want that?"
 
 ```{r img-fract, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Hydraulic Fracturing'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/marcellus_hydraulic.gif")
