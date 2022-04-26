@@ -62,7 +62,9 @@ For example, using the BLS data, the Pennsylvania Center for Workforce Informati
 
 Many observers are skeptical that government targeted funds for green job training are anything more than a boondoggle. State Budget Solutions, a self–described “non-partisan, positive, pro–reform, proactive” project, produced a report, “Green Jobs Don’t Grow on Trees,” in which was noted that “Pennsylvania is learning firsthand that increasing the number of green workers does not automatically increase employment. The state’s federally–funded MOVE-IT program cost $1.4 million and initially graduated 113 people, of whom only thirty-five were able to find a job. Rather than helping people find work, the program has merely turned over 75 out-of-work citizens into green out-of-work citizens.”
 
-As senior policy analyst Kermit the Frog often sings, “It’s not easy being green.”
+As senior policy analyst Kermit the Frog often sings, 
+
+![](https://davidpassmore.net/blogd/img/kermit.jpeg){width=50%}
 
 ## Last updated on {.appendix}
 ```{r,echo=FALSE}
