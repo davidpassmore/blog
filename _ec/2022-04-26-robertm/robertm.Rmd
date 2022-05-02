@@ -2,7 +2,7 @@
 title: "robertm"
 description: |
   Defining "green jobs" is difficult....published in 2012
-preview: https://davidpassmore.net/blogd/img/kermit.jpeg
+preview: ProcessFlow.png
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
@@ -11,17 +11,24 @@ author:
 categories:
   - input-output modeling
   - ethane cracker
-  - Potter Township, Pennsylvania
   - Shell, PLC
   - Beaver County, Pennsylvania
   - natural gas liquids
   - IMPLAN
-  - internal validity
   - economic impact
+  - Ohio River
+  - ethsne
+  - polyethylene pellets
+  - Falcon Ethane Pipeline
 date: 2012-4-12
 output:
   distill::distill_article:
     self_contained: false
+    toc: true 
+    toc-depth: 5
+editor_options: 
+  markdown: 
+    wrap: 72
 draft: true
 bibliography: references.bib
 ---
@@ -30,23 +37,157 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-According to Dun & Bradstreet @dunbradstreet, Shell Chemical Appalachia LLC is located in Houston, Texas, and is part of the Chemical and Allied Products Merchant Wholesalers Industry.
+Shell Chemical Appalachia LLC, a Shell subsidiary located in Houston,
+Texas [@dunbradstreet], decided in 2016 after a long planning period to
+invest in building and operating an ethane cracker to support a
+polyethylene pellet manufacturing facility at the Pennsylvania
+Petrochemicals Complex on the Ohio River in Monaca, Pennsylvania in
+Beaver County [@pennsylv, "Project development"] (see Figure
+\@ref(fig:img-crackerM)). Polyethylene is a feedstock for manufacturing
+plastic products, especially plastic packaging and auto components.
+Shell is reported to confirm that the Complex will start operating in
+2022 @shrum2022. @gist2016 wrote that "The Shell cracker represents one of the
+biggest-ever industrial investments in the tristate region
+(Pennsylvania, Ohio, and West Virginia), whose industrial sector
+suffered a series of set-backs through the second half of the 20^th^
+century (para. 4)."
 
-*Shell* ([NSYE: SHEL](https://www.google.com/finance/quote/SHEL:NYSE)), a public liability company incorporated in the UK, made a final investment decision in 2016 to build an ethane cracker integrated with a plastic pellet manufacturing facility at the Pennsylvania Petrochemicals Complex on the Ohio River in Monaca, Pennsylvania [@pennsylv]. As of this writing (Pril 2022), the Complex is nearing is nearing completion (see Figure \@ref(fig:img-crackerM)) and could starting operating in late 2022, according to Shell announcements reported in the popular press [@melinek2021]. Shell has estimated variously the deployment of between 400 to 600 jobs at the Complex.
-
-```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Pennsylvania Petrochemicals Complex Under Construction in March 2022'}
+```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Pennsylvania Petrochemicals Complex Under Construction (March 2022)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/ethane_cracker.jpeg")
 ```
 
-Shell has indicated that the plant will produce 1.6 million tons of various grades of polyethylene pellets from 3.9 million barrels of ethane annually. The ethane cracker is geographically proximal to ethane sources in Pennsylvania, Ohio, and West Virginia involved with wet gas production and processing from Marcellus and Utica shale formations [@callahan2022]. More than 70% of North American polyethylene customers are within a 700-mile radius of plastic pellet production at the Pennsylvania Petrochemical Complex.
+Why Pennsylvania? And, why Beaver County? "The basic answer is very
+simple," said Ate Visser at a 2016 industry conference in Pittsburgh. At the time, he was vice president of Appalachia petrochemicals of Shell Chemical
+Appalachia. Visser said "You're sitting here on a world-class resource base at the doorstep of your customer [@cocklin2016]." Leaders of oil and gas industry associations in Ohio, Pennsylvania and West Virginia noted that "Our three states produce roughly one-third of America's natural gas, making Appalachia the third largest gas producer in the world -- behind only the U.S. itself and Russia" [@callahan2022]. More than 70% of North American polyethylene market exists within a 700-mile radius of the Complex [@pennsylvc, "Project development"].
 
-Flenco Fluid Systems detailed that operations of the Complex includes:
 
-> a 250-MW power plant, to be located on the site formerly occupied by Horsehead Corp.'s Monaca Zinc Smelter plant in Potter and Center townships in Beaver County. Polyethylene pellets will be the final manufactured product of this facility. The pellets will be produced from one of two gas phase or one slurry technology polyethylene production lines. Combined design capacity for the three polyethylene production lines will be 1.6 million metric tons of polyethylene pellets per year. Ethylene will be manufactured on site as an intermediate product at this facility. Ethylene will be produced by cracking ethane feedstock received by pipeline. Design capacity for ethylene production will be 1.5 million metric tons per year. The ethylene will be entirely used on site as the primary feedstock for the polyethylene production lines. Three General Electric ([NYSE: GE](https://www.google.com/finance/quote/GE:NYSE)) Frame 6B natural gas-fired combustion turbines, 40.6 MW each and heat recovery steam generators will also be located at this facility to provide electricity and steam for use on site. Total generating capacity will be approximately 250 MW. Excess electricity will be sold to the grid in sufficient quantities to classify this facility as an electric utility.
 
-The Pennsylvania Department of Environmental Protection required for this first-o[f-its-kind facility in Pennsylvania several complex environmental reviews, approvals, and permits from DEP for new construction, remediation of contamination from previous industrial activities on the property, and operation. The Department lists on its website (see [@pennsylvb])various Department press releases about the Complex,permits and approvals obtained for the construction and operatio of the plant, and compliance/enforcement actions taken regarding the Complex.
+In this posting I review risk, uncertainty, and information gaps that
+affect^[In another posting in NOTES from Pittsburgh [@passmore2022], I summarized the chemical engineering for cracking ethane feedstock to obtain ethylene and, from there, to produce polyethylene pellets, which have downstream uses in the manufacture of many consumer products.]
 
-In another posting on this blog [@passmore2022], I summarized the chemical engineering for cracking ethane feedstock to obtain ethylene and, from there, to produce polyethylene pellets, which have downstream uses in the manufacture of many consumer products.
+### Questions Remain About the Viability of the Complex
+
+#### Can Product & Resource Markets Sustain the Complex?
+
+Risk, uncertainty, and volatility plague markets for fossil fuels,
+products, and their derivatives. In September 2020, @moodys2020 raised
+questions about the credit-worthiness of new fossil fuel projects.
+Markets, regulations, and concerns about the environment and quality of
+life are influencing the business proposition for added fossil fuel
+capacity.
+
+According to a biting 2020 analysis offered by by @sanzillo2020 for the
+[Institute for Energy Economics and Financial
+Analysis](%5Bhttps://ieefa.org/)](<https://ieefa.org/>)), the
+Pennsylvania Petrochemical Complex faces prospects of low product
+prices, risk of oversupply of plastic resins, stiff competition from
+other producers, volatility in ethane feedstock markets, the possibility
+of low overall economic growth, and competition from recycled plastics
+materials. Concluded by the Institute is that the Complex "will open to
+market conditions that are more challenging than when the project was
+planned. The [C]omplex is likely to be less profitable than expected and
+face an extended period of financial distress [@sanzillo2020, p.1]."
+
+#### Are Tax Expenditures by Pennsylvania Citizens Worthy?
+
+##### Site Preparation
+
+Funds from *Act 2 of 1995* [@landrec], which supports remediation of
+tracts of land that has been developed for industrial purposes,
+polluted, and then abandoned (*aka* "brownfields"), were used to prepare
+the site, the location of a former zinc smelter. Remediation involved
+covering the site with clean fill, installing a synthetic cap over
+previous disposal areas on the property, and collecting and treating
+potentially contaminated storm water before discharge [@shellpe,]. Ate
+Visser with Shell Chemical Appalachia a said that initiation of
+construction of the Complex would not have been possible without Act 2
+funds [@cocklin2016b, ¶7].
+
+##### Tax Expenditures as Incentives to Site in Pennsylvania
+
+The Commonwealth of Pennsylvania offered major incentives for siting the
+Complex in Pennsylvania:
+
+-   *Act 16 in 2012* [@keystone] made Shell exempt from all corporate
+    net income taxes and property taxes for 15 years after first
+    occupying the Beaver County site, as long as it invests at least one
+    billion dollars (not necessarily in Pennsylvania) and creates at
+    least 400 new permanent full-time jobs.
+-   *Act 85 in 2012* [@taxrefo] gives Shell a tax credit of 5 cents for
+    every gallon of ethane it buys to manufacture ethylene, provided
+    that 2,500 full-time equivalent jobs are created during construction
+    of the Complex (≅6,000 were, according to Shell [@shellst]). Shell
+    pays no taxes as stipulated in Act 16, but Shell can benefit by
+    selling unused credits as tax equity for other purchasing firms to
+    reduce their own tax liability.
+
+The dollar value of these incentives is open-ended. Thomas Corbett,
+Pennsylvania Governor at the time, initially sought an annual \$66
+million tax credit for 25 years, a total of \$1.65 billion. The dollar
+figure was not placed in the final draft, meaning that the credits are
+unlimited and flexible [@bumsted2012]. Shell's Visser said "I can tell
+you, with hand to my heart, that without these incentives, we would not
+have made this investment decision [@cocklin2016a, ¶6]."
+
+Often-overlooked in discussions of incentives and credits is t
+
+#### Is the Complex Expected to Improve the Regional Economy?
+
+I organize the remainder of this posting around three topics:
+
+1.  *Key features of the operation of the Pennsylvania Petrochemicals
+    Complex.*
+2.  *Stakes for public investments in the Complex.*
+3.  *Close and critical examination of claims of economic impact of the
+    Complex.*
+
+### Operation of the Pennsylvania Petrochemicals Complex
+
+The Pennsylvania Petrochemicals Complex in Monaca will house seven
+ethane cracker units, one high density polyethylene and two low density
+polyethylene resin manufacturing units, a natural gas-fired combustion
+turbine, four emergency diesel generators, multiple fuel and storage
+tanks, multiple flaring units and an incinerator
+[@stateofpennsylvania2016, pp. 5-7]. Figure \@ref(fig:img-processF) is a
+simple display of the inputs, processes, and products of the Complex
+
+```{r img-processF, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Processes in the Operation of Pennsylvania Petrochemicals Complex'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/ProcessFlow.png")
+```
+
+#### Inputs
+
+The Complex requires crack 3.9 million barrels of ethane annually for
+cracking ethane molecules (C$_{2}$H$_{6}$) into ethylene
+(C$_{2}$H$_{4}$) [@sanzillo2020, p. 7]. All of the ethane required by
+the Complex is delivered by the Falcon Ethane Pipeline System, 97-mile
+common carrier ethane pipeline located in Southwestern Pennsylvania and
+extends into Eastern Ohio and West Virginia. Shell says it will deploy
+600 jobs to operate the Complex [@pennsylv, "Environment and society"].
+
+*Oil & Gas Journal* [@brelsford2021] described other features of the
+operations of the Complex:
+
+> The complex will recycle and reuse water in its processes, drawing
+> about 20 million gal/day from the Ohio River. While about 80% of water
+> used at the site will evaporate as clean steam, the rest will be
+> treated as necessary to remove impurities and tested to ensure it
+> meets water quality standards before supplies are returned to the
+> river.
+
+> Already set to be equipped with the most recent (but
+> yet-to-be-identified) technologies to maximize energy efficiency and
+> minimize emissions, Shell said the complex also will feature secondary
+> measures to limit emissions from the site.
+
+The Pennsylvania Department of Environmental Protection required for
+this first-of-its-kind facility in Pennsylvania several complex
+environmental reviews, approvals, and permits for new construction,
+remediation of contamination from previous industrial activities on the
+property, and operation. The Department lists news on its website (see
+[@pennsylvb]) about the Complex, permits and approvals obtained for the
+construction and operation of the plant, and government
+compliance/enforcement actions taken to regulate the Complex.
 
 ## Last updated on {.appendix}
 
@@ -56,8 +197,17 @@ Sys.time()
 
 ## Reuse {.appendix}
 
-Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is available at <https://github.com/davidpassmore/blog>, unless otherwise noted. The figures that have been reused from other sources do not fall under this license and are recognized by footnoted text: "Figure from ...".
+Text and figures are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code is
+available at <https://github.com/davidpassmore/blog>, unless otherwise
+noted. The figures that have been reused from other sources do not fall
+under this license and are recognized by footnoted text: "Figure from
+...".
 
 ## Comments/Corrections {.appendix}
 
-To make comments about this posting or to suggest changes or corrections, send email to [David Passmore](mailto:dlp@davidpassmore.net), send a direct message on Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
