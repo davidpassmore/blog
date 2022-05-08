@@ -17,7 +17,8 @@ categories:
   - IMPLAN
   - economic impact
   - Ohio River
-  - ethsne
+  - ethane
+  - nurdles
   - polyethylene pellets
   - Falcon Ethane Pipeline
 date: 2012-4-12
@@ -40,79 +41,169 @@ knitr::opts_chunk$set(echo = FALSE)
 Shell Chemical Appalachia LLC, a Shell subsidiary located in Houston,
 Texas [@dunbradstreet], decided in 2016 after a long planning period to
 invest in building and operating an ethane cracker to support a
-polyethylene pellet manufacturing facility at the Pennsylvania
-Petrochemicals Complex on the Ohio River in Monaca, Pennsylvania in
-Beaver County [@pennsylv, "Project development"] (see Figure
-\@ref(fig:img-crackerM)). Polyethylene is a feedstock for manufacturing
-plastic products, especially plastic packaging and auto components.
+polyethylene resin manufacturing facility at a 400-acre Pennsylvania
+Petrochemicals Complex adjacent to the Ohio River in Potter and Center
+townships in Beaver County, Pennsylvania. [@pennsylv, "Project
+development"] (see Figure \@ref(fig:img-crackerM)). Polyethylene is a
+feedstock for manufacturing plastic products, especially plastic
+packaging and auto components. The polyethylene is produced from
+ethylene created from steam processing of ethane, a natural gas liquid
+lifted along with natural gas (methane) from so-called "wet gas" in
+Marcellus and Utica shale formations.
+
+```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Pennsylvania Petrochemicals Complex Under Construction (March 2022). (Photo by David Passmore.)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/ethane_cracker.jpeg")
+```
+
 Shell is reported to confirm that the Complex will start operating in
-2022 @shrum2022. @gist2016 wrote that "The Shell cracker represents one of the
-biggest-ever industrial investments in the tristate region
+2022 [@shrum2022]. @gist2016 wrote that "The Shell cracker represents
+one of the biggest-ever industrial investments in the tristate region
 (Pennsylvania, Ohio, and West Virginia), whose industrial sector
 suffered a series of set-backs through the second half of the 20^th^
 century (para. 4)."
 
-```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Pennsylvania Petrochemicals Complex Under Construction (March 2022)'}
-knitr::include_graphics("https://davidpassmore.net/blogd/img/ethane_cracker.jpeg")
-```
-
 Why Pennsylvania? And, why Beaver County? "The basic answer is very
-simple," said Ate Visser at a 2016 industry conference in Pittsburgh. At the time, he was vice president of Appalachia petrochemicals of Shell Chemical
-Appalachia. Visser said "You're sitting here on a world-class resource base at the doorstep of your customer [@cocklin2016]." Leaders of oil and gas industry associations in Ohio, Pennsylvania and West Virginia noted that "Our three states produce roughly one-third of America's natural gas, making Appalachia the third largest gas producer in the world -- behind only the U.S. itself and Russia" [@callahan2022]. More than 70% of North American polyethylene market exists within a 700-mile radius of the Complex [@pennsylvc, "Project development"].
+simple," said Ate Visser at a 2016 industry conference in Pittsburgh. At
+the time, he was an executive with Shell Chemical Appalachia. Visser
+said "You're sitting here on a world-class resource base at the doorstep
+of your customer [@cocklin2016]." Shell stuck with its decision to
+invest in the Complex, even though many Shell projects worldwide were
+delayed, resized or canceled altogether due to a downturn in the oil and
+gas markets as the Complex project began [@davis2016].
 
+Leaders of oil and gas industry associations in Ohio, Pennsylvania and
+West Virginia noted that "Our three states produce roughly one-third of
+America's natural gas, making Appalachia the third largest gas producer
+in the world -- behind only the U.S. itself and Russia" [@callahan2022].
+More than 70% of North American polyethylene market exists within a
+700-mile radius of the Complex [@pennsylvc, "Project development"].
 
+In the remainder of this posting I review risk, uncertainty, and
+information gaps that could influence the Shell's successful operation
+of the Pennsylvania Petrochemicals Complex as well as the the Complex's
+benefits to the regional economy.[^1] The flow of this blog posting:
 
-In this posting I review risk, uncertainty, and information gaps that
-affect^[In another posting in NOTES from Pittsburgh [@passmore2022], I summarized the chemical engineering for cracking ethane feedstock to obtain ethylene and, from there, to produce polyethylene pellets, which have downstream uses in the manufacture of many consumer products.]
+[^1]: In another posting in NOTES from Pittsburgh [@passmore2022], I
+    summarized the chemical engineering for cracking ethane feedstock to
+    obtain ethylene and, from there, to produce polyethylene resin
+    pellets, which have downstream uses in the manufacture of many
+    consumer products.
+
+-   I, first, delineate some of the questions that remain for me about
+    the markets affecting the Complex, the worthiness of public
+    expenditures on the Complex, and the expected regional economic
+    effects of the Complex. I highlight the importance of evidence about
+    expected economic impact to promote public acceptance of the Complex
+    and to stimulate the need for public expenditures to support the
+    Complex.\
+-   Next, I outline my understanding of the steps in the operation of
+    the Pennsylvania Petrochemicals Complex. Understanding these the
+    nature and structure of inputs, processes, and outputs shape
+    expectations for the regional economic impact of the Complex.\
+-   And, last, I critically examine a report by professors at Robert
+    Morris University supported by Shell Chemical Appalachia LLC that
+    was meant to provide evidence to satisfy questions about the
+    expected impact of the Complex on the regional economy before the
+    Complex was commissioned.
 
 ### Questions Remain About the Viability of the Complex
 
 #### Can Product & Resource Markets Sustain the Complex?
 
-Risk, uncertainty, and volatility plague markets for fossil fuels,
-products, and their derivatives. In September 2020, @moodys2020 raised
+Risk, uncertainty, and volatility plague markets for fossil fuels and
+products from these fuels. In September 2020, @moodys2020 raised
 questions about the credit-worthiness of new fossil fuel projects.
 Markets, regulations, and concerns about the environment and quality of
 life are influencing the business proposition for added fossil fuel
 capacity.
 
-According to a biting 2020 analysis offered by by @sanzillo2020 for the
+According to a biting 2020 opinion offered by @sanzillo2020 for the
 [Institute for Energy Economics and Financial
-Analysis](%5Bhttps://ieefa.org/)](<https://ieefa.org/>)), the
-Pennsylvania Petrochemical Complex faces prospects of low product
-prices, risk of oversupply of plastic resins, stiff competition from
-other producers, volatility in ethane feedstock markets, the possibility
-of low overall economic growth, and competition from recycled plastics
-materials. Concluded by the Institute is that the Complex "will open to
-market conditions that are more challenging than when the project was
-planned. The [C]omplex is likely to be less profitable than expected and
-face an extended period of financial distress [@sanzillo2020, p.1]."
+Analysis](https://ieefa.org/), the Pennsylvania Petrochemical Complex
+faces prospects of low product prices, price and supply volatility in
+ethane feedstock markets, risk of oversupply of polyethylene resins that
+the Complex will manufacture, stiff competition from other producers,
+competition from recycled plastics materials, and the influence of
+possible low overall economic growth. Concluded by the Institute was
+that the Complex "will open to market conditions that are more
+challenging than when the project was planned. The [C]omplex is likely
+to be less profitable than expected and face an extended period of
+financial distress [@sanzillo2020, p.1]."
 
-#### Are Tax Expenditures by Pennsylvania Citizens Worthy?
+#### Tax Expenditures by Pennsylvania Citizens Are Large...But Prudent?
+
+The Commonwealth of Pennsylvania allocated funds to support preparation
+of the site for the Complex in Monaca. In addition, the Commonwealth
+offered tax and financial incentives to site the Complex in
+Pennsylvania. Use of the term, "incentives," however, makes the
+Commonwealth's decision sound distant from its financial accounting.
+Make no mistake, though. These incentives plainly are *tax
+expenditures*, defined in an accounting sense by the U.S. Treasury
+[@taxexpe] as
+
+> revenue losses attributable to provisions of Federal tax laws which
+> allow a special exclusion, exemption, or deduction from gross income
+> or which provide a special credit, a preferential rate of tax, or a
+> deferral of tax liability. These exceptions are often viewed as
+> alternatives to other policy instruments, such as spending or
+> regulatory programs. (para. 1)
+
+As a consequence of excluding taxes and offering tax credits for the
+Pennsylvania Petrochemicals Complex, citizens of the Commonwealth forego
+the opportunity to collect general fund revenue. Also, reduction of
+revenue from these expenditures and credits could require the
+Commonwealth to raise taxes to remain revenue-neutral [@sammartino2020,
+p. 4]. In 2019, Stacker, a news organization, calculated that the tax
+breaks allocated to the Pennsylvania Petrochemicals Complex ranked 13th
+in dollar value out of 50 national projects receiving corporate
+subsidies from governments over a 20-year period [@crisafulli].
+
+If projects were judged on costs alone, few investments would be made,
+of course. Rather, citizens must weigh the costs of this public
+investment in a private venture against the benefits distributed to the
+regional economy that could accrue from the operation of the Complex. As
+I will assert in more detail subsequently in this blog posting, I do not
+believe that these benefits were demonstrated well before construction
+and operation of the Complex.
 
 ##### Site Preparation
 
 Funds from *Act 2 of 1995* [@landrec], which supports remediation of
-tracts of land that has been developed for industrial purposes,
-polluted, and then abandoned (*aka* "brownfields"), were used to prepare
-the site, the location of a former zinc smelter. Remediation involved
-covering the site with clean fill, installing a synthetic cap over
-previous disposal areas on the property, and collecting and treating
-potentially contaminated storm water before discharge [@shellpe,]. Ate
-Visser with Shell Chemical Appalachia a said that initiation of
-construction of the Complex would not have been possible without Act 2
-funds [@cocklin2016b, ¶7].
+tracts of land that were developed for industrial purposes, polluted,
+and then abandoned (*aka* "brownfields"), were applied to help fund
+preparation of the site, the location of a former zinc smelter.
+Remediation involved covering the site with clean fill, installing a
+synthetic cap over previous disposal areas on the property, and
+collecting and treating potentially contaminated storm water before
+discharge [@shellpe]. Ate Visser said at a 2016 industry conference in
+Pittsburgh that construction of the Complex would been impossible
+without Act 2 funds [@cocklin2016b, ¶7]. At the time, Visser was an
+executive with Shell Chemical Appalachia.
 
-##### Tax Expenditures as Incentives to Site in Pennsylvania
+Commonwealth expenditures did not alone fund site preparation. Shell
+incurred significant expenses. For example, Shell committed \$80 million
+on top of Act 2 funds to clean up environmental contamination at the
+site and prepare the land for construction of the Complex
+[@cocklin2016b, ¶6]. A PennDOT spokesman, said Shell paid for a \$60
+million project to alter a Commonwealth roadway, Pennsylvania Route 18,
+and make other road fixes at the site [@bumsted2016]. Also, Shell paid
+nearly \$70 million to move Center Township's water intake site and
+build Township a new water treatment plant. The water intake was located
+where Shell built docking facilities for delivery of equipment during
+the construction phase of the Complex (@cocklin2016c, para. 4).
+
+##### Tax Expenditures Offered as Incentives to Site in Pennsylvania
 
 The Commonwealth of Pennsylvania offered major incentives for siting the
 Complex in Pennsylvania:
 
--   *Act 16 in 2012* [@keystone] made Shell exempt from all corporate
-    net income taxes and property taxes for 15 years after first
+-   *Act 16 in 2012* [@keystone] makes Shell exempt from all corporate
+    net income taxes and property taxes for 25 years after first
     occupying the Beaver County site, as long as it invests at least one
     billion dollars (not necessarily in Pennsylvania) and creates at
-    least 400 new permanent full-time jobs.
+    least 400 new permanent full-time jobs. Shell said it would deploy
+    600 jobs to operate the Complex [@pennsylv, "Environment and
+    society"].
 -   *Act 85 in 2012* [@taxrefo] gives Shell a tax credit of 5 cents for
     every gallon of ethane it buys to manufacture ethylene, provided
     that 2,500 full-time equivalent jobs are created during construction
@@ -121,25 +212,20 @@ Complex in Pennsylvania:
     selling unused credits as tax equity for other purchasing firms to
     reduce their own tax liability.
 
-The dollar value of these incentives is open-ended. Thomas Corbett,
-Pennsylvania Governor at the time, initially sought an annual \$66
-million tax credit for 25 years, a total of \$1.65 billion. The dollar
-figure was not placed in the final draft, meaning that the credits are
+Thomas Corbett, Pennsylvania Governor at the time, initially sought an
+annual \$66 million tax credit for 25 years, a total of \$1.65 billion.
+If the Complex sustains between 400 to 600 jobs annually for 25 years, a
+rough, undiscounted calculation[^2] indicates a cost per job over the
+25-year period between \$2.75 million and \$.13 million, which equals
+\$165,000 to \$112,000 per job per year. The dollar figure was not
+placed in the final draft of legislation, meaning that the credits are
 unlimited and flexible [@bumsted2012]. Shell's Visser said "I can tell
 you, with hand to my heart, that without these incentives, we would not
 have made this investment decision [@cocklin2016a, ¶6]."
 
-Often-overlooked in discussions of incentives and credits is t
+[^2]: And, my own. So quite unofficial.
 
 #### Is the Complex Expected to Improve the Regional Economy?
-
-I organize the remainder of this posting around three topics:
-
-1.  *Key features of the operation of the Pennsylvania Petrochemicals
-    Complex.*
-2.  *Stakes for public investments in the Complex.*
-3.  *Close and critical examination of claims of economic impact of the
-    Complex.*
 
 ### Operation of the Pennsylvania Petrochemicals Complex
 
@@ -148,46 +234,222 @@ ethane cracker units, one high density polyethylene and two low density
 polyethylene resin manufacturing units, a natural gas-fired combustion
 turbine, four emergency diesel generators, multiple fuel and storage
 tanks, multiple flaring units and an incinerator
-[@stateofpennsylvania2016, pp. 5-7]. Figure \@ref(fig:img-processF) is a
-simple display of the inputs, processes, and products of the Complex
+[@stateofpennsylvania2016, pp. 5-7]. Displayed in Figure
+\@ref(fig:img-processF) are inputs, processes, and products of the
+Complex. For simplicity of presentation, the flow of activity portrayed
+in Figure \@ref(fig:img-processF) skims over many of the details of the
+ethane-to-ethylene-to-plastic resin process. I narrate some of the
+details about inputs, processes, and outputs that are behind Figure
+\@ref(fig:img-processF).
 
-```{r img-processF, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Processes in the Operation of Pennsylvania Petrochemicals Complex'}
+```{r img-falcon, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Processes in the Operation of Pennsylvania Petrochemicals Complex. (Graphic by David Passmore)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/ProcessFlow.png")
 ```
 
 #### Inputs
 
-The Complex requires crack 3.9 million barrels of ethane annually for
-cracking ethane molecules (C$_{2}$H$_{6}$) into ethylene
-(C$_{2}$H$_{4}$) [@sanzillo2020, p. 7]. All of the ethane required by
-the Complex is delivered by the Falcon Ethane Pipeline System, 97-mile
-common carrier ethane pipeline located in Southwestern Pennsylvania and
-extends into Eastern Ohio and West Virginia. Shell says it will deploy
-600 jobs to operate the Complex [@pennsylv, "Environment and society"].
+The Complex is anticipated to produce 3.9 million barrels of ethane
+annually by cracking ethane molecules to make ethylene [@sanzillo2020,
+p. 7].[^3] All of the ethane required by the Complex is delivered to the
+Complex by the Falcon Ethane Pipeline System, a 97-mile pipeline network
+from Houston, Pennsylvania, and Cadiz and Scio in Ohio. The three modes
+in the pipeline network are tactically located proximal to clusters of
+wells producing "wet" gas[^4] (see Figure \@ref(fig:img-falcon)).[^5] At
+these three nodes are gas processing plants that drop out liquids and
+remove solids or other particulate matter that might exist in the gas
+stream lifted from regional wells drawing from Marcellus and Utica shale
+formations. As with many aspects of the construction and operation of
+the Complex, the Falcon Ethane Pipeline System has generated
+considerable controversy [see, e.g., @realtal2022].
 
-*Oil & Gas Journal* [@brelsford2021] described other features of the
-operations of the Complex:
+[^3]: I caution that the magnitude of figures about the supply of inputs
+    to the Complex and its outputs were offered by Shell before
+    initiation of the project and will depend on market conditions that
+    drive Complex activity.
 
-> The complex will recycle and reuse water in its processes, drawing
-> about 20 million gal/day from the Ohio River. While about 80% of water
-> used at the site will evaporate as clean steam, the rest will be
-> treated as necessary to remove impurities and tested to ensure it
-> meets water quality standards before supplies are returned to the
-> river.
+[^4]: That is, wells that not only produce methane, but also produce
+    natural gas liquids such as ethane, propane, butane, and isobutane.
+    Molecules of these substances are have higher molecular weight than
+    methane. These products constitute as liquids when, depending on the
+    gas pressure, they condense to become the "wet," portion of the
+    natural gas [@hey2017]. In general, Marcellus and Utica shale
+    formations in Ohio, southwestern Pennsylvania, and West Virginia
+    contain high proportions of wet gas.
 
-> Already set to be equipped with the most recent (but
-> yet-to-be-identified) technologies to maximize energy efficiency and
-> minimize emissions, Shell said the complex also will feature secondary
-> measures to limit emissions from the site.
+[^5]: Figure from @shells2017.
+
+```{r img-processF, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Processes in the Operation of Pennsylvania Petrochemicals Complex.'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/Falcon-Ethane-Pipeline.png")
+```
+
+Superheated pressurized steam in the cracker vaporizes ethane. Heat
+splits the bonds between carbon and hydrogen atoms in ethane to yield
+ethylene (more detail in @passmore2022a, para, 5). *Oil & Gas Journal*
+[@brelsford2021] reported that the Complex also will draw 20 million
+gallons of water every day from the Ohio River. Some water not used to
+generate steam is used to cool the effluent produced by the cracker.
+Water is reused or returned to the river as a by-product[^6] after
+treatment to meet water quality standards.
+
+[^6]: A by-products is a material produced as a residual of, or
+    incidental to, the production process. In an accounting sense,
+    by-products are associated with costs.
+
+Natural gas fires a 250-megawatt turbine that produces steam for the
+ethane cracker and generates electricity for the Complex. The local
+electrical grid could buy one-third of the electricity output of the
+power plant [@newshel].
+
+#### Processes
+
+The core of the Pennsylvania Petrochemical Complex is an ethane cracker
+that supplies ethylene for making polymer resin.
+
+##### Cracking
+
+An ethane cracker is a furnace into which ethane is fed. The ethane is
+diluted with with steam that is heated to 1300° F. The heat of the
+furnace cracks ethylene (C$_{2}$H$_{4}$) from ethane (C$_{2}$H$_{6}$)
+molecules, freeing two molecules of hydrogen in the process and creating
+a double bond between carbon atoms [^7] between carbon atoms (See Figure
+\@ref(fig:img-crack)). The hot gas mixture exhausted from the cracker is
+cooled, or "quenched [@quenchw]," with water to prevent further chemical
+reactions. Water is recovered for recycling back into the cracking
+process, although some is treated and discharged as a by-product of the
+Complex [@partlow2022].
+
+[^7]: A a type of chemical bond in which two electron pairs are shared
+    between two atoms [@helmenstinea].
+
+```{r img-crack, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Ethane Molecules are Cracked to Form Ethylene Molecules'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/LNG-04a.jpeg")
+```
+
+Gas containing ethylene and other substances moving from the cracker is
+compressed to a liquid state and, then, refrigerated. Fractional
+distillation further separates ethylene from the cooled quenched mixture
+by taking advantage of differences in the vaporization point of ethylene
+compared with other chemical components of the mixture [@helmenstine].
+Various gases that are by-products of cracking are burned off into the
+air in a controlled combustion process called "flaring" [@flaring],
+which releases carbon dioxide into the air as a by-product. Wastewater
+from the cracker is collected, treated, and discharged. Then, the
+ethylene produced is stored for use in manufacturing of plastic resins.
+
+An important fact is that ethylene cracked from ethane is not a product
+of the Complex meant to be sold to customers. Ethylene is, instead, an
+input to polyethylene manufacturing, the next and final stage of
+production in the Complex. Ethane cracking gathers more attention than
+polymerization probably because the ethane cracker forms a large
+footprint at the Complex and consumes most inputs of ethane, water,
+electricity, and steam to the Complex. The final product of the
+Pennsylvania Petrochemicals Complex sold to customers is, in fact,
+pelletized polyethylene resin. *This fact has important consequences for
+the validity of estimates that have been made of economic impact of the
+Complex.* More to that point subsequently in this posting.
+
+##### Polymerization
+
+Unique among elements is the capability of carbon to form single bonds
+chemically with up to four other atoms and to double or triple bond with
+itself, as in a double-bond ethylene molecule (again, see Figure
+\@ref(fig:img-crack)). Carbon is one of the only elements, because of
+its bonding properties, that can create long chain-shaped molecules to
+form the basis for the fats, carbohydrates, nucleic acids (DNA and RNA),
+and proteins that serve as the basis of life itself. Chaining together
+ethylene molecules (monomers) through a chemical process called
+*polymerization* produces polyethylene (a polymer, which means "many
+parts").
+
+Polyethylene is made by the reaction of multiple ethylene molecules in
+the presence of catalyst.[^8] The catalyst bonds ethylene monomers into
+a long chain forming a polymer (see Figure \@ref(fig:img-polymer)).[^9]
+The polymerization process releases high amounts of heat,[^10]
+continuous cooling is required to prevent runaway chemical reactions
+[@burdett2018, p. 67].
+
+[^8]: A chemical is a some material that speeds up chemical reactions,
+    but is not consumed during the reaction. Approximately 95% of
+    industrial chemical processes involve catalysts of various kinds.
+
+[^9]: Figure from [@howpoly].
+
+[^10]: Described as "exothermic."
+
+```{r img-polymer, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Ethylene Monomers React With a Catalyst to Create Polyethylene'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/polymerization.png")
+```
+
+#### Outputs
+
+Plastic resin is the product of the Pennsylvania Petrochemicals Complex
+that has market value for Shell. At the same time, the Complex
+accumulates by-products of its industrial processes have consequence for
+the public health and environmental quality.
+
+##### Polyethylene Resin Pellets
+
+Polyethylene has many desirable attributes for manufacturing. According
+to @kaiser2021, polyethylene can handle large loads without fracture. It
+is flexible and can be stretched. Polyethylene has a relatively low
+melting point compared with other plastics and absorbs no water.
+Polyethylene is a good electrical insulator and can be produced to be
+transparent. Polyethylene has thermoplastic properties useful in
+production -- i.e., it softens or fuses when heated and hardens and
+becomes rigid again when cooled.
+
+Nearly all polyethylene typically is sold as small (≅5mm), white,
+lentil-shaped pellets, although round, flat, square, cylindrical, and
+various other shapes of many colors are manufactured (see Figure
+\@ref(fig:img-nurd)).[^11] The pellets are known as "nurdles." The added
+cost of pelletizing polyethylene is considerable [@burdett2018a, p. 67].
+
+[^11]: Photo obtained from
+    <https://www.theatlantic.com/science/archive/2019/07/plastic-pellets-nurdles-pollute-oceans/593317/>.
+
+```{r img-nurd, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='A Handful of Nurdles'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/nurdlehand.jpg")
+```
+
+These plastic pellets are unit-priced by the pound for sale in
+downstream markets. Pellet prices are volatile [@pederson2021] because
+they are driven on the supply side by equally volatile prices for
+natural gas and on the demand side by two major factors. First,
+consumers express preferences for "eco-friendly" packaging solutions.
+Second, environmental regulation of plastic products is increasing. Some
+observers believe nurdles are one of the most destructive toxic wastes
+released in the environment (see discussion by @mcveigh).
+
+##### By-Products
+
+Many industrial processes create co-products and by-products.
+Co-products are goods or services produced incidental to main production
+that have market value to generate revenue. A by-product typically is a
+material that is a consequence of production that is associated with
+costs. I could not find evidence to indicate that the Pennsylvania
+Petrochemicals Complex generates any co-products. However, the Complex
+will create by-products, some of the cost of which Shell will bear by
+paying for permits to discharge substances into the environment.
+
+Cracking ethane emits hazardous by-products that can render the air,
+soil, water, or other natural resources harmful or unsuitable for use.
+Small inhalable particles (e.g., PM$_{2.5}$), another by-product of
+ethane production, can damage short- and long-term human respiratory
+function. Cracking also releases carbon dioxide (CO$_{2}$), a gas that
+can absorb energy within the infrared wavelengths. This energy is
+transferred by collision with other molecules. Faster molecular motion
+produces heat. Trapped heat from this action of carbon dioxide in the
+Earth's atmosphere is the "greenhouse effect" that has affected global
+warming.
 
 The Pennsylvania Department of Environmental Protection required for
-this first-of-its-kind facility in Pennsylvania several complex
-environmental reviews, approvals, and permits for new construction,
-remediation of contamination from previous industrial activities on the
-property, and operation. The Department lists news on its website (see
-[@pennsylvb]) about the Complex, permits and approvals obtained for the
-construction and operation of the plant, and government
-compliance/enforcement actions taken to regulate the Complex.
+this first-of-its-kind facility in Pennsylvania complex environmental
+reviews, approvals, and permits for new construction, remediation of
+contamination from previous industrial activities on the property, and
+operation. The Department lists news on its website (see [@pennsylvb])
+about the Complex, permits and approvals obtained for the construction
+and operation of the plant, and government compliance/enforcement
+actions taken to regulate the Complex.
 
 ## Last updated on {.appendix}
 
