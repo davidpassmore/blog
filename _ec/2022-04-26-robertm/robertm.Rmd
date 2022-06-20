@@ -82,7 +82,7 @@ Complex [@pennsylvc, "Project development"].
 biggest-ever industrial investments in the tristate region
 (Pennsylvania, Ohio, and West Virginia), whose industrial sector
 suffered a series of set-backs through the second half of the 20th
-century (para. 4)." \@whitfield2018 described a study [@reporta2017][^1]
+century (para. 4)." @whitfield2018 described a study [@reporta2017][^1]
 for the Team Pennsylvania Foundation [@teampa] that predicted
 "significant new investments in energy infrastructure such as gas
 gathering lines, pipelines, storage facilities, and fractionation plants
@@ -297,7 +297,7 @@ done nothing, had we let these businesses go" [@detrow2012].
     policies, but rather the social rate of return associated with the
     intervention" [@rabalino2018].
 
-#### Are Tax Expenditures as Incentives Effective?
+#### Are Tax Expenditures Effective as Incentives?
 
 The extant research literature examining the relationship between
 offering tax incentives and consequent economic growth is complex,
@@ -338,7 +338,7 @@ building in Philadelphia (p. 4). Even so, Pennsylvania Governor Corbett
 enthusiastically compared his announcement of the tax expenditure deal
 with the petrochemical industry to "what it must have been like when the
 first steel mill was built in Pittsburgh, starting an industry that had
-never been here before [@murphy2016a]. "I think it's important not only
+never been here before" [@murphy2016a]. "I think it's important not only
 for the young generation but generations yet to be born," Corbett said.
 "It's going to establish an industry here in western Pennsylvania that I
 think has the potential to grow to considerable size."
@@ -1477,7 +1477,7 @@ detail the technical aspects of calculating these impacts
 knitr::include_graphics("https://davidpassmore.net/blogd/img/multeff.png")
 ```
 
-#### Did Economics Play a Role in the Assessment of the Potential Economic Impact?
+#### Did Economics Play a Role in the Assessment of the Potential Economic Impact of the Complex?
 
 Reading the Robert Morris report leads to a growing realization: This
 report about economic impact describes an accounting exercise, not an
