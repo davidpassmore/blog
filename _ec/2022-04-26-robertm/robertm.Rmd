@@ -40,7 +40,8 @@ bibliography: references.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
+library(gt)
+library(readr)
 ```
 
 Shell Chemical Appalachia LLC, a Shell subsidiary located in Houston,
@@ -870,6 +871,7 @@ Table 1.
 
 [^15]: Reported to me was that a new permit is required when the Complex
     begins operating.
+
 
 Table 1. *Permitted Annual Emissions by the Complex*
 
