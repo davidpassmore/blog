@@ -40,6 +40,7 @@ bibliography: references.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 Shell Chemical Appalachia LLC, a Shell subsidiary located in Houston,
@@ -55,7 +56,7 @@ auto components. Polyethylene is produced from ethylene created from
 steam processing of ethane, a natural gas liquid found in some gas
 streams in the Marcellus and Utica shale formations.
 
-```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='*Pennsylvania Petrochemicals Complex Under Construction.* <br> (Photo Taken in March 2022 by David Passmore.)'}
+```{r img-crackerM, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='*Pennsylvania Petrochemicals Complex Under Construction.* <br> (Photo Taken in March 2022 by David Passmore.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/ethane_cracker.jpeg")
 ```
 
@@ -515,7 +516,7 @@ that is growing based on manufacturing that does not exist right now. So
 they will have money for education, for social services" [@detrow2012,
 ¶19].
 
-```{r img-trump, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='*Former President Trump Visits Site of Pennsylvania Petrochemicals Complex, August 2019* <br> (Image from https://tinyurl.com/trumpvisit)'}
+```{r img-trump, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='*Former President Trump Visits Site of Pennsylvania Petrochemicals Complex, August 2019* <br> (Image from https://tinyurl.com/trumpvisit)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/trumpvisit.png")
 ```
 
@@ -546,7 +547,7 @@ Pennsylvania Petrochemicals Complex. So,next, I offer my bare bones
 description of the operation of the Complex and refer to information in
 this description in my subsequent review the Robert Morris report.
 
-## Operation of the Pennsylvania Petrochemicals Complex
+## Operation of the Pennsylvania <br> Petrochemicals Complex
 
 The Pennsylvania Petrochemicals Complex in Monaca will house seven
 ethane cracker units,[^8] two high density polyethylene and one low
@@ -577,7 +578,7 @@ the details of the ethane-to-ethylene-to-plastic resin process. I
 narrate some of the details about inputs, processes, and outputs that
 flow from top to bottom of Figure \@ref(fig:img-processF).
 
-```{r img-processF, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='*Inputs, Processes, and Outputs in the Operation of Pennsylvania Petrochemicals Complex.* <br> (Graphic drawn by David Passmore using DiagrammeR package in RStudio based on <br>  general descriptions of ethane cracking and statements in air quality approval <br> application made by Shell [@rtpenvironmentalassociatesinc.2014]. Does not <br> show the flow of emmissions from utilites and general facilities processes <br> or fugitive emissions.)'}
+```{r img-processF, echo=FALSE, fig.align='center', fig.retina = 2, fig.cap='*Inputs, Processes, and Outputs in the Operation of Pennsylvania Petrochemicals Complex.* <br> (Graphic drawn by David Passmore using DiagrammeR package in RStudio based on <br>  general descriptions of ethane cracking and statements in air quality approval <br> application made by Shell [@rtpenvironmentalassociatesinc.2014]. Does not <br> show the flow of emmissions from utilites and general facilities processes <br> or fugitive emissions.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/ProcessFlow.png")
 ```
 
@@ -610,7 +611,7 @@ generated considerable controversy [see, e.g., @realtal2022].
     am not aware of a renewal of this permit and any process or emission
     updates that a renewal application might cite.
 
-```{r img-falcon, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , out.extra="class=external", fig.cap='*Falcon Ethane Pipeline.* <br> (Map from https://bit.ly/FalconPipeline)'}
+```{r img-falcon, echo=FALSE, fig.align='center', fig.retina = 2,  out.extra="class=external", fig.cap='*Falcon Ethane Pipeline.* <br> (Map from https://bit.ly/FalconPipeline)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/Falcon-Ethane-Pipeline.png")
 ```
 
@@ -627,7 +628,7 @@ In general, Marcellus and Utica shale formations in Ohio, southwestern
 Pennsylvania, and West Virginia involve wet gas (See Figure
 \@ref(fig:img-wet) for locations).
 
-```{r img-wet, echo=FALSE, fig.align='center', fig.retina = 2, out.extra="class=external", fig.cap='*Locations of Wet and Dry Gas in Marcellus and Utica Shale Formations.* <br> (Map from https://bit.ly/wet-dry-gas)'}
+```{r img-wet, echo=FALSE, fig.align='center', fig.retina = 2, out.extra="class=external", out.width='90%' ,fig.cap='*Locations of Wet and Dry Gas in Marcellus and Utica Shale Formations.* <br> (Map from https://bit.ly/wet-dry-gas)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/wetdry.jpg")
 ```
 
@@ -681,7 +682,7 @@ by-product of the Complex [@partlow2022].
 [^11]: A a type of chemical bond in which two electron pairs are shared
     between two atoms [@helmenstinea].
 
-```{r img-crack, echo=FALSE, fig.align='center', fig.retina = 2,  out.extra="class=external", out.width='25%' , fig.cap='*Comparison of the Chemical Structures of Ethane and Ethylene.* <br> (Image from https://insights.globalspec.com/images/assets/490/1490/LNG-04a.jpg)'}
+```{r img-crack, echo=FALSE, fig.align='center', fig.retina = 2,  out.extra="class=external",  fig.cap='*Comparison of the Chemical Structures of Ethane and Ethylene.* <br> (Image from https://insights.globalspec.com/images/assets/490/1490/LNG-04a.jpg)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/LNG-04a.jpeg")
 ```
 
@@ -812,7 +813,7 @@ relatively easy to ship. Customers who buy pellets are not households,
 but are other businesses which use the nurdles in their own production
 involving, for example, injection molding, extrusion, and blow molding.
 
-```{r img-nurd, echo=FALSE, fig.align='center', fig.retina = 2,  out.extra="class=external", out.width='25%' , fig.cap='*White Nurdles.* <br> (Photo from gentlemanrook - originally posted to Flickr as Plastic Pellets - &quot;Nurdles&quot;, <br> CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4487785)'}
+```{r img-nurd, echo=FALSE, fig.align='center', fig.retina = 2,  out.extra="class=external",  fig.cap='*White Nurdles.* <br> (Photo from gentlemanrook - originally posted to Flickr as Plastic Pellets - &quot;Nurdles&quot;, <br> CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4487785)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/nurdles.png")
 ```
 
@@ -906,10 +907,13 @@ Table 1. *Permitted Annual Emissions by the Complex*
 | Carbon Dioxide Equivalents  | 2,248,932      |
 | (CO2e)                      |                |
 +-----------------------------+----------------+
-| *Source:* \@ c o m          |                |
-| m                           |                |
-| onwealthofpennsylvania2015, |                |
-| Emission Restriction #005   |                |
+| *Source:* Air Quality Plan  |                |
+| Approval Application:       |                |
+| Petrochemicals Complex,     |                |
+| Shell Chemical Appalachia   |                | 
+| LLC, Beaver County,         |                | 
+| Pennsylvania, Emission      |                | 
+| Restriction #005            |                |
 +-----------------------------+----------------+
 
 The Pennsylvania Department of Environmental Protection required for
@@ -922,7 +926,7 @@ the construction and operation of the facility, and
 compliance/enforcement actions taken by government agencies to regulate
 the Complex.
 
-## How Well Understood is the <br> Potential Economic Impact of Complex?
+## How Well Understood is the  Potential <br> Economic Impact of Complex?
 
 Shell Chemical Appalachia LLC made a complex, courageous, and
 consequential financial decision to build and operate the Pennsylvania
@@ -1377,7 +1381,7 @@ components shown in Figure \@ref(fig:img-outp) are from national income
 and product accounting. The components are organized hierarchically into
 overlapping categories.
 
-```{r img-outp, echo=FALSE, fig.align='center', out.extra="class=external", fig.cap='*Relationships Among Some of the Components of Regional Economic Output, <br> Most of Which Are Estimated in the Robert Morris Report.*<br> (Image captured and recolored from https://bit.ly/IMPLANoutput)'}
+```{r img-outp, echo=FALSE, fig.align='center', fig.cap='*Relationships Among Some of the Components of Regional Economic Output, <br> Most of Which Are Estimated in the Robert Morris Report.*<br> (Image captured and recolored from https://bit.ly/IMPLANoutput)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/output.png")
 ```
 
@@ -1473,11 +1477,11 @@ only for estimates in panel I of Table. In another blog posting, I
 detail the technical aspects of calculating these impacts
 (@passmore2022c, "Multipliers").
 
-```{r img-multiply, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='*Components the Total Economic Impact of the Pennsylvania Petrochemicals Complex.* <br> (Graphic drawn by David Passmore using DiagrammeR package in RStudios.)'}
+```{r img-multiply, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='*Components the Total Economic Impact of the Pennsylvania Petrochemicals Complex.* <br> (Graphic drawn by David Passmore using DiagrammeR package in RStudios.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/multeff.png")
 ```
 
-#### Did Economics Play a Role in the Assessment of the Potential Economic Impact of the Complex?
+#### Did Economics Play a Role in the Assessment <br> of the Potential Economic Impact of the Complex?
 
 Reading the Robert Morris report leads to a growing realization: This
 report about economic impact describes an accounting exercise, not an
@@ -1663,7 +1667,7 @@ noodle manufacturer. Your company sells cans of spaghetti and meatballs
 in tomato sauce to wholesalers as a processed food product. The wholesalers distribute the canned product to a retailer. A mama might buy a can to put in her son's thermos for a school lunch. You are in
 the Spaghetti Canning industry, not in a tomato, meatball, or noodle industry.
 
-```{r img-smallpr, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='*Ethylene is Generated at the Complex as an Input for Polymerization. <br> Ethylene is not an output for Sale to Customers. <br> Polymerized Plastic Pellets Form the Major Output of the Complex.* <br> (Graphic drawn by David Passmore using DiagrammeR package in RStudios.)'}
+```{r img-smallpr, echo=FALSE, fig.align='center', fig.retina = 2, fig.cap='*Ethylene is Generated at the Complex as an Input for Polymerization. <br> Ethylene is not an output for Sale to Customers. <br> Polymerized Plastic Pellets Form the Major Output of the Complex.* <br> (Graphic drawn by David Passmore using DiagrammeR package in RStudios.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/smallpro.png")
 ```
 
@@ -1837,7 +1841,7 @@ classified as plastic resin, not ethylene, then misspecification of the
 full economic impact of the Complex shown in the Robert Morris report is
 possible. 
 
-#### Validity of a 40-Year Forecast of Impact
+#### Questionable Validity of a 40-Year Forecast of Impact
 
 Forecasted in the Robert Morris report is the potential 40-year economic
 impact of the Pennsylvania Petrochemicals Complex.[^22] IMPLAN, the
