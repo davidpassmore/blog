@@ -36,7 +36,7 @@ Chuck (yes, he prefers *Chuck*) took me to lunch at a restaurant in the Capitol 
 Before lunch even began, we launched into a debate about the role of dairy products in the Consumer Price Index, which was the subject of a New York Times front-page article just several days before. To my great surprise, he was knowledgeable about the issue, understood the Consumer Price Index, and had a definite opinion that differed remarkably from mine about the relative weight of dairy products in the Index calculation. We debated for about ten minutes. 
 
 
-```{r img-with-knitr, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='On the Capitol Steps, 1978'}
+```{r img-with-knitr, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='On the Capitol Steps, 1978'}
 knitr::include_graphics("Passmore_Grassley.jpg")
 ```
 

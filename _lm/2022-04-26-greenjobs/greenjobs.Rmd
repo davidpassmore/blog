@@ -50,7 +50,7 @@ Second, the BLS counted jobs through which workers make their own establishments
 
 Displayed in Figure \@ref(fig:img-green) are percentages of green jobs within private sector industries in the U.S. and in Pennsylvania during 2010. Green jobs were a small proportion of total private sector jobs in the nation and in our state. 
 
-```{r img-green, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='U.S. & PA Green Jobs, 2010'}
+```{r img-green, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='U.S. & PA Green Jobs, 2010'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/greenPAjobs.png")
 ```
 

@@ -12,6 +12,6 @@ site: distill::distill_website
 ![](arrow.jpg){width="2.5%"}  **David L. Passmore** ![](rarrow.jpeg){width="2.5%"} <br/> 
 ![](dlp_signature.jpg){width=35%}
 
-```{r img-with-knitr, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='The Pittsburgh Skyline'}
+```{r img-with-knitr, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='The Pittsburgh Skyline'}
 knitr::include_graphics("pittsburg_1920.jpg")
 ```

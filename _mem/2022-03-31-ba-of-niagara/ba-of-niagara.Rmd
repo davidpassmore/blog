@@ -20,7 +20,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r img-post, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='The Great Gorge of Niagara, a postcard'}
+```{r img-post, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='The Great Gorge of Niagara, a postcard'}
 knitr::include_graphics("greatg.jpeg")
 ```
 
@@ -35,7 +35,7 @@ The Great Gorge across the road is less than a quarter-mile wide and is perhaps,
 
 Canada and the United States share television, radio, news, products, and production. Each country's money is discounted and exchanged daily across each other's borders. Then, of course, there is ice hockey, which knows no boundaries, does it? And, the two countries' peoples are friends -- most of the time, in spite of our use of the word "napkin" while they use instead "serviette." Yet, the subtle differences in socialization, temperament, values, and, if it is possible to use such a hefty word, culture between the two countries are easy to miss. One hint is in the difference in the sound of spoken language.
 
-```{r img-whirlpool, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='A giant whirlpool downstream from the Falls'}
+```{r img-whirlpool, echo=FALSE, fig.align='center', fig.retina = 2, fig.cap='A giant whirlpool downstream from the Falls'}
 knitr::include_graphics("niagarag.jpeg")
 ```
 
@@ -43,7 +43,7 @@ I listen as I eat breakfast this morning. A Canadian voice is as distinguishable
 
 I grew up across the border in Niagara Falls, New York. If a few new buildings were torn down, I probably could see the hospital of my birth, St. Mary's Hospital on 6th Street, across the river through the morning fog and through the mists drifting from the thundering Falls just a short distance to the south of its birthing rooms.
 
-```{r img-hosp, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Now-demolished St Marys Hospital, 6th Steet, Niagara Falls, New York'}
+```{r img-hosp, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='Now-demolished St Marys Hospital, 6th Steet, Niagara Falls, New York'}
 knitr::include_graphics("stmary.jpeg")
 ```
 
@@ -52,7 +52,7 @@ Niagara Falls holds a prominent spot in the history of industry, finances, and i
 
 Because it has become a mecca for tourists ("the honeymoon capital of the world"), Niagara Falls is a sales spot for every cheap bauble and flashy bit of apparel that could be manufactured in the sweatshops of the developing world. The cheapo, plastic Native American drums, Native American hatchets, Native American peace pipes, and Native American headdresses. There are key chains and bottle openers in Day-Glo colors. If these pieces do not satiate your primary tourist's need to acquire memories, then bins are available of over-sized pencils adorned with tassels, wooden as well as plastic back scratchers, tiny 3" x 5" pine houses (a decal says "Niagara Falls" in arcing letters) designed to hold burning cones of pine incense in their chimneys, clear plastic containers which, when shaken, create a shower of snow falling over the Falls or over the downtown Niagara skyline, and, of course, shirts, sweatshirts, and sweaters that have silk-screened messages proclaiming "My grandma went to Niagara Falls and only bought me this crummy t-shirt," "What are you looking at?," "I'm with him --\>," "UP YOURS," "I've worked years to get this beer belly," "Kiss Me, I'm Irish!," "Whiskey is a food group, and I need to eat," and "Foxy."
 
-```{r img-street, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Honky-Tonk Niagara Falls'}
+```{r img-street, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='Honky-Tonk Niagara Falls'}
 knitr::include_graphics("fallsstreet.jpeg")
 ```
 
@@ -70,7 +70,7 @@ To perceive Niagara Falls this way is to perceive America in a fleeting instant.
 My coffee today is a lukewarm tea-colored swill, served in a Styrofoam cup, without any decoration, much like the weather outside today, the day before Christmas in Niagara Falls, Ontario, Canada, across from my hometown, Niagara Falls, New York, USA.
 
 
-```{r img-map, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Google Map of Niagara Region'}
+```{r img-map, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='Google Map of Niagara Region'}
 knitr::include_graphics("NHmap.jpg")
 ```
 

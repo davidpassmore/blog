@@ -34,7 +34,7 @@ I have many questions about the ethane cracker and pellet manufacturing operatio
 
 
 
-```{r img-rend, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Rendering of the Soon-To-Be-Completed Pennsylvania Petrochemicals Complex'}
+```{r img-rend, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='Rendering of the Soon-To-Be-Completed Pennsylvania Petrochemicals Complex'}
 knitr::include_graphics("shell.jpeg")
 ```
 
@@ -64,7 +64,7 @@ In a few words,[^4] superheated, pressurized steam causes ethane (C$_{2}$H$_{6}$
 
 [^5]: Figure from <https://insights.globalspec.com/article/1490/natural-gas-for-export-process-fundamentals-for-engineers-part-1>.
 
-```{r img-mole, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Ethane Molecules are Cracked to Form Ethylene Molecules'}
+```{r img-mole, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='Ethane Molecules are Cracked to Form Ethylene Molecules'}
 knitr::include_graphics("LNG-04a.jpeg")
 ```
 
@@ -99,7 +99,7 @@ Shell[^8] made a final investment decision to build an ethane cracker integrated
 
 [^9]: Figure from *Google Maps* image
 
-```{r img-googm, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%' , fig.cap='Google Map of Location of Pennsylvania Petrochemicals Complex'}
+```{r img-googm, echo=FALSE, fig.align='center', fig.retina = 2, fig.cap='Google Map of Location of Pennsylvania Petrochemicals Complex'}
 knitr::include_graphics("googlemap.jpg")
 ```
 

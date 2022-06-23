@@ -47,14 +47,14 @@ To my surprise, tears rolled down the vet's face. He told me that, just the year
 Here is a picture that my daughter, Ann, took as Bianca slept in the bright sun, in her favorite spot, in the back yard, in the snow:
 
 
-```{r img-bsnow, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='Bianca loved napping in the snow on a sunny day'}
+```{r img-bsnow, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='Bianca loved napping in the snow on a sunny day'}
 knitr::include_graphics("bsnow.jpeg")
 ```
 
 
 And, here, another photo a few minutes before I took her to the vet:
 
-```{r img-bb4, echo=FALSE, fig.align='center', fig.retina = 2,  out.width='25%', fig.cap='Curled up like greyhounds do'}
+```{r img-bb4, echo=FALSE, fig.align='center', fig.retina = 2,   fig.cap='Curled up like greyhounds do'}
 knitr::include_graphics("bb4.jpeg")
 ```
 
