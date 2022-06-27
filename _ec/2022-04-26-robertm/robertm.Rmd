@@ -1,5 +1,5 @@
 ---
-title: "Questions Remain About Potential Economic Impact of Soon-to-Open Pennsylvania Petrochemicals Complex"
+title: "questions remain about potential economic impact of soon-to-open Pennsylvania Petrochemicals Complex"
 description: |
   Plastic resin almost is ready to flow. Tax expenditures by the Commonwealth are contributing. Potential regional economic impact is questioned. 
 preview: plant.jpg
@@ -25,7 +25,7 @@ categories:
   - Shell Chemical Appalachia LLC
   - Shell, plc
   - tax expenditures
-date: 2022-6-19
+date: 2022-6-27
 output:
   distill::distill_article:
     self_contained: false
@@ -53,7 +53,7 @@ polyethylene resin manufacturing in southwestern Pennsylvania
 Center townships near the borough of Monaca in Beaver County,
 Pennsylvania [@pennsylv, "Project development"]. Polyethylene is a
 feedstock for manufacturing plastic products, especially packaging and
-auto components. Polyethylene is produced from ethylene from steam
+auto components. Polyethylene is produced from ethylene created from steam
 processing of ethane, a natural gas liquid found in some gas streams in
 the Marcellus and Utica shale formations.
 
@@ -73,7 +73,7 @@ simple," said Ate Visser at a 2016 industry conference in Pittsburgh. At
 the time, Visser was an executive with Shell Chemical Appalachia. Visser
 said, "You're sitting here on a world-class resource base at the
 doorstep of your customer [@cocklin2016]." Leaders of oil and gas
-industry associations in Ohio, Pennsylvania and West Virginia noted that
+industry associations in Ohio, Pennsylvania, and West Virginia noted that
 "Our three states produce roughly one-third of America's natural gas,
 making Appalachia the third largest gas producer in the world -- behind
 only the U.S. itself and Russia" [@callahan2022]. More than 70% of the
@@ -100,7 +100,7 @@ gathering lines, pipelines, storage facilities, and fractionation plants
 
 Shell stuck with its decision to invest in the Complex, even though many
 Shell projects worldwide were delayed, resized, or canceled altogether
-due to a downturn in the oil and gas markets as the Complex project
+due to a downturn in worldwide oil and gas markets as the Complex project
 commenced [@davis2016].
 
 ## In This Blog Posting....
@@ -115,25 +115,24 @@ posting follows three threads:[^2]
     writing about the economic impact of the Pennsylvania Petrochemical
     Complex.
 
--   First, I delineate some of the questions that remain for me about
+-   First, I delineate some questions about
     the markets affecting the Complex, the worthiness of public
     expenditures on the Complex, and the regional economic effects that
     the public expects from the operation. I highlight the importance of
     evidence about the expected economic impact to promote public
     acceptance of the Complex and to stimulate the need for public
     expenditures to support the Complex.\
--   Next, I outline my simple understanding of the steps operating the
+-   Next, I outline my simple understanding of the steps in operating the
     Pennsylvania Petrochemicals Complex. Understanding the nature and
-    structure of inputs, processes, and outputs shapes expectations for
+    structure of inputs, processes, and outputs of the Complex shapes expectations for
     the regional economic impact of the Complex.\
 -   And, last, I critically examine a report by professors associated
-    with Robert Morris University that was prepared for Shell Chemical
+    with Robert Morris University that was supported by Shell Chemical
     Appalachia LLC. This report, *Updated Economic Impact Analysis:
     Petrochemical Facility in Beaver County, Pennsylvania*
-    [@clinton2021a], was produced before the Complex was commissioned.
+    [@clinton2021a], was produced before the Complex will open for business.
     Many readers of the Robert Morris report might view information
-    presented as persuasive evidence that responds to the public's
-    questions about the potential impact of the Complex on the regional
+    presented as persuasive evidence about the potential positive impact of the Complex on the regional
     economy.[^3]
 
 [^3]: The public record about each of these three threads is thin.
@@ -169,9 +168,7 @@ Markets, regulations, and environmental concerns affecting the quality
 of human life are influencing the viability of the business proposition
 for added fossil fuel capacity.
 
-According to a biting 2020 opinion offered by @sanzillo2020 for the
-[Institute for Energy Economics and Financial
-Analysis](https://ieefa.org/),[^4] the Pennsylvania Petrochemical
+According to a biting 2020 opinion offered by @sanzillo2020, the Pennsylvania Petrochemical
 Complex faces prospects of low product prices, price and supply
 volatility in ethane feedstock markets, risk of oversupply of
 polyethylene resins that the Complex will manufacture, stiff competition
@@ -219,12 +216,12 @@ to the Pennsylvania Petrochemicals Complex ranked 13th in dollar value
 out of 50 national projects receiving corporate subsidies from
 governments over 20 years [@crisafulli].
 
-IIf projects were judged on costs alone, few investments would occur.
-Instead, citizens must weigh the costs of this public investment in this
-private venture against the benefits distributed to the regional economy
+If projects were judged on costs alone, few investments would occur.
+Instead, citizens must weigh the costs of public investment in this
+private venture against the benefits to the regional economy
 that could accrue from the operation of the Complex. As I will assert in
 more detail in this blog posting, I do not believe that these benefits
-were demonstrated well before the operation of the Complex.
+have been demonstrated well before the Complex will open.
 
 #### Expenditures for Site Preparation
 
@@ -235,8 +232,8 @@ preparation of the site, which was the location of a former zinc
 smelter. Remediation involved covering the site with clean fill,
 installing a synthetic cap over previous disposal areas on the property,
 and collecting and treating potentially contaminated storm water before
-discharge [@shellpe]. Ate Visser speaking for Shell at a 2016 industry
-conference in Pittsburgh said that construction of the Complex would
+discharge [@shellpe]. Ate Visser, speaking for Shell at a 2016 industry
+conference in Pittsburgh, said that construction of the Complex would
 have been impossible without Act 2 funds [@cocklin2016b, ¶7].
 
 Commonwealth expenditures did not alone fund site preparation. Shell
@@ -315,15 +312,15 @@ from using state and local expenditures of tax revenue to subsidize
 private firms. State governments prefer not to conduct rigorous
 evaluations of the costs and benefits of tax expenditures used to incent
 site location [@buss2001]. An open question is whether Shell might have
-decided to relocate to West Virginia, Ohio, and Pennsylvania region, if
+decided to relocate to the West Virginia, Ohio, and Pennsylvania region, if
 not Beaver County, even without incentives, especially if the region
 offers unique and desirable business opportunities. According to
-@bartik2018, in 9 out 10 cases, firms receive a tax incentive for a
+@bartik2018, in 9 out 10 cases firms receive a tax incentive for a
 location decision that they would have made, even if no incentive had
 been provided (p. 40 and note 60 on p. 127). Also, an important
 consideration is whether a location of the Complex in Ohio or West
 Virginia, rather than Pennsylvania, would have been less beneficial for
-Pennsylvania residents in the region. As far as I know, the Commonwealth
+Pennsylvania residents. As far as I know, the Commonwealth
 has not embarked on an assessment of the effectiveness of Act 16 and Act
 85 expenditures on economic growth in the Commonwealth. The net public
 benefit of tax expenditures made on the Pennsylvania Petrochemicals
@@ -365,15 +362,15 @@ Proceeding to build and operate the Complex was a complex, bold, and
 courageous business decision made by one of the largest independent
 energy firms in the world. Much is at stake for Shell.
 
-Shell's success also could positively impact on the regional economy in
+Shell's success also could positively impact the regional economy in
 proportion that the inputs purchased for the Pennsylvania Petrochemical
 Complex originate in the region and its outputs are sold and used
 subsequently for manufacturing in the region. However, such an impact on
-the regional economy is incidental and is not essential for Shell's
+the regional economy is incidental and not essential for Shell's
 financial success with the Complex. Obtaining a return from the
 Commonwealth's tax expenditures is essential for Pennsylvania citizens,
 though. The Commonwealth's tax expenditures reduce Shell's costs in
-exchange for a modest job and investment possibilities derived in the
+exchange for a job, income. and wage tax possibilities derived in the
 short term by construction and in the long term by operation of the
 Complex.
 
@@ -409,7 +406,7 @@ Complex will have some impact on the regional economy. But, in what way?
 By how much? Will the benefits of regional economic impact cover the
 costs of expenditures of revenue collected from Pennsylvania citizens?
 *Cui bono?* Answers to these critical questions about the public
-benefits of the Complex might help justify expenditures on the Complex
+benefits of the Complex would help justify expenditures on the Complex
 by Pennsylvania citizens.
 
 #### Assertions of Potential Regional Impact Were <br> Influential in Opinions About the Complex
@@ -455,9 +452,8 @@ million and local tax revenues of \$141 million
 [@americanchemistrycouncil2012c, Table 3 and Table 4].
 
 These reports were influential at the front edge of the advancing
-natural gas revolution, the "pivot of world's energy future"
-[@kolb2014], in Pennsylvania and other states in the northeast of the
-United States. The Commonwealth of Pennsylvania did not produce its own
+natural gas revolution, the "pivot of the world's energy future"
+[@kolb2014], in Pennsylvania and other states in the northeast United States. The Commonwealth of Pennsylvania did not produce its own
 independent study of the potential economic impact of ethane cracking
 and plastic resin production in Pennsylvania [@detrow2012b] -- nor did
 it finish a study that it started in time to affect legislation on tax
@@ -486,7 +482,7 @@ I believe that the report produced by Robert Morris University
 researchers did not reduce the uncertainty about the wisdom of tax
 expenditures on the Complex. I assert that conceptual and methodological
 questions about this report from Robert Morris -- and reflecting
-backward on the American Chemistry Council reports conducted similarly
+backward on the American Chemistry Council reports conducted with similar methods and using the same software
 -- negate justification for public expenditures to support the
 construction and operation of the Complex. I do *not* deny that regional
 economic benefits will flow from the Complex, just that the reports were
@@ -505,7 +501,7 @@ In 2019, President Trump visiting during construction of the Complex
 remarked that "These folks are from Shell, and this is a plant like no
 other. It's just incredible....And we appreciate the investment, and
 we're going to do everything possible to make [inaudible -- perhaps, *it
-successful? It successful?*] [@remarks2019]." Governor Tom Corbett said,
+successful? It work?*] [@remarks2019]." Governor Tom Corbett said,
 "The benefits to the state's southwest and to all of Pennsylvania are
 immense" [@gibson2012, ¶9]. Corbett felt that public investment in the
 Complex would leave a legacy of benefits for Pennsylvanians. He said,
@@ -536,9 +532,9 @@ indication of the Commonwealth of Pennsylvania and Governor Corbett's
 continued work to responsibly develop the Marcellus and expand
 broad-based economic benefits for all" [@gibson2012a, ¶6].
 
-I defer to a subsequent major section of this blog posting my criticisms
-of the recent report from Robert Morris University, criticisms which I
-believe apply similarly to the almost decade-old American Chemical
+I defer to a subsequent major section of this blog posting my critical review
+of the recent report from Robert Morris University, a critical perspective which I
+believe applies similarly to the almost decade-old American Chemical
 Society reports. Necessarily prior, though, to motivate my criticisms is
 a common understanding of the inputs, processes, and outputs forming the
 Pennsylvania Petrochemicals Complex. So, next, I offer my bare-bones
@@ -569,7 +565,7 @@ control devices, and a wastewater treatment facility
     authoritative, Shell-vetted and -sanctioned details about the
     Complex.
 
-Displayed in Figure \@ref(fig:img-processF) are inputs, processes, and
+Displayed in Figure \@ref(fig:img-processF) is my conception of the inputs, processes, and
 outputs of the Complex. For simplicity of presentation, the flow of
 activity portrayed in Figure \@ref(fig:img-processF) skims over many of
 the details of the ethane-to-ethylene-to-plastic resin process. I
@@ -582,14 +578,14 @@ knitr::include_graphics("https://davidpassmore.net/blogd/img/ProcessFlow.png")
 
 ### Inputs
 
-The Complex can produce 1.5 million metric tons of ethane annually by
-cracking ethane molecules to make ethylene
+The Complex can produce 1.5 million metric tons of ethylene annually by
+cracking ethane molecules
 [@rtpenvironmentalassociatesinc.2014, p. 1-2].[^10] All of the ethane
 required is delivered to the Complex by the Falcon Ethane Pipeline
 System, a 97-mile pipeline network incoming to the Complex from Houston,
 Pennsylvania, and Cadiz and Scio in Ohio. (see Figure
 \@ref(fig:img-falcon)). Ethane transported by Falcon is unique --- it is
-the only energy commodity that can morph from being sold as natural gas
+the only energy commodity that can morph from being sold mixed with natural gas
 or, alternatively, as a liquid feedstock for petrochemical plants, an
 attribute that contributes to ethane's volatility of production volume
 and price. [@braziel2022]. As with many aspects of the construction and
@@ -654,7 +650,7 @@ residual of, or incidental to, the production process. In an accounting
 sense, by-products are associated with costs.
 
 Unknown are the amounts and kinds of other inputs to the Complex beyond
-ethane, natural gas, and water.; These other inputs could add to the
+ethane, natural gas, and water. These other inputs could add to the
 costs of business of the Complex and affect the supply chain for the
 Complex in similarly unknown ways.
 
@@ -754,7 +750,7 @@ A catalyst suspended with ethylene molecules under pressure initiates
 polyethylene production. A catalyst is a chemical that speeds up
 chemical reactions, but is not consumed during the reaction. The
 catalyst bonds ethylene monomers into a long chain forming a polymer
-(see Figure \@ref(fig:img-polymer) showing monomer and an n-length
+(see Figure \@ref(fig:img-polymer) showing monomer and an *n*-length
 polymer). The polymerization process releases high amounts of heat.[^13]
 As a consequence, continuous cooling is required to prevent runaway
 chemical reactions [@burdett2018, p. 67] that could ruin the product or
@@ -763,7 +759,7 @@ manufacturing equipment.
 [^13]: More technically, is an *exothermic reaction*.
 
 Ethylene passes to two gas-phase polyethylene units and one slurry
-technology uni to manufacture low-density polyethylene and high-density
+technology unit to manufacture low-density polyethylene and high-density
 polyethylene. Processes in both units employ catalysts, but use
 different equipment and operating parameters to produce each specific
 grade of polyethylene. After the inclusion of additives and further
@@ -1370,11 +1366,11 @@ in the Robert Morris report were not provided or cited in the Robert
 Morris report. Some of these concepts and terms are drawn from
 definitions used in national income and product accounting by the U.S.
 Bureau of Economic Analysis [@nipahan2021; @glossarya]. Others are
-derived from the language used around input-output analysis [@clouse].
+derived from the language used around input-output analysis [@clouse]. Readers of reports of economic impact often impute different meanings of economic and technical concepts and methods than are intended by producers of reports.
 
 The relationships and overlaps among some of the components of economic
 impact reported in Table 2 are shown in Figure \@ref(fig:img-outp). The
-components shown in Figure \@ref(fig:img-outp) are from national income
+components shown in Figure \@ref(fig:img-outp) are terms used in national income
 and product accounting. The components are organized hierarchically into
 overlapping categories.
 
@@ -1415,7 +1411,7 @@ Definitions of components of impact displayed in Table 2 include:
         corporate profits, and net of business current transfer
         payments. It also includes income derived from dividends,
         royalties, corporate profits, and interest income.\
--   *Total output* is the sum of value added plus intermediate output.
+-   *Total output* is the sum of value added plus *intermediate output*.
     The U.S. Bureau of Economic Analysis defines intermediate output as
     "Goods and services that are used in the production process of other
     goods and services and are not sold in final-demand markets"
@@ -1423,11 +1419,11 @@ Definitions of components of impact displayed in Table 2 include:
     and services such as energy, materials, and purchased services that
     are used for the production of other goods and services, rather than
     for final consumption. Purchases of intermediate goods are
-    business-to-business transactions.\
+    business-to-business transactions. The Complex produces output that becomes an intermediate input to other producers of plastic product output. \
 -   *Jobs* equal the count of part-- and full--time jobs, including all
     federal, state, and local government employment, military
     employment, and self--employment. This definition does not count
-    "in--kind work" without pay by family member as employment.
+    "in--kind work" without pay by family members as employment.
 
 *State and local earned income taxes* were not calculated *inside* the
 IMPLAN model. Instead, the authors of the Robert Morris report
@@ -1464,7 +1460,7 @@ in panel I of Table 2 into direct, indirect, and induced components as
     by workers in local industries that supply the Complex. The range of
     jobs induced by the Complex is between 270 and 494. Some of the
     income earned by workers at the Complex and workers in local
-    supplying industries leaks outside the county.
+    supplying industries leaks outside the county or the southwestern region.
 
 The sum of direct, indirect, and induced components in panel I of Table
 2 is an estimate of the total potential impacts (depicted in Figure
@@ -1499,7 +1495,7 @@ economics. In fact, many studies using input-output analysis consider
 only benefits of a project, but fail to consider or model *any* costs of
 a project. In this way, many technically complicated studies of economic
 impact represent attempts to advocate a project, not to research full
-impact, even though sophisticated research tools are applied.
+impact, even though sophisticated research tools are applied. The sophistication of the research tools used can cast a patina of economic science over an analysis of only a portion of the components of a problem studied.
 
 Of course, any new economic activity viewed without costs consistently
 will demonstrate unalloyed benefits. Something is larger than nothing,
@@ -1549,7 +1545,7 @@ report.
 I emphasize that Shell and the authors of the Robert Morris report were
 not compelled to offer a report that would include costs estimates as
 well as benefits for the citizens of Pennsylvania and their
-representatives. The problems, I believe, lie in the lack of due
+representatives. The problems, again, lie in the lack of due
 diligence by Commonwealth representatives. Instead, I suggest that the
 Commonwealth should have sought, either through a Commonwealth analysis
 or from an independent contractor, a report that displayed for the
@@ -1570,7 +1566,7 @@ thoroughly inventory the costs and benefits of building and operating
 the Complex for the public. As a private enterprise with shareholders
 should be, Shell focused on its own interests. We should not conflate
 Shell's interests with the public interest. I do not make that assertion
-cynically but fully believe that firms like Shell should pursue
+cynically but just observe that firms like Shell pursue
 free-market self-interest. Every stakeholder in these transactions needs
 to look after its own interests. Who was looking after the interests of
 Pennsylvania citizens?
@@ -1618,7 +1614,7 @@ These issues mostly evolve from technical matters that I believe affect
 the validity of the report to inform the public about the potential
 regional economic impact of the Pennsylvania Petrochemicals Complex. I
 focus on these issues because the Robert Morris report seems to be the
-only evidence of the potential economic impact that reinforced public
+only recent evidence of the potential economic impact that reinforced public
 decision-making to expend tax revenue on the Complex.
 
 I am not under the illusion that identifying these three issues with the
@@ -1636,7 +1632,7 @@ the project's social benefits.
 #### Classification of the Industry Accounting for Impact
 
 The Pennsylvania Petrochemicals Complex is classified in the "Petroleum
-Refineries" industry in the Robert Morris report. *I **argue that,
+Refineries" industry in the Robert Morris report. ***I argue that,
 because the primary product of the Complex is polyethylene pellets,
 output from the Complex probably is best classified within the "Plastic
 Resin Manufacturing" industry.*** Differences in the classification of
@@ -1655,7 +1651,7 @@ Complex and becomes an input for polymerization. Ethylene is not an
 output of the Complex for sale to customers. Polymerized plastic pellets
 form the major output, the major product, of the Complex. Analysis of
 the Pennsylvania Petrochemical Complex as a petroleum refinery is an
-error. *One more time:* The Complex sells polymerized plastic pellets
+error. *One more time for the folks in the back pews:* The Complex sells polymerized plastic pellets
 from ethylene made at the complex. Ethylene made at the Complex is not a
 product of the Complex. It is an input to another process at the
 Complex.
@@ -1663,8 +1659,7 @@ Complex.
 Consider. You own a company that makes cans of noodles and meatballs in
 a tomato sauce. The company makes a lot of tomato sauce by processing
 tomatoes. Tomatoes are not the product. Tomatoes are one input to the
-product. Your company makes meatballs using meat purchased from cattle
-farms. Meatballs are not the product. They are an input to the product.
+product. Your company makes meatballs using meat purchased from an abattoir. Meatballs are not the product. They are an input to the product.
 The company cooks noodles made on site. Noodles are not the product.
 Noodles are an input to the product. When mixed and canned, tomato
 sauce, meatballs, and noodles form the final product your company sells
@@ -1758,13 +1753,13 @@ thousands more NAICS codes exist than IMPLAN industry classifications.
 As a result, each IMPLAN industry represents a large cluster of NAICS
 industries. Inspection and comparison of the many NAICS CODE associated
 with IMPLAN industry 154, Petroleum Refineries, and IMPLAN industry 159,
-Petrochemical Manufacturing reveals that IMPLAN's Petroleum Refineries
+Petrochemical Manufacturing, reveals that IMPLAN's Petroleum Refineries
 industry (IMPLAN 154) does not point to any ethylene production.
 Descriptions of NAICS industries under Petrochemical Manufacturing
-include products made from natural gas liquids. However, the authors of
+include products made from natural gas liquids such as ethane. However, the authors of
 the Robert Morris report selected IMPLAN 154, Petroleum Refineries, for
 analysis, even though it is not a good match for the Pennsylvania
-Petrochemicals Complex, for these reasons that they give:
+Petrochemicals Complex, for these reasons:
 
 > While the dataset [for IMPLAN] includes a classification for 159
 > Petrochemical Manufacturing, there is no multiplier and no underlying
@@ -1850,7 +1845,7 @@ indirectly multiply business value, income, jobs, and taxes beyond the
 Complex. In addition, pay received by workers in the Complex and by
 workers in the firms that supply the Complex will induce consumer goods
 and services purchases. ***The direct, indirect, and induced impacts of
-plastic resin manufacturing differ from impacts that could be created by
+"plastic resin manufacturing" differ from impacts that could be created by
 "petroleum refining."*** This issue is a corollary to the first issue
 that I identified -- the industry in which the Pennsylvania
 Petrochemicals Complex is misidentified as "Petroleum Refineries."
@@ -2083,7 +2078,7 @@ negative externalities is necessary.
 
 ## My Brief Sermon as a Postscript
 
-I hope that this blog posting serves as a cautionary tale about review
+I hope that this blog posting serves as a cautionary tale about how governments review
 of proposals for the use of public monies to subsidize innovation by
 private enterprises. The case for public subsidies often rests solely on
 the perception of the economic benefits of the innovation to the public.
@@ -2112,7 +2107,7 @@ benefit/cost calculus in any transaction made by a government that
 expends scarce tax revenue gathered in trust from citizens? Where is the
 due diligence for the Commonwealth's citizens if evidence solely about
 benefits, absent costs, of public investment is pitched only by the
-anticipated recipients of the funds?
+anticipated recipients of public funds?
 
 [^27]: See a September 19, 1772 letter from Franklin to chemist Joseph
     Priestley [@franklin1817]. He advises Priestley to engage a moral or
@@ -2173,10 +2168,10 @@ of Business and Public Management, Wenzhou-Kean University, Wenzhou,
 Zhejiang Province, China. Professor Chae is my "go-to" authority for all
 matters related to R programming, the driver of the software platform
 for this blog. Ellysa Cahoy, Education & Behavioral Sciences Librarian
-at Penn State University, provided guidance integration of Zotero a
-bibliographic citations database, to this blog. Ms. Cahoy is my only
-librarian now that I am retired from Penn State. But, even better, she
-has been my best librarian throughout my career at Penn State. Believe
+at Penn State University, provided guidance for integration of Zotero a
+bibliographic citations database to this blog. Ms. Cahoy is my only
+librarian now that I am retired from Penn State. But, even more importantly, she
+has been my best, most supportive librarian throughout my career at Penn State. Believe
 me, librarians are not wimps in applying technology to the research and
 writing processes.
 
