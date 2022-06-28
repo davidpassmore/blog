@@ -41,8 +41,10 @@ bibliography: references.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(gt)
-library(readr)
+library(dplyr)
 ```
+
+
 
 Shell Chemical Appalachia LLC, a Shell subsidiary located in Houston,
 Texas [@dunbradstreet], decided in 2016 after a long planning period to
@@ -181,8 +183,6 @@ planned. The [C]omplex is likely to be less profitable than expected and
 face an extended period of financial distress (@sanzillo2020, p.1; see,
 also, @bruggers2020 and @deplace2022)."
 
-[^4]: A non-profit whose work is aimed at supporting a sustainable
-    energy economy.
 
 ```{r img-price, echo=FALSE, fig.align='center', out.extra="class=external", fig.cap='*Volatility of Natural Gas Prices, 2018-2021.* <br> (Plot from @disavino2021.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/natgasvolat.png")
@@ -864,50 +864,130 @@ Table 1.
 [^15]: Reported to me was that a new permit is required when the Complex
     begins operating.
 
-Table 1. *Permitted Annual Emissions by the Complex*
 
-+----------------------------+----------------+
-| Air Containment            | Emission Rate  |
-|                            | (tons)         |
-+============================+================+
-| Nitrous Oxides (NO~x~)     | 348            |
-+----------------------------+----------------+
-| Carbon Monoxide (CO)       | 1,012          |
-+----------------------------+----------------+
-| Filterable Particulate     | 71             |
-| Matter                     |                |
-+----------------------------+----------------+
-| Particulate Matter ≤10     | 164            |
-| micron diameter (PM~10~)   |                |
-+----------------------------+----------------+
-| Particulate Matter ≤2.5    | 159            |
-| micron diameter (PM~2.5~)  |                |
-+----------------------------+----------------+
-| Various Sulfur Oxides      | 21             |
-| (SO~x~)                    |                |
-+----------------------------+----------------+
-| Volatile Organic Compounds | 522            |
-| (VOC)                      |                |
-+----------------------------+----------------+
-| Flue & Fugitive Emissions  | 620            |
-| of VOC                     |                |
-+----------------------------+----------------+
-| Hazardous Air Pollutants   | 30.5           |
-| (HAP)                      |                |
-+----------------------------+----------------+
-| Ammonia                    | 152            |
-+----------------------------+----------------+
-| Carbon Dioxide Equivalents | 2,248,932      |
-| (CO2e)                     |                |
-+----------------------------+----------------+
-| *Source:* Air Quality Plan |                |
-| Approval Application:      |                |
-| Petrochemicals Complex,    |                |
-| Shell Chemical Appalachia  |                |
-| LLC, Beaver County,        |                |
-| Pennsylvania, Emission     |                |
-| Restriction #005           |                |
-+----------------------------+----------------+
+```{r tb, include=FALSE}
+text_1a <- "
+Nitrous Oxides
+"
+text_1b <- "
+Carbon Monoxide
+"
+text_1c <- "
+Filterable Particulate Matter
+"
+
+text_1d <- "
+Particulate Matter ≤10 micron diameter
+"
+
+text_1dd <- "
+Particulate Matter ≤2.5 micron diameter
+"
+
+text_1e <- "
+Various Sulfur Oxides 
+"
+
+text_1f <- "
+Volatile Organic Compounds (VOC)
+"
+
+text_1g <- "
+Flue & Fugitive Emissions of VOC
+"
+
+text_1h <- "
+Hazardous Air Pollutants
+"
+
+text_1j <- "
+Carbon Dixide Equivalents
+"
+
+text_1i <- "
+Ammonia
+"
+
+
+text_2a <- "
+348
+"
+text_2b <- "
+1,012
+"
+
+text_2c <- "
+71
+"
+
+text_2d <- "
+164
+"
+
+
+text_2dd <- "
+159
+"
+
+text_2e <- "
+21
+"
+
+text_2f <- "
+522
+"
+
+text_2g <- "
+620
+"
+
+text_2h <- "
+30.5
+"
+
+text_2i <- "
+152
+"
+
+text_2j <- "
+2,248,932
+"
+```
+
+
+
+```{r trf, echo=FALSE}
+dplyr::tribble(
+  ~"Air Containment", ~"Permitted Emission Rate (tons)",
+  text_1a,   text_2a,
+  text_1b,   text_2b,
+  text_1c,   text_2c,
+  text_1d,   text_2d,
+  text_1dd,  text_2dd,
+  text_1e,   text_2e,
+  text_1f,   text_2f,
+  text_1g,   text_2g,
+  text_1h,   text_2h,
+  text_1i,   text_2i,
+  text_1j,   text_2j
+) %>%
+  gt() %>%
+  fmt_markdown(columns = everything()) %>%
+  tab_options(table.width = px(700)) %>%
+  tab_header(
+    title = md("Table 1. *Tons of Permitted Annual Emissions by the Complex*"),
+  ) %>%
+  tab_source_note(
+    source_note = md("*Source:* Air Quality Plan Approval Application: Petrochemicals Complex, Shell Chemical Appalachia LLC, Beaver County, Pennsylvania, Emission Restriction #005" )
+  ) %>%
+  tab_style(
+    style = cell_text(weight = 800),
+    locations = cells_column_labels()
+  ) 
+```
+
+
+
 
 The Pennsylvania Department of Environmental Protection required for
 this first-of-its-kind facility in Pennsylvania complex environmental
