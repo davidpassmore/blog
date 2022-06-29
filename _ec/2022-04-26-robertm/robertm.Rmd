@@ -42,6 +42,7 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 library(gt)
 library(dplyr)
+library (tidyverse)
 ```
 
 
@@ -973,17 +974,22 @@ dplyr::tribble(
 ) %>%
   gt() %>%
   fmt_markdown(columns = everything()) %>%
-  tab_options(table.width = px(700)) %>%
+  tab_options(table.width = px(600)) %>%
   tab_header(
     title = md("Table 1. *Tons of Permitted Annual Emissions by the Complex*"),
   ) %>%
   tab_source_note(
-    source_note = md("*Source:* Air Quality Plan Approval Application: Petrochemicals Complex, Shell Chemical Appalachia LLC, Beaver County, Pennsylvania, Emission Restriction #005" )
+    source_note = md("*Source:* Commonwealth of Pennsylvania (2015" )
   ) %>%
   tab_style(
     style = cell_text(weight = 800),
     locations = cells_column_labels()
-  ) 
+  ) %>%
+  cols_align(
+    align = "center",
+    columns = "Permitted Emission Rate (tons)"
+  ) %>%
+  opt_align_table_header(align = "left")
 ```
 
 
@@ -1286,158 +1292,72 @@ starting point for estimation:
 The authors reported that they analyzed the "Petroleum Refinery
 operation" industry [@clinton2021e, p. 8-9] to calculate the potential
 regional economic impact of the Complex. After excluding construction
-and statewide impact from my consideration, I extracted from the Robert
-Morris report and then recorded in Table 2 the potential economic
+and statewide impact from my consideration, I extracted findings from the Robert
+Morris report. Recorded in Table 2 from the Robert Morris report are the potential annual economic
 impacts of operating a petroleum refinery on Beaver County, on a
-10-county southwestern Pennsylvania area, and resulting from 40 years of
-refinery activity.
+10-county southwestern Pennsylvania area.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:1px 20px;
-  word-break:normal;}
-.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
-  padding:1px 20px;word-break:normal;}
-.tg .tg-jbvw{background-color:#c0c0c0;border-color:#ffffff;color:#002b36;font-size:15px;text-align:center;vertical-align:top}
-.tg .tg-acx3{background-color:#fdf6e3;border-color:#efefef;font-size:15px;text-align:center;vertical-align:top}
-.tg .tg-hq8v{background-color:#fdf6e3;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-32vp{background-color:#fdf6e3;border-color:inherit;font-size:15px;text-align:right;vertical-align:top}
-.tg .tg-8ot9{border-color:inherit;font-size:15px;text-align:center;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-affx{background-color:#fdf6e3;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-z0c5{background-color:#fdf6e3;border-color:#efefef;font-size:15px;text-align:left;vertical-align:top}
-.tg .tg-yziz{background-color:#ffffff;border-color:inherit;color:#ffffff;font-size:18px;text-align:left;vertical-align:top}
-.tg .tg-t5dz{background-color:#c0c0c0;border-color:#ffffff;color:#002b36;text-align:center;vertical-align:top}
-.tg .tg-z1ke{background-color:#fdf6e3;border-color:inherit;font-size:15px;text-align:center;vertical-align:top}
-.tg .tg-yq4n{border-color:inherit;font-size:15px;font-style:italic;text-align:right;vertical-align:top}
-.tg .tg-suf3{background-color:#fdf6e3;border-color:inherit;color:#FFF;text-align:center;vertical-align:top}
-.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-yziz" colspan="3"><span style="color:#000">Table 2. </span><span style="font-style:italic;color:#000">Potential Annual and 40-Year Regional Economic Impact of </span><br><span style="font-weight:400;font-style:italic;color:#000">Operation of </span><span style="font-style:italic;color:#000">a Petroleum Refinery in Beaver County, Pennsylvania </span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-t5dz"><span style="font-weight:bold">Impact</span></td>
-    <td class="tg-jbvw"><span style="font-weight:bold">Beaver County</span></td>
-    <td class="tg-jbvw"><span style="font-weight:bold">10-County Southwestern </span><br><span style="font-weight:bold">Pennsylvania Area</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8ot9" colspan="3"><br><span style="font-weight:bold;font-style:italic">Potential Annual Economic Impact </span><br>(in millions of dollars or number of jobs)</td>
-  </tr>
-  <tr>
-    <td class="tg-acx3"><span style="font-style:italic">Value Added</span></td>
-    <td class="tg-z0c5"></td>
-    <td class="tg-z0c5"></td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Direct</td>
-    <td class="tg-hq8v">$8,700 to $14,051</td>
-    <td class="tg-hq8v">$29,266</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Indirect</td>
-    <td class="tg-hq8v">$1,127 to $1,885</td>
-    <td class="tg-hq8v">$35,053</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Induced</td>
-    <td class="tg-hq8v">$461 to $749</td>
-    <td class="tg-hq8v">$8,222</td>
-  </tr>
-  <tr>
-    <td class="tg-acx3"><span style="font-style:italic">Labor Income</span></td>
-    <td class="tg-z0c5"></td>
-    <td class="tg-acx3"></td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Direct</td>
-    <td class="tg-hq8v"> $887 to $1,326</td>
-    <td class="tg-hq8v">$2,631</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Indirect</td>
-    <td class="tg-hq8v">$386 to&nbsp;&nbsp;$646,</td>
-    <td class="tg-hq8v">$12,998</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Induced</td>
-    <td class="tg-hq8v">$246 to $400</td>
-    <td class="tg-hq8v">$4,822</td>
-  </tr>
-  <tr>
-    <td class="tg-acx3"><span style="font-style:italic">Jobs</span></td>
-    <td class="tg-z0c5"></td>
-    <td class="tg-acx3"></td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Direct</td>
-    <td class="tg-hq8v">240 to 450</td>
-    <td class="tg-hq8v">540</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Indirect</td>
-    <td class="tg-hq8v">267 to 501</td>
-    <td class="tg-hq8v">5,843</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Induced</td>
-    <td class="tg-hq8v">270 to 494</td>
-    <td class="tg-hq8v"><span style="font-weight:400;font-style:normal">3,744</span></td>
-  </tr>
-  <tr>
-    <td class="tg-z1ke"><span style="font-style:italic">Earned </span><br><span style="font-style:italic">Income Tax</span></td>
-    <td class="tg-affx"></td>
-    <td class="tg-hq8v"></td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">State</td>
-    <td class="tg-hq8v">$1.7 to $2.8</td>
-    <td class="tg-hq8v">$21</td>
-  </tr>
-  <tr>
-    <td class="tg-32vp">Local</td>
-    <td class="tg-hq8v">$0.6 to $0.9</td>
-    <td class="tg-hq8v">$7</td>
-  </tr>
-  <tr>
-    <td class="tg-8ot9" colspan="3"><br><span style="font-weight:bold;font-style:italic">Present Value of 40 Years of Operation (in millions of 2020 dollars)</span><br>(discounted at 3.25% annually)</td>
-  </tr>
-  <tr>
-    <td class="tg-yq4n">Total Output</td>
-    <td class="tg-suf3"><span style="color:#002B36">$10,715 to $17,882</span></td>
-    <td class="tg-suf3"><span style="color:#002B36">$175,074</span></td>
-  </tr>
-  <tr>
-    <td class="tg-yq4n">Value Added</td>
-    <td class="tg-c3ow">$10,288 to $16,685</td>
-    <td class="tg-c3ow">$72,541</td>
-  </tr>
-  <tr>
-    <td class="tg-yq4n">Labor Income</td>
-    <td class="tg-c3ow">$1,519 to $2,372</td>
-    <td class="tg-c3ow">$20,452</td>
-  </tr>
-  <tr>
-    <td class="tg-yq4n">State Tax</td>
-    <td class="tg-c3ow">$35 to $55</td>
-    <td class="tg-c3ow">$471</td>
-  </tr>
-  <tr>
-    <td class="tg-yq4n">Local Tax</td>
-    <td class="tg-c3ow">$11 to $19</td>
-    <td class="tg-c3ow">$153</td>
-  </tr>
-  <tr>
-    <td class="tg-c6of" colspan="3"><span style="font-style:italic">Source:</span> Clinton, Minutolo, and O'Roark (2021a)</td>
-  </tr>
-</tbody>
-</table>
+```{r tab2, echo=FALSE}
+tab2 <- read_csv('tab2new.csv')
+tab2 %>% 
+  gt() %>%
+   tab_header(title = md("Table 2. *Potential Annual Economic Impact of
+Operation of a Petroleum Refinery in Beaver County, Pennsylvania*"),
+subtitle = md("(millions of dollars or number of jobs)")) %>%
+  tab_source_note(source_note = md("*Source:* Clinton, Minutolo, and O’Roark 2021b")) %>%
+  cols_align(
+    align = "center",
+    columns = "10-County Southwestern Pennsylvania Area"
+  ) %>%
+  cols_align(
+    align = "center",
+    columns = "Beaver County"
+  ) %>%
+  fmt_missing(
+    columns = 2:3,
+    missing_text = "  "
+  ) %>%
+  opt_align_table_header(align = "left") %>%
+  tab_options(table.width = px(600)) %>%
+  tab_style(
+    style = cell_text(weight = 800),
+    locations = cells_column_labels()
+  )
+```
+
+Displayed in Table 3 are the potential economic
+impacts over 40 years calculated for the Robert Morris report.
+
+```{r tab3, echo=FALSE}
+tab3 <- read_csv('tab3.csv')
+tab3 %>% 
+  gt() %>%
+   tab_header(title = md("Table 3. *Potential 40-Year Economic Impact of
+Operation of a Petroleum Refinery in Beaver County, Pennsylvania*"),
+subtitle = md("(millions of 2020 dollars
+discounted at 3.25% annually)")) %>%
+  tab_source_note(source_note = md("*Source:* Clinton, Minutolo, and O’Roark 2021b")) %>%
+  cols_align(
+    align = "center",
+    columns = "10-County Southwestern Pennsylvania Area"
+  ) %>%
+  cols_align(
+    align = "center",
+    columns = "Beaver County"
+  ) %>%
+  fmt_missing(
+    columns = 2:3,
+    missing_text = "  "
+  ) %>%
+  opt_align_table_header(align = "left") %>%
+  tab_options(table.width = px(600)) %>%
+  tab_style(
+    style = cell_text(weight = 800),
+    locations = cells_column_labels()
+  )
+```
+
+
 
 #### Measures of Potential Economic Impact
 
