@@ -1369,7 +1369,7 @@ Bureau of Economic Analysis [@nipahan2021; @glossarya]. Others are
 derived from the language used around input-output analysis [@clouse]. Readers of reports of economic impact often impute different meanings of economic and technical concepts and methods than are intended by producers of reports.
 
 The relationships and overlaps among some of the components of economic
-impact reported in Table 2 are shown in Figure \@ref(fig:img-outp). The
+impact reported in Table 2 and Table 3 are shown in Figure \@ref(fig:img-outp). The
 components shown in Figure \@ref(fig:img-outp) are terms used in national income
 and product accounting. The components are organized hierarchically into
 overlapping categories.
@@ -1378,7 +1378,7 @@ overlapping categories.
 knitr::include_graphics("https://davidpassmore.net/blogd/img/output.png")
 ```
 
-Definitions of components of impact displayed in Table 2 include:
+Definitions of components of impact displayed in Table 2 and Table 3 include:
 
 -   *Labor income* equals employee compensation plus proprietors'
     income.\
@@ -1441,7 +1441,7 @@ The authors explain:
 > [@clinton2021e, p. 15]
 
 Total economic impacts on value added, labor income, and jobs are parsed
-in panel I of Table 2 into direct, indirect, and induced components as
+in Table 2 into direct, indirect, and induced components as
 (using [definitions by IMPLAN](https://bit.ly/eff-def)):
 
 -   *Direct impacts* are the initial effects on the economy of the
