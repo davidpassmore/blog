@@ -44,21 +44,27 @@ knitr::opts_chunk$set(echo = FALSE)
 |
 | There, with your hair stiffened into a 
 | Snow carnival sculpture 
-| By Selma fire hoses of your mother's hairspray 
+| By fire hoses of your mother's hairspray 
 | And your suspender-held nylons bagged 
 | At your skinny knees but hidden as if by magic 
 | By parachutes and gusts of endless white and pink crinoline, 
 | You rocked from one foot to the other 
 | To match your awkward hero's tentative rhythm, 
-| As all around you swayed like Canadian geese landed on a frozen arctic lake 
+| As all around you slid like Canadian geese 
+| landing on a frozen arctic lake 
 | From some warm place, 
 | With, as the night progressed, your left hand on his
 | Shoulder 
 | And your right hand in his constant 
 | Grasp.
 |
-| And, Brenda Lee sang: 
-| *I'm sorry, so sorry ... That I was such a fool ... I didn't know ... Love could be so cruel ... Oh, oh, oh, oh ... Uh-oh ... Oh, yes.*
+| And, Brenda Lee sang on the jukebox: 
+| *I'm sorry, so sorry ...* 
+| *That I was such a fool ...* 
+| *I didn't know ...*
+| *Love could be so cruel ...* 
+| *Oh, oh, oh, oh ...* 
+| *Uh-oh ... Oh, yes.*
 |
 | Of course, these words meant nothing to you
 | Other than the chance to clinch for a few more minutes. 
@@ -71,13 +77,13 @@ knitr::opts_chunk$set(echo = FALSE)
 | Ground their heels into your soul 
 | And left you for love dead.
 |
-| But, all that was a long journey away from this day.
+| But, all that was a long journey away from this night of red punch and cookies.
 |
 | Just how did you get the nerve to brush his lips with yours 
 | With your dad and mom waiting nervously behind the door 
 | And his dad smoking with the radio on in the car? 
-| How did it feel to gasp with the sense of wonder 
-| That this rough boy liked you, yes, you? 
+| How did it feel to gasp with a sense of wonder 
+| That this rough-hewn boy liked you, yes, you? 
 | 
 | How did it feel for the first time to long 
 | To see someone again? 

@@ -1,0 +1,258 @@
+---
+title: "will you accept a pay cut?"
+description: |
+  Are you willing to accept a pay cut if an employer promises to make better work by applying technology?
+preview: cut.jpg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-06-30
+categories:
+  - job retention
+  - job changing
+  - labor markets
+  - wages 
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+editor_options: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(gt)
+library(dplyr)
+library (tidyverse)
+```
+
+### Trade Tech for Pay?
+
+@lucassystemsinc.a, a Wexford, Pennsylvania, developer of technology
+solutions for distribution centers, commissioned a study of 500 on-floor
+warehouse workers across the U.S. An eight-page brochure, *Voice of the
+Warehouse Worker Insights* [@lucassystemsinc.2022], reported findings of
+the study which was meant to uncover "how workers feel about stress, the
+need for technology, and working with robots (para. 1). A release of the
+brochure distributed on June 29, 2022 [@berardi] indicated that
+
+> "Nearly 3 out of 4...on-floor workers said they would consider a pay
+> cut at another company for an opportunity to use technology if it
+> helps them in their job. Workers also said they are physically spent,
+> spending over a third of their day walking and would welcome tech's
+> help in the form of robots or other tech tools."
+
+Younger workers, 81% of Generation Z[^1] Lucas survey respondents, were
+at least somewhat likely "to trade tech for pay"
+[@lucassystemsinc.2022a, p. 2].
+
+[^1]: Researchers and popular media use the mid to late 1990s as
+    starting birth years and the 2010s as ending birth years
+    [@generati2022].
+
+Other conclusions released from the brochure include [@berardi2022, ¶5]:
+
+-   Workers want to stay with their employer but feel improvements are
+    necessary to make their jobs easier. Workers generally anticipate
+    staying at their current employer for at least three years (74%)
+    with 35% anticipating a tenure longer than five years.\
+-   75% of workers say physical strain in their jobs takes a larger toll
+    on them than the mental strain. The leading cause of physical strain
+    is carrying and/or lifting followed by walking and/or traveling.
+-   Top causes of mental strain include meeting performance or incentive
+    goals and objectives (25%) and safely maneuvering around the
+    warehouse (20%).
+-   Workers see robots as productive allies but fear increased quotas.
+    More than 2 in 5 believe robots will reduce physical stress (46%) or
+    help them achieve better speed in item picking (44%) or better
+    accuracy (40%).
+
+@lucassystemsinc.2022c declared that: technology tools are essential to
+the well-being and retention of workers; training is vital to the
+adoption of technology tools; and gradual introduction of workers to
+technology tools is necessary (p. 8).
+
+Interesting information in the brochure distributed by Lucas Systems. I
+wish I could examine the report documenting the research behind the
+brochure. I have many questions about collecting, organizing, and
+analyzing the data. Even so, the information from the Lucas Systems'
+survey stimulates my thinking about the floating meanings of work and
+pay as our economy experiences a pandemic, suffers political turmoil,
+and is besieged by war and rumors of war, all colliding to stress the
+supply chains for human and capital resources.
+
+### Changing Share of Labor Income
+
+The labor share of income in 35 advanced economies fell from around 54
+percent in 1980 to 50.5 percent in 2014. In some advanced economies
+including France and Germany, labor income shares reached the lowest
+level of the past half century just before the global financial crisis
+of 2008, although the patterns in individual countries varied.
+
+Developing economies have also experienced the same phenomenon, albeit
+to a lesser extent. Available studies suggest that the labor share of
+income fell from 39 percent in 1993 to 37.4 percent in 2014, a drop of
+about 4 percent.
+
+The decline in labor share of income in the United States since the turn
+of the millennium has been particularly marked and is the focus of our
+analysis. Official data from the Bureau of Labor Statistics (BLS)
+suggest that, while the labor share had already started to decrease in
+the 1960s, three-fourths of the entire post-1947 decline occurred
+between 2000 and 2016 (Exhibit 1). The steepest part of the
+decline---from 63.3 percent in 2000 to 56.7 percent in 2016---followed a
+moderate downward drift in the 1980s and early 1990s, and a slight
+recovery in the late 1990s.
+
+```{r img-labshare, echo=FALSE, fig.align='center', fig.retina = 2, out.extra="class=external", fig.cap='*McKinsey Global Institute Estimate of Declining Labor Share of Income in the United States* <br> (Graphic from @manyika2019a.)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/payc/SVGZ-New-look-declining-labor-share-Ex1.png")
+```
+
+### The Work and Pay Plexus
+
+#### A Narrow View
+
+A narrow position is that work and pay result from a transaction, an
+exchange of time and effort by workers to produce for money from the
+owners of capital. The owners of physical capital buy human capital for
+production. Neat. Separate. Symmetrical. And, theoretical.
+
+Buyers and sellers meet at a price. Labor supply, then, is the amount or
+kind of labor that is available at a given wage. Need more labor?
+Increase the wage. What is the optimal wage? Just enough to supply the
+human capital for production. All following the textbook, right?
+
+#### Is That All There Is?
+
+The meaning of work in our lives is a created as a shared cultural
+concept. At the same time, the meaning of work in the lives of workers
+is defined in variegated, contextual, and idiosyncratic ways. According
+to @rothausen2019,
+
+> Jobs can fulfill (or not fulfill) basic human needs (some would say
+> rights) for dignity in work, meaningful work, and some level of
+> economic justice. Jobs also affect workers' lives, and thus their
+> worlds, fundamentally....Therefore, key meanings of work spring from
+> basic human needs from work, and from workers' larger worlds, and
+> these elements likely impact workers' satisfaction related to their
+> jobs. (p. 359)
+
+This complexity is a key feature in assorted theoretical perspectives
+about work and empirical research streams focusing on the meaning of
+work for human beings. "Overall job satisfaction is the sum of the
+evaluations of the discriminable elements of which the job is composed"
+[@locke1969, p. 330]. Pay alone is not the sole factor that draws and
+retains a worker to a job.
+
+```{r img-labshare, echo=FALSE, fig.align='center', fig.retina = 2, out.extra="class=external", fig.cap='*McKinsey Global Institute Estimate of Declining Labor Share of Income in the United States* <br> (Graphic from @manyika2019a.)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/payc/SVGZ-New-look-declining-labor-share-Ex1.png")
+```
+
+------------------------------------------------------------------------
+
+@manyika2019 on labor share
+
+The labor share of income in 35 advanced economies fell from around 54
+percent in 1980 to 50.5 percent in 2014. In some advanced economies
+including France and Germany, labor income shares reached the lowest
+level of the past half century just before the global financial crisis
+of 2008, although the patterns in individual countries varied.
+
+Developing economies have also experienced the same phenomenon, albeit
+to a lesser extent. Available studies suggest that the labor share of
+income fell from 39 percent in 1993 to 37.4 percent in 2014, a drop of
+about 4 percent.
+
+The decline in labor share of income in the United States since the turn
+of the millennium has been particularly marked and is the focus of our
+analysis. Official data from the Bureau of Labor Statistics (BLS)
+suggest that, while the labor share had already started to decrease in
+the 1960s, three-fourths of the entire post-1947 decline occurred
+between 2000 and 2016 (Exhibit 1). The steepest part of the
+decline---from 63.3 percent in 2000 to 56.7 percent in 2016---followed a
+moderate downward drift in the 1980s and early 1990s, and a slight
+recovery in the late 1990s.
+
+------------------------------------------------------------------------
+
+@coviello2022, @greenberg2018, on effects of pay cuts
+
+Workers forced to accept pay cuts are prone to counterproductive
+behavior like theft, low morake, even more than downsizing.
+
+------------------------------------------------------------------------
+
+@rothausen2019a, table 2 -- Pay is important but not everything in a
+job.
+
+Allows expression of self, core values, talents, gifts Allows
+development of self, grow,learn, change, expand Provides a role in a
+transcendant purpose, worthwhile endeavor, collective contribution,
+something larger than self Affords life construction through leisure,
+friendships, health, religion, citizenship,
+
+------------------------------------------------------------------------
+
+compensating differentials -- shift premiums, hazard pay, geographic
+differentials
+
+Compensating wage differentials are higher wages (than can seemingly be
+explained by reference to skill level or human capital) that are paid to
+workers who perform jobs that have particular hazards or other
+unpleasant features associated with them. The phenomenon has long been
+identified by economists and indeed was noted by Adam Smith in The
+Wealth of Nations: '...the wages of labour vary with the ease or
+hardship, the cleanliness or dirtiness, the honourableness or
+dishonourableness, of the employment.... A journeyman blacksmith, though
+an artificer, seldom earns so much in twelve hours, as a collier, who is
+only a labourer, does in eight. His work is not quite so dirty, is less
+dangerous, and is carried on in day-light, and above ground.' The higher
+wages paid to workers in hazardous jobs, where there is a risk of
+accident and injury, has been a particular focus of economic research
+but there are many types of compensating differential. Payment of a
+London allowance can be understood in these terms as can higher payments
+for those in insecure or fixed-term jobs or those who work unsocial
+hours. Relatively high wages paid to those performing sex work, might
+provide another example.
+
+------------------------------------------------------------------------
+
+[@elting2021] -- employees have options in great resignation
+
+employers must compete for workers because there are far more open slots
+than job applicants, and workers are smart enough to recognize that.
+Yes, they're voting with their feet in favor of more flexible work
+hours, continued availability of remote work, higher wages, and better
+treatment, but the context that makes that possible, the basic calculus
+of supply and demand in the labor market, goes ignored. There are a lot
+of jobs and people are re-entering the labor market with reluctance and
+recalculating their options.
+
+------------------------------------------------------------------------
+
+## Last updated on {.appendix}
+
+Sys.time() \`\`\`
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, use the Disqus form on this page, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Text and illustrations are licensed under Creative Commons Attribution
+[CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source
+code is available at <https://github.com/davidpassmore/blog>, unless
+otherwise noted. The figures/photos/images/maps reused from other
+sources do not fall under this license and are recognized by text in the
+caption starting: "Figure from..." or "Photo from..." , "Image from..."
+or "Map from...".
