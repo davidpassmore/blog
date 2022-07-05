@@ -1,23 +1,29 @@
 ---
-title: "will you accept a pay cut?"
+title: "want to take a pay cut?"
 description: |
-  Are you willing to accept a pay cut if an employer promises to make better work by applying technology?
-preview: cut.jpg
+  Are you willing to accept a pay cut if an employer promises to make better work by applying technology to your job?
+preview: cut.png
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
     orcid_id: 0000-0001-9307-5164
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
-date: 2022-06-30
+date: 2022-07-04
 categories:
-  - job retention
+  - artificial intelligence
+  - automation  
   - job changing
+  - job retention   
   - labor markets
+  - robotics  
+  - subjective utility
+  - technology at work
+  - The Great Resignation
+  - The Great Reshuffle
   - wages 
 output:
   distill::distill_article:
     self_contained: false
-draft: true
 editor_options: 
   markdown: 
     wrap: 72
@@ -31,15 +37,22 @@ library(dplyr)
 library (tidyverse)
 ```
 
-### Trade Tech for Pay?
+## Trade Tech for Pay?
 
-@lucassystemsinc.a, a Wexford, Pennsylvania, developer of technology
+### A Survey by Lucas Systems, Inc.
+
+@lucassystemsinc.b, a Wexford, Pennsylvania, developer of technology
 solutions for distribution centers, commissioned a study of 500 on-floor
-warehouse workers across the U.S. An eight-page brochure, *Voice of the
-Warehouse Worker Insights* [@lucassystemsinc.2022], reported findings of
-the study which was meant to uncover "how workers feel about stress, the
-need for technology, and working with robots (para. 1). A release of the
-brochure distributed on June 29, 2022 [@berardi] indicated that
+warehouse workers across multiple geographies and job roles in the U.S.
+An eight-page brochure, *Voice of the Warehouse Worker Insights*
+[@lucassystemsinc.2022f], reported findings of the study designed to
+identify "how workers feel about stress, the need for technology, and
+working with robots" [@lucassystemsinc.2022e, para. 3 ).
+
+### Survey Findings
+
+A statement [@berardi] distributed on June 29, 2022 announcing the
+brochure's release indicated that
 
 > "Nearly 3 out of 4...on-floor workers said they would consider a pay
 > cut at another company for an opportunity to use technology if it
@@ -47,15 +60,28 @@ brochure distributed on June 29, 2022 [@berardi] indicated that
 > spending over a third of their day walking and would welcome tech's
 > help in the form of robots or other tech tools."
 
-Younger workers, 81% of Generation Z[^1] Lucas survey respondents, were
-at least somewhat likely "to trade tech for pay"
-[@lucassystemsinc.2022a, p. 2].
+A concentration of younger workers -- 81% of Generation Z[^1] workers
+responding to the survey -- was at least somewhat likely "to trade tech
+for pay" [@lucassystemsinc.2022f, p.2]. Note that this is not a
+sentiment to accept a pay cut in a current job, but to consider lower
+than current pay in an entirely new job.
 
-[^1]: Researchers and popular media use the mid to late 1990s as
-    starting birth years and the 2010s as ending birth years
-    [@generati2022].
+[^1]: Researchers and popular media use the mid- to late-1990s as
+    starting birth years and the 2010s as ending birth years of
+    Generation Z [@generati2022]. I don't know about you, but I believe
+    that stereotyping demographic groups simply by a range of birth
+    years is limiting, at best, and could lead, at worst, to overt or
+    covert discrimination. .
 
-Other conclusions released from the brochure include [@berardi2022, ¶5]:
+This finding is not unique. For instance, @mas2017 found that the
+average national call center worker was willing to give up 20% of wages
+to avoid a schedule set by an employer on short notice and 8% of wages
+for the option to work from home.
+
+### Other Findings
+
+Other conclusions extracted from the brochure released by Lucas Systems
+include [@berardi2022, ¶5]:
 
 -   Workers want to stay with their employer but feel improvements are
     necessary to make their jobs easier. Workers generally anticipate
@@ -72,67 +98,119 @@ Other conclusions released from the brochure include [@berardi2022, ¶5]:
     help them achieve better speed in item picking (44%) or better
     accuracy (40%).
 
-@lucassystemsinc.2022c declared that: technology tools are essential to
+@lucassystemsinc.2022f declared that: technology tools are essential to
 the well-being and retention of workers; training is vital to the
 adoption of technology tools; and gradual introduction of workers to
 technology tools is necessary (p. 8).
 
-Interesting information in the brochure distributed by Lucas Systems. I
-wish I could examine the report documenting the research behind the
-brochure. I have many questions about collecting, organizing, and
-analyzing the data. Even so, the information from the Lucas Systems'
-survey stimulates my thinking about the floating meanings of work and
-pay as our economy experiences a pandemic, suffers political turmoil,
-and is besieged by war and rumors of war, all colliding to stress the
-supply chains for human and capital resources.
+### Perhaps a Broader Meaning Exists
 
-### Changing Share of Labor Income
+Certainly is interesting information is presented in the brochure
+distributed by Lucas Systems, information that points to the value
+proposition for products that Lucas Systems manufactures.[^2] I wish I
+could examine documentation about the collection, organization, and
+analysis of the survey data. Even so, the information from the Lucas
+Systems' survey stimulates assessment of the floating meanings of work
+and pay as our economy suffers through a lingering pandemic, is besieged
+by political division and unrest, and is buffeted by war and rumors of
+war, all factors that have collided to hobble worldwide supply chains
+for human and capital resources.
 
-The labor share of income in 35 advanced economies fell from around 54
-percent in 1980 to 50.5 percent in 2014. In some advanced economies
-including France and Germany, labor income shares reached the lowest
-level of the past half century just before the global financial crisis
-of 2008, although the patterns in individual countries varied.
+[^2]: Lucas Systems reports on its website that "With the help of Lucas,
+    [*I deleted firm name*] has seen a 40% increase in throughput while
+    reducing labor by 20%" [@lucassystemsinc.c].
 
-Developing economies have also experienced the same phenomenon, albeit
-to a lesser extent. Available studies suggest that the labor share of
-income fell from 39 percent in 1993 to 37.4 percent in 2014, a drop of
-about 4 percent.
+## The Work and Pay Plexus
 
-The decline in labor share of income in the United States since the turn
-of the millennium has been particularly marked and is the focus of our
-analysis. Official data from the Bureau of Labor Statistics (BLS)
-suggest that, while the labor share had already started to decrease in
-the 1960s, three-fourths of the entire post-1947 decline occurred
-between 2000 and 2016 (Exhibit 1). The steepest part of the
-decline---from 63.3 percent in 2000 to 56.7 percent in 2016---followed a
-moderate downward drift in the 1980s and early 1990s, and a slight
-recovery in the late 1990s.
+### A Very Narrow View
 
-```{r img-labshare, echo=FALSE, fig.align='center', fig.retina = 2, out.extra="class=external", fig.cap='*McKinsey Global Institute Estimate of Declining Labor Share of Income in the United States* <br> (Graphic from @manyika2019a.)'}
-knitr::include_graphics("https://davidpassmore.net/blogd/img/payc/SVGZ-New-look-declining-labor-share-Ex1.png")
-```
+Taking a narrow, pecuniary view, pay originates from a transaction, an
+exchange of time and effort by workers for money from the owners of
+capital. The owners of physical capital buy human capital for
+production. A commodity exchange. The workers are as interchangeable as
+the paper currency they receive. Neat. Separate. Symmetrical. But,
+largely a theoretical characterization.
 
-### The Work and Pay Plexus
-
-#### A Narrow View
-
-A narrow position is that work and pay result from a transaction, an
-exchange of time and effort by workers to produce for money from the
-owners of capital. The owners of physical capital buy human capital for
-production. Neat. Separate. Symmetrical. And, theoretical.
-
-Buyers and sellers meet at a price. Labor supply, then, is the amount or
-kind of labor that is available at a given wage. Need more labor?
+Buyers and sellers meet at a price. Labor supply, then, is the amount
+and kind of labor that is available at a given wage. Need more labor?
 Increase the wage. What is the optimal wage? Just enough to supply the
-human capital for production. All following the textbook, right?
+human capital for production. All following the textbook, right? Almost
+as lawful as, say, Archimedes' Buoyancy Principle. Now, before you yell
+"Eureka!" and run naked through the streets of Syracuse as Archimedes
+did when he noticed that he displaced water when he sat in the tub,
+consider that the concept of pay is more knotty and involuted than you
+first might have thought.
 
-#### Is That All There Is?
+### Well, Maybe a Little More Than That?
 
-The meaning of work in our lives is a created as a shared cultural
-concept. At the same time, the meaning of work in the lives of workers
-is defined in variegated, contextual, and idiosyncratic ways. According
-to @rothausen2019,
+Let's crack the stern exterior of the wage-labor theory of exchange with
+a dose of economic reality. Some economists have acknowledged that even
+the sequence of "worth-as-pay-as-money" can incorporate non-pecuniary
+elements. In *Wealth of Nations*, Adam Smith wrote in 1776:
+
+> "The wages of labour vary with the ease or hardship, the cleanliness
+> or dirtiness, the honourableness or dishonourableness of the
+> employment. Thus in most places, take the year round, a journeyman
+> tailor earns less than a journeyman weaver. His work is much easier. A
+> journeyman weaver earns less than a journeyman smith. His work is not
+> always easier, but it is much cleanlier. A journeyman blacksmith,
+> though an artificer, seldom earns so much in twelve hours as a
+> collier, who is only a labourer, does in eight. His work is not quite
+> so dirty, is less dangerous, and is carried on in daylight, and above
+> ground. Honour makes a great part of the reward of all honourable
+> professions. In point of pecuniary gain, all things considered, they
+> are generally under-recompensed....Disgrace has the contrary effect.
+> The trade of a butcher is a brutal and an odious business; but it is
+> in most places more profitable than the greater part of common trades.
+> The most detestable of all employments, that of public executioner,
+> is, in proportion to the quantity of work done, better paid than any
+> common trade whatever." (@smith1776, Book 1, Chapter 10, para. 5)
+
+In practice, economists identify this type of variation in pay as a
+*compensating differential* [@smith1979a, p. 339]. These differentials
+are higher wages that are paid to workers who perform jobs that have
+particular hazards or other unpleasant features associated with them.
+Some examples are: premium pay for working second- or third-shift work
+schedules; hazard pay for combat, police protection, or fire service;
+higher pay for underground coal miners exposed to the risk of injury and
+lung disease; or pay differences by geographic region that reflect costs
+of living differences or remoteness of location. The role of a
+compensating differential is to maintain a supply of labor in
+challenging conditions that might otherwise depress interest in acquiring
+or staying in a job.
+
+Workers have their own ways of differentiating compensation. Workers can
+react negatively when faced with pay cuts in their own jobs, especially
+when the reasons for the cuts are not judged by workers as reasonable
+[@chen2016]. For example, @coviello2022 described a pay cut at a call
+center that was motivated by cost-cutting, not by lower productivity of
+call center employees. Some workers quit. Others, though, engaged in
+counterproductive behavior that hurt the firm as well as the pay of
+commission-driven employees. Some workers, especially those among with
+the highest expressed loyalty and longest work tenure, intentionally
+sold the wrong items, as opposed to simply optimally shirking on effort
+in response to the pay cut.
+
+@greenberg2001 observed what he described as "reciprocal deviance," that
+is, employees' perceptions that their employers' defaults on their
+obligations encouraged employees to respond with similar acts of
+deviance. In particular, theft (termed, in a Orwellian sense,
+"shrinkage" in retail industries) rose during a period in which pay was
+temporarily reduced by 15%. In some cases, pay cuts to current workers
+can be more disruptive that downsizing the numbers of employees
+[@yoon2017a]. Pay not only produces buying power but also becomes a
+measure of self-worth and respect from others.
+
+Consistent with the findings from the survey by Lucas Systems, research
+on variation in wages and salaries reveals that workers and employers
+see more meaning in pay than just plan money.
+
+### Is That All There Is?
+
+From a macro perspective, the meaning of work is a shared cultural
+concept associated with values, beliefs, and norms. Among individual
+workers, though, the meaning of work is variegated, contextual, and
+idiosyncratic. According to @rothausen2019,
 
 > Jobs can fulfill (or not fulfill) basic human needs (some would say
 > rights) for dignity in work, meaningful work, and some level of
@@ -142,102 +220,201 @@ to @rothausen2019,
 > these elements likely impact workers' satisfaction related to their
 > jobs. (p. 359)
 
-This complexity is a key feature in assorted theoretical perspectives
-about work and empirical research streams focusing on the meaning of
-work for human beings. "Overall job satisfaction is the sum of the
+Pay is not the only return to investment of time and efforts in work.
+Seen broadly, work permits the expression of talents, empowers the
+development of self, offers friendship and social relations, and affords
+a transcendent role in a collective contribution to an endeavor larger
+than self (see [@rothausen2019, Table 2]). This many-sided, complex
+perspective is a key attribute running through manifold theoretical
+perspectives and empirical research streams focusing on the meaning of
+work that human beings seek. "Overall job satisfaction is the sum of the
 evaluations of the discriminable elements of which the job is composed"
 [@locke1969, p. 330]. Pay alone is not the sole factor that draws and
 retains a worker to a job.
 
-```{r img-labshare, echo=FALSE, fig.align='center', fig.retina = 2, out.extra="class=external", fig.cap='*McKinsey Global Institute Estimate of Declining Labor Share of Income in the United States* <br> (Graphic from @manyika2019a.)'}
+*So, perhaps the respondents to the Lucas Systems' survey who said they
+would consider a pay cut are weighing bundles of non-pecuniary
+attributes of potential jobs as important enough to compensate for lower
+pay.*
+
+## Huh? A Pay Cut?
+
+### Yep. A Cut Might Fulfill Broader Needs
+
+Although accepting or seeking a pay cut might seem like an error in
+judgment, workers might view the trade-off of pay for other
+non-pecuniary returns to work as a way to maintain or increase the
+subjective utility of work to satisfy their many diverse wants. In this
+way, seeking or accepting a pay cut might be viewed as a rational
+decision to achieve a satisfaction balance in life.
+
+As @blanchflower2017 found, having a job is an essential determinant of
+satisfaction with life, no matter what income level a person has
+attained. In what is almost a transcendent conception of work,
+@coleman2021, career coaches, consider a paycheck as a "clear path to
+doing work you love" (the subtitle of their book). Our personal
+experience can attest to the belief that money is but one form of
+compensation. Of course, the role of money in our lives cannot be
+dismissed entirely. @clark2018 concluded that an almost universally
+accepted research outcome in studies of the economics of happiness is
+that "individuals who are observed to have higher levels of income in
+cross-section data also report higher levels of subjective well-being"
+(Section 2.1).
+
+### Profits Are at an All-Time High -- Why Not Share?
+
+Many observers wonder why pay cuts are even necessary while corporate
+profits are at a 70-year high (profits over time are displayed in Figure
+\@ref(fig:img-prof)). The @federalreservebankofrichmond2021 found that
+80% of firms increased prices to cover the higher costs of inputs during
+recent pandemic and inflationary periods. Also, the economic chaos
+during these periods offered opportunities to raise profit margins
+beyond the increase in costs, especially among larger firms. For
+instance, a 2022 survey of 1,000 retailers revealed that over one-half
+of respondents raised prices beyond rising costs and offered fewer or no
+discounts during the holiday season [@moretha2022].
+
+```{r img-prof, layout="l-screen", echo=FALSE, fig.align='center', out.extra="class=external", fig.cap='*U.S. Quarterly Corporate Business Profits After Taxes, 1952-2022.* <br> (billions of dollars, seasonally adjusted; graphic created from  @federalreservebankofst.louis.)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/payc/fredgraph.png")
+```
+
+Reasons given from the employers' side for not sharing this high rate of
+profitability with workers include:
+
+-   Profits are distributed to shareholders, the owners of firms.
+
+-   Sharing profits with workers transforms profit into an expense.
+
+-   Profits, although perhaps high at the moment, are just returns to
+    long-term investment.
+
+In short, it's ours, not yours.
+
+Fitting with these reasons, workers' share of income from production
+has declined steadily. A 2019 McKinsey Global Institute report
+[@manyika2019a.] documented the decline in labor's share of income in
+the United States. Although labor's share already had started to
+decrease in the 1960s, McKinsey estimated that three-fourths of the
+entire post-1947 decline occurred between 2000 and 2016 (see trends in
+Figure \@ref(fig:img-labsh)). The steepest part of the decline -- from
+63.3% in 2000 to 56.7% in 2016 -- followed a moderate downward drift in
+the 1980s and early 1990s, and a slight recovery in the late 1990s.
+
+```{r img-labsh, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external", fig.cap='*McKinsey Global Institute Estimate of Declining Labor Share of Income in the United States* <br> (Graphic from @manyika2019a.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/payc/SVGZ-New-look-declining-labor-share-Ex1.png")
 ```
 
-------------------------------------------------------------------------
+@manyika2019b even more narrowly attributed this decline to specific
+industrial activity:
 
-@manyika2019 on labor share
+> Twelve sectors that make up about one-third of employment and 44
+> percent of economic output explain the overall decline in labor share
+> or increase in capital share. These sectors represent a broad and
+> diverse set of economic activities. They are: mining and quarrying;
+> construction; real estate; coke and refined petroleum; motor vehicles;
+> pharmaceuticals and chemicals; computer, electronics, and optical
+> products; publishing, audiovisual, and telecom; computer programming
+> and consulting; information services; wholesale and retail, and
+> *transportation and storage*. [emphasis mine] (Part 2)
 
-The labor share of income in 35 advanced economies fell from around 54
-percent in 1980 to 50.5 percent in 2014. In some advanced economies
-including France and Germany, labor income shares reached the lowest
-level of the past half century just before the global financial crisis
-of 2008, although the patterns in individual countries varied.
+Improvements in technology in these 12 sectors led to the substitution
+of capital for labor and the creation of intangible and intellectual
+products that have faster depreciation cycles than for tangible
+equipment. These factors helped transportation and storage firms, a
+subsection of which Lucas Systems serves, join in the 12 sectors that
+accounted for the largest declines in the labor share of income. The
+findings of the survey by Lucas Systems indicate that workers also might
+see some advantages to the capital-labor substitution that can help
+rationalize their sentiments about trading pay cuts for increasing
+technology at work.
 
-Developing economies have also experienced the same phenomenon, albeit
-to a lesser extent. Available studies suggest that the labor share of
-income fell from 39 percent in 1993 to 37.4 percent in 2014, a drop of
-about 4 percent.
+## But, Wait, Isn't It the Economy, Stupid?
 
-The decline in labor share of income in the United States since the turn
-of the millennium has been particularly marked and is the focus of our
-analysis. Official data from the Bureau of Labor Statistics (BLS)
-suggest that, while the labor share had already started to decrease in
-the 1960s, three-fourths of the entire post-1947 decline occurred
-between 2000 and 2016 (Exhibit 1). The steepest part of the
-decline---from 63.3 percent in 2000 to 56.7 percent in 2016---followed a
-moderate downward drift in the 1980s and early 1990s, and a slight
-recovery in the late 1990s.
+"*It's the economy, stupid*" was a widely-quoted catchphrase authored by
+James Carville, a strategist in Bill Clinton's successful 1992 campaign
+for U.S. President, to remind campaign workers to stay on message.
+Thinking along these lines, perhaps it is a mistake to over-analyze the willingness of workers to
+accept lower pay with anything other than ordinary concepts of suppl;y
+and demand. Maybe it is just that....the economy?
 
-------------------------------------------------------------------------
+The U.S. economy has faced what some people have called *The Great
+Resignation*, but perhaps a better characterization is *The Great
+Reshuffle*. Job openings and job quitting have been at all-time highs
+for months, while layoffs fell to a record low. Employers raised wages
+to attract workers. All while the threats to traditional work
+arrangements from the pandemic were pervasive. Yet, about one-half of
+job quitters did not drop out of the workforce. They quit to move to new
+jobs.
 
-@coviello2022, @greenberg2018, on effects of pay cuts
+Willis Towers Watson polled 9,658 U.S. employees from large and midsize
+private employers across a broad range of industries in December 2021
+and January 2022 [@willistowerswatson2021]. Over half of workers (56%)
+said pay is a top reason they would look for a job with a different
+employer. Forty-one percent would leave for a 5% increase. But almost
+20% said they'd take a new job for the same pay --- suggesting factors
+other than wages are important, too -- as respondents to the survey from
+Lucas Systems indicated. Health benefits, job security, flexible work
+arrangements and retirement benefits were behind pay, respectively, as
+the top five reasons employees would move elsewhere. Many survey
+respondents expressed preferences remote work just as employers were
+encouraging workers to return on-site to the office.
 
-Workers forced to accept pay cuts are prone to counterproductive
-behavior like theft, low morake, even more than downsizing.
+As a result, the economy has featured an almost unprecedented sellers'
+market for labor. @elting2021a summarized the critical elements of the
+current unique market for labor:
 
-------------------------------------------------------------------------
+> Employers must compete for workers because there are far more open
+> slots than job applicants, and workers are smart enough to recognize
+> that. Yes, they're voting with their feet in favor of more flexible
+> work hours, continued availability of remote work, higher wages, and
+> better treatment, but the context that makes that possible, the basic
+> calculus of supply and demand in the labor market, goes ignored. There
+> are a lot of jobs and people are re-entering the labor market with
+> reluctance and recalculating their options.
 
-@rothausen2019a, table 2 -- Pay is important but not everything in a
-job.
+So, it *is* the economy, after all. The demand for labor post-pandemic
+was driven by the release of pent-up consumer demand. The need for
+workers to return to work ran head-on into reluctance to return due to
+such matters as the unavailability of child care. Time away from work
+and COVID stimulus checks to households during the pandemic offered time
+and income buffers for workers to ponder whether retirement was best or
+whether they wanted to seek or train for new work that might raise their
+subjective well--being.
 
-Allows expression of self, core values, talents, gifts Allows
-development of self, grow,learn, change, expand Provides a role in a
-transcendant purpose, worthwhile endeavor, collective contribution,
-something larger than self Affords life construction through leisure,
-friendships, health, religion, citizenship,
+In a way, the pandemic and the disruption around it ironically created
+an opportunities for workers. One door closes, another opens, allowing a
+kind of creative destruction that becomes possible during periods of
+change and chaos.
 
-------------------------------------------------------------------------
 
-compensating differentials -- shift premiums, hazard pay, geographic
-differentials
+<center>*A working class hero is something to be.* \
+   ~ John Lennon</center>
+   
+---
 
-Compensating wage differentials are higher wages (than can seemingly be
-explained by reference to skill level or human capital) that are paid to
-workers who perform jobs that have particular hazards or other
-unpleasant features associated with them. The phenomenon has long been
-identified by economists and indeed was noted by Adam Smith in The
-Wealth of Nations: '...the wages of labour vary with the ease or
-hardship, the cleanliness or dirtiness, the honourableness or
-dishonourableness, of the employment.... A journeyman blacksmith, though
-an artificer, seldom earns so much in twelve hours, as a collier, who is
-only a labourer, does in eight. His work is not quite so dirty, is less
-dangerous, and is carried on in day-light, and above ground.' The higher
-wages paid to workers in hazardous jobs, where there is a risk of
-accident and injury, has been a particular focus of economic research
-but there are many types of compensating differential. Payment of a
-London allowance can be understood in these terms as can higher payments
-for those in insecure or fixed-term jobs or those who work unsocial
-hours. Relatively high wages paid to those performing sex work, might
-provide another example.
+```{=html}
+<style>
+div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
+</style>
+```
+::: blue
+*Starter Fluid for This July 4 Posting*
 
-------------------------------------------------------------------------
-
-[@elting2021] -- employees have options in great resignation
-
-employers must compete for workers because there are far more open slots
-than job applicants, and workers are smart enough to recognize that.
-Yes, they're voting with their feet in favor of more flexible work
-hours, continued availability of remote work, higher wages, and better
-treatment, but the context that makes that possible, the basic calculus
-of supply and demand in the labor market, goes ignored. There are a lot
-of jobs and people are re-entering the labor market with reluctance and
-recalculating their options.
-
-------------------------------------------------------------------------
+[An-Li Herring](https://www.wesa.fm/people/an-li-herring), reporter for
+90.5 WESA-FM Pittsburgh NPR, conducted an interview with me about the
+brochure summarizing the findings from the survey that was distributed
+by Lucas Systems and, then, incorporated the interview into her article,
+"Survey: As online ordering grows, warehouse workers say they need more
+tech to save their bodies" [@herring2022]. I gathered the notes I
+prepared for her interview with me to write this blog posting after Ms.
+Herring's posting was published. 
+:::
 
 ## Last updated on {.appendix}
 
-Sys.time() \`\`\`
+```{r,echo=FALSE}
+Sys.time()
+```
 
 ## Your Comments & Corrections {.appendix}
 
@@ -249,10 +426,11 @@ IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
 
 ## Reuse {.appendix}
 
-Text and illustrations are licensed under Creative Commons Attribution
-[CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source
-code is available at <https://github.com/davidpassmore/blog>, unless
-otherwise noted. The figures/photos/images/maps reused from other
-sources do not fall under this license and are recognized by text in the
-caption starting: "Figure from..." or "Photo from..." , "Image from..."
-or "Map from...".
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Sources for these external media are cited in captions.

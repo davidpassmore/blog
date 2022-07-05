@@ -12,6 +12,7 @@ site: distill::distill_website
 ![](arrow.jpg){width="2.5%"}  **David L. Passmore** ![](rarrow.jpeg){width="2.5%"} <br/> 
 ![](dlp_signature.jpg){width=35%}
 
-```{r img-with-knitr, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='The Pittsburgh Skyline'}
-knitr::include_graphics("pittsburg_1920.jpg")
+
+```{r img-labsh, layout="l-screen", echo=FALSE, fig.align='center', fig.cap='*Pittsburgh at Dusk* <br> (&#169;  Fiona Teufel, Photographed Before Fireworks on 4 July 2022)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/FionaPittreduc.png")
 ```
