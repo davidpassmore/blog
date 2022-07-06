@@ -76,7 +76,10 @@ than current pay in an entirely new job.
 This finding is not unique. For instance, @mas2017 found that the
 average national call center worker was willing to give up 20% of wages
 to avoid a schedule set by an employer on short notice and 8% of wages
-for the option to work from home.
+for the option to work from home. For another example, @yong2022
+reported that a poll conducted in the Philippines showed that 73% of
+respondents would forgo a pay raise or promotion for better work-life
+balance, overall well-being, and happiness.
 
 ### Other Findings
 
@@ -176,8 +179,8 @@ higher pay for underground coal miners exposed to the risk of injury and
 lung disease; or pay differences by geographic region that reflect costs
 of living differences or remoteness of location. The role of a
 compensating differential is to maintain a supply of labor in
-challenging conditions that might otherwise depress interest in acquiring
-or staying in a job.
+challenging conditions that might otherwise depress interest in
+acquiring or staying in a job.
 
 Workers have their own ways of differentiating compensation. Workers can
 react negatively when faced with pay cuts in their own jobs, especially
@@ -290,8 +293,8 @@ profitability with workers include:
 
 In short, it's ours, not yours.
 
-Fitting with these reasons, workers' share of income from production
-has declined steadily. A 2019 McKinsey Global Institute report
+Fitting with these reasons, workers' share of income from production has
+declined steadily. A 2019 McKinsey Global Institute report
 [@manyika2019a.] documented the decline in labor's share of income in
 the United States. Although labor's share already had started to
 decrease in the 1960s, McKinsey estimated that three-fourths of the
@@ -333,9 +336,10 @@ technology at work.
 "*It's the economy, stupid*" was a widely-quoted catchphrase authored by
 James Carville, a strategist in Bill Clinton's successful 1992 campaign
 for U.S. President, to remind campaign workers to stay on message.
-Thinking along these lines, perhaps it is a mistake to over-analyze the willingness of workers to
-accept lower pay with anything other than ordinary concepts of suppl;y
-and demand. Maybe it is just that....the economy?
+Thinking along these lines, perhaps it is a mistake to over-analyze the
+willingness of workers to accept lower pay with anything other than
+ordinary concepts of suppl;y and demand. Maybe it is just that....the
+economy?
 
 The U.S. economy has faced what some people have called *The Great
 Resignation*, but perhaps a better characterization is *The Great
@@ -386,11 +390,14 @@ an opportunities for workers. One door closes, another opens, allowing a
 kind of creative destruction that becomes possible during periods of
 change and chaos.
 
+<center>
 
-<center>*A working class hero is something to be.* \
-   ~ John Lennon</center>
-   
----
+*A working class hero is something to be.*\
+\~ John Lennon
+
+</center>
+
+------------------------------------------------------------------------
 
 ```{=html}
 <style>
@@ -407,7 +414,7 @@ by Lucas Systems and, then, incorporated the interview into her article,
 "Survey: As online ordering grows, warehouse workers say they need more
 tech to save their bodies" [@herring2022]. I gathered the notes I
 prepared for her interview with me to write this blog posting after Ms.
-Herring's posting was published. 
+Herring's posting was published.
 :::
 
 ## Last updated on {.appendix}
