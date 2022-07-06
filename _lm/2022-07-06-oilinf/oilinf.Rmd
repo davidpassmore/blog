@@ -2,6 +2,7 @@
 title: "transportation, inflation, & the supply chain"
 description: |
   A report from a webinar presented by Regional Economic Models, Inc.
+preview: supch.jpeg
 author:
   - name: David L. Passmore
     url: https://davidpassmore.net
@@ -19,7 +20,7 @@ output:
 draft: FALSE
 editor_options: 
   markdown: 
-    wrap: 72
+    wrap: 72ch
 ---
 
 
