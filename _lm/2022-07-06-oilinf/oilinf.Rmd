@@ -1,0 +1,83 @@
+---
+title: "transportation, inflation, & the supply chain"
+description: |
+  A report from a webinar presented by Regional Economic Models, Inc.
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-03-22
+categories:
+  - deflation
+  - inflation
+  - oil prices
+  - transportation
+output:
+  distill::distill_article:
+    self_contained: false
+draft: FALSE
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+>I attended an interesting webinar during March 2022 that Fred Treyz, CEO of [REMI.com](https://remi.com), presented about inflation, transportation, and oil shocks. Although the entire webinar was informative and throught-provoking,^[All slides shown during the webinar and a video recording of the webinar are available at [the REMI.com web site](https://www.remi.com/event/transportation-inflation-and-the-supply-chain/)] I found that three slides encasulated well the components of inflationary and deflationary dynamics and their differential effects on various social and economic classes. Then, summarized on two slides are the results of simulations a 10% hike in the price of oil that Fred shared. 
+
+## *Dynamics of Inflation*
+
+Various forces can increase or decrease consumer prices in complex ways. *Monetary policy* is the process by which a government, central bank, or monetary authority manages the supply of money, or trading in foreign exchange markets. *Fiscal policy* attempts to influence the direction of the economy through changes in government spending or taxes. On top of these policies, severe *supply-chain disruptions* and *labor shortages* have added to inflationary pressures.
+
+```{r img-dyn, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/infl1.png")
+```
+*Technology* can make production more efficient. *Globalization* promotes trade with low-cost producers. *Aging* involves changing the amount and kind of consumption. *Remote* work reduces costs of transportation and improves access to labor independent of geography. 
+
+```{r img-defi, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/defl1.png")
+```
+
+Simply put, inflation degrades the well-being of lower income groups more than higher income and wealthy groups. Lower income groups spend a high proportion of their cash on necessities than higher income/wealth groups, which have more cushion to buy higher priced necessities and discretionary consumption![](inflpacts.jpg)
+
+```{r img-inlimp, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/inflpacts.png")
+```
+
+## *Role of Transportation in Inflation and Deflation*
+
+Transportation is a major and direct driver of labor productivity. 
+Transportation impediments have dented our supply chain significantly. Labor shortages amplify these transportation difficulties. 
+
+```{r img-tr1, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/trans1.png")
+```
+
+The possibility of *stagflation* is a worry. A period of slow economic growth and high unemployment (i.e., stagnation) can combine with rising prices (i.e., inflation) to create a recession(i.e., a business cycle contraction when there is a general decline in overall economic activity).
+
+```{r img-tr2, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/trans2.png")
+```
+
+***
+
+```{=html}
+<style>
+div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
+</style>
+```
+::: blue
+*Disclosure:* I am not a shill for REMI. I was a satisfied and enthusiastic REMI customer from the early 1990s until I retired from Penn State in 2020. 
+
+*Not Mine; REMI's:* The five slides displayed in my notes are not mine. They--and the economic modeling behind them--are REMI's. Find more, detailed information in the webinar slides and recording. My notes are meant to comment on Fred's presentation.
+
+*What is REMI:* REMI is a leading provider of economic/demographic models that allow examination of "what if" questions pertinent to evaluation of alternatives to economic. transportation, and tax policy at local, regional, and national scales.
+:::
+
+
