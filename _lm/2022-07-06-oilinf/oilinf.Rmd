@@ -36,18 +36,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Various forces can increase or decrease consumer prices in complex ways. *Monetary policy* is the process by which a government, central bank, or monetary authority manages the supply of money, or trading in foreign exchange markets. *Fiscal policy* attempts to influence the direction of the economy through changes in government spending or taxes. On top of these policies, severe *supply-chain disruptions* and *labor shortages* have added to inflationary pressures.
 
-```{r img-dyn, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+```{r img-dyn, echo=FALSE, fig.align='center', out.extra="class=external"}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/infl1.png")
 ```
 *Technology* can make production more efficient. *Globalization* promotes trade with low-cost producers. *Aging* involves changing the amount and kind of consumption. *Remote* work reduces costs of transportation and improves access to labor independent of geography. 
 
-```{r img-defi, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+```{r img-defi, echo=FALSE, fig.align='center', out.extra="class=external"}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/defl1.png")
 ```
 
 Simply put, inflation degrades the well-being of lower income groups more than higher income and wealthy groups. Lower income groups spend a high proportion of their cash on necessities than higher income/wealth groups, which have more cushion to buy higher priced necessities and discretionary consumption![](inflpacts.jpg)
 
-```{r img-inlimp, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+```{r img-inlimp, echo=FALSE, fig.align='center', out.extra="class=external"}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/inflpacts.png")
 ```
 
@@ -56,13 +56,13 @@ knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/inflpacts.pn
 Transportation is a major and direct driver of labor productivity. 
 Transportation impediments have dented our supply chain significantly. Labor shortages amplify these transportation difficulties. 
 
-```{r img-tr1, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+```{r img-tr1, echo=FALSE, fig.align='center', out.extra="class=external"}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/trans1.png")
 ```
 
 The possibility of *stagflation* is a worry. A period of slow economic growth and high unemployment (i.e., stagnation) can combine with rising prices (i.e., inflation) to create a recession(i.e., a business cycle contraction when there is a general decline in overall economic activity).
 
-```{r img-tr2, layout="l-body-outset", echo=FALSE, fig.align='center', out.extra="class=external"}
+```{r img-tr2, echo=FALSE, fig.align='center', out.extra="class=external"}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infoil/trans2.png")
 ```
 

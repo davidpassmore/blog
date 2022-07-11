@@ -49,6 +49,10 @@ An eight-page brochure, *Voice of the Warehouse Worker Insights*
 identify "how workers feel about stress, the need for technology, and
 working with robots" [@lucassystemsinc.2022e, para. 3 ).
 
+<aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
 ### Survey Findings
 
 A statement [@berardi] distributed on June 29, 2022 announcing the
@@ -308,7 +312,7 @@ knitr::include_graphics("https://davidpassmore.net/blogd/img/payc/SVGZ-New-look-
 ```
 
 @manyika2019b even more narrowly attributed this decline to specific
-industrial activity:
+industrial sectors:
 
 > Twelve sectors that make up about one-third of employment and 44
 > percent of economic output explain the overall decline in labor share
@@ -338,7 +342,7 @@ James Carville, a strategist in Bill Clinton's successful 1992 campaign
 for U.S. President, to remind campaign workers to stay on message.
 Thinking along these lines, perhaps it is a mistake to over-analyze the
 willingness of workers to accept lower pay with anything other than
-ordinary concepts of suppl;y and demand. Maybe it is just that....the
+ordinary concepts of supply and demand. Maybe it is just that....the
 economy?
 
 The U.S. economy has faced what some people have called *The Great
@@ -360,7 +364,7 @@ other than wages are important, too -- as respondents to the survey from
 Lucas Systems indicated. Health benefits, job security, flexible work
 arrangements and retirement benefits were behind pay, respectively, as
 the top five reasons employees would move elsewhere. Many survey
-respondents expressed preferences remote work just as employers were
+respondents expressed preferences for remote work just as employers were
 encouraging workers to return on-site to the office.
 
 As a result, the economy has featured an almost unprecedented sellers'
