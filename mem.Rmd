@@ -3,3 +3,6 @@ title: "notes from pittsburgh containing memoriest"
 site: distill::distill_website
 listing: mem
 ---
+
+<br><br><br>
+**These NOTES are my memories. If you remember something different, write your own posting, respond to mine, or just keep your memories to yourself.**
