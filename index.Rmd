@@ -13,6 +13,6 @@ site: distill::distill_website
 ![](dlp_signature.jpg){width=35%}
 
 
-```{r img-labsh, layout="l-screen", echo=FALSE, fig.align='center', fig.cap='*Pittsburgh at Dusk* <br> &#169;  Fiona Teufel, 2022 <br> (Photographed Before Fireworks on 4 July 2022)'}
+```{r img-labsh, layout="l-screen", echo=FALSE, fig.align='center', fig.cap='*Pittsburgh at Dusk* <br> &#169; 2022 Fiona Teufel <br> (Photographed before fireworks display on 4 July 2022)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/FionaPittreduc.png")
 ```
