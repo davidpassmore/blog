@@ -11,8 +11,8 @@
       "path": "ec.html",
       "title": "notes from pittsburgh about economic impact",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-07-11T06:41:16-04:00"
+      "contents": "\nThese NOTES focus on policies, regulations,\nevents, and activities that occur naturally, as in disasters, or are\nintended, as in projects, to affect a regional economy, typically\nPittsburgh’s. Some of these postings take a technical approach and are,\nfor the most part, view matters through the lens of\neconomics.\n\n\n\n",
+      "last_modified": "2022-07-14T07:56:04-04:00"
     },
     {
       "path": "index.html",
@@ -25,8 +25,8 @@
       "path": "lm.html",
       "title": "notes from pittsburgh about the regional economy",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-07-11T06:41:18-04:00"
+      "contents": "\nData and trends and their implications for\nregional economies, typically the Pittsburgh economy, are the topics of\nthese NOTES.\n\n\n\n",
+      "last_modified": "2022-07-14T08:02:39-04:00"
     },
     {
       "path": "me.html",
@@ -46,8 +46,8 @@
       "path": "op.html",
       "title": "notes from pittsburgh containing opinions",
       "author": [],
-      "contents": "\nThese opinions are mine on the day I wrote them.\nDo I believe my own opinions now? Maybe. Did I believe them on the day I\nwrote them? Maybe. Sometimes I wrote these opinions to roadtest an\nargument or to follow a thread of thought. These opinions are not\nresearch papers, Iformation is cited lightly and sometimes one-sidedly.\nLook, I am just taking them out for a test ride. Write your own posting,\nrespond to mine, or just walk on to Starbucks. \n\n\n\n",
-      "last_modified": "2022-07-11T06:41:19-04:00"
+      "contents": "\nThe opinions in these NOTES are mine on the day\nI wrote them. Do I believe my own opinions now? Maybe. Did I believe\nthem on the day I wrote them? Maybe. Sometimes I wrote these opinions to\nroad test an argument or to follow a thread of thought. These opinions\nare not research papers, Information is cited lightly and sometimes\none-sidedly. Look, I am just taking them out for a test ride. Write your\nown posting, respond to mine, or just walk on to Starbucks.\n\n\n\n\n",
+      "last_modified": "2022-07-14T08:05:11-04:00"
     }
   ],
   "collections": ["posts/posts.json", "ec/ec.json", "lm/lm.json", "op/op.json", "mem/mem.json"]

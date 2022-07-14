@@ -4,3 +4,6 @@ site: distill::distill_website
 listing: lm
 ---
 
+
+<br><br><br>
+**Data and trends and their implications for regional economies, typically the Pittsburgh economy, are the topics of these NOTES.**

@@ -3,3 +3,6 @@ title: "notes from pittsburgh about economic impact"
 site: distill::distill_website
 listing: ec
 ---
+
+<br><br><br>
+**These NOTES focus on policies, regulations, events, and activities that occur naturally, as in disasters, or are intended, as in projects, to affect a regional economy, typically Pittsburgh's. Some of these postings take a technical approach and are, for the most part, view matters through the lens of economics.**
