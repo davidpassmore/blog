@@ -1,0 +1,18 @@
+---
+title: "Public Accountability of the Pennsylvania Petrochemicals Complex"
+description: |
+  A short description of the post.
+author: David L. Passmore
+date: 2022-07-15
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> As the cracker facility opens, and as it shifts to actually producing polyethylene, let's continue to look back at the track record on the ground and compare it to the promises and see whether economic growth happens or not....We can use that to make decisions about the relative tradeoffs, there are some environmental impacts, of course, with a project that size <br> \~ Eric de Place, Fellow, Ohio River Institute [@scott]

@@ -49,10 +49,6 @@ An eight-page brochure, *Voice of the Warehouse Worker Insights*
 identify "how workers feel about stress, the need for technology, and
 working with robots" [@lucassystemsinc.2022e, para. 3 ).
 
-<aside>
-<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</aside>
-
 ### Survey Findings
 
 A statement [@berardi] distributed on June 29, 2022 announcing the
@@ -90,18 +86,18 @@ balance, overall well-being, and happiness.
 Other conclusions extracted from the brochure released by Lucas Systems
 include [@berardi2022, ¶5]:
 
--   Workers want to stay with their employer but feel improvements are
+-   Workers want to stay with their employers but feel improvements are
     necessary to make their jobs easier. Workers generally anticipate
     staying at their current employer for at least three years (74%)
     with 35% anticipating a tenure longer than five years.\
--   75% of workers say physical strain in their jobs takes a larger toll
+-   Seventy-five percent of workers say physical strain in their jobs takes a larger toll
     on them than the mental strain. The leading cause of physical strain
     is carrying and/or lifting followed by walking and/or traveling.
 -   Top causes of mental strain include meeting performance or incentive
     goals and objectives (25%) and safely maneuvering around the
     warehouse (20%).
 -   Workers see robots as productive allies but fear increased quotas.
-    More than 2 in 5 believe robots will reduce physical stress (46%) or
+    More than two in five believe robots will reduce physical stress (46%) or
     help them achieve better speed in item picking (44%) or better
     accuracy (40%).
 
@@ -112,7 +108,7 @@ technology tools is necessary (p. 8).
 
 ### Perhaps a Broader Meaning Exists
 
-Certainly is interesting information is presented in the brochure
+Certainly interesting information is presented in the brochure
 distributed by Lucas Systems, information that points to the value
 proposition for products that Lucas Systems manufactures.[^2] I wish I
 could examine documentation about the collection, organization, and
@@ -210,7 +206,7 @@ measure of self-worth and respect from others.
 
 Consistent with the findings from the survey by Lucas Systems, research
 on variation in wages and salaries reveals that workers and employers
-see more meaning in pay than just plan money.
+see more meaning in pay than just plain money.
 
 ### Is That All There Is?
 
@@ -389,8 +385,7 @@ and income buffers for workers to ponder whether retirement was best or
 whether they wanted to seek or train for new work that might raise their
 subjective well--being.
 
-In a way, the pandemic and the disruption around it ironically created
-an opportunities for workers. One door closes, another opens, allowing a
+In a way, the pandemic and the disruption around it ironically created opportunities for workers. One door closes, another opens, allowing a
 kind of creative destruction that becomes possible during periods of
 change and chaos.
 
