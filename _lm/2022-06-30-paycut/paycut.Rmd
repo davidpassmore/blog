@@ -90,16 +90,17 @@ include [@berardi2022, ¶5]:
     necessary to make their jobs easier. Workers generally anticipate
     staying at their current employer for at least three years (74%)
     with 35% anticipating a tenure longer than five years.\
--   Seventy-five percent of workers say physical strain in their jobs takes a larger toll
-    on them than the mental strain. The leading cause of physical strain
-    is carrying and/or lifting followed by walking and/or traveling.
+-   Seventy-five percent of workers say physical strain in their jobs
+    takes a larger toll on them than the mental strain. The leading
+    cause of physical strain is carrying and/or lifting followed by
+    walking and/or traveling.
 -   Top causes of mental strain include meeting performance or incentive
     goals and objectives (25%) and safely maneuvering around the
     warehouse (20%).
 -   Workers see robots as productive allies but fear increased quotas.
-    More than two in five believe robots will reduce physical stress (46%) or
-    help them achieve better speed in item picking (44%) or better
-    accuracy (40%).
+    More than two in five believe robots will reduce physical stress
+    (46%) or help them achieve better speed in item picking (44%) or
+    better accuracy (40%).
 
 @lucassystemsinc.2022f declared that: technology tools are essential to
 the well-being and retention of workers; training is vital to the
@@ -385,16 +386,13 @@ and income buffers for workers to ponder whether retirement was best or
 whether they wanted to seek or train for new work that might raise their
 subjective well--being.
 
-In a way, the pandemic and the disruption around it ironically created opportunities for workers. One door closes, another opens, allowing a
+In a way, the pandemic and the disruption around it ironically created
+opportunities for workers. One door closes, another opens, allowing a
 kind of creative destruction that becomes possible during periods of
 change and chaos.
 
-<center>
-
-*A working class hero is something to be.*\
-\~ John Lennon
-
-</center>
+<center>*A working class hero is something to be.*\
+\~ John Lennon</center>
 
 ------------------------------------------------------------------------
 
