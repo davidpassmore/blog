@@ -132,8 +132,8 @@ point of the base material. Press--and--sinter processes offer
 relatively low manufacturing and tooling costs and produce close
 tolerances in the finished parts.
 
-```{r img-process, echo=FALSE, fig.align='center', fig.retina = 2, out.width="85%", out.extra="class=external", fig.cap='*Conventional powder metallurgy process* <br> (Image from Kumar & Xavior [-@kumar2018, Figure 2] available via Creative Commons license [@ccby3.a].)'}
-knitr::include_graphics("https://davidpassmore.net/blogd/img/powd/ConvPM.png")
+```{r img-process, echo=FALSE, fig.align='center', fig.retina = 2, out.width="100%", out.extra="class=external", fig.cap='*Conventional powder metallurgy process* '}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/powd/conventional_color.png")
 ```
 
 General attributes of the PM$^{2}$ process include elimination or
@@ -156,8 +156,8 @@ allow powder to fill a die and to maintain sturdiness before sintering,
 Refer to PickPM [-@pickpm2022d] and Penafiel [-@penafiel2017] for
 additional design considerations.
 
-```{r img-part, echo=FALSE, fig.align='center', fig.retina = 2, out.width="75%", out.extra="class=external", fig.cap='*Examples of complex structures produced through powder metallurgy* <br> (Image from Kumar & Xavior [-@kumar2018, Figure 4] available via Creative Commons license [@ccby3.a].))'}
-knitr::include_graphics("https://davidpassmore.net/blogd/img/powd/PM2Ex.png")
+```{r img-part, echo=FALSE, fig.align='center', fig.retina = 2, out.width="75%", out.extra="class=external", fig.cap='*Examples of complex structures produced through powder metallurgy*'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/powd/APMpart.png")
 ```
 
 Metal powders are elemental or alloyed metals mixed with binders,
