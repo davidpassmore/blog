@@ -88,636 +88,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>NOTES FROM PITTSBURGH: about....</title>
+  <title>legtext</title>
+
+  <meta property="description" itemprop="description" content="A short description of the post."/>
 
 
-
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-08-10"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-08-10"/>
+  <meta name="article:author" content="David L. Passmore"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="NOTES FROM PITTSBURGH: about...."/>
+  <meta property="og:title" content="legtext"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="A short description of the post."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="NOTES FROM PITTSBURGH"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="NOTES FROM PITTSBURGH: about...."/>
-  <meta property="twitter:site" content="@dlppassmore"/>
+  <meta property="twitter:title" content="legtext"/>
+  <meta property="twitter:description" content="A short description of the post."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","links","output"]}},"value":[{"type":"character","attributes":{},"value":["about...."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["Twitter"]},{"type":"character","attributes":{},"value":["https://twitter.com/dlppassmore"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["GitHub"]},{"type":"character","attributes":{},"value":["https://github.com/davidpassmore"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["Email"]},{"type":"character","attributes":{},"value":["mailto:dlp@davidpassmore.net"]}]}]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","categories","date","output","editor_options","draft"]}},"value":[{"type":"character","attributes":{},"value":["legtext"]},{"type":"character","attributes":{},"value":["A short description of the post.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","orcid_id","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["David L. Passmore"]},{"type":"character","attributes":{},"value":["https://davidpassmore.net"]},{"type":"character","attributes":{},"value":["0000-0001-9307-5164"]},{"type":"character","attributes":{},"value":["Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh"]}]}]},{"type":"character","attributes":{},"value":["Act 16","Act 85","Beaver County, Pennsylvania","ethane","ethane cracker","ethylene","Pennsylvania legislature","Pennsylvania Petrochemicals Complex","Shell Chemical Appalachia LLC","Shell, plc","tax expenditures"]},{"type":"character","attributes":{},"value":["2022-8-10"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["markdown"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["wrap"]}},"value":[{"type":"integer","attributes":{},"value":[72]}]}]},{"type":"logical","attributes":{},"value":[true]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"NULL"}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2064,281 +1467,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Amiri');
-  @import url('https://fonts.googleapis.com/css2?family=Bitter');
-  @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
-  .distill-site-header {
-    --title-size:       26px;    
-    --text-color:       #CCCCCC; /* edited */
-    --text-size:        17px;
-    --hover-color:      #FFFFFF; /* edited */
-    --bkgd-color:       #000000; /* edited */
-  }
-  html {
-    /*-- Main font sizes --*/
-    --heading-font:    "Amiri", serif;
-    --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
-    --title-size:      35px;
-    --text-color:     #000000;
-    --body-size:       1.15rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- More properties --*/
-    ...
-  }</style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="legtext_files/header-attrs-2.14/header-attrs.js"></script>
+  <script src="legtext_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="legtext_files/popper-2.6.0/popper.min.js"></script>
+  <link href="legtext_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="legtext_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="legtext_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="legtext_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="legtext_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="legtext_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="legtext_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-F2WENJW42E"></script>
-  <script type="text/javascript" cookie-consent="tracking">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-F2WENJW42E');
-  </script>
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2349,172 +1489,74 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"about....","authors":[]}
+{"title":"legtext","description":"A short description of the post.","authors":[{"author":"David L. Passmore","authorURL":"https://davidpassmore.net","affiliation":"Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh","affiliationURL":"#","orcidID":"0000-0001-9307-5164"}],"publishedDate":"2022-08-10T00:00:00.000-04:00","citationText":"Passmore, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<span class="logo">
-<img src="smallDLP.jpg"/>
-</span>
-<a href="index.html" class="title">NOTES FROM PITTSBURGH</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="about.html">| about these notes |</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-| lists of notes |
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="ec.html">economic impact</a>
-<a href="lm.html">regional economy</a>
-<a href="op.html">opinions</a>
-<a href="mem.html">memories</a>
-</div>
-</div>
-<a href="me.html">| brief bio |</a>
-<a href="index.xml">
-<i class="fa fa-rss" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>about….</h1>
+<h1>legtext</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt-tag">Act 16</div>
+<div class="dt-tag">Act 85</div>
+<div class="dt-tag">Beaver County, Pennsylvania</div>
+<div class="dt-tag">ethane</div>
+<div class="dt-tag">ethane cracker</div>
+<div class="dt-tag">ethylene</div>
+<div class="dt-tag">Pennsylvania legislature</div>
+<div class="dt-tag">Pennsylvania Petrochemicals Complex</div>
+<div class="dt-tag">Shell Chemical Appalachia LLC</div>
+<div class="dt-tag">Shell, plc</div>
+<div class="dt-tag">tax expenditures</div>
+</div>
 <!--/radix_placeholder_categories-->
-
+<p><p>A short description of the post.</p></p>
 </div>
 
+<div class="d-byline">
+  David L. Passmore <a href="https://davidpassmore.net"
+class="uri">https://davidpassmore.net</a> (Distinguished Professor,
+Emeritus, Penn State; Academic Visitor, University of Pittsburgh)
+  
+<br/>2022-8-10
+</div>
 
 <div class="d-article">
-<h4 id="i-am-david-l.-passmore."><strong>I am <a href="me.html">DAVID L.
-PASSMORE</a>.</strong></h4>
-<p>My NOTES originate in Pittsburgh, Pennsylvania, where I have lived
-since 2020. I was a professor at Penn State for 41 years and in higher
-education for 51 years. My background, experiences, and accomplishments
-<a href="me.html">are detailed elsewhere</a></a>.</p>
-<h4 id="how-these-notes-are-rendered"><strong>how these NOTES are
-rendered</strong></h4>
-<p>I live as a geeky nerd.</p>
-<p>I write and code these NOTES in
-<a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a>
-syntax in
-<a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a>
-using blogging tools provided in the
-<a href="https://www.r-project.org/" target="_blank" title="R">R
-programming</a> package titled
-<a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package"><code>distill</code></a>.</p>
-<p>I render the blog through
-<a href="https://en.wikipedia.org/wiki/Pandoc" target="_blank" title="Pandoc in Wikipedia">Pandoc
-into
-<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia">
-html</a> from the RMarkdown code. Then, I push the html to
-<a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my
-GitHub account</a>, from which it is served publicly through the
-<a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain
-name</a>, <code>davidpassmore.github.io/blog/</code>.</p>
-<p>I do not implement cookies and other tracking tools with this blog
-site, except to count user visits through Google Analytics. So, if you
-show up here, I will not sneak behind you to follow you home.</p>
-<h4 id="whats-here"><strong>what’s here?</strong></h4>
-<p>I live a lot of my life doing reading, writing, and arithmetic.</p>
-<p>These NOTES span topics that reflect the range of ideas, learnings,
-and challenges that I encounter daily as I sit at a table with my
-computers in front of large windows that look over trees, birds, and
-daily neighborhood activities from our 4th-floor condo in the Shadyside
-neighborhood of Pittsburgh.</p>
-<p>Motivating these NOTES is a hope to engage with others. Perhaps more
-primary is the need to clarify meanings I attach to my perceptions of
-events, activities, and experiences.</p>
-<p>I integrate my perceptions into essays using, where possible, the
-tools of data science to undergird my arguments. It’s not all a pile of
-grim, grinding screeds, though. I drop in a few idiographic memories of
-my experiences and my slanted opinions about emprises offered by
-life.</p>
-<p>I don’t know whether I am a boho or just a lazy cad, but I rarely
-decide completely what I will write until I struggle to write it. As E.
-M. Forster, English fiction writer, essayist and librettist, reputedly
-once wrote, “How do I know what I think until I see what I say?”</p>
-<p>I ran a blog at the now out-of-service domain, <em>motime.com</em>,
-during the early 2000s. I retrieved some of my longer postings to this
-former blog from <a href="https://archive.org"><em>The Wayback
-Machine</em></a>. I re-posted a few of these dormant postings here as
-new NOTES’ essays.</p>
-<h4 id="how-i-engage"><strong>how I engage</strong></h4>
-<p>I live my life as a retired person.</p>
-<p>I rise at 4:00 am daily. Early rising is not my attempt to follow
-some monastic way. No, I see it as a quiet time, an opportunity to
-organize and prepare, and a chance to have a few accomplishments before
-the rest of the world starts moving.</p>
-<p>I meet over my cup of morning coffee with long-time friends on Zoom
-meetings from 6:30 to 7:30 am on Mondays through Saturdays. I spend the
-remainder of my time on most days on projects selected from too many to
-do. Sometimes I hold video conferences with friends and collaborators
-worldwide to gain insights into issues and solutions to problems.</p>
-<h4 id="contacts-with-me"><strong>contacts with me</strong></h4>
-<p>Friends, I live in gated community of my own construction.</p>
-<p>Send an email to me using the email address:
-<code>dlp AT davidpassmore dot net</code>. I take <em>iMsgs</em> and
-<em>SMS messages</em> at <code>dlp@psu.edu</code>. My <em>Twitter</em>
-handle is <code>@DLPPassmore</code>, where I am available publicly. I
-also run <em>Slack</em> teams for my former students and family. In
-these student and family teams, I typically am available instantly.</p>
-<p>I read <em>Reddit</em> (mostly <code>r/pittsburgh</code>), but I post
-there infrequently because I try to stay out of hand-to-hand combat at
-my age. Although I have placeholder accounts on many social media apps,
-I do not do in any depth the <em>FaceBook</em>s or the
-<em>LinkedIn</em>s like the kids like to do. Those crazy kids, eh? How
-can you keep up? So, not much of me is available on most social media
-apps.</p>
-<p>The telephone? Nah. I seldom pick up, except for family or for calls
-from close associates. Calling me without leaving a message results in
-number blocking.<a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a> I <em>do</em> use Instagram, but I
-am only deeply hidden and accessible by family.</p>
-<p>I live in a secure building. So, instead of confronting me
-face-to-face like you are a member of the press heckling a public
-official being frog marched to a hearing on criminal charges, post any
-expressions of unhappiness and ill-will to me via email or Twitter,
-where I will incorporate good ideas<a href="#fn2" class="footnote-ref"
-id="fnref2" role="doc-noteref"><sup>2</sup></a> into my life flow. Or,
-instead, as if kept awake the night before by a bit of indigestible
-potato, I will press flush to exhaust you into the cold plasma and,
-then, on quickly through the pipes to the vast, dark cesspool I keep in
-the corner of my private universe. <em>You have been warned!</em></p>
-<p>vr,<br/> David</p>
-<p><img src="dlp_signature.jpg" style="width:35.0%" /></p>
+<p>Distill is a publication format for scientific and technical writing,
+native to the web.</p>
+<p>Learn more about using Distill at <a
+href="https://rstudio.github.io/distill"
+class="uri">https://rstudio.github.io/distill</a>.</p>
 <h2 class="appendix" id="last-updated-on">Last updated on</h2>
 <div class="layout-chunk" data-layout="l-body">
-<pre><code>[1] &quot;2022-08-11 09:22:37 EDT&quot;</code></pre>
+<pre><code>[1] &quot;2022-08-11 06:36:47 EDT&quot;</code></pre>
 </div>
+<h2 class="appendix" id="your-comments-corrections">Your Comments &amp;
+Corrections</h2>
+<p>To make comments about this posting or to suggest changes or
+corrections, use the Disqus form on this page, send email to <a
+href="mailto:dlp@davidpassmore.net">David Passmore</a>, send a direct
+message on Twitter at <a
+href="https://twitter.com/dlppassmore">@DLPPassmore</a>, or send an IMsg
+or SMS to <a href="mailto:dlp@psu.edu"
+class="email">dlp@psu.edu</a>.</p>
+<h2 class="appendix" id="reuse">Reuse</h2>
+<p>Text and illustrations are licensed under Creative Commons
+Attribution <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC
+BY 4.0</a>. Source code is available at <a
+href="https://github.com/davidpassmore/blog"
+class="uri">https://github.com/davidpassmore/blog</a>, unless otherwise
+noted. The figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in the caption
+starting: “Figure from…” or “Photo from…” , “Image from…” or “Map
+from…”.</p>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<section class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>Please note: my car warranty is as I
-like it; my grandchildren do not require me to bail them out of jail;
-the Internal Revenue Service is not trying to reach me urgently. I will
-never own a timeshare, nor, I guarantee, would you want me to.<a
-href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>…even those ideas I never considered
-or initially might seem out-of-sync with my settled patterns<a
-href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2529,12 +1571,7 @@ href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<p><strong>David L. Passmore, 5 Bayard Road, Unit 403, Pittsburgh,
-Pennsylvania 15213-1903 USA</strong></p>
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 

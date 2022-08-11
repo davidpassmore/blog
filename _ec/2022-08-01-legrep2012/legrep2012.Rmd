@@ -72,7 +72,7 @@ mention of `ethane`, `cracker`, `petrochemical`, `Beaver County`,
 `Monaca`, and `Shell` between 2011 and 2020. I list passages extracted
 in order from earliest to latest. Most numerous were passages from
 2012, but passages were identified for 2013, 2014, and 2019, also. Some
-years do not contain targeted passages and not listed.
+years do not contain targeted passages and are not listed.
 
 ```{r img-leg, echo=FALSE, fig.align='center', fig.retina = 2,  fig.cap='*Commonwealth of Pennsylvania Journal.*'}
 knitr::include_graphics("legjourn.png")
