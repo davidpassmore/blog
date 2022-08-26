@@ -56,10 +56,9 @@ behind their commitment to candidates. Moreover, when candidates display
 public support, voter attention is drawn to candidates and their deeper
 bios.
 
-In this blog posting, I focus the use of information markets for
+In this blog posting, I focus on the use of information markets for
 obtaining in place of survey methods for identifying candidate
-preferences of the electorate.[^1] Information markets operate in the
-same way as commodity and financial futures markets, except that the
+preferences of the electorate.[^1] Information markets operate similarly to commodity and financial futures markets, except that the
 commodity traded in contracts is information, not a physical good.
 Information markets trade contracts for propositions about whether
 events will occur and when.
@@ -67,11 +66,11 @@ events will occur and when.
 [^1]: See the appendix to this blog posting, "My Approach to the Topic
     of This Posting," for my motivations for writing this essay.
 
-The mission for this blog posting is to describe concepts and processes
+The mission of this blog posting is to describe concepts and processes
 to apply commodity and financial futures markets to structure
 information markets for estimating candidate preferences of the
 electorate. In the remainder of this posting, I offer some examples of
-information markets to demonstrate their applications to diverse
+information markets for demonstrating their applications to diverse
 questions that also could be answered using survey methods. But, first,
 to set the stage, I contrast the two approaches---survey methods *v*
 information markets---for estimating beliefs about the outcome of a
@@ -99,9 +98,9 @@ markets.
 
 #### [@walter1999]17 August 2022 Preference
 
-As of 17 August 2022, Fetterman is favored by respondents by 11.1% over
-Oz (see Figure \@ref(fig:img-poll1)). This estimate is based on a
-weighted average percent favoring candidate from a number of polls
+As of 17 August 2022, respondents favored Fetterman by 11.1% over
+Oz (see Figure \@ref(fig:img-poll1)). A
+weighted average percent favoring a candidate from a number of polls is the basis of this estimate
 [@silver2008a].[^2]
 
 [^2]: Data for all Senate races in the U.S. are available from
@@ -116,8 +115,8 @@ knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/poll1.p
 
 Methods for surveys are richly varied and well-documented (see, e.g.,
 workflows by Fink [-@fink2015], Kelley, et al. [-@kelley2003], and
-Walter et al. [-@walter1999a] ) , and, therefore, I will not restate
-them here. In brief, though, a sample of respondents are recruited from
+Walter et al. [-@walter1999a] ), and  I will not restate
+them here. In brief, a sample of respondents is recruited from
 a population of interest to answer questions. Estimates of responses in
 the population are inferred from responses in the sample, with a band of
 confidence around the estimates reflecting the possibility of
@@ -128,7 +127,7 @@ and biases in the estimates.
 #### Survey Project Management
 
 In the fivethirtyeight.com estimates multiple independent surveys of the
-relative preference for the two candidates were averaged over different
+relative preferences for the two candidates were averaged over different
 survey vendors and time periods to provide a meta-estimate of the status
 of the Fetterman *v* Oz race. (see Figure \@ref(fig:img-poll2) for
 examples of selected surveys in the fivethirtyeight.com analysis). Each
@@ -148,27 +147,27 @@ Implementation of professionally--produced surveys can require extensive
 budgeting for, among other elements, survey design, staffing, respondent
 recruitment, and perhaps establishing effective incentives to motivate
 to survey responses *each time a survey is conducted*. Increasing the
-the size of the respondent sample can balloon costs as can require
+the size of the respondent sample can balloon costs as it can require
 design of complex survey questions that branch the flows of questions
 conditional on criteria for segmenting respondents (e.g., "If you are
-married and a home owner, skip to Q23."). Implementation of survey
+married and a homeowner, skip to Q23."). Implementation of survey
 methods can draw on significant resources as a campaign progresses.
 
 ### Estimation Using an Information Market
 
 #### The Fetterman *v* Oz Market
 
-The basis of an information market is contract for a written
+The basis of an information market is a contract for a written
 proposition, the truth of which is validated at a specific future date.
-Contracts prices range between zero and \$1. The price the buyer of a
+Contract prices range between zero and \$1. The price the buyer of a
 contract is willing to pay represents the buyer's belief in the
 fulfillment of the proposition when the market closes at a future date.
 
-On 18 August 2022, *PredictIt*, a project of Victoria University located
+On 18 August 2022, *PredictIt*, a project of Victoria University, located
 in Wellington, New Zealand [@predictit2022], had been running an
 information market for 181 days to obtain bets about the outcome of the
 Fetterman *v* Oz race, which is a comparison similar to the assessment
-conducted by fivethirtyeight.com that is shown in Figure
+conducted by fivethirtyeight.com that is in Figure
 \@ref(fig:img-poll1). Criteria for assessing the fulfillment of the
 proposition in the PredictIt market are reproduced in Figure
 \@ref(fig:img-rules).
@@ -190,7 +189,7 @@ div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
 ::: blue
 -   A buyer may purchase as many contracts as desired.
 -   Individual contract prices vary from zero to \$1.
--   Owners of contracts either may sell or hold their contracts.
+-   Owners of contracts may either sell or hold their contracts.
 -   The prices of "Yes" and "No" contracts always are complementary.
     That is, The "Yes" and "No" prices must sum to \$1.
 -   A buyer may offer any price; the seller may accept or reject any
@@ -205,15 +204,15 @@ div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
     -   for Oz to lose (meaning Fetterman will win)
 :::
 
-<br/> Markets other than for binary outcomes are available For example,
+<br/> Markets other than for binary outcomes are available. For example,
 markets allowing selection from a range of outcomes are possible.
 PredictIt closed on 24 May 2022 a market in which participants bought
 contracts on the percentage of the popular vote cast in favor of John
-Fetterman in the 2022 Pennsylvania Democratic primary election for U.S.
+Fetterman in the 2022 Pennsylvania Democratic primary election for the U.S.
 Senate on 7 May 2022 (see @predictit2022a for prices at the close of the
-market). Other complex forms of markets can include joint outcome.
+market). Other complex forms of markets can include joint outcomes.
 Although PredictIt does not offer such a market, participants could
-construct propositions that include, for example, the likelihood that of
+construct propositions that include, for example, the likelihood of
 favoring a particular gubernatorial candidate *and* favoring Fetterman
 for the Senate.
 
@@ -222,30 +221,30 @@ for the Senate.
 Shown in Figure \@ref(fig:img-daym) are the market prices on 17 August
 2022 for the proposition, *Which party will win the U.S. Senate
 election* <br> in Pennsylvania in 2022?. The market price for 17 August
-indicated a strong belief that Fetterman will beat Oz in the race by the
+indicated a strong belief that Fetterman would beat Oz in the race by the
 closing date for the market, much stronger than in the difference
-estimated by survey methods (refer, again, to Figure
+estimated by survey methods (refer again to Figure
 \@ref(fig:img-poll1)).
 
 ```{r img-daym, echo=FALSE,  fig.align='center', out.extra="class=external", out.width='100%', fig.cap='*Market price for* "Which party will win the U.S. Senate election <br> in Pennsylvania in 2022?"  *in PredictIt political market.* <br> (Image from Best et. al [-@best2022a.] on 17 August 2011 @ 12:19 pm.)'}
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/Fetterman_daymarket.png")
 ```
 
-Estimates based on survey methods and information markets are not fully
+Estimates based on survey methods and information markets are not entirely
 equivalent. For instance, The survey-based estimates are averaged from
-responses to questions that, in general, request a preference among
-candidates. The estimate from the information market requires prediction
+responses to questions that generally request a preference among
+candidates. The estimate from the information market requires the prediction
 of which candidate will win the race, conditional on information
-aggregated by the market participant from a variety of points of
+aggregated by the market participant from various points of
 information about candidate prospects. For the most part, the
 survey-based approaches rely on which candidate you like, while the
 estimates from the information market focus on who will win, regardless
 of who the market participant favors. Respondents to surveys generally
-have no pecuniary stake in the outcome of the race, while information
+have no pecuniary stake in the outcome of the race. At the same time, information
 market participants placed money (albeit a small stake) on their bet.
 
 This market has a "winner--take--all" reward. When the market closes,
-holder of a contract for the winning share will receive \$1, and holder
+holder of a contract for the winning share will receive \$1, and the holder
 of the losing share will receive nothing. Buyers and sellers can engage
 in a variety of trading strategies based on information they discover
 about the race:
@@ -254,27 +253,26 @@ about the race:
     If so, a strategy is to get in the market while the price is low and
     hold it as it soars (you hope and, indeed, bet) to market closing.\
 -   A buyer could bet on a candidate with a current low market price if
-    the buyer believes that candidate's fortunes will turn just enough
+    the buyer believes that a candidate's fortunes will turn just enough
     to raise an acceptable return on investment---"buy low, sell high."\
 -   Or, maybe a buyer bets on the winner of this race, even if the buyer
-    are unconcerned about the political outcome, as a hedge against a
+    are unconcerned about the political outcome as a hedge against a
     risky bet in another market.\
     -A buyer could engage in arbitrage because the market has not
     reacted quickly to changes in information about the race or is just
-    not paying attention to information that signals a change in
+    not paying attention to information that signals a shift in
     fortunes. This approach involves buying when the buyer believes that
     the market price is artificially low or high. The buyer could reap a
-    quick reward by selling originally undervalued contracts at the
+    quick reward by selling initially undervalued contracts at the
     market price to newly informed investors. When the market
-    artificially is too high the buyer could buy contracts for a
+    artificially is too high, the buyer could buy contracts for a
     discount from sellers holding contracts with high-than-rational
     price who are eager to exit the market before experiencing more
     price erosion.
 
 #### Price-Volume Chart
 
-Displayed in Figure \@ref(fig:img-volpr) is a plot following the price
-of market shares and the volume of shared over a 90-day period. The
+Displayed in Figure \@ref(fig:img-volpr) is a plot following the market share price and volume over a 90-day period. The
 trajectory of the market price shows how beliefs about the outcome of
 the Fetterman *v* Oz race changed over time. Notice that beliefs that Oz
 would win the race in the month after Fetterman announced a health
@@ -286,14 +284,14 @@ is the volume of shares traded in each of the 90 days. High volume days
 indicate interest in the proposition represented in the contract. A
 surge in trading occurred on 15 June, perhaps as concerns about
 Fetterman's health began to wane. The volume of trades rose near the
-date Fox News reported that Fetterman agrees with a plan to cut the
+date Fox News reported that Fetterman agreed with a plan to cut the
 prison population by one-third [@chasmar2022]. A surge in trading
 happened, raising Fetterman's market price, around the date that
 Breitbart syndicated information about Fetterman's call for heavy fines
 against airlines for flight cancellations [@dixon-hamilton2022].
 
 My attributions of reasons behind volume surges in the Fetterman *v* Oz
-market obviously are ad hoc and speculative. However, a serious campaign
+market are ad hoc and speculative. However, a serious campaign
 analyst could track and explain how campaign activities, media buzz,
 candidate gaffs and peccadilloes, and buzz about candidates affect
 beliefs about the outcome of a political race.
@@ -325,44 +323,43 @@ date.
 
 Buyers of futures contracts typically are investors, not producers.
 Buyers usually sell their interest in a commodity to a producer before
-the commodity is delivered.[^3] A clearing corporation brokers trading
+it is delivered.[^3] A clearing corporation brokers trading
 of futures contracts by acting as a single counter-party to every
-transaction and by guaranteeing the completion and credit-worthiness of
+transaction and by guaranteeing the completion and creditworthiness of
 all transactions. PredictIt is the clearing corporation for contracts
 such as the Fetterman *v* Oz contract in the PredictIt information
 market.
 
-[^3]: Can you imagine investors living is a shady, residential
+[^3]: Can you imagine investors living in a shady, residential
     neighborhoods having 5,000 bushels of corn dumped in their front
     yards on the delivery date specified in their contracts?
 
-Commodities include mostly raw, unprocessed goods that are bought on the
-basis of price alone in large quantities for future processing. The U.S.
+Commodities include mostly raw, unprocessed goods that are bought based on price alone in large quantities for future processing. The U.S.
 government defines commodities in the 1936 Commodity Exchange Act
-[@legalinformationinstitute2022]. Commodities are classified in three
+[@legalinformationinstitute2022]. Commodities are classified into three
 major categories: agriculture, energy, and metals. The most popular
 futures markets for food are for meat, wheat, and sugar. Most energy
 futures are in oil and gasoline markets. Metals using futures markets
 include gold, silver, and copper. The 1936 Act also governs financial
 products (e.g., future values of interest rates, currencies, stock
-indexes, bonds, or equity and debt options) as though they were
+indexes, bonds, or equity and debt options) as
 commodities. Buyers of food, energy, and metal use futures contracts to
 fix the price of the commodity they are purchasing. That reduces their
 risk that prices will go up. Sellers of these commodities use futures to
-guarantee that they will receive the agreed-upon price. They remove the
+guarantee they will receive the agreed-upon price. They remove the
 risk of a price drop.
 
-Buyers and sellers reach a contact price based on current information
+Buyers and sellers reach a contract price based on current information
 aggregated about the future value of a commodity. Useful information
 could include forecasts of possible commodity prices, impacts of war or
 weather on the quality and quantity of a commodity, government
 regulations that affect the structure or operation of commodity product
-or resource markets, or regional or world-wide macroeconomic trends
+or resource markets, or regional or worldwide macroeconomic trends
 affecting those markets. Prices of commodities change on a weekly or
 even daily basis, dictating frequent changes in consumer prices of
 meats, gasoline, and gold. For instance, PJM Interconnection LLC
 [@pjm2022a][^4] applies hourly-- [@pjmdataminer2022] and day--ahead
-[@pjmdataminer2022a] markets used to balance transmission of electric
+[@pjmdataminer2022a] markets used to balance the transmission of electric
 power among electricity users.
 
 [^4]: A regional transmission organization in the United States that
@@ -372,7 +369,7 @@ power among electricity users.
 #### Information aggregation and price discovery
 
 Futures markets not only provide practical trading opportunities, but
-they also demonstrate some interesting and useful qualities for
+they also demonstrate some interesting and valuable qualities for
 information aggregation (see Hull [-@hull2016a] for a review of the
 operations of futures markets). Economists have long held the belief
 that markets efficiently collect and disseminate information about goods
@@ -398,8 +395,7 @@ that markets are the final arbiters of value and that markets provide an
 excellent method for harnessing knowledge distributed across their
 participants. Plott and Chen [-@plott2002] asserted that business pages
 of newspapers almost daily interpret market behavior as an aggregation
-of information about future events. Markets are thought to anticipate
-events such as changes in price inflation, shifts in federal monetary
+of information about future events. Markets are thought to anticipate changes in price inflation, shifts in federal monetary
 policy, or prospects for disruptive events like war or labor stoppages.
 Plott and Chen [-@plott2002] further suggested that,
 
@@ -432,16 +428,16 @@ in future markets are motivated by at least three goals:
     in current prices; and\
 
 -   *arbitrage*---simultaneous purchasing and selling identical, or
-    nearly identical, commodities in two different markets in hope of
+    nearly identical commodities in two different markets in the hope of
     gaining a profit from price differences.
 
 #### History and Impact
 
 Commodity futures markets are traced to the Middle Ages when they were
 developed to meet the needs of farmers and merchants facing risks of
-price variation of grains due to conditions of oversupply or shortage
+price variation of grains due to oversupply or shortage
 brought on by weather, disaster, war, or politics (@carlton1984 provides
-an extended history). Commodities exchanges came into existence as
+an extended history). Commodities exchanges became
 formal institutions to act as intermediaries between buyers and sellers.
 The Chicago Board of Trade and the Chicago Mercantile Exchange were
 established in the mid--19th century in the United States to make
@@ -454,7 +450,7 @@ Futures markets are one of the most successful financial innovations for
 trading commodity assets and financial instruments such as currencies,
 bonds, or equity and debt options. Futures exchanges smooth the
 communication between buyers and sellers and provide the conditions and
-rules for trading, all of which is regulated in the United States by the
+rules for trading, all of which are regulated in the United States by the
 Commodity Futures Trading Commission.
 
 ### How Information Markets Function Like Commodities Futures Markets
@@ -463,8 +459,8 @@ Commodity Futures Trading Commission.
 
 Information markets operate like commodity futures markets. The asset
 traded in a commodity futures market is a physical good. As I described,
-a buyer in commodity futures market might contract for delivery of 5,000
-bushels of No. 2 Yellow Corn on next March 1 from a seller. By way of
+a buyer in the commodity futures market might contract for delivery of 5,000
+bushels of No. 2 Yellow Corn next March 1 from a seller. By way of
 contrast, markets that treat information as an asset to be traded and,
 as a result, are described as *information markets*[^5] Information
 markets for ideas in the form of propositions use the framework, tools,
@@ -477,12 +473,12 @@ futures.
     decision-making.
 
 An information market is an exchange for trading specific propositions
-describing the occurrence of an event by a subsequent point in time.
-That is, ideas expressed as specific propositions are the objects
+describing the occurrence of an event at a subsequent point in time.
+That is, ideas expressed as clear propositions are the objects
 traded. An example of a proposition: "Sales of the XYZ Management
 Adjustment Scale will generate \$2 million in revenue by the end of the
-fourth quarter of 2025." The price of the shares indicate the likelihood
-that the market participants believe that the proposition is true. The
+fourth quarter of 2025." The price of the shares indicates the likelihood
+that the market participants believe the proposition is true. The
 volume of trades reveals the interest that the proposition generates
 among traders. Price and volume are represent in a price-volume plot as
 exemplified in Figure \@ref(fig:img-volpr) for the Fetterman *v* Oz
@@ -490,7 +486,7 @@ PredictIt market.
 
 #### Price discovery
 
-Information markets offer contracts priced between between zero and
+Information markets offer contracts priced between zero and
 \$1.00. The purchasing price shows the likelihood of the realization of
 ideas. In particular, information trade on propositions about whether
 events will occur and when. Just as in commodity and financial futures,
@@ -504,7 +500,7 @@ the price of a proposition:
     inside information, and specialized knowledge of information traders
     about factors thought to affect the eventual occurrence of an event
     by a future date. In this way, changes in the price of a proposition
-    reflect changes in market participants beliefs based on information
+    reflect changes in market participants' beliefs based on information
     aggregated about the likelihood that the proposition will be
     realized.
 
@@ -529,13 +525,12 @@ Futures markets are highly regulated in the U.S. Because of the use of
 actual cash for trading, markets run by PredictIt are under the
 regulatory purview of the Commodity Futures Trading Commission (CFTC) in
 the U.S. The CFTC has issued a "no--action" letter to PredictIt stating
-that as long as the PredictIt markets conform to certain guidelines, the
+that as long as the PredictIt markets conform to specific guidelines, the
 CFTC will take no action against PredictIt. The use of participants'
-money is an important feature of PredictIt markets because, as the old
-adage goes, no one spends your money better than you do. Due to the real
+money is an essential feature of PredictIt markets because, as the old
+adage goes, no one spends your money better than you do. Due to the actual
 consequences of loss or gain, participants in PredictIt are stimulated
-to seek information about the markets in which they participate. It is
-this stimulation that sharpens the quality of the market price realized
+to seek information about the markets in which they participate. z\This stimulation sharpens the quality of the market price realized
 for any proposition.
 
 ## Information Markets, Alive and Dead, That I have Known
@@ -547,7 +542,7 @@ variety of scientific topics, political campaigns, and natural events),
 the *Iowa Electronic Markets* (electoral events), the *Hollywood Stock
 Exchange* (box office returns, opening weekend performance, Oscar
 awards), and *TradeSports* (mainly sporting events). The most
-controversial information market, by far, has been the *Policy Analysis
+controversial information market, by far, is the *Policy Analysis
 Market*.
 
 ### The Foresight Exchange
@@ -572,8 +567,8 @@ knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/fore_cl
 ```
 
 Figure \@ref(fig:img-judge) is a plot of the price--volume plot for this
-claim for one particular 100--day period prior to the United States
-presidential election which displays the dynamics of changing beliefs
+claim for one particular 100--day period before the United States
+presidential election, which displays the dynamics of changing beliefs
 that this claim would be realized. Changes in beliefs in the continuing
 presidency of George W. Bush are shown through changes in price over
 time. Correlation of the price series with events surrounding the
@@ -584,7 +579,7 @@ underlying series' changes.
 knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/bush2k.png")
 ```
 
-Just to give a flavor of the diversity and specificity of topics on the
+To give a flavor of the diversity and specificity of topics on the
 Foresight Exchange, several propositions active during 2022 include:
 
 -   An earthquake of Richter magnitude ≥8, with epicenter within 100
@@ -601,7 +596,7 @@ Foresight Exchange, several propositions active during 2022 include:
 ### Iowa Electronic Markets
 
 The Iowa Electronic Markets [@universityofiowa2021] are small--scale,
-on--line, real--money futures markets in which contract payoffs depend
+online, real--money futures markets in which contract payoffs depend
 on economic and political events such as elections, companies' earnings
 per share, and stock price returns [@berg2003; @forsythe1992]. These
 markets are operated by faculty at the University of Iowa Tippie College
@@ -612,48 +607,40 @@ mechanism.
 
 The Iowa Electronic Markets allow participants to trade with actual
 money, as opposed to fictional currency as in the Foresight Exchange.
-Participants use their own funds to buy and sell contracts. Traders,
-therefore, have the opportunity to profit from their trades, but must
+Participants use their funds to buy and sell contracts. Traders,
+therefore, have the opportunity to profit from their trades but must
 also bear the risk of losing money. Because of the use of actual cash
 for trading, the Iowa Electronic Markets are under the regulatory
 purview of the Commodity Futures Trading Commission in the United States
-of America, just as PredictIt is.
+of America, just as PredictIt is. The use of participants' money is an essential feature of the Iowa
+Electronic Markets because, as it is with PredictIt markets. 
 
-The use of participants' money is an important feature of the Iowa
-Electronic Markets because, as the old adage goes, no one spends your
-money better than you do. Due to the real consequences of loss or gain,
-participants in the Iowa Electronic Markets are stimulated to seek
-information about the markets in which they participate. It is this
-stimulation that sharpens the quality of the market price realized for
-any proposition.
-
-The Iowa Electronic Markets are relatively accurate forecasts of
-political election results provided compared with traditional political
-polls. Although the comparison with polls might not be completely fair
-[@berg2008], the Iowa Electronic Markets have shown no obvious biases
+The Iowa Electronic Markets provide relatively accurate forecasts of
+political election results compared to traditional political
+polls. Although the comparison with polls might not be entirely fair
+[@berg2008], the Iowa Electronic Markets have shown no apparent biases
 and, on average, considerable accuracy for large United States election
 markets [@berg2003a]. Presidential election markets performed better
-than lower profile congressional, state, and local election markets.
+than lower-profile congressional, state, and local election markets.
 Markets with more volume near election time performed better than those
-with less volume. And, markets with fewer contracts (i.e., fewer
-candidates or parties), predicted election outcomes better than those
-with more contracts. These attributes are desirable when the relative
-high costs of political polls versus the relatively low costs of idea
-futures markets are considered.
+with less volume. And, in markets with fewer contracts (i.e., fewer
+candidates or parties), predicted election outcomes are better than those
+with more contracts. These attributes are desirable when the relatively
+high costs of political polls versus the relatively low costs of information markets are considered.
 
 ### Hollywood Stock Exchange
 
-The Hollywood Stock Exchange is a now-defunct information market market
+The Hollywood Stock Exchange is a now-defunct information market
 structured along the same lines as the Iowa Electronic Markets. The
 Exchange allowed for trading on securities corresponding to movies (this
 was called "MovieStocks"), including those in production and in
-theaters, using fake money called "Hollywood Dollars." Each movie
+theaters, using fake money called "Hollywood Dollars." Each movie's
 security was liquidated four weeks after the release of the movie for
 \$1 per \$1 million in box office gross.
 
 Similar to "MovieStocks," a "StarBond" represented actors and directors
 that were traded on the Hollywood Stock Exchange. The price of a
-"StarBond" reflected overall star power of the actors and directors as
+"StarBond" reflected the overall star power of the actors and directors as
 determined by Hollywood Stock Exchange traders, as well as how much
 money celebrities' films made at the box office as determined by their
 trailing average gross (TAG). If a celebrity should have happened to
@@ -672,10 +659,10 @@ market can become when it captures public interest.
 
 TradeSports was a web-based fantasy sports predictions game
 [@heitner2014] that closed for business in 2015. To classify it plainly,
-TradeSports was a gambling forum. It was run on--line from Ireland, so
-it evaded anti--gambling laws in effect in many countries such as the
-United States. What differentiated TradeSports from many other on--line
-gambling outlets was the diverse betting topics that it covered and the
+TradeSports was a gambling forum. It was run online from Ireland, so
+it evaded anti--gambling laws in effect in many countries, such as the
+United States. What differentiated TradeSports from many other online
+gambling outlets were the diverse betting topics covered and the
 use of market mechanisms to operate its betting system.
 
 TradeSports offered quite a diverse betting portfolio. Among the
@@ -684,8 +671,8 @@ England win The Ashes 2005?"), contracts related to terrorism (e.g.,
 "Will Osama Bin Laden be captured/neutralized by 31 December 2005?"),
 and the likelihood of political outcomes (e.g., "Will John Bolton be
 confirmed by the United States Senate to become the next United States
-Ambassador to the UN?"). There were no handicappers setting the odds for
-TradeSports bets. Rather, the price was driven entirely by market
+Ambassador to the UN?"). No handicappers were setting the odds for
+TradeSports bets. Instead, the price was driven entirely by market
 transactions and self--organized under market principles. Also,
 TradeSports demonstrated that, given sufficient motivation, many people
 can be motivated to learn the intricacies of information market trading.
@@ -703,14 +690,14 @@ substituted over various horizons by key contract dates of December
 Iraq\'s
 leader as a proxy for the likelihood of war and disruption in the Middle
 East,
-analysts were able to create a derivative security^3^ indicating that
+analysts were able to create a derivative security indicating that
 war could raise oil prices by \$10 per barrel, lower the value of United
 States\'
 equities by 15%, and bolster gold and energy markets.
 
 ### Policy Analysis Market
 
-One of the most controversial idea futures markets was the
+One of the most controversial information markets was the
 quickly--aborted Policy Analysis Market [@wikipedia2022]that was
 sponsored by the United States Department of Defense. The underlying
 idea for the Policy Analysis Market was to build and test information
@@ -720,7 +707,7 @@ kinds of failure within the national infrastructure of the United
 States. Its goal was to develop market--based techniques for avoiding
 surprise and predicting future events.
 
-A now--archived Policy Analysis Market web site provided an example of a
+A now--archived Policy Analysis Market website provided an example of a
 complex derivative assembled from two idea futures contracts tied to the
 now--historic case of pending hostilities between the United States and
 Iraq: (a) whether the Jordanian monarchy would be overthrown during
@@ -733,17 +720,16 @@ variety of similarly rich decision analysis tools associated with joint
 probability analysis and combinatorial mathematics to anti--terrorism
 analysis.
 
-The Policy Analysis Market was cancelled by the United States Department
-of Defense during late 2003 due to the controversial political substance
-of the speculative propositions about that it would consider. The Policy
-Analysis Market was criticized by United States politicians as more of a
+The United States Department
+of Defense canceled the Policy Analysis Market during late 2003 due to the controversial political substance
+of the speculative propositions that it would consider. U.S. politicians criticized the Policy Analysis Market as more of a
 "market for death", "a federal betting parlor on atrocities," and "an
 incentive actually to commit acts of terrorism"
 [@congressionalrecord2003a] rather than a decision tool. Abramovicz
 [-@abramowicz2004] opined that the Policy Analysis Market "debacle has
 provided a setback, maybe a permanent one, to anyone who might have
-hoped to use information markets in administrative decision-making." The
-controversy surrounding the Policy Analysis Market was front page news
+hoped to use information markets in administrative decision--making." The
+controversy surrounding the Policy Analysis Market was front--page news
 in the United States. A member of the United States Senate, Byron
 Dorgon, asked, "Can you imagine if another country set up a betting
 parlor so that people could go in...and bet on the assassination of an
@@ -751,8 +737,8 @@ American political figure?" [@hulse2003].
 
 Looney [-@looney2004] articulated several arguments offered by
 counterintelligence agencies against the Policy Analysis Market. The
-market created the incentive for someone to buy futures on a violent act
-and then carry it out. Markets may be inefficient in the short run and
+market could incentivize someone to buy futures on a violent act
+and then carry it out. Markets may be inefficient in the short run, and
 rumors might be used to manipulate the market. Hansen et al.
 [-@hanson2005] noted that, although the Policy Analysis Market was
 cancelled just one day after it was launched by the Department of
@@ -781,14 +767,14 @@ nonlinear aggregation function that allows for collective predictions of
 uncertain events. Second, these same participants engage in a market for
 an uncertain event. Individual market transactions are integrated using
 the nonlinear function and are used to predict the outcome of the
-uncertain event. Use of prior information substantially improved
+pending event. Use of prior information substantially improved
 estimates previously obtained solely through the idea futures market for
-the event. In fact, estimates based on Bayesian nonlinear functions were
-more accurate that the most accurate individual market traders.
+the event. Estimates based on Bayesian nonlinear functions were
+more accurate than the most accurate individual market traders.
 
 ## Conclusion
 
-Information markets seem to be a useful alternative to survey methods for estimating candidate preferences of the electorate, as demonstrated in the information markets and survey-based approaches to following the Fetterman *v* Oz race. In spite of the long history of applications of information markets to information aggregation, pollsters for campaigns seem to prefer survey-based methods
+Information markets seem to be a valuable alternative to survey methods for estimating candidate preferences of the electorate, as demonstrated in the information markets and survey-based approaches to following the Fetterman *v* Oz race. Despite the long history of applications of information markets to information aggregation, pollsters for campaigns seem to prefer survey-based methods.
 
 ------------------------------------------------------------------------
 
