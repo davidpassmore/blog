@@ -1,0 +1,114 @@
+---
+title: "empathy: a letter to my friends"
+description: |
+  A moral compass is needed to weigh into controversial and complex ethical issues.
+preview: rock-clipped.png
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-09-22
+categories:
+    - empathy
+    - immigration
+    - Martha's Vineyard
+    - Blade Runner 
+    - John Stuart Mill
+    - The Intelligence Trap
+    - Trumpism
+editor_options: 
+  markdown: 
+    wrap: 72
+output:
+  distill::distill_article:
+    self_contained: false
+draft: FALSE
+---
+
+```{=html}
+<style>
+div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
+</style>
+```
+::: blue
+<center>*Of all the means to ensure happiness <br> throughout the whole of life, by far the <br> most important is the acquisition of friends.* </br>
+  -- Epicurus </center>
+  
+Every morning, Monday through Saturday (holidays excluded), I participate in a Zoom broadcast that brings together a small number of friends. I live in Pittsburgh. All of the friends live in State College, Pennsylvania, my home for 41 years until I retired from Penn State in 2020. The group calls itself the *Think Tank*, a name that pokes fun at the snooty self-congratulatory groups that expect their every uttering to wiggle national and international policy. Now, certainly, at times the group sounds like a gaggle of fourth-graders tossed into rapturous laughter over fart jokes. However, the title contains a smidgen of truth. We often discuss weighty matters, the kind that come to mind to men looking toward horizons of their lives. 
+
+
+We have discussed immigration issues lately. We all recognize the complexity and seriousness of this issue. We are bombarded with information about policies and events. I felt as through I needed a touchstone for thinking with this group about immigration and other controversial issues we consider. So, I wrote an email note about *empathy* to the Think Tank. 
+:::
+---
+
+**From:** David Passmore <passmore.david@gmail.com> \
+**Date:** Wed, Sep 21, 2022 at 1:33 PM \
+**Subject:** Considering immigration and other issues \
+**To:** *List of Think Tank participants*
+
+Friends,
+
+The Think Tank discussed challenging and complex immigration policy issues and practices last Saturday morning. We have discussed these issues many times. On Saturday, our discussion was motivated by an incident involving roughly 50 migrants sent by plane to Martha’s Vineyard in Massachusetts by Florida’s governor.
+
+The Martha’s Vineyard incident exemplifies divisiveness in our country over border control and immigration issues. This incident reminds us of our horror at seeing families split at the border and other injuries to immigrants. This incident seems to be a consequence of the blatant xenophobia always stewing in our county but amplified by the Trump Administration.
+
+The more I analyzed this incident on Martha’s Vineyard, the more I realized how poorly prepared I am from many angles to consider the ethics and appropriateness of the Florida governor's action. There is much to consider about the incident, but I won’t dig into the facts, policy, and issues involved here. Other mornings and Saturdays will offer the Think Tank more discussion opportunities.
+
+I will continue my study of immigration and my analysis of this incident. And, I hope the Think Tank will return soon to this topic. In preparation, though, I decided to step back to define personal core values that I feel will guide my study and analysis. Everyone needs a moral compass—a set of fundamental axioms a priori to any argument—to drive their ethical judgments. For me, this moral compass includes understanding and accepting the need for empathy.
+
+As a country, we show our confusion about immigration in many ways. For example, for years, agribusinesses and the food processing industry have encouraged “legal” immigration from south of our border for the sole purpose of exploiting low-priced labor. Yet, at the same time, the U.S. Border Patrol, the U.S. Immigration and Naturalization Services, and other agencies chase, investigate, oppress, detain, imprison, expel, or, yes, kill “illegal” immigrants. These dueling aims surface in just about every debate about immigration.
+
+A deep root of the immigration debate is cultural conflict. By cultural conflict I mean the mutual antagonism that arises between groups of people with different skin color, different languages, different ethnicity, different religious traditions, different gender, different sexuality, different age groups or generations, different social castes, different economic classes, different political parties, and so on, or who simply live in different places from one another. Such conflict ranges all the way from mutual distrust and insults to coercion—including threats of violence or actual violence—to persecution—including imprisonment, torture, and murder—to war, “ethnic cleansing,” mass murder, and genocide.
+
+Cultural conflict always simmers on the back burner of American social and political life. But Trumpism has driven and intensified this conflict by brewing fear and hate over the worry that America is changing. It is said that “our people” are being replaced. Replacement is judged as “unAmerican.” “Other people” threaten this dominant “American” vision. As a result, many commentators believe the U.S. has arrived at a point of inflection in the cultural conflict that portends dangerous days ahead for our republic.
+
+What do I mean by empathy, and where does this concept fit in discussions involving cultural conflict?
+
+Consider an example of empathy from science fiction. In Philip K. Dick’s science-fiction novel, *Do Androids Dream of Electric Sheep?*, and reprised in Ridley Scott’s science-fiction film, *Blade Runner*, special police officers called Blade Runners needed to distinguish *androids*, aka “replicants” (i.e., humanoid robots) from humans. Blade Runners were trying to suppress an android revolt.
+
+To identify androids, the Blade Runners applied a fictional *Voight-Kampff* machine. The Voight-Kampff machine was a polygraph-like device. It measured involuntary responses from a test subject—e.g., specific changes in respiration, blush response, heart rate, and pupillary responses—as the Blade Runner presented scenarios and questions involving helping others in need, responding to natural disasters, loss of treasured belongings by a neighbor, and the like. The criterion for being human was empathy for others, which was not an emotional potential programmed into an otherwise human-appearing android.
+
+The Voight-Kampff machine is fictional. However, the machine highlights the nature of empathy: i.e., the ability to mirror and simulate inside oneself the consciousness or subjective experiences—especially desires, feelings, and emotions—and, more generally, the subjectively-centered beliefs and perspectives or worldviews of other people.
+
+Being empathic does not mean agreement with other people or even liking other people. In particular, being empathic requires the ability to see others from their viewpoint and respect the ownership of ideas contrary to our own. As Rob Gr**** said in our Saturday meeting, sympathy is not empathy. The sympathetic person says, “I am sorry for your pain.” The empathic person says, “I feel your pain” (thank you, Bill Clinton).
+
+Empathy is inherently outward-looking, not inward-looking, self-absorbed, navel-gazing, or narcissistic. Empathic people are naturally inclined towards generosity, graciousness, kindness, and tolerance, and, at a minimum, towards politeness, not arrogance, callousness, cruelty, rudeness, or intolerance. Creating and cultivating the practice of empathy is, therefore, the antidote to the morally and politically poisonous and pathological influence of identity politics that is so prevalent today.
+
+David Robson, the author of *The Intelligence Trap*, described a practical approach to empathically engaging as “actively open-minded listening.” This approach involves deliberately pursuing and considering alternative viewpoints and evidence to question our own opinions.
+
+In Chapter 2 of *On Liberty*, John Stuart Mill poses a dilemma that helps expand the meaning of actively open-minded listening. On the one hand, perhaps an opinion you hold about a topic is false, and a dissenting opinion is true. In that case, suppressing and refusing to engage with a dissenting opinion means foregoing an opportunity to correct yourself. On the other hand, even if the dissenting opinion is false and is known to be so, neglecting it robs you of the opportunity to gain, in Mill’s words, “the clearer perception and livelier impression of truth produced by its collision with error.”
+
+As I study immigration policies and practices, I aim to review standpoints from a position of empathy. Easy to write, but harder to do. Taking an empathic approach requires owning up to my intellectual limitations and mistakes. Attaining this sort of intellectual humility is difficult. Many discussions of controversial issues quickly devolve to talking boxing matches in which landing a punch gets you a point toward victory. I wish to avoid bar brawls over ideas.
+
+Call me on it if you see me committing a foul against empathy.
+
+There! I put it in writing. Now, I am committed to it.
+
+David
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Images from external media are framed with with a border. Sources for
+these external media are cited in captions.
