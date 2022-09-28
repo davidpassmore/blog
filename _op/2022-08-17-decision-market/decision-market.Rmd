@@ -1,5 +1,5 @@
 ---
-title: "information markets: an alternative to survey methods for estimating candidate preferences of the electorate"
+title: "information markets: alternatives to survey methods for estimating candidate preferences of the electorate"
 description: |
   Information markets that operate like commodities future markets are cost-conscious alternatives to using survey methods for identifying beliefs, opinions, and voting expectations held by the electorate about candidates for public office.
 preview: cover_election_2020_polls.png
