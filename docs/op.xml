@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>NOTES FROM PITTSBURGH</title>
+    <link>https://davidpassmore.github.io/blog/</link>
+    <atom:link href="https://davidpassmore.github.io/blog/op.xml" rel="self" type="application/rss+xml"/>
+    <description>NOTES from David L. Passmore, Pittsburgh, Pennsylvania USA
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>empathy: a letter to my friends</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-09-22-empathy</link>
+      <description>A moral compass is needed to weigh into controversial and complex ethical issues.</description>
+      <category>empathy</category>
+      <category>immigration</category>
+      <category>Martha's Vineyard</category>
+      <category>Blade Runner</category>
+      <category>John Stuart Mill</category>
+      <category>The Intelligence Trap</category>
+      <category>Trumpism</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-09-22-empathy</guid>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-09-22-empathy/rock-clipped.png" medium="image" type="image/png" width="399" height="433"/>
+    </item>
+    <item>
+      <title>information markets: alternatives to survey methods for estimating candidate preferences of the electorate</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-08-17-decision-market</link>
+      <description>Information markets that operate like commodities future markets are cost-conscious alternatives to using survey methods for identifying beliefs, opinions, and voting expectations held by the electorate about candidates for public office.</description>
+      <category>decision markets</category>
+      <category>election polls</category>
+      <category>information aggregation</category>
+      <category>information markets</category>
+      <category>prediction markets</category>
+      <category>survey alternatives</category>
+      <category>survey methods</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-08-17-decision-market</guid>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-08-17-decision-market/cover_election_2020_polls.png" medium="image" type="image/png" width="1000" height="628"/>
+    </item>
+    <item>
+      <title>ostrich epistemology</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-04-02-ostrich-epistemology</link>
+      <description>*Learning* involves *thinking*; its whetstone is *reasoning*; it requires intellectual *humility*, not arrogance. Learning, thinking, reasoning, and humility currently are in short supply, I assert, in this brief essay.</description>
+      <category>practical epistemology</category>
+      <category>openmindedness</category>
+      <category>learning</category>
+      <category>humility</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-04-02-ostrich-epistemology</guid>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-04-02-ostrich-epistemology/headinsand.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>death to honor and remember</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-04-02-deathtoremember</link>
+      <description>Why have a Memorial Day?</description>
+      <category>Herodatus</category>
+      <category>ancient Greeks</category>
+      <category>Memorial Day</category>
+      <category>honor</category>
+      <category>death</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-04-02-deathtoremember</guid>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-04-02-deathtoremember/dtor.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>a bunch of sun flung at the earth?</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-04-02-flungatearth</link>
+      <description>Serious scientists can barely stir a yawn from the public, legislators, and polkicy-makers when in discussions about preparations for and consequences of severe solar events...published in 2009</description>
+      <category>solar storms</category>
+      <category>cataclysm</category>
+      <category>electric power grid</category>
+      <category>disaster preparation</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-04-02-flungatearth</guid>
+      <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-04-02-flungatearth/impact.png" medium="image" type="image/png" width="677" height="404"/>
+    </item>
+    <item>
+      <title>reading Moby-Dick</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-03-29-moby</link>
+      <description>Advice for any young person required to read Moby-Dick...written in 2006</description>
+      <category>literature</category>
+      <category>Moby Dick</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-03-29-moby</guid>
+      <pubDate>Wed, 15 Feb 2006 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-03-29-moby/HermanMelville55.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>leave it at the stream</title>
+      <dc:creator>David L. Passmore</dc:creator>
+      <link>https://davidpassmore.github.io/blog/op/2022-03-29-leave</link>
+      <description>A lesson about staying in the present from Marshall Goldsmith...written in 2006</description>
+      <category>story</category>
+      <category>losing regret</category>
+      <category>compassion</category>
+      <category>presence</category>
+      <guid>https://davidpassmore.github.io/blog/op/2022-03-29-leave</guid>
+      <pubDate>Sun, 12 Feb 2006 00:00:00 +0000</pubDate>
+      <media:content url="https://davidpassmore.github.io/blog/op/2022-03-29-leave/streams.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

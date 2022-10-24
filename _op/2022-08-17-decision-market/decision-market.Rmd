@@ -38,7 +38,7 @@ knitr::opts_chunk$set(echo = FALSE)
 *[Estimated reading time: 28 minutes]*
 
 Today is 18 August 2022. As I started writing this essay, the U.S. was
-the season for political campaigns meant to inform and persuade the
+deep in the the season for political campaigns meant to inform and persuade the
 electorate before the midterm elections---called the "midterms" because
 they occur in the middle of a U.S. president's four-year term---are held
 to elect people to the U.S. Congress and state and local public offices.

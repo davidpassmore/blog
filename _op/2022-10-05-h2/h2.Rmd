@@ -1,0 +1,96 @@
+---
+title: "transition to hydrogen"
+description: |
+  A short description of the post.
+preview: Hper.png
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+csl: apa.csl
+categories:
+    - hydrogen
+    - economic development
+    - carbon cspture
+    - energy transition
+    - Pennsylvania energy futures
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+    toc-depth: 5
+draft: TRUE
+editor_options: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The transition towards a decarbonized and sustainable energy system is
+expected to play a crucial role in halting the effects of global warming
+while furthering human well-being, security, and sustainable development
+[@internationalenergyagancy2021].
+
+The term *energy transition* commonly refers to a pathway toward
+transformation of the global energy sector from fossil-based to
+zero-carbon by the second half of this century.
+
+> Ten million metric tons of hydrogen are currently produced in the
+> United States every year. While most of this hydrogen is produced via
+> centralized reforming of natural gas, deployments of clean
+> alternatives, such as electrolysis, are rapidly increasing. Other
+> emerging approaches include thermochemical water splitting, use of
+> photoelectrochemical cells, and biological pathways. The primary uses
+> of hydrogen in the United States today are in the oil refining and
+> ammonia industries. Other emerging applications include the industrial
+> sector (e.g., metals refining), liquid fuels (e.g., biofuels,
+> synfuels), heat generation, energy storage, and transportation.
+> [@hydrogenandfuelcelltechnologiesoffice2022a]
+
+```{r img-h2o, echo=FALSE,   layout="l-body-outset", fig.align='center', out.extra="class=external", fig.cap='*Carbon Capture, Utilization, and Storage.* <br> Image from Hydrogen and Fuel Technologies Office [-@hydrogenandfuelcelltechnologiesoffice2022].)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/hydrogen/h2otoscale.png")
+```
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
+</style>
+```
+::: blue
+*This posting is my attempt to understand energy transition possible
+through adoption of hydrogen.*
+:::
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Images from external media are framed with with a border. Sources for
+these external media are cited in captions.
