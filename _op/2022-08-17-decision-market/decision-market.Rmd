@@ -56,8 +56,7 @@ behind their commitment to candidates. Moreover, when candidates display
 public support, voter attention is drawn to candidates and their deeper
 bios.
 
-In this blog posting, I focus on the use of information markets for
-obtaining in place of survey methods for identifying candidate
+In this blog posting, I focus on the use of information markets  in place of survey methods for identifying candidate
 preferences of the electorate.[^1] Information markets operate similarly to commodity and financial futures markets, except that the
 commodity traded in contracts is information, not a physical good.
 Information markets trade contracts for propositions about whether

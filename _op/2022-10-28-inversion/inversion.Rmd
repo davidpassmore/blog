@@ -1,0 +1,283 @@
+---
+title: "dissecting the Fetterman-Oz flip in an information market"
+description: |
+  Fetterman led in the race for election to the U.S. Senate for a long time. Then, Oz overtook Fetterman. How did the Predictit information market track this flip?
+preview: fetoz.png
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-10-30
+csl: apa.csl
+categories:
+    - John Fetterman
+    - Mehmet Oz
+    - US Senate for PA 2022
+    - midterm elections
+    - information markets
+    - Predictit
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+    toc-depth: 5
+draft: FALSE
+editor_options: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{=html}
+<style>
+div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
+</style>
+```
+::: blue
+*This article is my follow-up to my August 2022 essay about uses of
+information markets in the Pennsylvania U.S. Senate race
+[@passmore2022a].*
+:::
+
+------------------------------------------------------------------------
+
+In an August 2022 essay in NOTES FROM PITTSBURGH [@passmore2022], I
+described the use of information markets in place of survey methods for
+identifying candidate preferences of the electorate. Information markets
+operate like commodity and financial futures markets, except that the
+"commodity" traded in a contract is a written proposition, not a
+physical good. Information markets trade contracts for propositions
+about whether well-specified events will occur and when.
+
+The basis of an information market is a contract for a written
+proposition, the truth of which is validated at a specific future date.
+Contract prices range between zero and \$1. The price the buyer of a
+contract is willing to pay represents the buyer's belief in the
+fulfillment of the proposition when the market closes at some future
+date. Market participants typically buy and sell contracts using an
+electronic exchange.
+
+In this article, I describe how an information market tracked an abrupt
+change of fortunes in campaigns run by two candidates for a single seat
+in the U.S. Senate for Pennsylvania.
+
+### Election for U.S. Senator from Pennsylvania: Fetterman & Oz
+
+#### The Midterms
+
+The 2022 Pennsylvania midterm race for U.S. Senate has garnered national
+attention (see, e.g., [@glueck2022]). The race pits John Fetterman, a
+Democrat, against Mehmet Oz, a Republican. Fetterman serves as the 34th
+lieutenant governor of Pennsylvania. A midterm election---so-named
+because it occurs in the middle of a U.S. president's four-year
+term---is held to elect candidates to the U.S. Congress and state and
+local public offices. The U.S. will hold its next midterm election on 8
+November 2022, after a string of primary elections and run-offs narrowed
+the field of candidates. As I write this article on October 31, 2022,
+campaigning continues at a fever pitch.
+
+#### Front-Running Candidates
+
+Fetterman was mayor of Braddock, Pennsylvania, from 2006 to 2019. Oz is
+a Turkish--American television personality, author, professor emeritus
+at Columbia University, and retired cardiothoracic surgeon. He is the
+first Muslim to be nominated by either major political party for U.S.
+Senate. The outcome of this race could have a profound impact on the
+balance of power in the U.S. Senate and stands as a test of the efficacy
+of endorsements for office by former U.S. president Donald Trump.
+
+### Initial Preferences: Fetterman Over Oz
+
+As of 18 August 2022, PredictIt [@predictit2022a], a project of Victoria
+University located in Wellington, New Zealand, had been running an
+online information market for 181 days to obtain bets about the outcome
+of the Fetterman v Oz race [@predictit2022b]. My August 2022 essay
+described the technical details about this information market. However,
+reported in that essay was the overwhelming and expanding lead that
+Fetterman, the Democrat, had over Oz, the Republican, as demonstrated in
+the price-volume plot in Figure \@ref(fig:img-volpr).
+
+```{r img-volpr, echo=FALSE, layout="l-body-outset", fig.align='center', out.extra="class=external", fig.cap='*90-day price-volume plot for* "Which party will win the U.S. Senate election <br/> in Pennsylvania in 2022?" *in PredictIt political market.* on 18 August 2022 <br> (Image from Predictit [-@predictit2022c].)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/Fetterman_vol_price.png")
+```
+
+### Inversion of Preferences: Oz Over Fetterman
+
+#### The Flip
+
+Shown in the plot in Figure \@ref(fig:img-volpr1), including 90 days
+prior to 30 October 2022, is the inversion of preferences for *Fetterman
+over Oz* to *Oz over Fetterman* that occurred on 19 October 2022. And,
+the strength of preference for Oz continued from that day and increased
+until 30 October 2022.
+
+```{r img-volpr1, echo=FALSE, layout="l-body-outset", fig.align='center', out.extra="class=external", fig.cap='*90-day price-volume plot for* "Which party will win the U.S. Senate election <br/> in Pennsylvania in 2022?" *in PredictIt political market.* on 30 October 2022 <br> (Image from Predictit [-@predictit2022c].)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/fetozinv.png")
+```
+
+#### Initial Reaction Leading to the Flip
+
+Fetterman reportedly suffered an ischemic stroke on 31 May 2022
+[@avril2022]. An ischemic stroke involves a blockage in one of the large
+vessels that supplies oxygenated blood to the brain. Fetterman's team
+announced that the stroke had caused no cognitive damage, assured voters
+that Fetterman would resume campaigning soon, and believed that the
+episode would not affect preferences for Fetterman over Oz [@terruso].
+The price-volume plot in Figure \@ref(fig:img-volpr1) seems to
+demonstrate Fetterman's hold on the electorate's preferences, despite
+lingering questions about his long-term recovery and complications from
+his stroke.
+
+#### Things Happened
+
+##### Interview
+
+Surveys of the electorate began to show a tightening of the race between
+Fetterman and Oz in October [@drey2022]. Oz, Fetterman's opponent, and
+the public demanded for months greater transparency from Fetterman about
+his health challenges. A significant event negatively affecting
+Fetterman's campaign was an 11 October 2022 interview with NBC News's
+Dasha Burns [@fetterman], who wrote that Fetterman struggled to speak
+and "had trouble finding words [@burns2022]." In addition, Burns said:
+
+> We had a monitor set up so that he could read my questions because he
+> still has lingering auditory processing issues as a result of the
+> stroke, which means he has a hard time understanding what he's
+> hearing. Now, once he reads the question he's able to understand,
+> you'll hear he also still has some problems, some challenges with
+> speech.
+>
+> "Just in some of the small talk prior to the interview, before the
+> closed captioning was up and running, it did seem that he had a hard
+> time understanding our conversation. I've spoken with stroke experts,
+> they say folks can fully recover from that, but the caveat that every
+> expert gives is that they can't fully assess a patient without details
+> on their health records, without that information that the campaign
+> has yet to disclose. We've asked multiple times for medical records,
+> we've asked for interviews with someone from his medical team, those
+> requests have so far been denied to NBC News and other outlets that
+> have requested this as well.
+
+##### Medical Report
+
+Burns and Allen [-@burns2022a]reported that Democrats stated concerns
+about Fetterman's recovery and whether he had been forthcoming about his
+health. After considerable pressure on the Fetterman campaign, on 15
+October 2022 Fetterman's primary care physician released a letter
+[@chen2022] summarizing his opinion of Fetterman's condition. Chen
+wrote:
+
+> Overall, the Lt. Governor is recovering well from his stroke....He
+> spoke intelligently without cognitive deficits. His speech was normal
+> and he continues to exhibit symptoms of an auditory processing
+> disorder which can come across as hearing difficulty. Occasional words
+> he will "miss" which seems like he doesn't hear the word but it is
+> actually not processed properly. His hearing of sound such as music is
+> not affected....He has no work restrictions and can work full duty in
+> public office.
+
+Skeptics pointed out that Dr. Chen was a donor to Fetterman's campaign,
+posing a challenge to the standards and integrity of a physician working
+for the University of Pittsburgh Medical Center [@sabes2022].
+
+##### Debate
+
+On 25 October 2022, Fetterman and Oz met for one hour for their one and
+only debate [@gomez2022]. Some journalists complained that the debate
+amounted to a bullying of Fetterman for the difficulties left by his
+stroke [@lanum2022]. Yet, Fetterman's performance seemed for many to
+reinforce questions about his stroke recovery. Democrats interviewed
+after the debate were shocked by the degree to which Fetterman struggled
+to communicate clearly, even though he has acknowledged the ongoing
+difficulty processing what he hears and speaking without dropping words
+[@gomez2022a]. One voter interviewed after the debate said
+
+> I felt almost bad for John Fetterman. I think there is no question
+> that his social media campaign has been very sharp and good and
+> appealing, but when he got on the debate stage, I couldn't really
+> understand a lot of the points he was making. On the other side, I
+> thought Oz looked pretty sharp. Sounded like a politician. I don't
+> know that Fetterman was really able to convey many of his positions on
+> issues. [@kornick2022]
+
+### The Information Market Tracked the Flip of Preferences
+
+#### Timing
+
+The Predictit information market for the Fetterman-Oz race reacted to
+events after Fetterman's stroke. As displayed in Figure
+\@ref(fig:img-volpr1), the contract price for Oz spiked upward, and
+Fetterman's price dropped after the 11 October 2022 Burns interview with
+Fetterman. The rose of Oz and the decline of Fetterman continued until
+18 October 2022---three days after the Fetterman medical report
+dropped---when Oz overtook Fetterman. Fetterman and Oz continued to
+diverge, drawing closer on the day of the debate but moving to a wide,
+open-jawed lead of Oz over Fetterman starting the day after the debate.
+Almost 260,000 contracts were traded in this Predictit market on the day
+of the debate.
+
+#### Market Movements: Traders Bought Oz and Sold Fetterman
+
+Shown in Figure \@ref(fig:img-oxc) is a candle plot of the seven days of
+trading of Oz contracts prior to and including 30 October 2022. One
+hundred thirty-five thousand contracts were traded in the day of the
+debate. The price of an Oz share started trading at 53 cents, but closed
+at 65 cents. The price rose to 68 cents on 30 October 2022.
+
+```{r img-oxc, echo=FALSE, layout="l-body-outset", fig.align='center', out.extra="class=external", fig.cap='*7-day price-volume candle plot for* "Which party will win the U.S. Senate election <br/> in Pennsylvania in 2022?" *in PredictIt political market.* on 30 October 2022 <br> (Image from Predictit [-@predictit2022c].)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/ozcandle.png")
+```
+
+The candle plot in Figure \@ref(fig:img-fetc) shows the precipitous fall
+in the price of Fetterman contracts. The price of a Fetterman share
+declined from 50 cents to 39 cents on the day of the Fetterman-Oz
+debate. After three days of slight declines, the Fetterman price share
+settled at 38 cents on 30 October. People made up their minds, it seems,
+right after the debate. On 25 October 2022, 116,000 Fetterman shares
+were traded, most likely as sales. Then, the next three days saw a small
+volume of trades.
+
+```{r img-fetc, echo=FALSE, layout="l-body-outset", fig.align='center', out.extra="class=external", fig.cap='*7-day price-volume candle plot for* "Which party will win the U.S. Senate election <br/> in Pennsylvania in 2022?" *in PredictIt political market.* on 30 October 2022 <br> (Image from Predictit [-@predictit2022c].)'}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/infomarkets/fettercandle.png")
+```
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## My Limits {.appendix}
+
+In this article, I stick with the data from the Predictit market, *Which
+party will win the U.S. Senate election in Pennsylvania in 2022?*
+[@predictit2022c]. I do not consider Fetterman's fitness for office
+based on his health condition. Also, I do not comment on the ethics of
+what many observers describe as "ableism" [@bogart2019] enacted by Oz's
+supporters to denigrate Fetterman's fitness for office.
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Images from external media are framed with with a border. Sources for
+these external media are cited in captions.
