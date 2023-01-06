@@ -1,0 +1,97 @@
+---
+title: "a seasonal greeting distilled from Mr. Dickens, as it were"
+description: |
+  My reading from a novel titled *The Mutual Friend*, in which Charles Dickens is imagined showing empathy and compassion to a most unfortunate man. This reading was the seasonal greeting that I distributed during the December 2022 holidays.  
+preview: mutfr.jpg
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2022-12-25
+csl: apa.csl
+categories:
+    - Christmas
+    - Charles Dickens
+    - Compassion
+    - Empathy
+    - Frederick Busch
+    - Gads Hill
+    - goose
+    - Kent
+    - poor house
+    - Victorian era
+output:
+  distill::distill_article:
+    self_contained: false
+draft: FALSE
+editor_options: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
+---
+
+------------------------------------------------------------------------
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{=html}
+<style>
+div.blue { background-color:#ececec; border-radius: 5px; padding: 20px;}
+</style>
+```
+::: blue
+*Atë, eldest daughter of Zeus, she blinds us all, that fatal madness—she with those delicate feet of hers, never touching the earth, gliding over the heads of men to trap us all. She entangles one man, now another.* <br>~Homer, *Iliad*
+:::
+------------------------------------------------------------------------
+
+I hesitate to distribute an all-embracing seasonal greeting. A general greeting is challenging to compose because my cluster of friends holds such a medley of conceptions about the holiday season. 
+
+For many Americans, the holiday season has deep religious significance. For others, this season is a time to receive gifts and attend festive celebrations. The season also creates opportunities for family togetherness. For still other friends, this season merely offers a few days off to repair for the next stretch of school, work, and home life. 
+
+Nevertheless, I boldly offer you a seasonal greeting. My greeting conveys a moral and ethical stance that I hope can survive any differences resulting from our various geographic locations, systems of beliefs we have acquired, our perceptions of events through our curated political perspectives, or unique epigenetic expressions of individuality. To be clear, our message is not about the holiday season. It is about *virtue*.
+
+So, let’s get into the message.
+
+To understand the American holiday season is to understand the significance of Charles Dickens’s Victorian-era tale, *Christmas Carol*, which so forms the back story to the tone and tenor of the season. No matter how you view the season, *Christmas Carol* is embedded deeply in the American ethos surrounding the holidays. The *Christmas Carol* is such a part of America’s holiday season DNA that it is difficult to know whether we are in our own holiday season or Dickens’s.  
+
+I recorded for you a brief reading from *The Mutual Friend*, a 1994 novel that imagines Dickens’s life. My reading focuses on a Christmas late in the life of Dickens. The passage hints at both his joy and sadness and, in the end, shows his tortured yet magnificent concern for the poor and oppressed. 
+
+The lessons in the passage I read are about empathy and compassion. *Empathy* is the capacity to imagine oneself in the situation of another, experiencing the emotions, ideas, or opinions of that person. It is not sympathy or pity. *Compassion* is a deep awareness of the suffering of others accompanied by the wish to relieve it. The consequence of genuine compassion is, then, action.
+
+The simple request I make in thus seasonal greeting is for more empathy and compassion in the world.
+
+At the link below you can hear me read
+Dolby's recollection that is fictionalized in *The Mutual Friend*:
+
+**Audio File Will Stream -->** [https://bit.ly/PassmoreHoliday2022](https://bit.ly/PassmoreHoliday2022)
+
+**The Script for My Reading** --> [https://bit.ly/DickensScript](https://bit.ly/DickensScript)
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Images from external media are framed with with a border. Sources for
+these external media are cited in captions.
