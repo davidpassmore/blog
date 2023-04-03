@@ -1,0 +1,82 @@
+---
+title: "Yukon Eric Bought My Meal"
+description: |
+  A mean professional wrestler befriends us and lets us in on the drama of his gig.
+preview: rassl.png
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2023-4-3
+categories:
+    - professional rasslin'
+    - Yukon Eric
+output:
+  distill::distill_article:
+    self_contained: false
+draft: FALSE
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+When I was about ten years old, my father took me out of school “early” for a trip from Niagara Falls, New York, to Niagara Falls, Ontario to see a professional “rassling” match. [a thread] …
+
+We went to a local bacon-and-egg place for a bite to eat late in the afternoon. After we sat down, a hulk of a guy with a red plaid Woolrich-like lumberjack shirt came in. I was Yukon Eric.
+
+```{r img-yuk, echo=FALSE, fig.align='center', fig.retina = 2, out.width="100%", out.extra="class=external", fig.cap='*Yukon Eric* '}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/Eric/YukonE.png")
+```
+
+A pro-wrestling tough guy, Yukon Eric used to whip opponents into the ropes to bounce back at his enormous 66-inch chest. He was trained by Man Mountain Dean, a notorious bad-ass wrestler.
+
+Eric was a scrapper whose ear was torn off by an errant drop kick. As he walked by, my Dad said hello to him. Eric spoke with my dad, and, then, turned to me.
+
+He looked bigger and more ferocious than King Kong. He asked my name. I think I was frozen until he smiled. My Dad asked him to join us.
+
+He ordered 2 eggs up, a couple of slices of Canadian bacon, and a glass of milk. He amiably chatted with my father, mostly, and me, when I snapped from my awestruck stupor.
+
+As he turned his head, I saw it: The gnarled remainder of his ear. He caught me staring at it. He pulled his hair to the side. “You see that? A guy jumped on me and tore it off. Wanna be a wrestler?”
+
+He and my father laughed. I believe I may have grabbed my own ear in horror. What nice guy he seemed as he talked a bit about traveling with his dog to matches throughout Canada to matches.
+
+We told him we had tickets to his match. When he left, he picked up our check. He shook our hands and said he would see us at the match.
+
+That night, I couldn’t wait for Yukon Eric to enter the ring. In the first 30 secs, his opponent threw him over the ropes and to the floor. Eric looked angry.
+
+As Eric stood up, he bellowed an “Arrrgh” at the crowd. We were in the 2nd row. He turned his fury to us.
+
+Then, he winked at us, re-entered the ring, and won the match with a vicious step-over-toe hold.
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Images from external media are framed with with a border. Sources for
+these external media are cited in captions.
+
