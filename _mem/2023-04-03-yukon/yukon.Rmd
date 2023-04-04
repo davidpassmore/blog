@@ -1,0 +1,88 @@
+---
+title: "Yukon Eric Bought My Meal"
+description: |
+  A mean professional wrestler befriends us and lets us in on the drama of his gig.
+preview: rassl.png
+author:
+  - name: David L. Passmore
+    url: https://davidpassmore.net
+    orcid_id: 0000-0001-9307-5164
+    affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
+date: 2023-4-4
+categories:
+    - professional rasslin'
+    - Yukon Eric
+output:
+  distill::distill_article:
+    self_contained: false
+draft: FALSE
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+When I was about ten years old, my father took me out of school “early” for a trip from Niagara Falls, New York, to Niagara Falls, Ontario, to see a professional “rassling” match. Yes, the Americans and Canadians have their own city of Niagara Falls.
+
+We went to a local bacon-and-egg place in the Clifton Hill area in Canada for a bite to eat late in the afternoon. Shortly after we sat down, a hulk of a guy with a red plaid Woolrich-like lumberjack shirt came in the greasy spoon. There was no mistaking the figure. He used a clothesline for a belt, and his shirts were worn open to show off his 66-inch chest. It was Yukon Eric, all right.
+
+```{r img-yuk, echo=FALSE, fig.align='center', fig.retina = 2, out.width="100%", out.extra="class=external", fig.cap='*Yukon Eric* '}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/Eric/YukonE.png")
+```
+
+A pro-wrestling tough guy, Yukon Eric used to fling opponents into the ropes to have them bounce back at his enormous chest. He was trained by [Man Mountain Dean](https://en.wikipedia.org/wiki/Man_Mountain_Dean), a notorious bad-ass wrestler of the era. Yukon Eric battled against the likes of [Gorgeous George](https://www.wwe.com/superstars/gorgeousgeorge), [Killer Kowalski](https://en.wikipedia.org/wiki/Killer_Kowalski), [Whipper Billy Watson](https://en.wikipedia.org/wiki/Whipper_Billy_Watson), [Ivan Rasputin](https://www.cagematch.net/?id=2&nr=8878&name=Ivan+Rasputin) (*aka* Hymie Fishman), and [Mr.Moto](https://www.cagematch.net/?id=2&nr=9077&name=Mr.+Moto). 
+
+Eric was a scrapper whose ear was torn off by an errant dropkick by Killer Kowalski. As he walked by, my father said hello to him. Eric spoke with my father, and, then, turned to me.
+
+He looked larger and more ferocious than King Kong. It was not lost on me that this man was the wrestler who made famous holds like the "Kodiak Krunch," a kind of a bear hug. He asked my name. I think I was frozen until he smiled. My Dad asked him to join us.
+
+He ordered 4 eggs up, 4 slices of Canadian bacon, toast, and a glass of milk. Then, some more toast. He amiably chatted with my father, mostly, and me, when I could snap from my awestruck stupor to utter affirmatives or negatives in short, quiet bursts.
+
+As he turned his head, *I saw it:* The gnarled remainder of his ear. He caught me staring at it. I snapped my eyes back to the plate in front of me. He pulled his hair to the side. “You see that? A guy jumped on me and tore it off. Wanna be a rassler? Ahhhhahaha!”
+
+Everyone laughed with him, but I believe I may have grabbed my own ear in horror. What a nice guy he seemed as he continued to chat about traveling with his dogs to fishing spots and to reach his matches throughout southern Canada.
+
+```{r img-yukdog, echo=FALSE, fig.align='center', fig.retina = 2, out.width="100%", out.extra="class=external", fig.cap='*Yukon Eric and His Huskies* '}
+knitr::include_graphics("https://davidpassmore.net/blogd/img/Eric/YukonEricDogs.png")
+```
+
+My father told him we had tickets to his match. When he left, he picked up our check. He shook our hands and said he would see us at the match.
+
+That night, I couldn’t wait for Yukon Eric to enter the ring. In the first minute of the match, his opponent threw Eric over the ropes and to the floor. Eric looked as riled as a bear ready to attack a suburban jogger running near his deer carcass.
+
+As Eric stood up, he bellowed an “Arrrgh” at the crowd. We were in the 2nd row. He turned his vein-popping fury toward us and winked conspiratorially.
+
+I am sad to report that in January 1965 Eric drove into a church parking lot in Atlanta and committed suicide with a gun.
+
+The memory I want to have, though, was that after Eric was thrown out of the ring, he jumped back in, tore ferociously into his now-cowering tormentor, and, then, won the match within 15 seconds by executing a brutal, precise step-over-toe hold.
+
+## Last updated on {.appendix}
+
+```{r,echo=FALSE}
+Sys.time()
+```
+
+## Your Comments & Corrections {.appendix}
+
+To make comments about this posting or to suggest changes or
+corrections, send email to [David
+Passmore](mailto:dlp@davidpassmore.net), send a direct message on
+Twitter at [\@DLPPassmore](https://twitter.com/dlppassmore), or send an
+IMsg or SMS to [dlp\@psu.edu](mailto:dlp@psu.edu){.email}.
+
+## Reuse {.appendix}
+
+Source code for this blog is available at
+<https://github.com/davidpassmore/blog>. Text, illustrations, and source
+code are licensed under Creative Commons Attribution [CC BY
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise
+noted. Any figures/photos/images/maps reused from other sources do not
+fall under this license and are recognized by text in captions starting:
+"Figure from..." or "Photo from..." , "Image from..." or "Map from...."
+Images from external media are framed with with a border. Sources for
+these external media are cited in captions.
+
