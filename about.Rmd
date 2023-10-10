@@ -20,9 +20,9 @@ I live as a geeky nerd.
 
 I use <a href="https://obsidian.md/" target="_blank" title="Obsidian">Obsidian</a> to take and hold my notes and to organize digital resources and ideas that form the basis of my writing and other work. I write and code these NOTES in <a href="https://rmarkdown.rstudio.com/" target="_blank" title="RMarkdown">RMarkdown</a> syntax in <a href="https://www.rstudio.com/" target="_blank" title="RStudio">RStudio</a> using blogging tools provided in the <a href="https://www.r-project.org/" target="_blank" title="R">R programming</a> package titled <a href="https://cran.r-project.org/web/packages/distill/index.html" target="_blank" title="distill package">`distill`</a>. 
 
-I render the blog through <a href="https://en.wikipedia.org/wiki/Pandoc" target="_blank" title="Pandoc in Wikipedia">Pandoc into <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia"> html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. 
+I render this blog through <a href="https://en.wikipedia.org/wiki/Pandoc" target="_blank" title="Pandoc in Wikipedia">Pandoc into <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html in Wikipedia"> html</a> from the RMarkdown code. Then, I push the html to <a href="https://github.com/davidpassmore" target="_blank" title="Passmore GitHub account">my GitHub account</a>, from which it is served publicly through the <a href="https://en.wikipedia.org/wiki/Domain_name" target="_blank" title="domain name in Wikipedia">domain name</a>, `davidpassmore.github.io/blog/`. 
 
-I do not implement cookies and other tracking tools with this blog site, except to count user visits through Google Analytics. So, if you show up here, I will not sneak behind you to follow you home.
+I do not implement cookies and other tracking tools with this blog site. So, if you show up here, I will not sneak behind you to follow you home.
 
 #### **what's here?**
 
@@ -30,13 +30,13 @@ I live a lot of my life doing reading, writing, and arithmetic.
 
 These NOTES span topics that reflect the range of ideas, learnings, and challenges that I encounter daily as I sit  at a table with my computers in front of large windows that look over trees, birds, and daily neighborhood activities from our 4th-floor condo in the Shadyside neighborhood of Pittsburgh. 
 
-Motivating these NOTES is a hope to engage with others. Perhaps more primary is the need to clarify meanings I attach to my perceptions of events, activities, and experiences. 
+Motivating these NOTES is a hope to engage with others. Perhaps more primary is the need to clarify through the writing process the meanings I attach to my perceptions of events, activities, and experiences. 
 
 I integrate my perceptions into essays using, where possible, the tools of data science to undergird my arguments. It's not all a pile of grim, grinding screeds, though. I drop in a few idiographic memories of my experiences and my slanted opinions about emprises offered by life. 
 
 I don't know whether I am a boho or just a lazy cad, but I rarely decide completely what I will write until I struggle to write it. As E. M. Forster, English fiction writer, essayist and librettist, reputedly once wrote, "How do I know what I think until I see what I say?”
 
-I ran a blog at the now out-of-service domain, *motime.com*, during the early 2000s. I retrieved some of my longer postings to this former blog from [*The Wayback Machine*](https://archive.org). I re-posted a few of these dormant postings here as new NOTES' essays.  
+I ran a blog at the now out-of-service domain, *motime.com*, during the early 2000s. I retrieved some of my longer postings to this former blog from <a href="https://archive.org" target="_blank" title="domain name in Wikipedia">*The Wayback Machine*</a>. I revived a few of these previously dormant postings here as new NOTES essays.  
 
 #### **how I engage**
 
@@ -46,11 +46,15 @@ I rise at 4:00 am daily. Early rising is not my attempt to follow some monastic 
 
 I meet over my cup of morning coffee with long-time friends on Zoom meetings from 6:30 to 7:30 am on Mondays through Saturdays. I spend the remainder of my time on most days on projects selected from too many to do. Sometimes I hold video conferences with friends and collaborators worldwide to gain insights into issues and solutions to problems. 
 
+When the Pittsburgh weather cooperates, I read, study, and work in cafés such as the spare, but friendly, <a href="https://www.yinzcoffee.com/friendship" target="_blank" title="website for Yinz Coffee on Baum Avenue in Pittsburgh">Yinz Coffee</a> or within the art-adorned, arbor that envelops the outdoor porch at <a href="http://www.biddlesescape.com" target="_blank" title="website for Biddles Escape on Biddle Street in Pittsburgh near Wilkinsburg">Biddle's Escape</a>.
+
+Four days every week I eat a lunch provided by <a href="https://jccpgh.org/adults-2/agewell/" target="_blank" title="AgeWell Pittsburgh, a collaborative program of the JCC, the Jewish Association on Aging and Jewish Family & Community Services, offers a one-stop resource that links older adults, their family members, friends and caregivers.">AgeWell Pittsburgh</a> at the <a href="https://jccpgh.org" target="_blank" title="website for Jewish Community Center for Greater Pittsburgh">Jewish Community Center (JCC) of Greater Pittsburgh</a> in the Squirrel Hill neighborhood of Pittsburgh. I also swim at the <a href="https://jccpgh.org/sports/aquatics/squirrel-hill/" target="_blank" title="Pool is run by JCC Aquatics program">JCC swimming pool</a>.  
+
 #### **contacts with me**
 
 Friends, I live in gated community of my own construction.
 
-Send an email to me using the email address: `dlp AT davidpassmore dot net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and family. In these student and family teams, I typically am available instantly.
+Send an email to me using the email address: `dlp AT davidpassmore dot net`. I take *iMsgs* and *SMS messages* at `dlp@psu.edu`. My *Twitter* (now, *X*) handle is `@DLPPassmore`, where I am available publicly. I also run *Slack* teams for my former students and family. In these student and family teams, I typically am available instantly.
 
 I read *Reddit* (mostly `r/pittsburgh`), but I post there infrequently because I try to stay out of hand-to-hand combat at my age. Although I have placeholder accounts on many social media apps, I do not do in any depth the *FaceBook*s or the *LinkedIn*s like the kids like to do. Those crazy kids, eh? How can you keep up? So, not much of me is available on most social media apps.
 
@@ -58,7 +62,7 @@ The telephone? Nah. I seldom pick up, except for family or for calls from close 
 
 [^1]: Please note: my car warranty is as I like it; my grandchildren do not require me to bail them out of jail; the Internal Revenue Service is not trying to reach me urgently. I will never own a timeshare, nor, I guarantee, would you want me to.
 
-I live in a secure building. So, instead of confronting me face-to-face like you are a member of the press heckling a public official being frog marched to a hearing on criminal charges, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[...even those ideas I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, as if kept awake the night before by a bit of indigestible potato, I will press flush to exhaust you into the cold plasma and, then, on quickly through the pipes to the vast, dark cesspool I keep in the corner of my private universe. *You have been warned!*
+I live in a secure building. Instead of confronting me face-to-face like you are a member of the press heckling a public official being frog marched to a hearing on criminal charges, post any expressions of unhappiness and ill-will to me via email or Twitter, where I will incorporate good ideas^[...even those ideas I never considered or initially might seem out-of-sync with my settled patterns] into my life flow. Or, instead, as if kept awake the night before by a bit of indigestible potato, I will press flush to exhaust you into the cold plasma and, then, on quickly through the pipes to the vast, dark cesspool I keep in the corner of my private universe. *You have been warned!*
 
 vr,<br/>
 David
