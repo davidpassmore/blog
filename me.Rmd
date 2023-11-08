@@ -4,8 +4,8 @@ image: "dlpNOW.png"
 links:
 - label: email
   url: mailto:dlp@davidpassmore.net
-- label: twitter
-  url: https://twitter.com/dlppassmore
+- label: threads
+  url: https://www.threads.net/dlppassmore
 - label: github
   url: https://github.com/davidpassmore
 output:
@@ -16,13 +16,15 @@ output:
 
 ► [Distinguished Professor, Emeritus](https://policy.psu.edu/policies/ac10#H), retired from [Penn State University](https://ed.psu.edu/academics/departments/department-learning-and-performance-systems/workforce-education-and-development).
 
-► [Academic Visitor](https://visitor.pitt.edu/), [University Center for Social and Urban Research](https://my.pitt.edu/task/all/social-and-urban-research), [University of Pittsburgh](https://www.pitt.edu/)</a>.
+► [Academic Visitor](https://visitor.pitt.edu/), [University Center for Social and Urban Research](https://my.pitt.edu/task/all/social-and-urban-research), [University of Pittsburgh](https://www.pitt.edu/)</a>. Two-year appointment ends in February 2024.
 
 **POSTAL ADDRESS**
 
 ► 5 Bayard Road, Room 403, Pittsburgh, Pennsylvania 15213-1903 USA
 
 **BIO**
+
+► [Full CV Available](https://davidpassmore.net/documents/dlp/Vitae.pdf)
 
 ► *In brief:* Was a graduate faculty member at Penn State University for 41 years, and, in sum, an instructor/professor in higher education for 51 years before retiring from Penn State in September 2020. Was a member of the graduate faculty in Workforce Education and Development. Served as the committee chair and dissertation advisor for 82 PhD recipients in Workforce Education and Development, Adult Education, and Mineral Engineering and Management. Also was the advisor for 20 theses by students earning master’s degrees in Workforce Education and Development.
 
@@ -32,7 +34,14 @@ Was employed as a professor and Director of Occupational Research at the Nationa
 
 During 1988-1989, was Visiting Scholar in Maternal and Child Health in residence at the Harvard T. H. Chan School of Public Health to conduct research on the epidemiology of childhood injuries and of injuries of underground coal miners with the Harvard Injury Research Center.
 
-► [FULL CV AVAILABLE](https://davidpassmore.net/documents/dlp/Vitae.pdf)
+For six years, a monthly column, *Economic & Workforce Brief*, with Rose Baker was published in *Pennsylvania Business Central*, a business newspaper published in 19 counties in Pennsylvania. With Baker, was co– editor of the *International Journal of Vocational and Technical Education*. Was Editor of the *Journal of Industrial Teacher Education*, Statistical Editor of *Human Resource Development Quarterly*, Editor of the Computer Applications Section of *Accident Analysis and Prevention* Member of the Board of Editors for *Journal of Technology Studies*, and an editorial contributor to *Asia Pacific Education Review*, *Economics and Finance*, *American Educational Research Journal*, *American Journal of Public Health*, *Geographic Analysis*, *Journal of Educational Computing*, *Journal of Occupational Accidents*, *Journal of Studies in Technical Careers*, *Journal of Vocational Education Research*, *Food & Agriculture*,
+*Journal of Vocational Home Economics*, *Psychological Bulletin*, *Medicine*, *Volta Review*, and other academic journals.
+
+Was a charter member of the Penn State Economic Modeling and Forecasting Project, continuing with  studies with the regional economic and workforce implications of public policy, economic development, and demographic changes using structural econometric and input-output models such as [REMI Policy Insight](https://www.remi.com) and [IMPLAN](https://implan.com).
+
+Has provided consulting services to a variety of corporate and government clients, including PECO Energy, Johns–Manville, Esso–Interamerica, Joy Manufacturing Technologies, John F. Kennedy Jr. Foundation, Lord Corporation, E–Systems, Woolrich Inc., Liquid Carbonic, CIGNA HealthCare, National Institute for Metalworking Skills, Campbell Communications, American Council on Education, Research for Better Schools, Special Olympics, and the Pennsylvania Office of Attorney General. Is author of over 500 publications and presentations, received 16 awards for research, writing, and service, and was project director or associate for sponsored projects totaling $7 million.
+
+
 
 **EDUCATION**
 
