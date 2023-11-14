@@ -6,8 +6,6 @@ links:
   url: mailto:dlp@davidpassmore.net
 - label: threads
   url: https://www.threads.net/dlppassmore
-- label: github
-  url: https://github.com/davidpassmore
 output:
   postcards::trestles
 ---
