@@ -5,8 +5,8 @@ description: |
 preview: mutfr.jpg
 author:
   - name: David L. Passmore
+    email:dlp@davidpassmore.net
     url: https://davidpassmore.net
-    orcid_id: 0000-0001-9307-5164
     affiliation: Distinguished Professor, Emeritus, Penn State; Academic Visitor, University of Pittsburgh
 date: 2022-12-25
 csl: apa.csl
